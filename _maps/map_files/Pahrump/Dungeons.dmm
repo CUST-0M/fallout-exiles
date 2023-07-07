@@ -852,19 +852,6 @@
 /obj/structure/stone_tile/burnt,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
-"bsr" = (
-/obj/structure/nest/molerat,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
-"bsE" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/structure/nest/ghoul{
-	max_mobs = 2
-	},
-/turf/open/floor/f13/wood,
-/area/f13/bunker)
 "bsL" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/storage/trash_stack,
@@ -1828,10 +1815,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
-"cIe" = (
-/mob/living/simple_animal/hostile/supermutant/meleemutant,
-/turf/open/floor/wood/f13/old,
-/area/f13/city)
 "cIH" = (
 /turf/open/floor/plasteel/dark,
 /area/f13/ncr)
@@ -1987,7 +1970,6 @@
 /area/f13/bunker)
 "cRt" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/nest/radroach,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood3-broken"
 	},
@@ -2206,12 +2188,6 @@
 "dhi" = (
 /turf/open/floor/plating/tunnel,
 /area/f13/building)
-"dhq" = (
-/obj/structure/nest/ghoul,
-/turf/open/indestructible/ground/outside/desert{
-	icon_state = "wasteland32"
-	},
-/area/f13/wasteland)
 "dht" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -2230,13 +2206,6 @@
 /obj/machinery/light,
 /turf/open/floor/wood/f13/old,
 /area/f13/city)
-"dhS" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/elitemutant{
-	health = 900;
-	loot = list(/obj/item/keycard/nml1)
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "dhV" = (
 /obj/structure/timeddoor/sixtyminute,
 /obj/structure/timeddoor/sixtyminute,
@@ -3601,10 +3570,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"euN" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/elitemutant,
-/turf/open/floor/wood/f13/old,
-/area/f13/city)
 "evu" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticaloutermain2bottom"
@@ -4014,10 +3979,6 @@
 "eVx" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/wasteland)
-"eWb" = (
-/obj/structure/nest/ghoul,
-/turf/open/floor/plating/tunnel,
-/area/f13/building)
 "eWx" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaloutermain2"
@@ -4622,12 +4583,6 @@
 	icon_state = "rubble"
 	},
 /area/f13/legion)
-"fQt" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/elitemutant{
-	health = 900
-	},
-/turf/open/floor/wood/f13/old,
-/area/f13/city)
 "fQz" = (
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -5206,12 +5161,6 @@
 /mob/living/simple_animal/hostile/venus_human_trap,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"gCm" = (
-/obj/structure/nest/assaultron{
-	max_mobs = 3
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
 "gCN" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaloutermain2left"
@@ -6022,7 +5971,6 @@
 	},
 /area/f13/wasteland)
 "hGk" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
 /obj/structure/table/booth,
 /turf/open/floor/wood/f13/old,
 /area/f13/city)
@@ -7500,12 +7448,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/bunker)
-"jJS" = (
-/obj/structure/nest/ghoul,
-/turf/open/floor/plating/tunnel{
-	icon_state = "tunnelchess2"
-	},
-/area/f13/bunker)
 "jKd" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/barricade/bars,
@@ -7954,12 +7896,6 @@
 	icon_state = "tunnelrusty"
 	},
 /area/f13/bunker)
-"kmo" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
-/turf/open/floor/f13{
-	icon_state = "freezerfloor"
-	},
-/area/f13/city)
 "kne" = (
 /obj/structure/closet/fridge,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -9057,9 +8993,6 @@
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2"
 	},
-/obj/structure/nest/assaultron{
-	max_mobs = 3
-	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
@@ -9802,18 +9735,9 @@
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/bunker)
-"mnL" = (
-/mob/living/simple_animal/hostile/supermutant/meleemutant,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "moC" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/bunker)
-"moI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/assaultron,
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/bunker)
 "moK" = (
@@ -9897,12 +9821,6 @@
 "mtu" = (
 /obj/machinery/light/broken{
 	dir = 4
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/bunker)
-"mtw" = (
-/obj/structure/nest/assaultron{
-	max_mobs = 3
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/bunker)
@@ -10556,11 +10474,6 @@
 "ndi" = (
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"nej" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/ghoul,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
 "neR" = (
 /obj/structure/barricade/wooden/strong,
 /obj/machinery/door/poddoor/shutters{
@@ -10597,10 +10510,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
-"niU" = (
-/obj/structure/nest/ghoul,
-/turf/open/floor/plating/tunnel,
-/area/f13/bunker)
 "nma" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/indestructible/ground/inside/mountain,
@@ -10668,10 +10577,6 @@
 	icon_state = "freezerfloor"
 	},
 /area/f13/city)
-"npq" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "nqo" = (
 /obj/machinery/light/broken{
 	dir = 8
@@ -10989,9 +10894,6 @@
 	icon_state = "cobweb2"
 	},
 /obj/item/reagent_containers/blood/universal,
-/obj/structure/nest/assaultron{
-	max_mobs = 3
-	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
@@ -11853,14 +11755,6 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/bunker)
-"oIO" = (
-/obj/structure/nest/assaultron{
-	max_mobs = 3
-	},
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "rubblepillar"
-	},
-/area/f13/bunker)
 "oIQ" = (
 /obj/machinery/door/airlock/hatch{
 	name = "No Mans Land Entrance";
@@ -12585,12 +12479,6 @@
 /obj/item/folder/blue,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
-"pxQ" = (
-/obj/structure/nest/ghoul,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
-/area/f13/casino)
 "pyA" = (
 /obj/machinery/light{
 	dir = 1
@@ -12711,13 +12599,6 @@
 /obj/item/reagent_containers/food/snacks/burger/superbite,
 /turf/open/floor/wood/f13/old,
 /area/f13/city)
-"pFU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/ghoul,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
-/area/f13/casino)
 "pGa" = (
 /obj/structure/table/wood/fancy/green,
 /obj/item/candle/infinite{
@@ -12786,10 +12667,6 @@
 	icon_state = "freezerfloor"
 	},
 /area/f13/city)
-"pIp" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
-/turf/open/floor/carpet/green,
-/area/f13/casino)
 "pII" = (
 /obj/item/soap/deluxe,
 /obj/effect/decal/cleanable/dirt,
@@ -12952,14 +12829,6 @@
 	icon_state = "housewood2"
 	},
 /area/f13/casino)
-"pRL" = (
-/obj/structure/chair/wood{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/supermutant/nightkin/elitemutant,
-/turf/open/floor/carpet/green,
-/area/f13/casino)
 "pRW" = (
 /obj/structure/chair/right{
 	dir = 4
@@ -13055,7 +12924,6 @@
 /area/f13/wasteland)
 "pWU" = (
 /obj/structure/stone_tile/surrounding_tile,
-/obj/structure/nest/cazador,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/underground/cave)
 "pXl" = (
@@ -13218,11 +13086,6 @@
 	},
 /turf/open/water,
 /area/f13/underground/cave)
-"qgV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/ghoul,
-/turf/open/floor/carpet/green,
-/area/f13/casino)
 "qgZ" = (
 /obj/machinery/light{
 	dir = 4;
@@ -13466,12 +13329,6 @@
 	icon_state = "rubble"
 	},
 /area/f13/wasteland)
-"qvf" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
-/area/f13/casino)
 "qvi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
@@ -13505,10 +13362,6 @@
 	icon_state = "housewood2"
 	},
 /area/f13/casino)
-"qwQ" = (
-/obj/structure/nest/ghoul,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "qxa" = (
 /obj/structure/flora/rock/pile/largejungle,
 /turf/open/water,
@@ -13587,7 +13440,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/nest/securitron,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
 /area/f13/bunker)
 "qBD" = (
@@ -13824,13 +13676,6 @@
 /obj/effect/turf_decal/arrows,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/bunker)
-"qOX" = (
-/obj/structure/nest/securitron{
-	max_mobs = 1;
-	spawn_once = 1
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
 "qOZ" = (
 /obj/machinery/light{
 	dir = 1;
@@ -13860,7 +13705,6 @@
 /area/f13/city)
 "qQC" = (
 /obj/item/ammo_casing/a762,
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
 /turf/open/floor/carpet/green,
 /area/f13/casino)
 "qRG" = (
@@ -14327,10 +14171,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
-"rqL" = (
-/mob/living/simple_animal/hostile/supermutant/rangedmutant,
-/turf/open/floor/carpet/green,
-/area/f13/casino)
 "rqQ" = (
 /obj/machinery/light{
 	dir = 1
@@ -14622,17 +14462,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
 /area/f13/bunker)
-"rFH" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/elitemutant{
-	color = null;
-	desc = "Not to be confused with the other super mutant of similar name.";
-	extra_projectiles = 1;
-	health = 750;
-	name = "marcus";
-	projectiletype = /obj/item/projectile/f13plasma
-	},
-/turf/open/floor/carpet/green,
-/area/f13/casino)
 "rGc" = (
 /obj/structure/window/fulltile/ruins{
 	icon_state = "ruinswindowbroken"
@@ -14742,13 +14571,6 @@
 /obj/structure/decoration/clock/old/active,
 /turf/closed/wall/f13/supermart,
 /area/f13/ncr)
-"rNu" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/elitemutant{
-	health = 900;
-	loot = list(/obj/item/keycard/nml1)
-	},
-/turf/open/floor/wood/f13/old,
-/area/f13/city)
 "rNv" = (
 /obj/structure/legion_extractor,
 /turf/open/indestructible/ground/outside/desert,
@@ -14919,12 +14741,6 @@
 "rVz" = (
 /obj/structure/closet/wardrobe,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/f13/bunker)
-"rVH" = (
-/obj/structure/nest/protectron{
-	radius = 30
-	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/bunker)
 "rVN" = (
@@ -15434,15 +15250,6 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
 /area/f13/bunker)
-"sDp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/protectron{
-	radius = 30
-	},
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/bunker)
 "sEd" = (
 /obj/machinery/door/poddoor/ert{
 	id = "lock1"
@@ -15752,12 +15559,6 @@
 	icon_state = "wasteland33"
 	},
 /area/f13/wasteland)
-"sYU" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/supermutant/nightkin/elitemutant,
-/obj/machinery/light/floor,
-/turf/open/floor/pod,
-/area/f13/casino)
 "sZI" = (
 /obj/effect/decal/remains/human,
 /turf/open/indestructible/ground/inside/mountain,
@@ -15925,10 +15726,6 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/bunker)
-"tkJ" = (
-/obj/structure/nest/ghoul,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
 "tlf" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
@@ -15981,10 +15778,6 @@
 "toI" = (
 /obj/structure/sign/warning/radiation,
 /turf/closed/wall/f13/tunnel,
-/area/f13/bunker)
-"tpl" = (
-/obj/structure/nest/protectron,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/bunker)
 "tpm" = (
 /obj/structure/table/optable,
@@ -16497,13 +16290,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/bunker)
-"tVQ" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/supermutant/meleemutant,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
-/area/f13/casino)
 "tWI" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/armor/tier3,
@@ -16599,11 +16385,6 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/casino)
-"uef" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/supermutant/meleemutant,
-/turf/open/floor/carpet/green,
 /area/f13/casino)
 "uel" = (
 /obj/structure/table,
@@ -16791,17 +16572,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/tunnel,
 /area/f13/bunker)
-"uua" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/elitemutant{
-	color = null;
-	desc = "A poor man consumed by his own folly.";
-	extra_projectiles = 1;
-	health = 750;
-	name = "damien";
-	projectiletype = /obj/item/projectile/f13plasma
-	},
-/turf/open/floor/carpet/green,
-/area/f13/casino)
 "uuH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -17257,13 +17027,6 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/bunker)
-"uWo" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood4-broken"
-	},
-/area/f13/casino)
 "uWE" = (
 /obj/structure/dresser,
 /turf/open/floor/f13/wood,
@@ -17422,13 +17185,6 @@
 /obj/structure/fluff/fokoff_sign,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
-"vhT" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
-/area/f13/casino)
 "vim" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small,
@@ -17486,11 +17242,6 @@
 /obj/item/candle/infinite/hugbox,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
-"vmH" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
-/turf/open/floor/carpet/green,
-/area/f13/casino)
 "vmW" = (
 /obj/structure/toilet{
 	dir = 8
@@ -17941,15 +17692,6 @@
 /mob/living/simple_animal/hostile/molerat,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-"vMj" = (
-/obj/structure/nest/securitron{
-	max_mobs = 2;
-	spawn_time = 20
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "plating"
-	},
-/area/f13/bunker)
 "vMn" = (
 /obj/structure/rack,
 /obj/item/flashlight,
@@ -17957,11 +17699,6 @@
 	icon_state = "dark"
 	},
 /area/f13/ncr)
-"vNM" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/supermutant/rangedmutant,
-/turf/open/floor/carpet/green,
-/area/f13/casino)
 "vOG" = (
 /turf/closed/indestructible/f13vaultrusted,
 /area/f13/city)
@@ -17990,10 +17727,6 @@
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/casino)
-"vUl" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
-/turf/open/floor/wood/f13/old,
-/area/f13/city)
 "vUH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light,
@@ -18085,11 +17818,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/green,
 /area/f13/casino)
-"war" = (
-/obj/item/cultivator,
-/mob/living/simple_animal/hostile/supermutant/meleemutant,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "waz" = (
 /obj/structure/table/wood,
 /turf/open/floor/holofloor/carpet,
@@ -18196,10 +17924,6 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/bunker)
-"wkP" = (
-/obj/structure/nest/ghoul,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/underground/cave)
 "wlO" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/f13/wood,
@@ -18339,11 +18063,6 @@
 /area/f13/bunker)
 "wws" = (
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
-/area/f13/bunker)
-"wxb" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/protectron,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/bunker)
 "wxe" = (
 /obj/structure/spider/stickyweb,
@@ -18603,15 +18322,6 @@
 /obj/structure/spider/stickyweb,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
-"wQN" = (
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
-/area/f13/casino)
 "wRF" = (
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/indestructible/ground/outside/dirt,
@@ -19140,10 +18850,6 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/carpet/green,
 /area/f13/casino)
-"xCs" = (
-/obj/structure/nest/ghoul,
-/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
-/area/f13/bunker)
 "xCG" = (
 /obj/item/ammo_casing/a762,
 /turf/open/floor/f13/wood{
@@ -19161,11 +18867,6 @@
 	spawn_time = 100
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/bunker)
-"xDP" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/ghoul,
-/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/bunker)
 "xEo" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
@@ -19187,10 +18888,6 @@
 	icon_state = "redmark"
 	},
 /area/f13/ncr)
-"xFY" = (
-/obj/structure/nest/ghoul,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "xGD" = (
 /turf/open/indestructible/ground/outside/desert{
 	icon_state = "wasteland32"
@@ -19206,10 +18903,6 @@
 "xGU" = (
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
-"xHt" = (
-/obj/structure/nest/ghoul,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
 "xHO" = (
 /obj/structure/stone_tile/surrounding_tile/burnt{
 	dir = 4
@@ -19573,7 +19266,6 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
@@ -19763,13 +19455,6 @@
 /obj/structure/wreck/trash/three_barrels,
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/legion)
-"ymd" = (
-/obj/structure/chair/right{
-	dir = 4
-	},
-/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
-/turf/open/floor/wood/f13/old,
-/area/f13/city)
 "ymg" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_2";
@@ -20871,7 +20556,7 @@ chu
 aOa
 dlW
 dlW
-niU
+aOa
 dns
 awR
 aOa
@@ -21134,7 +20819,7 @@ aOa
 dns
 aOa
 chu
-jJS
+dns
 dlW
 aOa
 aOa
@@ -21378,7 +21063,7 @@ dns
 dlL
 aOa
 dlW
-jJS
+dns
 aOa
 gbN
 chu
@@ -21401,7 +21086,7 @@ aOa
 aOa
 gbN
 chu
-niU
+aOa
 aOa
 awP
 ato
@@ -22445,7 +22130,7 @@ aIO
 aJk
 aSZ
 bjA
-bsE
+biC
 bil
 bOn
 bXr
@@ -22790,7 +22475,7 @@ ndi
 ndi
 ndi
 ndi
-xFY
+ndi
 ndi
 xOr
 ndi
@@ -23284,7 +22969,7 @@ bYA
 bYA
 wPz
 vrV
-wkP
+vrV
 vrV
 bYA
 bYA
@@ -24117,7 +23802,7 @@ xlz
 xlz
 ndi
 ndi
-dhq
+xGD
 xGD
 ndi
 ndi
@@ -25761,7 +25446,7 @@ gnh
 pzi
 vHC
 oAl
-qOX
+tHQ
 tHQ
 tHQ
 tHQ
@@ -27675,7 +27360,7 @@ fMG
 nFt
 qDz
 qDz
-euN
+qDz
 qDz
 gOB
 vOG
@@ -27937,7 +27622,7 @@ qDz
 qDz
 ase
 qDz
-vUl
+qDz
 qDz
 rOn
 vOG
@@ -28143,7 +27828,7 @@ xle
 ksx
 ksx
 ygO
-xFY
+ndi
 ndi
 ndi
 ndi
@@ -28194,7 +27879,7 @@ qDz
 qDz
 vOG
 qis
-vUl
+qDz
 qDz
 rOn
 vOG
@@ -28434,7 +28119,7 @@ faA
 ksx
 ksx
 ksx
-mnL
+ksx
 ksx
 ksx
 oQq
@@ -28451,7 +28136,7 @@ aJw
 ako
 vOG
 qis
-vUl
+qDz
 qDz
 oqX
 vOG
@@ -28588,7 +28273,7 @@ vHC
 vHC
 vHC
 lOU
-qOX
+tHQ
 oAl
 oAl
 oAl
@@ -28693,7 +28378,7 @@ ksx
 ksx
 ksx
 ksx
-dhS
+ksx
 oQq
 ksx
 ksx
@@ -28708,7 +28393,7 @@ qDz
 gOB
 vOG
 qis
-vUl
+qDz
 qDz
 gmU
 vOG
@@ -28943,14 +28628,14 @@ vKV
 vOG
 ksx
 dDE
-war
+siP
 ksx
 ksx
 ksx
 siP
 ksx
 lfU
-npq
+ksx
 xkT
 svf
 ksx
@@ -28959,9 +28644,9 @@ ksx
 fMG
 sHw
 qDz
-fQt
+qDz
 uel
-vUl
+qDz
 qDz
 vOG
 baM
@@ -29733,7 +29418,7 @@ nyV
 fMG
 qDz
 qDz
-vUl
+qDz
 qDz
 upa
 qDz
@@ -30229,7 +29914,7 @@ vOG
 wef
 fJM
 qDz
-vUl
+qDz
 wef
 qDz
 wef
@@ -30248,7 +29933,7 @@ fMG
 blT
 qDz
 cct
-fQt
+qDz
 cct
 qDz
 edV
@@ -30762,7 +30447,7 @@ fMG
 nmQ
 nmQ
 nmQ
-rNu
+qDz
 nmQ
 nmQ
 nmQ
@@ -32557,14 +32242,14 @@ seN
 fMG
 jYt
 jtF
-vUl
+qDz
 wus
 qDz
 qDz
 qDz
 qDz
 oCX
-euN
+qDz
 pUI
 vOG
 vKV
@@ -32966,7 +32651,7 @@ sUX
 stO
 rLw
 vHC
-rVH
+snI
 snI
 sRx
 snI
@@ -33217,7 +32902,7 @@ vHC
 gBm
 hpz
 vHC
-rVH
+snI
 stO
 taq
 stO
@@ -33300,7 +32985,7 @@ ksx
 xSK
 ndi
 ndi
-xFY
+ndi
 ndi
 ndi
 bYA
@@ -33316,7 +33001,7 @@ hUZ
 vkL
 wef
 qJe
-vUl
+qDz
 qDz
 jhd
 cce
@@ -33453,7 +33138,7 @@ eee
 vHC
 vHC
 vHC
-gCm
+gBm
 hqJ
 inP
 jdE
@@ -33831,10 +33516,10 @@ pKj
 wef
 qDz
 qDz
-cIe
+qDz
 qDz
 bBq
-ymd
+kpa
 wef
 ksx
 ksx
@@ -34360,7 +34045,7 @@ fMG
 obN
 eXb
 uel
-vUl
+qDz
 qDz
 qDz
 dka
@@ -34874,7 +34559,7 @@ fMG
 hUZ
 qDz
 uel
-euN
+qDz
 qDz
 qDz
 caN
@@ -35034,7 +34719,7 @@ wws
 wws
 wsE
 wsE
-xCs
+wws
 wws
 vHC
 heT
@@ -35115,7 +34800,7 @@ qDz
 qDz
 wus
 qDz
-vUl
+qDz
 qDz
 qDz
 hMY
@@ -36031,7 +35716,7 @@ jUn
 hJV
 kGB
 hHJ
-moI
+kGB
 acN
 lbh
 mRW
@@ -36316,7 +36001,7 @@ rdL
 wws
 wws
 xmA
-xCs
+wws
 xOB
 wws
 xps
@@ -37073,7 +36758,7 @@ rbT
 raL
 dXx
 dXx
-sDp
+rbT
 raL
 szp
 vHC
@@ -37176,7 +36861,7 @@ cKO
 cKO
 iFy
 ksx
-npq
+ksx
 ksx
 ksx
 ksx
@@ -37185,7 +36870,7 @@ fMG
 xdM
 ovt
 xdM
-kmo
+xdM
 fMG
 pIk
 vcO
@@ -37433,14 +37118,14 @@ cKO
 cKO
 iFy
 ksx
-npq
+ksx
 ksx
 ksx
 ksx
 ygO
 fMG
 tin
-kmo
+xdM
 xdM
 tin
 fMG
@@ -37960,7 +37645,7 @@ xdM
 xdM
 kMp
 xdM
-kmo
+xdM
 xdM
 xtU
 vOG
@@ -38217,7 +37902,7 @@ xdM
 xdM
 xdM
 xdM
-kmo
+xdM
 xdM
 xdM
 vOG
@@ -38372,7 +38057,7 @@ vHC
 wws
 wSI
 wsE
-xDP
+wsE
 wsE
 wws
 wsE
@@ -38981,13 +38666,13 @@ ksx
 ksx
 ygO
 fMG
-kmo
 xdM
 xdM
-kmo
 xdM
 xdM
-kmo
+xdM
+xdM
+xdM
 fMG
 okf
 ajK
@@ -39387,7 +39072,7 @@ hpz
 hpz
 hpz
 gBm
-tkJ
+gBm
 ilS
 ilS
 hpz
@@ -39888,7 +39573,7 @@ vHC
 vHC
 mtB
 hpz
-nej
+hpz
 gBm
 vHC
 gBm
@@ -40565,7 +40250,7 @@ wPz
 wPz
 wPz
 wPz
-xHt
+wPz
 wPz
 wPz
 wPz
@@ -44906,7 +44591,7 @@ bYA
 heT
 heT
 wPz
-xHt
+wPz
 wPz
 heT
 heT
@@ -45403,7 +45088,7 @@ ndi
 ndi
 xlz
 xlz
-xFY
+ndi
 ndi
 vgx
 xle
@@ -48976,7 +48661,7 @@ qBJ
 ksx
 ygO
 ndi
-xFY
+ndi
 ndi
 ndi
 ndi
@@ -49561,7 +49246,7 @@ mxq
 mVs
 kGQ
 waj
-vmH
+jBA
 kGQ
 waj
 vuq
@@ -50055,7 +49740,7 @@ mxq
 mxq
 mVs
 bbg
-pIp
+bbg
 jBA
 bbg
 bbg
@@ -50535,7 +50220,7 @@ ndi
 ndi
 xle
 ksx
-qwQ
+ksx
 ygO
 ndi
 lwh
@@ -50880,7 +50565,7 @@ heT
 bYA
 bYA
 wPz
-bsr
+wPz
 wPz
 ahI
 wPz
@@ -51108,7 +50793,7 @@ bbg
 bbg
 qsn
 sEd
-vNM
+jBA
 sVo
 jBA
 pSz
@@ -51874,7 +51559,7 @@ mxq
 bqG
 bqG
 jBA
-uef
+jBA
 bbg
 uSJ
 mVs
@@ -51883,7 +51568,7 @@ fOW
 mxq
 bqG
 bqG
-wQN
+pXG
 pSB
 qsn
 jBA
@@ -52378,7 +52063,7 @@ bbg
 jBA
 xYg
 xYg
-vmH
+jBA
 vYK
 soH
 pAO
@@ -52390,7 +52075,7 @@ bqG
 mVs
 mVs
 trz
-uWo
+qqt
 mxq
 sbC
 tvF
@@ -52398,7 +52083,7 @@ mxq
 pAO
 jBA
 vYK
-pIp
+bbg
 xYg
 xYg
 bbg
@@ -52634,8 +52319,8 @@ jBA
 jBA
 mVs
 rey
-rqL
-rFH
+bbg
+bbg
 jBA
 jBA
 svO
@@ -53145,7 +52830,7 @@ bqG
 bbg
 pSz
 bbg
-qvf
+bqG
 bqG
 mxq
 rqW
@@ -53431,7 +53116,7 @@ nMx
 reW
 bqG
 mVs
-vmH
+jBA
 jBA
 jBA
 bqG
@@ -54677,7 +54362,7 @@ heT
 heT
 mxq
 plr
-pxQ
+bqG
 mVs
 jBA
 qJu
@@ -54685,7 +54370,7 @@ bbg
 jBA
 rgC
 jBA
-qgV
+jBA
 bbg
 mxq
 mVs
@@ -55238,7 +54923,7 @@ qhj
 jBA
 ioY
 sNl
-pIp
+bbg
 jBA
 dkv
 mxq
@@ -55665,7 +55350,7 @@ eyh
 eyh
 eyh
 eNI
-eWb
+dhi
 eOb
 dhi
 frs
@@ -55750,7 +55435,7 @@ jBA
 mVs
 bbg
 bbg
-pRL
+lfr
 jBA
 bqG
 mVs
@@ -55964,7 +55649,7 @@ mxq
 mxq
 mxq
 pzr
-pFU
+mVs
 ait
 nMx
 bqG
@@ -56239,7 +55924,7 @@ spi
 spi
 rZa
 rZa
-sYU
+sXf
 sbC
 rrs
 tIn
@@ -57774,7 +57459,7 @@ bbg
 jBA
 qPK
 rey
-vmH
+jBA
 qhj
 jBA
 jBA
@@ -57796,7 +57481,7 @@ szG
 bbg
 jBA
 jBA
-vNM
+jBA
 rey
 pmi
 jBA
@@ -58052,7 +57737,7 @@ mxq
 bqG
 jBA
 gZk
-uef
+jBA
 xYg
 rey
 bbg
@@ -59332,7 +59017,7 @@ bbg
 jBA
 jBA
 svQ
-vNM
+jBA
 sID
 jBA
 qHD
@@ -59562,7 +59247,7 @@ heT
 heT
 mxq
 mVs
-vmH
+jBA
 kGQ
 waj
 bbg
@@ -60355,7 +60040,7 @@ mxq
 mVs
 jBA
 jBA
-uua
+bbg
 jBA
 bbg
 bqG
@@ -60857,7 +60542,7 @@ xLL
 kGQ
 cvr
 jBA
-pIp
+bbg
 waj
 kGQ
 bqG
@@ -61124,11 +60809,11 @@ heT
 heT
 mxq
 bqG
-qvf
+bqG
 jBA
 jBA
 jBA
-vhT
+mVs
 bqG
 mxq
 heT
@@ -61639,9 +61324,9 @@ heT
 heT
 mxq
 mVs
-tVQ
+mVs
 uvX
-tVQ
+mVs
 mVs
 mxq
 heT
@@ -69572,7 +69257,7 @@ laL
 lmk
 lmk
 lUc
-mtw
+aOa
 dns
 nnl
 dns
@@ -70864,7 +70549,7 @@ rvw
 mwU
 oef
 wZU
-oIO
+oef
 oef
 lCx
 wZU
@@ -77578,7 +77263,7 @@ tzc
 uQS
 vqL
 voH
-vMj
+hdA
 wuw
 wvk
 fyx
@@ -78341,7 +78026,7 @@ vHC
 vHC
 vHC
 vHC
-tpl
+wuw
 fyx
 tqt
 fyx
@@ -80407,7 +80092,7 @@ vuk
 blC
 vuk
 wuw
-wxb
+fyx
 wuw
 cCf
 xaD
@@ -80921,7 +80606,7 @@ blC
 vIm
 vIm
 wuw
-wxb
+fyx
 wuw
 eaT
 wuw

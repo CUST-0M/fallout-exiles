@@ -2392,16 +2392,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"hV" = (
-/obj/structure/nest/protectron{
-	layer = 3;
-	max_mobs = 1;
-	pixel_y = 20
-	},
-/turf/open/floor/f13{
-	icon_state = "darkrusty"
-	},
-/area/f13/building)
 "hW" = (
 /obj/structure/railing/corner,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
@@ -4405,19 +4395,6 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-"nP" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/obj/structure/nest/protectron{
-	layer = 3;
-	max_mobs = 1;
-	pixel_y = 20
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
 "nQ" = (
 /obj/structure/window/fulltile/wood,
 /obj/structure/fence/wooden{
@@ -5155,19 +5132,6 @@
 	},
 /turf/closed/wall/f13/wood/house,
 /area/f13/caves)
-"pW" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/obj/structure/nest/protectron{
-	layer = 3;
-	max_mobs = 1;
-	pixel_y = 20
-	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
-/area/f13/building)
 "pX" = (
 /obj/structure/simple_door/house,
 /obj/structure/decoration/rag{
@@ -6516,13 +6480,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
-"ug" = (
-/obj/structure/nest/ghoul{
-	max_mobs = 2
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/old,
-/area/f13/building)
 "uh" = (
 /obj/machinery/vending/medical,
 /turf/open/floor/wood/f13/oak,
@@ -8077,15 +8034,6 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/wasteland)
-"yY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/protectron{
-	layer = 3;
-	max_mobs = 1;
-	pixel_y = 20
-	},
-/turf/open/floor/wood/f13/old,
-/area/f13/building)
 "yZ" = (
 /obj/structure/fence/wooden{
 	dir = 4
@@ -12630,11 +12578,6 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
-/obj/structure/nest/protectron{
-	layer = 3;
-	max_mobs = 1;
-	pixel_y = 20
-	},
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/wasteland)
 "NH" = (
@@ -12790,19 +12733,6 @@
 /obj/structure/bed/old,
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
-"Ok" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/obj/structure/nest/protectron{
-	layer = 3;
-	max_mobs = 1;
-	pixel_y = 20
-	},
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/f13/building)
 "Ol" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "housewindowvertical"
@@ -15006,19 +14936,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/followers)
-"WK" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/structure/nest/protectron{
-	layer = 3;
-	max_mobs = 1;
-	pixel_y = 20
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
 "WN" = (
 /obj/item/mop,
 /obj/structure/mopbucket,
@@ -66827,7 +66744,7 @@ bX
 bX
 vd
 oF
-nP
+wV
 wV
 wV
 NA
@@ -67107,7 +67024,7 @@ lu
 TN
 lu
 aO
-hV
+xP
 ZV
 Xj
 Ta
@@ -67357,7 +67274,7 @@ yj
 to
 MB
 yj
-Ok
+FT
 FT
 jh
 yj
@@ -68385,7 +68302,7 @@ RY
 jb
 xy
 RY
-pW
+HC
 RY
 Wk
 IJ
@@ -72491,7 +72408,7 @@ FK
 GD
 lk
 lu
-yY
+FE
 Sl
 FE
 Sl
@@ -73257,7 +73174,7 @@ Yx
 jM
 Yj
 ga
-ug
+FE
 uE
 uE
 Oh
@@ -73772,7 +73689,7 @@ nA
 Dw
 hX
 fJ
-WK
+fJ
 fJ
 oN
 fJ
