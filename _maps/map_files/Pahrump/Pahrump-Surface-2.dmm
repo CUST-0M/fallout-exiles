@@ -263,7 +263,7 @@
 /area/f13/building)
 "afI" = (
 /obj/structure/table,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "afL" = (
 /obj/structure/target_stake,
@@ -12514,7 +12514,6 @@
 	},
 /obj/effect/overlay/shadow,
 /obj/structure/fence/wooden,
-/obj/structure/fence/wooden,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 8;
 	icon_state = "dirt"
@@ -12724,7 +12723,7 @@
 	color = "000000"
 	},
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 8;
+	dir = 4;
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
@@ -12788,7 +12787,7 @@
 	color = "000000"
 	},
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
+	dir = 8;
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
@@ -43259,7 +43258,7 @@
 	dir = 1;
 	pixel_x = 9
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/dirt/south,
 /area/f13/wasteland)
 "vff" = (
 /obj/structure/table/wood/settler,
@@ -49763,10 +49762,10 @@ gcK
 gcK
 aAr
 gcK
-fyf
-fyf
-fyf
-eBY
+gcK
+gcK
+gcK
+ltK
 aIl
 aIl
 aIl
@@ -50019,11 +50018,11 @@ fyf
 fyf
 fyf
 vfc
-fyf
-fyf
+mvv
+mvv
 afI
-fyf
-eBY
+mvv
+mvv
 aIl
 aIl
 aIl
@@ -50276,11 +50275,11 @@ fyf
 fyf
 fyf
 vfc
-fyf
-fyf
+mvv
+mvv
 afI
-fyf
-eBY
+mvv
+mvv
 aIl
 aIl
 aIl
@@ -50533,11 +50532,11 @@ fyf
 fyf
 fyf
 vfc
-fyf
-fyf
+mvv
+mvv
 afI
-fyf
-eBY
+mvv
+mvv
 mvv
 aIl
 mvv
@@ -50783,18 +50782,18 @@ ktB
 gcK
 gcK
 fyf
-fyf
+sqA
 fyf
 fyf
 fyf
 fyf
 fyf
 vfc
-fyf
-fyf
+mvv
+mvv
 afI
-fyf
-eBY
+mvv
+mvv
 mvv
 aIl
 aIl
@@ -51047,11 +51046,11 @@ fyf
 fyf
 fyf
 vfc
-fyf
-fyf
+mvv
+mvv
 afI
-fyf
-eBY
+mvv
+mvv
 mvv
 aIl
 aIl
@@ -51304,11 +51303,11 @@ fyf
 fyf
 fyf
 vfc
-fyf
-fyf
+mvv
+mvv
 afI
-fyf
-eBY
+mvv
+mvv
 mvv
 mvv
 aIl
@@ -51563,9 +51562,9 @@ gcK
 gcK
 gcK
 gcK
-fyf
-fyf
-eBY
+gcK
+mfD
+xGH
 mvv
 mvv
 aIl
@@ -54394,7 +54393,7 @@ aCv
 daX
 daX
 eXa
-faQ
+eXa
 ffu
 mcf
 kGc
@@ -55165,8 +55164,8 @@ aFY
 drr
 drr
 eYY
-fct
-fct
+faQ
+faQ
 wDc
 kGc
 unI
@@ -55679,8 +55678,8 @@ aMc
 dyt
 dyt
 dyt
-faQ
-faQ
+fct
+fct
 mcf
 kGc
 unI
