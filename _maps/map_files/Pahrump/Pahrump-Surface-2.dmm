@@ -30229,15 +30229,6 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
-"nQP" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/building)
 "nRb" = (
 /obj/structure/closet/crate/bin/trashbin,
 /turf/open/floor/wood/f13/oak,
@@ -62267,7 +62258,7 @@ wLC
 xrh
 rSF
 slE
-nQP
+heY
 vqW
 sYX
 sYX
