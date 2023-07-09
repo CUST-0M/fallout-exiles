@@ -286,11 +286,11 @@
 	},
 /area/f13/wasteland)
 "agA" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
+/obj/structure/spacevine{
+	name = "vines"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/ncr)
+/turf/closed/wall/f13/wood,
+/area/f13/wasteland)
 "agF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -1547,10 +1547,11 @@
 /turf/closed/wall/f13/wood,
 /area/f13/ncr)
 "aIl" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
+/obj/item/reagent_containers/glass/bucket{
+	desc = "It smells awful.";
+	name = "waste bucket"
 	},
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/wood/f13/oakbroken3,
 /area/f13/wasteland)
 "aIr" = (
 /obj/structure/flora/grass/wasteland{
@@ -12706,13 +12707,8 @@
 	},
 /area/f13/building)
 "faQ" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirt"
-	},
+/obj/structure/simple_door/room,
+/turf/open/floor/wood/f13/oakbroken3,
 /area/f13/wasteland)
 "faW" = (
 /turf/open/indestructible/ground/outside/ruins,
@@ -12770,12 +12766,11 @@
 /turf/open/floor/plating,
 /area/f13/tunnel)
 "fct" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
+/obj/effect/overlay/shadow,
+/obj/structure/fence/wooden,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 8;
-	icon_state = "dirt"
+	icon_state = "dirtcorner"
 	},
 /area/f13/wasteland)
 "fcy" = (
@@ -13036,13 +13031,11 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
 "fgy" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
+/obj/structure/fence/wooden,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 8;
+	icon_state = "dirt"
 	},
-/obj/structure/fence/wooden/side{
-	layer = 2.91
-	},
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "fgG" = (
 /obj/structure/fence/wooden/side{
@@ -46695,13 +46688,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"xfj" = (
-/obj/structure/nest/raider{
-	max_mobs = 4;
-	spawn_time = 30
-	},
-/turf/open/floor/plating,
-/area/f13/tunnel)
 "xft" = (
 /obj/structure/decoration/rag,
 /turf/closed/wall/r_wall/rust,
@@ -49671,9 +49657,9 @@ gcK
 gcK
 gcK
 ltK
-aIl
-aIl
-aIl
+mvv
+mvv
+mvv
 fhD
 kGc
 unI
@@ -49928,9 +49914,9 @@ mvv
 afI
 mvv
 mvv
-aIl
-aIl
-aIl
+mvv
+mvv
+mvv
 fhD
 kGc
 unI
@@ -50185,9 +50171,9 @@ mvv
 afI
 mvv
 mvv
-aIl
-aIl
-aIl
+mvv
+mvv
+mvv
 fhD
 kGc
 unI
@@ -50443,7 +50429,7 @@ afI
 mvv
 mvv
 mvv
-aIl
+mvv
 mvv
 fhD
 kGc
@@ -50700,8 +50686,8 @@ afI
 mvv
 mvv
 mvv
-aIl
-aIl
+mvv
+mvv
 fhD
 kGc
 unI
@@ -50957,8 +50943,8 @@ afI
 mvv
 mvv
 mvv
-aIl
-aIl
+mvv
+mvv
 fhD
 kGc
 unI
@@ -51215,7 +51201,7 @@ mvv
 mvv
 mvv
 mvv
-aIl
+mvv
 fhJ
 kGc
 unI
@@ -51472,7 +51458,7 @@ mfD
 xGH
 mvv
 mvv
-aIl
+mvv
 fhD
 kGc
 unI
@@ -51727,9 +51713,9 @@ gcK
 gcK
 fyf
 eBY
-aIl
 mvv
-aIl
+mvv
+mvv
 fhD
 kGc
 unI
@@ -51980,13 +51966,13 @@ gcK
 gcK
 gcK
 gcK
-fyf
+gcK
 fyf
 fyf
 eBY
-aIl
 mvv
-aIl
+mvv
+mvv
 fhD
 kGc
 unI
@@ -52233,7 +52219,7 @@ gcK
 gcK
 gcK
 gcK
-gcK
+fyf
 gcK
 gcK
 gcK
@@ -52241,9 +52227,9 @@ gcK
 gcK
 fyf
 eBY
-aIl
-aIl
-aIl
+mvv
+mvv
+mvv
 fhD
 kGc
 unI
@@ -52488,19 +52474,19 @@ gcK
 gcK
 gcK
 gcK
+fFu
 fyf
 fyf
-gcK
-gcK
-gcK
+fyf
+fyf
 fyf
 fyf
 gcK
 fyf
 eBY
-aIl
-aIl
-aIl
+mvv
+mvv
+mvv
 fhD
 kGc
 unI
@@ -52747,17 +52733,17 @@ gcK
 gcK
 gcK
 fyf
-gcK
-gcK
-gcK
-gcK
-fyf
-fyf
+lPT
+qcj
+lPT
+cWG
+cWG
+wDc
 fyf
 eBY
-aIl
-aIl
-aIl
+mvv
+mvv
+mvv
 fhD
 kGc
 unI
@@ -53004,17 +52990,17 @@ gcK
 gcK
 fyf
 fyf
-fyf
-fyf
-gcK
-gcK
-gcK
-fyf
+agA
+aIl
+faQ
+mvv
+mvv
+bpD
 fyf
 eBY
-aIl
-aIl
-aIl
+mvv
+mvv
+mvv
 fhD
 kGc
 unI
@@ -53261,17 +53247,17 @@ gcK
 fyf
 fyf
 fyf
-fyf
-fyf
-fyf
-fyf
-fyf
-fyf
-cWG
+qcj
+lPT
+lPT
+mfD
+mfD
+mcf
+qOV
 ltK
-aIl
-aIl
-aIl
+mvv
+mvv
+mvv
 fhD
 kGc
 unI
@@ -53519,15 +53505,15 @@ fyf
 fyf
 fyf
 fyf
-xQX
-xQX
-xQX
-xQX
-xQX
-aIl
-aIl
-aIl
-aIl
+fyf
+fyf
+fyf
+fyf
+fyf
+eBY
+mvv
+mvv
+mvv
 mvv
 fhD
 kGc
@@ -53774,17 +53760,17 @@ fyf
 fyf
 fyf
 fyf
-xQX
-xQX
-xQX
-xQX
-xQX
-xQX
-xQX
-aIl
-aIl
-aIl
-aIl
+fyf
+fyf
+qTY
+fyf
+fyf
+fyf
+fyf
+eBY
+mvv
+mvv
+mvv
 mvv
 fhD
 kGc
@@ -54032,16 +54018,16 @@ fyf
 fyf
 fyf
 fyf
-xQX
-xQX
-xQX
-xQX
-xQX
-xQX
-aIl
-aIl
-aIl
-aIl
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+eBY
+mvv
+mvv
+mvv
 mvv
 bpD
 kGc
@@ -54285,22 +54271,22 @@ ktB
 gcK
 gcK
 gcK
-qvY
-qvY
-qvY
-qvY
-agA
-agA
-agA
-agA
-agA
-xQX
-aIl
-aIl
-aIl
-aIl
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+eBY
 mvv
-mcf
+mvv
+mvv
+mvv
+bpD
 kGc
 unI
 qvQ
@@ -54552,12 +54538,12 @@ aIe
 aIe
 aIe
 aCv
-daX
+fct
 daX
 eXa
-eXa
+fgy
 ffu
-fyf
+mcf
 kGc
 unI
 qvQ
@@ -54812,7 +54798,7 @@ aFL
 aCN
 aCN
 aFG
-xQX
+fyf
 fyf
 fyf
 kGc
@@ -55069,8 +55055,8 @@ aFY
 drr
 drr
 eYY
-faQ
-faQ
+cWG
+cWG
 wDc
 kGc
 unI
@@ -55326,8 +55312,8 @@ aCP
 aCP
 aCP
 aCP
-aIl
-aIl
+mvv
+mvv
 bpD
 kGc
 unI
@@ -55583,8 +55569,8 @@ aMc
 dyt
 dyt
 dyt
-fct
-fct
+mfD
+mfD
 mcf
 kGc
 unI
@@ -55841,7 +55827,7 @@ aCN
 aCN
 aCN
 fyf
-fgy
+fgG
 fyf
 kGc
 unI
@@ -56098,7 +56084,7 @@ aCN
 aCN
 aCN
 fyf
-fgy
+fgG
 fyf
 kGc
 unI
@@ -56355,7 +56341,7 @@ aIe
 aIe
 aIe
 fyf
-fgy
+fgG
 fyf
 kGc
 unI
@@ -56612,7 +56598,7 @@ dUM
 dUM
 aIe
 fyf
-fgy
+fgG
 fyf
 kGc
 unI
@@ -58153,7 +58139,7 @@ fyf
 fyf
 fyf
 fyf
-fyf
+qTY
 fyf
 fyf
 kGc
@@ -73801,7 +73787,7 @@ qrR
 qrR
 qrR
 pDi
-xfj
+qal
 oub
 pGM
 qal

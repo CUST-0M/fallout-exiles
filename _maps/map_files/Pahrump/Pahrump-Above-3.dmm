@@ -1651,6 +1651,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building)
+"iA" = (
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "iD" = (
 /obj/structure/decoration/rag,
 /obj/structure/decoration/rag{
@@ -15321,9 +15324,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+iA
+iA
+iA
 PL
 PL
 PL
@@ -15578,9 +15581,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+iA
+iA
+iA
 PL
 PL
 PL
@@ -15835,9 +15838,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+iA
+iA
+iA
 PL
 PL
 PL
