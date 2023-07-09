@@ -4198,6 +4198,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bunker)
+"cnR" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/landmark/start/f13/ncrranger,
+/turf/open/floor/f13/wood,
+/area/f13/ncr)
 "cnU" = (
 /obj/structure/barricade/wooden,
 /obj/structure/decoration/rag,
@@ -12708,7 +12715,7 @@
 	color = "#363636"
 	},
 /obj/structure/bed/old,
-/obj/effect/landmark/start/f13/ncrranger,
+/obj/item/bedsheet/black,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "gUV" = (
@@ -24511,6 +24518,15 @@
 	icon_state = "tunnelchess2"
 	},
 /area/f13/enclave)
+"ogU" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/landmark/start/f13/ncrranger,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood3-broken"
+	},
+/area/f13/ncr)
 "ogZ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -47959,11 +47975,11 @@ eRj
 eRj
 dSE
 uix
-chy
+ogU
 eRj
 dSE
 uix
-eRj
+cnR
 eRj
 dSE
 vPg
@@ -50276,7 +50292,7 @@ eRj
 eRj
 dSE
 uix
-eRj
+cnR
 eRj
 dSE
 vPg

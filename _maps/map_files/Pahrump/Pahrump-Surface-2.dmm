@@ -725,7 +725,7 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/obj/structure/chair/office/dark,
+/obj/structure/chair/office,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "amc" = (
@@ -1356,12 +1356,16 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
+/obj/structure/decoration/rag,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "aCv" = (
 /obj/effect/overlay/shadow,
 /obj/structure/fence/wooden,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 8;
+	icon_state = "dirtcorner"
+	},
 /area/f13/wasteland)
 "aCN" = (
 /obj/effect/overlay/shadow,
@@ -2335,6 +2339,21 @@
 	icon_state = "housewood2"
 	},
 /area/f13/village)
+"aYL" = (
+/obj/item/reagent_containers/glass/bucket{
+	desc = "It smells awful.";
+	name = "waste bucket";
+	pixel_x = 14;
+	pixel_y = 12
+	},
+/obj/effect/decal/remains/human,
+/obj/machinery/hydroponics/soil/pot{
+	pixel_z = 0
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2-broken"
+	},
+/area/f13/ncr)
 "aYT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/broken{
@@ -15706,6 +15725,13 @@
 	icon_state = "cross3"
 	},
 /area/f13/wasteland)
+"gou" = (
+/obj/structure/simple_door/room,
+/obj/structure/decoration/rag,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood4-broken"
+	},
+/area/f13/ncr)
 "goC" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/wood,
@@ -19587,6 +19613,12 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"ice" = (
+/obj/structure/spacevine{
+	name = "vines"
+	},
+/turf/closed/wall/f13/wood,
+/area/f13/ncr)
 "ici" = (
 /obj/structure/fence/corner{
 	dir = 6
@@ -19648,6 +19680,13 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"iej" = (
+/obj/structure/spacevine{
+	name = "vines"
+	},
+/obj/structure/decoration/rag,
+/turf/closed/wall/f13/wood,
+/area/f13/ncr)
 "iek" = (
 /obj/structure/fence,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -24250,7 +24289,8 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/f13/wood,
 /area/f13/ncr)
 "kCs" = (
 /obj/item/ammo_casing/a50MG,
@@ -25872,6 +25912,20 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"lBB" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/structure/table/reinforced,
+/obj/item/salvage/high{
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "id_key_off";
+	pixel_y = 9
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkrustysolid"
+	},
+/area/f13/ncr)
 "lBT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -32258,6 +32312,19 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
+"oXq" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/computer/terminal{
+	dir = 8;
+	layer = 3.7
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkrustysolid"
+	},
+/area/f13/ncr)
 "oXD" = (
 /obj/structure/chair/wood/modern{
 	dir = 8
@@ -36739,6 +36806,16 @@
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/building)
+"rsM" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/structure/fence/wooden,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 8;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "rtk" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/broken,
@@ -43017,6 +43094,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
+"uQU" = (
+/obj/structure/decoration/rag,
+/turf/closed/wall/f13/wood,
+/area/f13/ncr)
 "uRj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -47036,12 +47117,9 @@
 	},
 /area/f13/building)
 "xfj" = (
-/obj/structure/nest/raider{
-	max_mobs = 4;
-	spawn_time = 30
-	},
-/turf/open/floor/plating,
-/area/f13/tunnel)
+/obj/structure/barricade/wooden,
+/turf/closed/wall/f13/wood,
+/area/f13/ncr)
 "xft" = (
 /obj/structure/decoration/rag,
 /turf/closed/wall/r_wall/rust,
@@ -52082,7 +52160,7 @@ gcK
 gcK
 fyf
 eBY
-aIl
+mvv
 mvv
 aIl
 fhD
@@ -52339,7 +52417,7 @@ fyf
 fyf
 fyf
 eBY
-aIl
+mvv
 mvv
 aIl
 fhD
@@ -52596,7 +52674,7 @@ gcK
 gcK
 fyf
 eBY
-aIl
+mvv
 aIl
 aIl
 fhD
@@ -52843,11 +52921,11 @@ gcK
 gcK
 gcK
 gcK
+gcK
+gcK
 fyf
 fyf
-gcK
-gcK
-gcK
+fyf
 fyf
 fyf
 gcK
@@ -53102,10 +53180,10 @@ gcK
 gcK
 gcK
 fyf
-gcK
-gcK
-gcK
-gcK
+fyf
+xfj
+ice
+uQU
 fyf
 fyf
 fyf
@@ -53357,13 +53435,13 @@ gcK
 gcK
 gcK
 gcK
-fyf
-fyf
-fyf
-fyf
 gcK
-gcK
-gcK
+fyf
+fyf
+aIe
+aYL
+gou
+fyf
 fyf
 fyf
 eBY
@@ -53617,11 +53695,11 @@ fyf
 fyf
 fyf
 fyf
+aIe
+xfj
+iej
 fyf
-fyf
-fyf
-fyf
-fyf
+qOV
 cWG
 ltK
 aIl
@@ -53874,13 +53952,13 @@ fyf
 fyf
 fyf
 fyf
-xQX
-xQX
-xQX
-xQX
-xQX
-aIl
-aIl
+fyf
+fyf
+fyf
+fyf
+eBY
+mvv
+mvv
 aIl
 aIl
 mvv
@@ -54129,15 +54207,15 @@ fyf
 fyf
 fyf
 fyf
-xQX
-xQX
-xQX
-xQX
-xQX
-xQX
-xQX
-aIl
-aIl
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+eBY
+mvv
+mvv
 aIl
 aIl
 mvv
@@ -54387,14 +54465,14 @@ fyf
 fyf
 fyf
 fyf
-xQX
-xQX
-xQX
-xQX
-xQX
-xQX
-aIl
-aIl
+fyf
+fyf
+fyf
+fyf
+fyf
+eBY
+mvv
+mvv
 aIl
 aIl
 mvv
@@ -54640,18 +54718,18 @@ ktB
 gcK
 gcK
 gcK
-qvY
-qvY
-qvY
-qvY
-kCr
-kCr
-kCr
-kCr
-kCr
-xQX
-aIl
-aIl
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+fyf
+eBY
+mvv
+mvv
 aIl
 aIl
 mvv
@@ -54910,7 +54988,7 @@ aCv
 daX
 daX
 eXa
-eXa
+rsM
 ffu
 fyf
 kGc
@@ -56963,7 +57041,7 @@ pVQ
 pVQ
 aIe
 bol
-dUM
+lBB
 dUM
 aIe
 fyf
@@ -57985,14 +58063,14 @@ aIe
 abN
 arU
 aIe
-pVQ
+kCr
 pVQ
 pVQ
 pVQ
 aIe
 bGw
-dUM
-dUM
+lBB
+oXq
 aIe
 xQX
 fhh
@@ -74156,7 +74234,7 @@ qrR
 qrR
 qrR
 pDi
-xfj
+qal
 oub
 pGM
 qal

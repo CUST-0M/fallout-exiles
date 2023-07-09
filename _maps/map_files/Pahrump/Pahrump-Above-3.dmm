@@ -5194,6 +5194,9 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"xl" = (
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "xm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/head/f13/police/trooper{
@@ -15739,9 +15742,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+xl
+xl
+xl
 PL
 PL
 PL
@@ -15996,9 +15999,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+xl
+xl
+xl
 PL
 PL
 PL
@@ -16253,9 +16256,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+xl
+xl
+xl
 PL
 PL
 PL
