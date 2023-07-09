@@ -14,7 +14,11 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
-#include "_maps\_basemap.dm"
+#include "_maps\pahrump.dm"
+#include "_maps\map_files\Pahrump\Dungeons.dmm"
+#include "_maps\map_files\Pahrump\Pahrump-Above-3.dmm"
+#include "_maps\map_files\Pahrump\Pahrump-Surface-2.dmm"
+#include "_maps\map_files\Pahrump\Pahrump-Underground-1.dmm"
 #include "_maps\templates\dungeons\dungeons.dm"
 #include "code\_compile_options.dm"
 #include "code\world.dm"
