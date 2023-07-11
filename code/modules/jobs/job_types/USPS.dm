@@ -23,6 +23,7 @@ Mayor
 	selection_color = "#83a4c0"
 	access = list(ACCESS_CARGO_BOT, ACCESS_USPS)
 	minimal_access = list(ACCESS_CARGO_BOT, ACCESS_USPS)
+	mapexclude = list("standard")
 
 /datum/job/usps/f13postmastergeneral
 	title = "Postmaster General"

@@ -7,6 +7,7 @@
 	enforces = "Your tribe desires: Glory, plunder, the approval of Caesar, the death of the Kuna-man, food, comfort and ease."
 	objectivesList = list("Sack the New Canaanite temple, bring their golden statue home to your camp.","Sack the 80s' compound, seize or destroy their precious war buggies.","Sack the NCR embassy, present their flags as gifts to the esteem representatives of Caesar.")
 	exp_type = EXP_TYPE_WHITELEGS
+	mapexclude = list("standard")
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)

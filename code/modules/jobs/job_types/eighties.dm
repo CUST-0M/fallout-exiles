@@ -2,6 +2,7 @@
 	department_flag = EIGHTIES
 	selection_color = "#8393b1"
 	faction = FACTION_EIGHTIES
+	mapexclude = list("standard")
 
 	forbids = "The 80s love: excitement, chems, raiding, ransoming, showmanship, arena fights, races, the open road."
 	enforces = "The 80s hate: walking, townies, cowards, hard work, the New California Republic, Rustwalkers, flat tires."

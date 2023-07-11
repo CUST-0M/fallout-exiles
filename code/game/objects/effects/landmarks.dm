@@ -600,7 +600,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Legate"
 
 /obj/effect/landmark/start/f13/centurion
-	name = "Centurion"
+	name = "Legion Centurion"
 	icon_state = "Centurion"
 
 /obj/effect/landmark/start/f13/orator
