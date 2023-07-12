@@ -187,6 +187,8 @@
 		give_genital(/obj/item/organ/genital/testicles)
 	if(dna.features["has_breasts"])
 		give_genital(/obj/item/organ/genital/breasts)
+	if(dna.features["has_butt"])
+		give_genital(/obj/item/organ/genital/butt)
 	if(dna.features["has_cock"])
 		give_genital(/obj/item/organ/genital/penis)
 
@@ -235,6 +237,8 @@
 		var/layertext = relevant_layers[layer]
 		for(var/A in genitals_to_add)
 			var/obj/item/organ/genital/G = A
+			if(layertext == "MID" && !istype(G, /obj/item/organ/genital/butt))
+				continue // Only butts have the mid layer right now, remove if more things get them. cuts down on overlays, maybe
 			var/datum/sprite_accessory/S
 			var/size = G.size
 			switch(G.type)
@@ -246,6 +250,8 @@
 					S = GLOB.vagina_shapes_list[G.shape]
 				if(/obj/item/organ/genital/breasts)
 					S = GLOB.breasts_shapes_list[G.shape]
+				if(/obj/item/organ/genital/butt)
+					S = GLOB.butt_shapes_list[G.shape]
 
 			if(!S || S.icon_state == "none")
 				continue
@@ -278,6 +284,8 @@
 						genital_overlay.color = "#[dna.features["breasts_color"]]"
 					if("vag_color")
 						genital_overlay.color = "#[dna.features["vag_color"]]"
+					if("butt_color")
+						genital_overlay.color = "#[dna.features["butt_color"]]"
 
 			genital_overlay.icon_state = "[G.slot]_[S.icon_state]_[size][(dna.species.use_skintones && !dna.skin_tone_override) ? "_s" : ""]_[aroused_state]_[layertext]"
 
@@ -307,18 +315,23 @@
 	var/organCheck = locate(/obj/item/organ/genital) in internal_organs
 	var/breastCheck = getorganslot(ORGAN_SLOT_BREASTS)
 	var/willyCheck = getorganslot(ORGAN_SLOT_PENIS)
+	var/buttCheck = getorganslot(ORGAN_SLOT_BUTT)
 
 	if(organCheck == FALSE)
 		if(src.dna.species.fixed_mut_color)
 			dna.features["cock_color"] = "[dna.species.fixed_mut_color]"
 			dna.features["breasts_color"] = "[dna.species.fixed_mut_color]"
+			dna.features["butt_color"] = "[dna.features["mcolor"]]"
 			return
 		//So people who haven't set stuff up don't get rainbow surprises.
 		dna.features["cock_color"] = "[dna.features["mcolor"]]"
 		dna.features["breasts_color"] = "[dna.features["mcolor"]]"
+		dna.features["butt_color"] = "[dna.species.fixed_mut_color]"
 	else //If there's a new organ, make it the same colour.
 		if(breastCheck == FALSE)
 			dna.features["breasts_color"] = dna.features["cock_color"]
 		else if (willyCheck == FALSE)
 			dna.features["cock_color"] = dna.features["breasts_color"]
+		else if (buttCheck == FALSE)
+			dna.features["butt_color"] = dna.features["butt_color"]
 	return TRUE

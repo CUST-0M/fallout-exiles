@@ -124,3 +124,13 @@
 	icon_state = "sextuple"
 	name = "Sextuple"
 */
+//BUTT BE HERE
+/datum/sprite_accessory/butt
+	icon = 'icons/obj/genitals/butt_onmob.dmi'
+	icon_state = "butt"
+	name = "butt"
+	color_src = "butt_color"
+
+/datum/sprite_accessory/butt/pair
+	icon_state = "pair"
+	name = "Pair"

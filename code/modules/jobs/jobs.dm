@@ -254,16 +254,17 @@ GLOBAL_LIST_INIT(usps_positions, list(
 
 // job categories for rendering the late join menu
 GLOBAL_LIST_INIT(position_categories, list(	
-	EXP_TYPE_WENDOVER = list("jobs" = wendover_positions, "color" = "#1c94d0"),
-	EXP_TYPE_USPS = list("jobs" = usps_positions, "color" = "#0262b0"),
-	EXP_TYPE_LDS = list("jobs" = lds_positions, "color" = "#ffffff"),
+	//EXP_TYPE_WENDOVER = list("jobs" = wendover_positions, "color" = "#1c94d0"),
+	//EXP_TYPE_USPS = list("jobs" = usps_positions, "color" = "#0262b0"),
+	//EXP_TYPE_LDS = list("jobs" = lds_positions, "color" = "#ffffff"),
 	EXP_TYPE_NCR = list("jobs" = ncr_positions, "color" = "#ffeeaa"),
 	EXP_TYPE_FOLLOWERS = list("jobs" = followers_positions, "color" = "#ffeeaa"),
 	EXP_TYPE_LEGION = list("jobs" = legion_positions, "color" = "#f81717"),
-	EXP_TYPE_WHITELEGS = list("jobs" = whitelegs_positions, "color" = "#b60202"),
-	EXP_TYPE_EIGHTIES = list("jobs" = eighties_positions, "color" = "#1858D9"),
+	//EXP_TYPE_WHITELEGS = list("jobs" = whitelegs_positions, "color" = "#b60202"),
+	//EXP_TYPE_EIGHTIES = list("jobs" = eighties_positions, "color" = "#1858D9"),
 	EXP_TYPE_WASTELAND = list("jobs" = wasteland_positions, "color" = "#5a5a5a"),
-	
+	EXP_TYPE_BROTHERHOOD = list("jobs" = brotherhood_positions, "color" = "#8eb7e3"),
+	EXP_TYPE_OASIS = list("jobs" = oasis_positions, "color" = "8ee3a4"),
 ))
 
 GLOBAL_LIST_INIT(exp_jobsmap, list(
