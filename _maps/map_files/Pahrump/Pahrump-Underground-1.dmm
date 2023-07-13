@@ -319,12 +319,6 @@
 	icon_state = "whitedirtysolid"
 	},
 /area/f13/brotherhood/operating)
-"aiV" = (
-/obj/structure/stairs/east{
-	color = "#A47449"
-	},
-/turf/open/floor/f13/wood,
-/area/f13/caves)
 "ajc" = (
 /obj/machinery/door/airlock/grunge{
 	id_tag = "floor2elevatordoors";
@@ -45330,6 +45324,12 @@
 /obj/item/trash/f13/fancylads,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"xSW" = (
+/obj/structure/stairs/east{
+	color = "#A47449"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/caves)
 "xSY" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/floor/f13{
@@ -99760,12 +99760,12 @@ vPg
 vPg
 vPg
 vPg
-aiV
-aiV
 vPg
 vPg
 vPg
 vPg
+xSW
+xSW
 vPg
 vPg
 vPg
