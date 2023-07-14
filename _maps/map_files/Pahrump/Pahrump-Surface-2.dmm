@@ -1586,7 +1586,9 @@
 /area/f13/wasteland)
 "aEA" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/bed/old,
+/obj/item/bedsheet/brown{
+	dir = 8
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "aEN" = (
@@ -2774,7 +2776,7 @@
 	name = "Reinforced Door"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/f13/wood,
+/turf/open/floor/carpet/red,
 /area/f13/wasteland)
 "bdp" = (
 /obj/structure/table/wood,
@@ -4460,6 +4462,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/bed/old,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/item/bedsheet/brown,
 /turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "bJN" = (
@@ -4718,7 +4721,7 @@
 /obj/machinery/door/unpowered/securedoor/legion{
 	name = "Reinforced Door"
 	},
-/turf/open/space/basic,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "bPU" = (
 /obj/machinery/computer/operating,
@@ -4731,12 +4734,9 @@
 	},
 /area/f13/wasteland)
 "bQl" = (
-/obj/structure/barricade/bars,
-/obj/structure/window/fulltile/ruins{
-	icon_state = "ruinswindowvertical";
-	max_integrity = 600
-	},
-/turf/open/floor/f13/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bookcase,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "bQr" = (
 /obj/structure/decoration/rag,
@@ -7508,11 +7508,6 @@
 	icon_state = "floordirty"
 	},
 /area/f13/building)
-"dai" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/simple_door/dirtyglass,
-/turf/open/space/basic,
-/area/f13/wasteland)
 "daB" = (
 /obj/structure/chair/wood/worn{
 	dir = 4
@@ -15494,13 +15489,6 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/superlow,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"fZP" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/door/unpowered/securedoor/legion{
-	name = "Reinforced Door"
-	},
-/turf/open/floor/f13/wood,
-/area/f13/wasteland)
 "fZW" = (
 /obj/structure/flora/grass/wasteland{
 	layer = 4.2;
@@ -15912,7 +15900,7 @@
 /obj/structure/simple_door/room,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/space/basic,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "gku" = (
 /obj/structure/spider/stickyweb,
@@ -17451,7 +17439,7 @@
 	color = "#A47449";
 	dir = 4
 	},
-/turf/open/space/basic,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "gSc" = (
 /obj/effect/decal/cleanable/dirt{
@@ -18923,11 +18911,6 @@
 	icon_state = "reddirtyfull"
 	},
 /area/f13/caves)
-"hxm" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/simple_door/brokenglass,
-/turf/open/floor/wood/f13/oak,
-/area/f13/wasteland)
 "hxp" = (
 /obj/effect/decal/marking{
 	icon_state = "doublehorizontalcorroded"
@@ -25637,10 +25620,15 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/followers)
 "kXA" = (
-/obj/machinery/door/unpowered/securedoor/legion{
-	name = "Reinforced Door"
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/statue/wood{
+	desc = "My, would you look at the time.";
+	icon = 'icons/fallout/objects/furniture/stationary.dmi';
+	icon_state = "grand_clock";
+	name = "grandfather clock"
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "kXK" = (
 /obj/structure/flora/grass/wasteland,
@@ -28709,6 +28697,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/chair/wood,
 /obj/effect/landmark/start/f13/explorer,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "myZ" = (
@@ -29179,8 +29170,10 @@
 /area/f13/building)
 "mMv" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/simple_door/dirtyglass,
-/turf/open/floor/wood/f13/oak,
+/obj/machinery/door/unpowered/securedoor/legion{
+	name = "Reinforced Door"
+	},
+/turf/open/floor/carpet/red,
 /area/f13/wasteland)
 "mMB" = (
 /obj/structure/table/reinforced,
@@ -30490,7 +30483,7 @@
 /obj/structure/window/fulltile/ruins{
 	max_integrity = 700
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "nrB" = (
 /obj/structure/window/fulltile/house{
@@ -35398,8 +35391,10 @@
 /area/f13/wasteland)
 "pRm" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/simple_door/room,
-/turf/open/space/basic,
+/obj/machinery/door/unpowered/securedoor/legion{
+	name = "Reinforced Door"
+	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "pRn" = (
 /obj/effect/decal/remains/human,
@@ -36062,8 +36057,12 @@
 	},
 /area/f13/followers)
 "qfR" = (
-/obj/structure/simple_door/room,
-/turf/open/space/basic,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "qga" = (
 /obj/structure/table/wood/settler,
@@ -38445,7 +38444,7 @@
 /area/f13/building)
 "rAH" = (
 /obj/structure/simple_door/interior,
-/turf/open/space/basic,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "rBc" = (
 /obj/effect/decal/cleanable/dirt,
@@ -38863,7 +38862,7 @@
 	color = "#5c131b";
 	pixel_y = -32
 	},
-/turf/open/space/basic,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "rPF" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -45051,7 +45050,7 @@
 /obj/structure/window/fulltile/ruins{
 	icon_state = "ruinswindowbrokenvertical"
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "vLy" = (
 /obj/effect/decal/remains/human,
@@ -47725,7 +47724,7 @@
 "xwO" = (
 /obj/structure/window/fulltile/ruins,
 /obj/structure/barricade/bars,
-/turf/open/floor/f13/wood,
+/turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "xwW" = (
 /obj/structure/destructible/tribal_torch/lit,
@@ -48449,11 +48448,9 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "xTQ" = (
-/obj/structure/barricade/bars,
-/obj/structure/window/fulltile/ruins{
-	icon_state = "ruinswindowbroken"
-	},
-/turf/open/floor/f13/wood,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/plasteel/f13/vault_floor/green/greenchess/greenchess2,
 /area/f13/wasteland)
 "xTW" = (
 /obj/structure/legion_extractor,
@@ -48932,11 +48929,6 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/building)
-"yhH" = (
-/obj/structure/barricade/bars,
-/obj/structure/window/fulltile/ruins,
-/turf/open/floor/f13/wood,
-/area/f13/wasteland)
 "yih" = (
 /obj/effect/decal/marking{
 	icon_state = "doublehorizontal"
@@ -100953,16 +100945,16 @@ fyf
 kEh
 kEh
 vLj
-bQl
+muT
 kEh
 kEh
 kEh
-bQl
-bQl
+muT
+muT
 kEh
 kEh
 kEh
-bQl
+muT
 kEh
 kEh
 kEh
@@ -101225,7 +101217,7 @@ ooY
 wGZ
 oit
 dGR
-yhH
+lyz
 fyf
 fyf
 fyf
@@ -101482,7 +101474,7 @@ klu
 uSI
 vxB
 qGq
-yhH
+lyz
 fyf
 fyf
 fyf
@@ -103024,7 +103016,7 @@ xbf
 kEh
 kTo
 ues
-yhH
+lyz
 fyf
 fyf
 fyf
@@ -103272,7 +103264,7 @@ niQ
 vxB
 aoG
 klu
-vxB
+aEA
 tgp
 pLj
 aoG
@@ -103281,7 +103273,7 @@ rZL
 khO
 kTo
 ues
-xTQ
+qxX
 fyf
 fyf
 fyf
@@ -103522,12 +103514,12 @@ fyf
 fyf
 kEh
 kEh
-bQl
-bQl
+muT
+muT
 kEh
 kEh
 kEh
-fZP
+mMv
 bde
 tgp
 tgp
@@ -103795,7 +103787,7 @@ khO
 wcx
 kTo
 ues
-yhH
+lyz
 fyf
 fyf
 fyf
@@ -104052,7 +104044,7 @@ kTo
 kTo
 kTo
 ues
-xTQ
+qxX
 fyf
 fyf
 fyf
@@ -104566,7 +104558,7 @@ kTo
 kTo
 kTo
 ues
-yhH
+lyz
 fyf
 fyf
 fyf
@@ -104823,7 +104815,7 @@ tgp
 rXB
 kTo
 ues
-yhH
+lyz
 fyf
 fyf
 fyf
@@ -105324,12 +105316,12 @@ fyf
 fyf
 fyf
 fyf
-dai
+mMv
 kTo
 kTo
 kTo
 qtH
-vxB
+bQl
 cpa
 vxB
 lHH
@@ -105337,7 +105329,7 @@ wiX
 tgp
 kTo
 sVg
-yhH
+lyz
 fyf
 fyf
 fyf
@@ -105581,12 +105573,12 @@ fyf
 fyf
 fyf
 fyf
-dai
+mMv
 kTo
 kTo
 kTo
 tgp
-vxB
+bQl
 vxB
 bbg
 vxB
@@ -105594,7 +105586,7 @@ vxB
 qtH
 gRF
 rPl
-yhH
+lyz
 fyf
 fyf
 fyf
@@ -106095,7 +106087,7 @@ fyf
 fyf
 fyf
 fyf
-hxm
+mMv
 kTo
 kTo
 kTo
@@ -106357,14 +106349,14 @@ kTo
 kTo
 kTo
 qtH
-vQn
+kXA
 vxB
 niQ
 vxB
 vQn
 tgp
 bMH
-iFk
+xTQ
 kEh
 fyf
 fyf
@@ -106618,7 +106610,7 @@ khO
 tgp
 tgp
 qtH
-kXA
+lWK
 cNp
 kEh
 jjC
@@ -106866,7 +106858,7 @@ fyf
 fyf
 fyf
 fyf
-yhH
+lyz
 lKq
 kTo
 kTo
@@ -107123,7 +107115,7 @@ fyf
 fyf
 fyf
 fyf
-yhH
+lyz
 lKq
 kTo
 kTo
@@ -107637,7 +107629,7 @@ fyf
 fyf
 fyf
 fyf
-yhH
+lyz
 mSs
 kTo
 kTo
@@ -107894,7 +107886,7 @@ fyf
 fyf
 fyf
 fyf
-yhH
+lyz
 mSs
 kTo
 kTo
@@ -108414,7 +108406,7 @@ kTo
 kTo
 qKi
 tgp
-aEA
+wGZ
 myw
 idn
 jjC
@@ -108927,7 +108919,7 @@ vxB
 kTo
 kTo
 vxB
-qfR
+lWK
 vxB
 apN
 doO
@@ -109444,7 +109436,7 @@ klu
 kEh
 lkV
 lkV
-lkV
+qfR
 kEh
 qLx
 oPO
@@ -110471,7 +110463,7 @@ klu
 klu
 kEh
 bJF
-vxB
+niQ
 pDG
 kEh
 fyf

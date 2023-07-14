@@ -34138,6 +34138,14 @@
 /obj/structure/sign/poster/official/anniversary_vintage_reprint{
 	pixel_x = -32
 	},
+/obj/structure/statue/wood/headstonewood{
+	density = 1;
+	desc = null;
+	icon = 'icons/obj/stationary.dmi';
+	icon_state = "skeleton_stand";
+	name = "anatomical model";
+	pixel_y = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/ncr)
 "rLv" = (
