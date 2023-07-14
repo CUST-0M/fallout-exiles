@@ -989,6 +989,19 @@
 	fire_delay = 0.5
 	can_scope = FALSE
 
+//Legions Retribution			Keywords: UNIQUE, 7.62mm, Semi-auto, 8 rounds internal, Scoped, Damage +8, Penetration +0.1
+/obj/item/gun/ballistic/automatic/m1garand/legionsretribution
+	name = "Legion's Retribution"
+	desc = " A reclaimed and scoped M1C rifle of Gunrunner origin that has been adorned with Legion flair. Chambered in 7.62x51."
+	icon_state = "legions_retribution_scoped"
+	item_state = "scoped308"
+	extra_damage = 35
+	extra_penetration = 0.3
+	zoomable = TRUE
+	zoom_amt = 10
+	zoom_out_amt = 13
+	fire_delay = 0.5
+	can_scope = FALSE
 
 //SKS				Keywords: LEGION, .308, Semi-auto, 10 rounds internal, Penetration +0.1
 /obj/item/gun/ballistic/automatic/m1garand/sks
