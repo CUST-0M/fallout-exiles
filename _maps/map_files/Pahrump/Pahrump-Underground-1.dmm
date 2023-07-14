@@ -18017,7 +18017,7 @@
 /turf/open/floor/f13{
 	icon_state = "neutralrustyfull"
 	},
-/area/f13/den)
+/area/f13/sewer)
 "jco" = (
 /obj/structure/lattice{
 	density = 1
@@ -18103,7 +18103,7 @@
 /turf/open/floor/f13{
 	icon_state = "neutralrustyfull"
 	},
-/area/f13/den)
+/area/f13/sewer)
 "jex" = (
 /obj/machinery/light/floor,
 /obj/item/stack/f13Cash/random/low,
@@ -18303,7 +18303,7 @@
 /turf/open/floor/f13{
 	icon_state = "neutralrustyfull"
 	},
-/area/f13/den)
+/area/f13/sewer)
 "jiP" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1;
@@ -30716,11 +30716,6 @@
 	icon_state = "casino"
 	},
 /area/f13/brotherhood/rnd)
-"qbM" = (
-/obj/structure/lattice/catwalk,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/water,
-/area/f13/den)
 "qbO" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -34697,15 +34692,6 @@
 	icon_state = "housewood3-broken"
 	},
 /area/f13/tunnel)
-"saE" = (
-/obj/structure/handrail/g_central{
-	dir = 1;
-	pixel_y = 23
-	},
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
-/area/f13/den)
 "saS" = (
 /obj/item/mine/shrapnel,
 /turf/open/water,
@@ -38947,16 +38933,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/brotherhood/armory)
-"uxO" = (
-/obj/structure/handrail/g_central{
-	dir = 1;
-	pixel_y = 23
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
-/area/f13/den)
 "uxZ" = (
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/enclave)
@@ -69771,8 +69747,8 @@ vPg
 vPg
 vPg
 vPg
-wzN
-nCF
+vPg
+aoj
 lnr
 lnr
 vPg
@@ -70028,8 +70004,8 @@ vPg
 vPg
 vPg
 vPg
-wzN
-nCF
+vPg
+aoj
 lnr
 lnr
 vPg
@@ -70285,8 +70261,8 @@ vPg
 vPg
 vPg
 vPg
-nCF
-nCF
+aoj
+aoj
 vPg
 vPg
 vPg
@@ -71054,8 +71030,8 @@ vPg
 vPg
 vPg
 vPg
-wzN
-nCF
+vPg
+aoj
 vPg
 vPg
 yhT
@@ -71311,8 +71287,8 @@ vPg
 vPg
 vPg
 vPg
-wzN
-nCF
+vPg
+aoj
 vPg
 aoj
 yhT
@@ -71568,8 +71544,8 @@ vPg
 vPg
 vPg
 vPg
-wzN
-nCF
+vPg
+aoj
 vPg
 vPg
 yhT
@@ -71825,8 +71801,8 @@ vPg
 vPg
 vPg
 vPg
-wzN
-nCF
+vPg
+aoj
 aoj
 vPg
 yhT
@@ -72082,8 +72058,8 @@ vPg
 vPg
 vPg
 vPg
-wzN
-nCF
+vPg
+aoj
 vPg
 vPg
 yhT
@@ -72339,8 +72315,8 @@ aoj
 vPg
 vPg
 vPg
-wzN
-wzN
+vPg
+vPg
 vPg
 vPg
 yhT
@@ -72596,8 +72572,8 @@ vPg
 vPg
 vPg
 vPg
-wzN
-wzN
+vPg
+vPg
 vPg
 vPg
 yhT
@@ -72853,8 +72829,8 @@ vPg
 vPg
 vPg
 vPg
-wzN
-wzN
+vPg
+vPg
 vPg
 vPg
 yhT
@@ -73101,17 +73077,17 @@ lpY
 vPg
 vPg
 vPg
-wzN
+vPg
 vPg
 vPg
 aoj
-wzN
-wzN
 vPg
 vPg
 vPg
-nCF
-nCF
+vPg
+vPg
+aoj
+aoj
 vPg
 vPg
 yhT
@@ -73356,19 +73332,19 @@ lpY
 mmb
 lpY
 vPg
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
 vPg
 vPg
 yhT
@@ -73613,19 +73589,19 @@ lpY
 mmb
 lpY
 vPg
-wzN
-wzN
-wzN
-wzN
 vPg
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
 vPg
 yhT
 yhT
@@ -73870,19 +73846,19 @@ lpY
 mmb
 lpY
 vPg
-wzN
-wzN
-wzN
 vPg
 vPg
 vPg
-wzN
-nCF
-wzN
 vPg
 vPg
-wzN
-wzN
+vPg
+vPg
+aoj
+vPg
+vPg
+vPg
+vPg
+vPg
 vPg
 vPg
 vPg
@@ -74131,11 +74107,11 @@ vPg
 vPg
 vPg
 vPg
-wzN
-wzN
-wzN
-nCF
-wzN
+vPg
+vPg
+vPg
+aoj
+vPg
 vPg
 vPg
 vPg
@@ -74388,12 +74364,12 @@ vPg
 vPg
 vPg
 vPg
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
 vPg
 vPg
 vPg
@@ -74645,13 +74621,13 @@ vPg
 vPg
 vPg
 vPg
-nCF
-wzN
-wzN
-wzN
-wzN
-wzN
-wzN
+aoj
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
 vPg
 vPg
 vPg
@@ -82208,7 +82184,7 @@ uRH
 bzl
 mjG
 ryY
-iVF
+ryY
 juP
 iVF
 iVF
@@ -82465,7 +82441,7 @@ ewe
 mjG
 ryY
 ryY
-iVF
+ryY
 iVF
 iVF
 iVF
@@ -82722,7 +82698,7 @@ pot
 wFD
 wFD
 wFD
-saE
+juA
 hYZ
 jJT
 hYZ
@@ -82979,7 +82955,7 @@ hlE
 wFD
 wFD
 wFD
-saE
+juA
 vVx
 jPn
 kZh
@@ -83236,7 +83212,7 @@ hri
 wFD
 wFD
 wFD
-cGg
+vlu
 ylz
 ylz
 ylz
@@ -83493,7 +83469,7 @@ vLK
 wFD
 wFD
 wFD
-cGg
+vlu
 ylz
 jRy
 liN
@@ -84007,7 +83983,7 @@ wFD
 wFD
 wFD
 wFD
-saE
+juA
 ylz
 keV
 lmD
@@ -84521,7 +84497,7 @@ wFD
 wFD
 wFD
 osv
-cGg
+vlu
 jyQ
 pkL
 pkL
@@ -84778,7 +84754,7 @@ wFD
 wFD
 wFD
 osv
-cGg
+vlu
 jBt
 uPI
 uPI
@@ -85035,7 +85011,7 @@ wFD
 wFD
 wFD
 osv
-cGg
+vlu
 iel
 iel
 iel
@@ -85292,7 +85268,7 @@ wFD
 wFD
 wFD
 osv
-uSk
+osv
 uPI
 kzi
 uPI
@@ -85549,7 +85525,7 @@ wFD
 wFD
 wFD
 vlu
-uSk
+osv
 jIk
 ylz
 ylz
@@ -85806,7 +85782,7 @@ bbB
 bbB
 bbB
 bbB
-cGg
+vlu
 ylz
 ylz
 ylz
@@ -86063,7 +86039,7 @@ bbB
 bbB
 bbB
 bbB
-uSk
+osv
 ylz
 ylz
 lrg
@@ -86320,7 +86296,7 @@ wFD
 wFD
 wFD
 wFD
-uSk
+osv
 ylz
 ylz
 lsh
@@ -86577,7 +86553,7 @@ wFD
 wFD
 wFD
 wFD
-uxO
+cxi
 ylz
 ylz
 ltu
@@ -87091,7 +87067,7 @@ wFD
 wFD
 wFD
 wFD
-saE
+juA
 ylz
 ylz
 ylz
@@ -87348,7 +87324,7 @@ wFD
 wFD
 wFD
 wFD
-sIG
+bbB
 ylz
 ylz
 ujX
@@ -87605,7 +87581,7 @@ wFD
 wFD
 wFD
 wFD
-sIG
+bbB
 ylz
 ylz
 ujX
@@ -87862,7 +87838,7 @@ wFD
 wFD
 wFD
 wFD
-sIG
+bbB
 ylz
 ylz
 lwv
@@ -88119,7 +88095,7 @@ wFD
 wFD
 wFD
 wFD
-cGg
+vlu
 ylz
 ylz
 ujX
@@ -88376,7 +88352,7 @@ ajO
 wFD
 wFD
 wFD
-cGg
+vlu
 ylz
 ylz
 ujX
@@ -88633,7 +88609,7 @@ ajO
 wFD
 wFD
 wFD
-cGg
+vlu
 ylz
 ylz
 lxs
@@ -89147,7 +89123,7 @@ ajO
 wFD
 wFD
 wFD
-uxO
+cxi
 ylz
 ylz
 ylz
@@ -89404,7 +89380,7 @@ ajO
 wFD
 wFD
 wFD
-uxO
+cxi
 ylz
 kFN
 lyd
@@ -89661,7 +89637,7 @@ ajO
 wFD
 wFD
 wFD
-saE
+juA
 ylz
 kIf
 pcO
@@ -89918,7 +89894,7 @@ ajO
 wFD
 wFD
 wFD
-cGg
+vlu
 ylz
 kJB
 dba
@@ -90175,7 +90151,7 @@ ajO
 wFD
 wFD
 wFD
-cGg
+vlu
 ylz
 kKb
 kKb
@@ -90432,7 +90408,7 @@ ajO
 wFD
 wFD
 wFD
-cGg
+vlu
 ylz
 kLD
 pcO
@@ -90946,7 +90922,7 @@ ajO
 wFD
 wFD
 wFD
-sIG
+bbB
 ylz
 kLD
 lFt
@@ -91203,7 +91179,7 @@ ajO
 wFD
 wFD
 wFD
-qbM
+siO
 ylz
 ylz
 ylz
