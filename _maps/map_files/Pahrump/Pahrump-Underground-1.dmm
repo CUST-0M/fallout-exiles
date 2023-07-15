@@ -8920,11 +8920,12 @@
 "eqg" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/statue/wood/headstonewood{
+	density = 1;
 	desc = null;
-	icon = 'icons/fallout/objects/wendover.dmi';
-	icon_state = "coatrack";
-	name = "coat rack";
-	pixel_y = 3
+	icon = 'icons/obj/stationary.dmi';
+	icon_state = "skeleton_stand";
+	name = "anatomical model";
+	pixel_y = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/ncr)
@@ -17082,6 +17083,7 @@
 /area/f13/sewer)
 "iDw" = (
 /obj/structure/reagent_dispensers/water_cooler,
+/obj/item/storage/box/cups,
 /turf/open/floor/f13,
 /area/f13/ncr)
 "iDA" = (
@@ -34139,12 +34141,11 @@
 	pixel_x = -32
 	},
 /obj/structure/statue/wood/headstonewood{
-	density = 1;
 	desc = null;
-	icon = 'icons/obj/stationary.dmi';
-	icon_state = "skeleton_stand";
-	name = "anatomical model";
-	pixel_y = 1
+	icon = 'icons/fallout/objects/wendover.dmi';
+	icon_state = "coatrack";
+	name = "coat rack";
+	pixel_y = 3
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/ncr)
@@ -39560,7 +39561,6 @@
 /obj/item/kitchen/knife,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/item/storage/box/drinkingglasses,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/f13,
 /area/f13/ncr)
@@ -42691,9 +42691,6 @@
 	icon_state = "casino"
 	},
 /area/f13/brotherhood/offices2nd)
-"wzN" = (
-/turf/closed/mineral/random/low_chance/underground,
-/area/f13/tunnel)
 "wzS" = (
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/plating/tunnel,
@@ -58138,7 +58135,7 @@ eLE
 eLE
 vPg
 vPg
-wzN
+vPg
 vPg
 vPg
 vPg
@@ -58395,9 +58392,9 @@ eLE
 eLE
 vPg
 vPg
-wzN
-wzN
-wzN
+vPg
+vPg
+vPg
 vPg
 vPg
 vPg
@@ -58652,10 +58649,10 @@ eLE
 eLE
 vPg
 vPg
-wzN
-wzN
-wzN
-wzN
+vPg
+vPg
+vPg
+vPg
 vPg
 vPg
 vPg
@@ -58909,10 +58906,10 @@ eLE
 eLE
 vPg
 vPg
-wzN
-wzN
-wzN
-wzN
+vPg
+vPg
+vPg
+vPg
 vPg
 vPg
 vPg
@@ -59168,7 +59165,7 @@ vPg
 vPg
 vPg
 vPg
-wzN
+vPg
 vPg
 vPg
 vPg
