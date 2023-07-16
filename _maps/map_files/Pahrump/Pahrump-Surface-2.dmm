@@ -13560,13 +13560,6 @@
 	icon_state = "reddirtyfull"
 	},
 /area/f13/caves)
-"fqr" = (
-/obj/machinery/door/unpowered/securedoor/legion{
-	name = "Reinforced Door"
-	},
-/obj/structure/decoration/rag,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "fqs" = (
 /obj/item/chair,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -16469,6 +16462,12 @@
 /obj/structure/barricade/bars,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"gwP" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "gwS" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -16957,6 +16956,10 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"gJb" = (
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "gJi" = (
 /obj/item/shard,
 /turf/open/indestructible/ground/outside/ruins,
@@ -25192,7 +25195,10 @@
 /turf/open/floor/wood/f13/lit,
 /area/f13/building)
 "kMj" = (
-/obj/structure/table/reinforced,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8;
+	light_power = 2
+	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
 "kMl" = (
@@ -36319,9 +36325,7 @@
 /area/f13/building)
 "qoH" = (
 /obj/structure/decoration/rag,
-/obj/machinery/door/unpowered/securedoor/legion{
-	name = "Reinforced Door"
-	},
+/obj/machinery/door/unpowered/secure_legion,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
 "qoK" = (
@@ -38801,6 +38805,11 @@
 	icon_state = "horizontaltopborderbottom2right"
 	},
 /area/f13/wasteland)
+"rQj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "rQm" = (
 /obj/structure/fence/end/wooden,
 /turf/open/indestructible/ground/outside/roof{
@@ -103273,7 +103282,7 @@ fyf
 fyf
 fyf
 izn
-rXx
+kMj
 rXx
 joZ
 rXx
@@ -103533,7 +103542,7 @@ izn
 rXx
 joZ
 joZ
-rXx
+gJb
 cjG
 ian
 wDc
@@ -103791,7 +103800,7 @@ rXx
 rXx
 rXx
 joZ
-fqr
+qoH
 mvv
 bpD
 fyf
@@ -104044,7 +104053,7 @@ fyf
 fyf
 fyf
 izn
-rXx
+gwP
 joZ
 rXx
 rXx
@@ -106872,7 +106881,7 @@ sHo
 fyf
 iyR
 iyR
-kMj
+kzW
 kzW
 kzW
 pCx
@@ -107128,7 +107137,7 @@ fyf
 fyf
 fyf
 izn
-rXx
+kMj
 rXx
 rXx
 rXx
@@ -107645,7 +107654,7 @@ izn
 rXx
 rXx
 rXx
-joZ
+rQj
 qHk
 mfD
 mcf
@@ -107899,7 +107908,7 @@ fyf
 fyf
 fyf
 izn
-rXx
+gwP
 joZ
 rXx
 rXx
