@@ -462,11 +462,10 @@
 "ane" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
+	light_power = 2;
+	pixel_y = 9
 	},
-/turf/open/indestructible/ground/inside/subway,
+/turf/open/floor/wood/f13/old,
 /area/f13/legion)
 "anq" = (
 /obj/structure/spider/stickyweb,
@@ -779,10 +778,7 @@
 /area/f13/bunker)
 "axF" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
+	dir = 4
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/legion)
@@ -1729,11 +1725,6 @@
 "aZb" = (
 /obj/structure/closet/crate/large,
 /obj/item/stack/sheet/glass/fifty,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
-	},
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
 "aZc" = (
@@ -2237,15 +2228,6 @@
 /obj/machinery/light,
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
-"blr" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
-	},
-/turf/open/floor/wood/f13/old,
-/area/f13/legion)
 "blG" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
@@ -3380,18 +3362,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/brotherhood)
-"bMp" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
-	},
-/turf/open/floor/wood/f13/old,
-/area/f13/legion)
 "bMq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/yellow{
@@ -3411,6 +3381,7 @@
 /area/f13/building)
 "bMO" = (
 /obj/item/stack/sheet/glass/fifty,
+/obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
 "bMS" = (
@@ -4844,9 +4815,7 @@
 	},
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 1;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = 19
+	pixel_y = 16
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
@@ -7813,13 +7782,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"dTa" = (
-/obj/effect/overlay/fence,
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/turf/open/floor/wood/f13/old,
-/area/f13/legion)
 "dTd" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/pda/heads/cmo{
@@ -7894,10 +7856,7 @@
 	color = "#363636"
 	},
 /obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
+	dir = 4
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
@@ -8875,11 +8834,7 @@
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/brotherhood/operations)
 "eqy" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
-	},
+/obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
 "eqA" = (
@@ -9659,7 +9614,7 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
-/obj/effect/overlay/fence,
+/obj/structure/fence,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/legion)
 "eKX" = (
@@ -10836,9 +10791,7 @@
 	},
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
+	layer = 4.1
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
@@ -11385,7 +11338,7 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
-/obj/effect/overlay/fence,
+/obj/structure/fence,
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
 "fBJ" = (
@@ -14564,9 +14517,7 @@
 "hnf" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 1;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = 16
+	pixel_y = 12
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
@@ -24058,9 +24009,7 @@
 "mSd" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
+	layer = 4.1
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
@@ -29466,6 +29415,7 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
+/obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
 "pYB" = (
@@ -32759,11 +32709,7 @@
 /obj/item/throwing_star/spear,
 /obj/item/throwing_star/spear,
 /obj/item/storage/backpack/spearquiver,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
-	},
+/obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
 "rKy" = (
@@ -35257,6 +35203,10 @@
 	pixel_x = 17;
 	pixel_y = 32
 	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 1;
+	pixel_y = 12
+	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/legion)
 "tnQ" = (
@@ -35541,12 +35491,6 @@
 /area/f13/bunker)
 "tvD" = (
 /obj/machinery/workbench/forge,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 1;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = 19
-	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/legion)
 "tvG" = (
@@ -39924,6 +39868,7 @@
 /obj/structure/closet/crate/large,
 /obj/item/stack/crafting/metalparts/five,
 /obj/item/reagent_containers/glass/bottle/blackpowder,
+/obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
 "wbJ" = (
@@ -41815,10 +41760,7 @@
 	color = "#363636"
 	},
 /obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4;
-	layer = 4.1;
-	light_color = "#c0c7d0";
-	pixel_y = -3
+	dir = 4
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
@@ -93946,8 +93888,8 @@ vPg
 vPg
 tEd
 cEi
+cEi
 ane
-cAp
 jrF
 tEd
 hnf
@@ -94978,7 +94920,7 @@ axr
 iBz
 eqy
 tEd
-cAp
+hnf
 aWx
 cAp
 cAp
@@ -95488,15 +95430,15 @@ vPg
 vPg
 tEd
 caB
-axF
 cEi
+axF
 cAp
 tEd
 cAp
-bMp
+aWx
 cAp
 cAp
-blr
+cAp
 sDz
 fSv
 tEd
@@ -96002,18 +95944,18 @@ vPg
 vPg
 vPg
 tEd
-aXv
-aXv
-aXv
-cAp
-cEi
-cAp
-aXv
-aXv
-cAp
-aXv
 fok
 aXv
+fok
+cAp
+cEi
+mSd
+aXv
+aXv
+mSd
+aXv
+aXv
+fok
 aXv
 aXv
 fok
@@ -96516,7 +96458,7 @@ vPg
 vPg
 vPg
 tEd
-dTa
+fBB
 fBB
 mYR
 eKo
@@ -96525,13 +96467,13 @@ tEd
 nxN
 nxN
 tEd
-dTa
-dTa
-dTa
+fBB
+fBB
+fBB
 fDm
-dTa
-dTa
-dTa
+fBB
+fBB
+fBB
 tEd
 tEd
 tEd
@@ -97036,10 +96978,10 @@ cAp
 aKH
 cFs
 tEd
-aXv
+cvI
 aXv
 tEd
-aXv
+cvI
 ibS
 uIN
 lbZ
