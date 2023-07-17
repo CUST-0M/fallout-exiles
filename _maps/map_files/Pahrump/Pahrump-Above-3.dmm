@@ -2906,11 +2906,6 @@
 /obj/structure/wreck/trash/two_barrels,
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
-"kS" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/destructible/tribal_torch/wall/lit,
-/turf/open/floor/wood/f13/carpet,
-/area/f13/legion)
 "kT" = (
 /turf/open/indestructible/ground/outside/ruins{
 	icon_state = "rubbleslab"
@@ -6819,14 +6814,6 @@
 "zB" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/building)
-"zD" = (
-/obj/structure/curtain{
-	color = "#5c131b";
-	pixel_y = -32
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/carpet/red,
-/area/f13/legion)
 "zE" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -11337,6 +11324,11 @@
 /obj/structure/simple_door/metal/dirtystore,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
+"PY" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/wood/f13/carpet,
+/area/f13/legion)
 "PZ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -12984,6 +12976,14 @@
 	icon_state = "whitedirtysolid"
 	},
 /area/f13/clinic)
+"WI" = (
+/obj/structure/curtain{
+	color = "#5c131b";
+	pixel_y = -32
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/f13/legion)
 "WJ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -66495,7 +66495,7 @@ hi
 hi
 BR
 hi
-kS
+PY
 tw
 EZ
 PL
@@ -68551,7 +68551,7 @@ KF
 DW
 DW
 Mv
-zD
+WI
 Oc
 EZ
 PL
@@ -68808,7 +68808,7 @@ KF
 ri
 DW
 DW
-zD
+WI
 OH
 EZ
 PL
@@ -69322,7 +69322,7 @@ KF
 ri
 DW
 DW
-zD
+WI
 Oc
 EZ
 PL

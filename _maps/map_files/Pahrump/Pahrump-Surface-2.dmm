@@ -1476,7 +1476,7 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/weather/dirt,
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "aBJ" = (
 /obj/structure/fans/tiny,
@@ -1768,7 +1768,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "aIr" = (
 /obj/structure/flora/grass/wasteland{
@@ -2291,12 +2291,7 @@
 	},
 /area/f13/clinic)
 "aVN" = (
-/obj/structure/fence/wooden{
-	dir = 4;
-	pixel_y = 15
-	},
-/obj/effect/overlay/shoreline/west,
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "aWg" = (
 /obj/structure/barricade/bars{
@@ -2359,7 +2354,7 @@
 	dir = 1
 	},
 /obj/structure/flora/ausbushes/reedbush,
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "aXu" = (
 /obj/structure/window/fulltile/ruins,
@@ -2668,7 +2663,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "bcb" = (
 /obj/structure/chair/wood{
@@ -2687,7 +2682,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "bcn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2910,7 +2905,7 @@
 	dir = 4;
 	pixel_y = 15
 	},
-/obj/effect/overlay/shoreline/east,
+/obj/effect/overlay/shoreline/west,
 /turf/open/water/shore,
 /area/f13/wasteland)
 "bgs" = (
@@ -2930,7 +2925,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "bgA" = (
 /obj/structure/closet,
@@ -3197,7 +3192,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "bmx" = (
 /obj/structure/closet/cabinet,
@@ -3212,7 +3207,7 @@
 	layer = 4.1;
 	pixel_x = -8
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "bmL" = (
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
@@ -3546,7 +3541,7 @@
 /obj/structure/railing{
 	color = "#A47449"
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "brw" = (
 /obj/structure/car/rubbish2,
@@ -4546,7 +4541,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "bMe" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5260,7 +5255,7 @@
 	dir = 1;
 	pixel_y = 11
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "cbk" = (
 /turf/closed/wall/f13/wood/interior,
@@ -5296,7 +5291,7 @@
 	dir = 1;
 	pixel_x = -8
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "cbK" = (
 /turf/open/indestructible/ground/outside/desert,
@@ -5332,7 +5327,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "ccz" = (
 /turf/open/floor/plasteel/f13/vault_floor/red,
@@ -6137,7 +6132,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 10
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "cvu" = (
 /obj/structure/bed/mattress{
@@ -6147,7 +6142,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "cvH" = (
-/obj/effect/overlay/shoreline/west,
+/obj/structure/fence/wooden{
+	dir = 4;
+	pixel_y = 15
+	},
+/obj/effect/overlay/shoreline/east,
 /turf/open/water/shore,
 /area/f13/wasteland)
 "cvZ" = (
@@ -6212,7 +6211,7 @@
 /area/f13/ncr)
 "cxJ" = (
 /obj/effect/turf_decal/weather/dirt,
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "cxL" = (
 /obj/structure/car/rubbish3,
@@ -6223,7 +6222,7 @@
 /area/f13/wasteland)
 "cxX" = (
 /obj/structure/flora/ausbushes/reedbush,
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "cyp" = (
 /obj/structure/table,
@@ -6282,7 +6281,7 @@
 "czE" = (
 /obj/effect/turf_decal/weather/dirt,
 /obj/effect/turf_decal/weather/dirt,
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "czH" = (
 /obj/structure/chair/office/light,
@@ -6292,7 +6291,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "czO" = (
 /obj/structure/chair/wood{
@@ -6981,7 +6980,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 10
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "cPZ" = (
 /obj/structure/decoration/rag,
@@ -7323,7 +7322,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 10
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "cYp" = (
 /obj/effect/decal/cleanable/dirt{
@@ -7480,7 +7479,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
-/turf/open/water/shore,
+/turf/open/indestructible/ground/outside/water/still,
 /area/f13/wasteland)
 "dbB" = (
 /obj/structure/table,
@@ -22892,13 +22891,6 @@
 /mob/living/simple_animal/hostile/handy,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/building)
-"jFm" = (
-/obj/structure/fence/wooden{
-	dir = 4;
-	pixel_y = -15
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "jFn" = (
 /obj/structure/simple_door/metal{
 	name = "Auxilary Storage"
@@ -23409,6 +23401,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/building)
+"jUm" = (
+/obj/effect/overlay/shoreline/west,
+/turf/open/water/shore,
+/area/f13/wasteland)
 "jUo" = (
 /obj/structure/window/fulltile/store{
 	icon_state = "ruinswindowvertical"
@@ -59483,9 +59479,9 @@ ktB
 (43,1,1) = {"
 ktB
 aWY
-bQV
-bQV
-bQV
+aVN
+aVN
+aVN
 bLP
 caV
 mvv
@@ -59740,10 +59736,10 @@ ktB
 (44,1,1) = {"
 ktB
 aIl
-bQV
-bQV
+aVN
+aVN
 cxX
-bQV
+aVN
 bgx
 cuw
 cAE
@@ -59997,11 +59993,11 @@ ktB
 (45,1,1) = {"
 ktB
 aIl
-bQV
-bQV
-bQV
-bQV
-bQV
+aVN
+aVN
+aVN
+aVN
+aVN
 cxJ
 cCh
 mvv
@@ -60254,11 +60250,11 @@ ktB
 (46,1,1) = {"
 ktB
 aIl
-bQV
-bQV
-bQV
-bQV
-bQV
+aVN
+aVN
+aVN
+aVN
+aVN
 cxX
 cuw
 mvv
@@ -60511,13 +60507,13 @@ ktB
 (47,1,1) = {"
 ktB
 aIl
-bQV
-bQV
-bQV
-bQV
-bQV
-bQV
-bQV
+aVN
+aVN
+aVN
+aVN
+aVN
+aVN
+aVN
 cYn
 dcK
 bpD
@@ -60768,12 +60764,12 @@ ktB
 (48,1,1) = {"
 ktB
 aIl
-bQV
-bQV
-bQV
-bQV
-bQV
-bQV
+aVN
+aVN
+aVN
+aVN
+aVN
+aVN
 czN
 cYz
 dfr
@@ -61025,11 +61021,11 @@ ktB
 (49,1,1) = {"
 ktB
 aIl
-bQV
-bQV
-bQV
+aVN
+aVN
+aVN
 bRd
-bQV
+aVN
 czE
 cOC
 cZn
@@ -61282,12 +61278,12 @@ ktB
 (50,1,1) = {"
 ktB
 aIl
-bQV
-bQV
+aVN
+aVN
 aSo
 bRd
-bQV
-bQV
+aVN
+aVN
 cPR
 dbr
 dgB
@@ -61539,13 +61535,13 @@ ktB
 (51,1,1) = {"
 ktB
 aIl
-bQV
-bQV
+aVN
+aVN
 bRd
 bRd
 cbi
-bQV
-bQV
+aVN
+aVN
 dbz
 bFA
 bpD
@@ -61796,11 +61792,11 @@ ktB
 (52,1,1) = {"
 ktB
 aIl
-bQV
+aVN
 bmz
 bRd
 bRd
-bQV
+aVN
 cxX
 czN
 dcK
@@ -62053,7 +62049,7 @@ ktB
 (53,1,1) = {"
 ktB
 bbW
-bQV
+aVN
 bmz
 bRd
 bRd
@@ -97500,9 +97496,9 @@ fyf
 fyf
 fyf
 jSw
-cvH
-cvH
-cvH
+jUm
+jUm
+jUm
 dhB
 fyf
 fyf
@@ -98003,15 +97999,15 @@ fyf
 fyf
 fyf
 jSw
-cvH
-cvH
-cvH
-cvH
-cvH
-cvH
-cvH
-cvH
-cvH
+jUm
+jUm
+jUm
+jUm
+jUm
+jUm
+jUm
+jUm
+jUm
 bQV
 bQV
 cWP
@@ -98019,8 +98015,8 @@ cWP
 cWP
 bQV
 bQV
-cvH
-cvH
+jUm
+jUm
 bQV
 bQV
 dgU
@@ -98243,22 +98239,22 @@ fyf
 fyf
 eHk
 mvv
-iGm
-bQV
-bQV
+iFk
+jUm
+jUm
 kvB
 rYA
 rYA
 uZt
-aVN
-cvH
-cvH
-cvH
-cvH
-cvH
-cvH
-cvH
-cvH
+bgq
+jUm
+jUm
+jUm
+jUm
+jUm
+jUm
+jUm
+jUm
 bQV
 bQV
 bQV
@@ -98274,7 +98270,7 @@ jUe
 fyf
 fyf
 fyf
-iGm
+dlG
 bQV
 bQV
 bQV
@@ -98764,7 +98760,7 @@ kyt
 rYA
 rYA
 uZt
-bgq
+cvH
 cWP
 cWP
 cWP
@@ -99017,7 +99013,7 @@ iGm
 bQV
 bQV
 jUe
-jFm
+uDq
 rYA
 rYA
 uZt
@@ -99273,7 +99269,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 uJa
 rYA
 rYA
@@ -99530,7 +99526,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -99787,7 +99783,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -100044,7 +100040,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -100301,7 +100297,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -100558,7 +100554,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -100815,7 +100811,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -101072,7 +101068,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -101329,7 +101325,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -101586,7 +101582,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -101843,7 +101839,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -102100,7 +102096,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -102357,7 +102353,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -102614,7 +102610,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -102871,7 +102867,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -103128,7 +103124,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -103385,7 +103381,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -103642,7 +103638,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -103899,7 +103895,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -104156,7 +104152,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -104413,7 +104409,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
@@ -104670,7 +104666,7 @@ mvv
 iGm
 bQV
 jTJ
-fyf
+mvv
 fyf
 mvv
 mvv
