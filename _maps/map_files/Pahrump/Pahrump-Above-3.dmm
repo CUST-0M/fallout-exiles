@@ -7179,7 +7179,6 @@
 "AZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/bed/wooden,
-/obj/effect/landmark/start/f13/decan,
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
 "Bb" = (
@@ -8802,11 +8801,9 @@
 	},
 /area/f13/wasteland)
 "GO" = (
-/obj/structure/chair/wood/fancy{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood/f13/carpet,
+/obj/effect/landmark/start/f13/decan,
+/turf/open/floor/wood/f13/oak,
 /area/f13/legion)
 "GP" = (
 /obj/structure/railing{
@@ -8983,16 +8980,10 @@
 	},
 /area/f13/building)
 "HD" = (
-/obj/structure/bed/wooden,
-/obj/item/bedsheet/hos{
-	layer = 3;
-	name = "crimson bedsheet"
-	},
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
+/obj/structure/chair/wood/fancy{
+	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/landmark/start/f13/decanvet,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/legion)
 "HE" = (
@@ -10236,11 +10227,6 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
-"Mh" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/destructible/tribal_torch/wall/lit,
-/turf/open/floor/wood/f13/carpet,
-/area/f13/legion)
 "Mi" = (
 /obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/woodalt,
@@ -10302,11 +10288,17 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
 "Mv" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8
+/obj/structure/bed/wooden,
+/obj/item/bedsheet/hos{
+	layer = 3;
+	name = "crimson bedsheet"
 	},
-/turf/open/floor/carpet/red,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/start/f13/decanvet,
+/turf/open/floor/wood/f13/carpet,
 /area/f13/legion)
 "Mz" = (
 /obj/structure/window/fulltile/house{
@@ -10496,7 +10488,7 @@
 "MZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
+	dir = 8
 	},
 /turf/open/floor/carpet/red,
 /area/f13/legion)
@@ -11116,14 +11108,6 @@
 	name = "concrete wall"
 	},
 /area/f13/raiders)
-"Po" = (
-/obj/structure/curtain{
-	color = "#5c131b";
-	pixel_y = -32
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/carpet/red,
-/area/f13/legion)
 "Pp" = (
 /obj/structure/closet/crate/bin/trashbin,
 /obj/effect/decal/cleanable/dirt{
@@ -11234,15 +11218,10 @@
 /area/f13/ncr)
 "PG" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/curtain{
-	color = "#5c131b";
-	pixel_y = -32
-	},
-/obj/structure/dresser,
 /obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8
+	dir = 4
 	},
-/turf/open/floor/wood/f13/carpet,
+/turf/open/floor/carpet/red,
 /area/f13/legion)
 "PH" = (
 /obj/structure/bed,
@@ -12873,6 +12852,10 @@
 	color = "#5c131b";
 	pixel_y = -32
 	},
+/obj/structure/dresser,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
 /turf/open/floor/wood/f13/carpet,
 /area/f13/legion)
 "Wc" = (
@@ -13316,6 +13299,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building)
+"Yg" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/curtain{
+	color = "#5c131b";
+	pixel_y = -32
+	},
+/turf/open/floor/wood/f13/carpet,
+/area/f13/legion)
 "Yh" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -13337,6 +13328,14 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/clinic)
+"Yo" = (
+/obj/structure/curtain{
+	color = "#5c131b";
+	pixel_y = -32
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/f13/legion)
 "Yq" = (
 /obj/structure/closet/cabinet/anchored,
 /turf/open/floor/wood/f13/oak,
@@ -13685,6 +13684,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/clinic)
+"ZE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/wood/f13/carpet,
+/area/f13/legion)
 "ZF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/sandbags,
@@ -59799,7 +59803,7 @@ kC
 kC
 kC
 lH
-lH
+kC
 kC
 kC
 kC
@@ -60056,7 +60060,7 @@ kC
 kC
 kC
 lH
-lH
+kC
 kC
 kC
 kC
@@ -60570,7 +60574,7 @@ kC
 kC
 kC
 kC
-lH
+kC
 kC
 kC
 kC
@@ -60827,7 +60831,7 @@ kC
 kC
 kC
 kC
-lH
+kC
 kC
 kC
 kC
@@ -61344,10 +61348,10 @@ kC
 kC
 kC
 kC
-lH
-lH
-lH
-lH
+kC
+kC
+kC
+kC
 kC
 kC
 kC
@@ -61601,10 +61605,10 @@ kC
 kC
 kC
 kC
-lH
-lH
-lH
-lH
+kC
+kC
+kC
+kC
 kC
 kC
 kC
@@ -61851,41 +61855,41 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-lH
-lH
-lH
-lH
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 Al
 "}
 (188,1,1) = {"
@@ -62095,54 +62099,54 @@ PL
 PL
 PL
 PL
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-lH
-lH
-lH
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 Al
 "}
 (189,1,1) = {"
@@ -62366,40 +62370,40 @@ PL
 PL
 PL
 PL
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 Al
 "}
 (190,1,1) = {"
@@ -65981,7 +65985,7 @@ cu
 TX
 za
 TX
-PG
+Wb
 aK
 EZ
 PL
@@ -66238,7 +66242,7 @@ fM
 hi
 hi
 hi
-Wb
+Yg
 eH
 EZ
 PL
@@ -66495,7 +66499,7 @@ hi
 hi
 BR
 hi
-Mh
+ZE
 tw
 EZ
 PL
@@ -66750,9 +66754,9 @@ ya
 Hp
 lX
 oM
-GO
+HD
 BR
-Wb
+Yg
 eH
 EZ
 PL
@@ -67008,7 +67012,7 @@ KF
 KF
 KF
 KF
-HD
+Mv
 Xp
 eH
 EZ
@@ -68550,8 +68554,8 @@ lc
 KF
 DW
 DW
-Mv
-Po
+MZ
+Yo
 Oc
 EZ
 PL
@@ -68808,7 +68812,7 @@ KF
 ri
 DW
 DW
-Po
+Yo
 OH
 EZ
 PL
@@ -69322,7 +69326,7 @@ KF
 ri
 DW
 DW
-Po
+Yo
 Oc
 EZ
 PL
@@ -69578,7 +69582,7 @@ lc
 KF
 DW
 DW
-MZ
+PG
 NU
 Oc
 EZ
@@ -74714,7 +74718,7 @@ DW
 DW
 Bx
 lc
-lc
+GO
 Rn
 eH
 EZ
