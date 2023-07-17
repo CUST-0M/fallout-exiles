@@ -183,7 +183,7 @@
 /obj/item/reagent_containers/rag/towel,
 /obj/item/reagent_containers/rag/towel,
 /turf/open/floor/sepia,
-/area/f13/caves)
+/area/f13/legion)
 "afc" = (
 /obj/structure/chair/wood/normal{
 	dir = 1
@@ -9050,8 +9050,8 @@
 	},
 /area/f13/ncr)
 "evI" = (
-/turf/closed/wall/mineral/brick,
-/area/f13/caves)
+/turf/closed/wall/f13/store/concretewall,
+/area/f13/legion)
 "evU" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -10179,13 +10179,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "eXC" = (
-/obj/structure/table,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8
+/turf/closed/wall/f13/store/concretewall{
+	color = "712624"
 	},
-/obj/item/clothing/under/misc/bathrobe,
-/turf/open/floor/sepia,
-/area/f13/caves)
+/area/f13/legion)
 "eXF" = (
 /obj/item/cigbutt{
 	pixel_x = -13;
@@ -13732,8 +13729,13 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/operations)
 "gRe" = (
+/obj/structure/table,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/obj/item/clothing/under/misc/bathrobe,
 /turf/open/floor/sepia,
-/area/f13/caves)
+/area/f13/legion)
 "gRh" = (
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt,
@@ -14620,12 +14622,8 @@
 /turf/open/floor/carpet/purple,
 /area/f13/brotherhood/rnd)
 "hpW" = (
-/obj/machinery/shower{
-	pixel_y = 16
-	},
-/obj/structure/decoration/vent/rusty,
 /turf/open/floor/sepia,
-/area/f13/caves)
+/area/f13/legion)
 "hpZ" = (
 /turf/open/floor/f13{
 	icon_state = "redrustyfull"
@@ -18130,12 +18128,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
 "jwy" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 1;
-	pixel_y = 12
+/obj/machinery/shower{
+	pixel_y = 16
 	},
+/obj/structure/decoration/vent/rusty,
 /turf/open/floor/sepia,
-/area/f13/caves)
+/area/f13/legion)
 "jwZ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -18155,10 +18153,11 @@
 /area/f13/tunnel)
 "jxz" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
+	dir = 1;
+	pixel_y = 12
 	},
 /turf/open/floor/sepia,
-/area/f13/caves)
+/area/f13/legion)
 "jxL" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor/plasteel/f13/vault_floor/red{
@@ -18586,12 +18585,11 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "jMs" = (
-/obj/structure/chair/bench,
-/turf/open/indestructible/ground/outside/water{
-	desc = "Deep, filtered pool water.";
-	name = "pool water"
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
 	},
-/area/f13/caves)
+/turf/open/floor/sepia,
+/area/f13/legion)
 "jMw" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/grass,
@@ -21240,11 +21238,12 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "lfk" = (
+/obj/structure/chair/bench,
 /turf/open/indestructible/ground/outside/water{
 	desc = "Deep, filtered pool water.";
 	name = "pool water"
 	},
-/area/f13/caves)
+/area/f13/legion)
 "lfs" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/item/broken_bottle,
@@ -24241,10 +24240,11 @@
 /turf/closed/wall/r_wall/rust,
 /area/f13/building)
 "mZq" = (
-/obj/structure/table,
-/obj/structure/bedsheetbin,
-/turf/open/floor/sepia,
-/area/f13/caves)
+/turf/open/indestructible/ground/outside/water{
+	desc = "Deep, filtered pool water.";
+	name = "pool water"
+	},
+/area/f13/legion)
 "mZs" = (
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /obj/structure/table/wood,
@@ -27451,9 +27451,9 @@
 /area/f13/building)
 "oMb" = (
 /obj/structure/table,
-/obj/item/stack/f13Cash/aureus,
+/obj/structure/bedsheetbin,
 /turf/open/floor/sepia,
-/area/f13/caves)
+/area/f13/legion)
 "oMs" = (
 /turf/open/floor/f13{
 	icon_state = "greendirtyfull"
@@ -28173,15 +28173,10 @@
 /turf/open/floor/wood/wood_tiled,
 /area/f13/brotherhood/leisure)
 "piQ" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8
-	},
 /obj/structure/table,
-/obj/item/smelling_salts/wayfarer{
-	name = "Large phial of bathsalts"
-	},
+/obj/item/stack/f13Cash/aureus,
 /turf/open/floor/sepia,
-/area/f13/caves)
+/area/f13/legion)
 "piW" = (
 /obj/structure/window/fulltile/store{
 	layer = 2.9
@@ -28218,12 +28213,15 @@
 /turf/open/floor/wood/f13/stage_b,
 /area/f13/ncr)
 "pkk" = (
-/obj/machinery/shower{
-	dir = 1
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
 	},
-/obj/structure/decoration/vent/rusty,
+/obj/structure/table,
+/obj/item/smelling_salts/wayfarer{
+	name = "Large phial of bathsalts"
+	},
 /turf/open/floor/sepia,
-/area/f13/caves)
+/area/f13/legion)
 "pkB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/bin,
@@ -29926,7 +29924,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "qmG" = (
-/obj/structure/stairs/north/invisible,
+/obj/machinery/shower{
+	dir = 1
+	},
+/obj/structure/decoration/vent/rusty,
 /turf/open/floor/sepia,
 /area/f13/legion)
 "qmS" = (
@@ -30094,6 +30095,10 @@
 	},
 /turf/open/floor/carpet/green,
 /area/f13/den)
+"qsm" = (
+/obj/effect/decal/remains/skulls,
+/turf/closed/wall/f13/store/concretewall,
+/area/f13/legion)
 "qsN" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light{
@@ -30435,6 +30440,10 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
 /turf/open/floor/wood/f13/stage_bl,
 /area/f13/building)
+"qCE" = (
+/obj/structure/stairs/north,
+/turf/open/floor/sepia,
+/area/f13/legion)
 "qCX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -90981,7 +90990,7 @@ vPg
 vPg
 vPg
 vPg
-evI
+eXC
 evI
 evI
 evI
@@ -91238,15 +91247,15 @@ vPg
 vPg
 vPg
 vPg
-evI
 eXC
+gRe
 afb
-mZq
 oMb
 piQ
+pkk
 evI
-gRe
-gRe
+hpW
+hpW
 evI
 eLE
 "}
@@ -91496,14 +91505,14 @@ vPg
 vPg
 vPg
 evI
-gRe
-gRe
-gRe
-gRe
-gRe
-gRe
-gRe
-gRe
+hpW
+hpW
+hpW
+hpW
+hpW
+hpW
+hpW
+hpW
 evI
 eLE
 "}
@@ -91753,14 +91762,14 @@ vPg
 vPg
 vPg
 evI
-hpW
-jMs
+jwy
 lfk
-jMs
-pkk
-evI
-gRe
-gRe
+mZq
+lfk
+qmG
+qsm
+hpW
+hpW
 evI
 eLE
 "}
@@ -92010,14 +92019,14 @@ vPg
 vPg
 vPg
 evI
-jwy
+jxz
+mZq
+mZq
 lfk
-lfk
-jMs
-gRe
+hpW
 evI
-qmG
-gRe
+qCE
+hpW
 evI
 eLE
 "}
@@ -92267,14 +92276,14 @@ vPg
 vPg
 vPg
 evI
-gRe
-lfk
-lfk
-lfk
-gRe
+hpW
+mZq
+mZq
+mZq
+hpW
 evI
-qmG
-gRe
+qCE
+hpW
 evI
 eLE
 "}
@@ -92524,14 +92533,14 @@ vPg
 vPg
 vPg
 evI
-gRe
-lfk
-lfk
-lfk
-gRe
+hpW
+mZq
+mZq
+mZq
+hpW
 evI
-qmG
-gRe
+qCE
+hpW
 evI
 eLE
 "}
@@ -92781,14 +92790,14 @@ vPg
 vPg
 vPg
 evI
-jwy
+jxz
+mZq
+mZq
 lfk
-lfk
-jMs
-gRe
-evI
-gRe
-gRe
+hpW
+qsm
+hpW
+hpW
 evI
 eLE
 "}
@@ -93038,14 +93047,14 @@ tEd
 vPg
 vPg
 evI
-hpW
-jMs
+jwy
 lfk
-jMs
-pkk
+mZq
+lfk
+qmG
 evI
-gRe
-gRe
+hpW
+hpW
 evI
 eLE
 "}
@@ -93295,14 +93304,14 @@ tEd
 vPg
 vPg
 evI
-gRe
-gRe
-gRe
-gRe
-gRe
-gRe
-gRe
-gRe
+hpW
+hpW
+hpW
+hpW
+hpW
+hpW
+hpW
+hpW
 evI
 eLE
 "}
@@ -93552,14 +93561,14 @@ tEd
 vPg
 vPg
 evI
-jxz
-gRe
-gRe
-gRe
-jxz
+jMs
+hpW
+hpW
+hpW
+jMs
 evI
-gRe
-gRe
+hpW
+hpW
 evI
 eLE
 "}

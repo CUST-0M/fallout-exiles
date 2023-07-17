@@ -2185,6 +2185,14 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/raiders)
+"ia" = (
+/obj/structure/curtain{
+	color = "#5c131b";
+	pixel_y = -32
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/f13/legion)
 "id" = (
 /obj/structure/fluff/railing/corner{
 	color = "#A47449"
@@ -5672,6 +5680,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/clinic)
+"uR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/wood/f13/carpet,
+/area/f13/legion)
 "uS" = (
 /obj/item/clothing/suit/straight_jacket,
 /obj/item/storage/pill_bottle/psicodine,
@@ -11324,11 +11337,6 @@
 /obj/structure/simple_door/metal/dirtystore,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
-"PY" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/destructible/tribal_torch/wall/lit,
-/turf/open/floor/wood/f13/carpet,
-/area/f13/legion)
 "PZ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -12976,14 +12984,6 @@
 	icon_state = "whitedirtysolid"
 	},
 /area/f13/clinic)
-"WI" = (
-/obj/structure/curtain{
-	color = "#5c131b";
-	pixel_y = -32
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/carpet/red,
-/area/f13/legion)
 "WJ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -66495,7 +66495,7 @@ hi
 hi
 BR
 hi
-PY
+uR
 tw
 EZ
 PL
@@ -68551,7 +68551,7 @@ KF
 DW
 DW
 Mv
-WI
+ia
 Oc
 EZ
 PL
@@ -68808,7 +68808,7 @@ KF
 ri
 DW
 DW
-WI
+ia
 OH
 EZ
 PL
@@ -69322,7 +69322,7 @@ KF
 ri
 DW
 DW
-WI
+ia
 Oc
 EZ
 PL
