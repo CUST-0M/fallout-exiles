@@ -2185,14 +2185,6 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/raiders)
-"ia" = (
-/obj/structure/curtain{
-	color = "#5c131b";
-	pixel_y = -32
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/carpet/red,
-/area/f13/legion)
 "id" = (
 /obj/structure/fluff/railing/corner{
 	color = "#A47449"
@@ -5680,11 +5672,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/clinic)
-"uR" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/destructible/tribal_torch/wall/lit,
-/turf/open/floor/wood/f13/carpet,
-/area/f13/legion)
 "uS" = (
 /obj/item/clothing/suit/straight_jacket,
 /obj/item/storage/pill_bottle/psicodine,
@@ -10249,6 +10236,11 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"Mh" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/wood/f13/carpet,
+/area/f13/legion)
 "Mi" = (
 /obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/woodalt,
@@ -11124,6 +11116,14 @@
 	name = "concrete wall"
 	},
 /area/f13/raiders)
+"Po" = (
+/obj/structure/curtain{
+	color = "#5c131b";
+	pixel_y = -32
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/f13/legion)
 "Pp" = (
 /obj/structure/closet/crate/bin/trashbin,
 /obj/effect/decal/cleanable/dirt{
@@ -66495,7 +66495,7 @@ hi
 hi
 BR
 hi
-uR
+Mh
 tw
 EZ
 PL
@@ -68551,7 +68551,7 @@ KF
 DW
 DW
 Mv
-ia
+Po
 Oc
 EZ
 PL
@@ -68808,7 +68808,7 @@ KF
 ri
 DW
 DW
-ia
+Po
 OH
 EZ
 PL
@@ -69322,7 +69322,7 @@ KF
 ri
 DW
 DW
-ia
+Po
 Oc
 EZ
 PL
