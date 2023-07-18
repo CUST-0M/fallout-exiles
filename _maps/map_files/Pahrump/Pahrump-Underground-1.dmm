@@ -23787,6 +23787,16 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/brotherhood/rnd)
+"ovn" = (
+/obj/structure/closet/crate/wooden,
+/obj/item/radio/headset/headset_legion,
+/obj/item/radio/headset/headset_legion,
+/obj/item/radio/headset/headset_legion,
+/obj/item/radio/headset/headset_legion,
+/obj/item/radio/headset/headset_legion,
+/obj/item/radio/headset/headset_legion,
+/turf/open/floor/wood/f13/old,
+/area/f13/legion)
 "ovr" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "storewindowbottom"
@@ -91134,7 +91144,7 @@ vPg
 vPg
 vPg
 tEd
-cAp
+ovn
 cAp
 cAp
 cAp
