@@ -2522,12 +2522,6 @@
 	pixel_x = 7;
 	pixel_y = 13
 	},
-/obj/item/clothing/head/helmet/f13/power_armor/t51b{
-	armor = list("tier" = 3, "energy" = 10, "bomb" = 20, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0);
-	armor_block_chance = 0;
-	desc = "A ruined T-51b power helmet. Its circuitry has been stripped out and the outer plating still bears the markings of a Deathclaw attack. Useless as armor. Honors the Fallen.";
-	name = "helm of a fallen Brother"
-	},
 /turf/open/floor/mineral/plastitanium/airless,
 /area/f13/brotherhood)
 "buN" = (
