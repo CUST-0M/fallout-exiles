@@ -9953,6 +9953,15 @@
 	icon_state = "verticalrightborderleft2"
 	},
 /area/f13/wasteland)
+"dXI" = (
+/obj/structure/fence{
+	icon_state = "post";
+	layer = 2.91
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontaltopborderbottomright"
+	},
+/area/f13/wasteland)
 "dYi" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/chair/bench,
@@ -33037,6 +33046,10 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
 "oIL" = (
+/obj/structure/fence{
+	icon_state = "post";
+	layer = 2.91
+	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermainright"
 	},
@@ -40839,6 +40852,15 @@
 	dir = 6
 	},
 /area/f13/clinic)
+"tea" = (
+/obj/structure/fence{
+	icon_state = "post";
+	layer = 2.91
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertopright"
+	},
+/area/f13/wasteland)
 "teg" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	plane = -14
@@ -69100,9 +69122,9 @@ oGZ
 rQS
 juT
 dlI
-grp
+dXI
 oIL
-wNe
+tea
 dlI
 bmc
 mOJ
