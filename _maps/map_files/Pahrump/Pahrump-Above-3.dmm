@@ -1380,15 +1380,6 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
-"eN" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	pixel_y = -6
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/carpet/nosmooth,
-/area/f13/ncr)
 "eQ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -1721,16 +1712,6 @@
 /turf/open/floor/f13{
 	icon_state = "bluedirtychess2"
 	},
-/area/f13/ncr)
-"fM" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/carpet/nosmooth,
 /area/f13/ncr)
 "fN" = (
 /turf/open/indestructible/ground/outside/woodalt,
@@ -2090,16 +2071,6 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-"hi" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 4;
-	pixel_x = 6
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/carpet/nosmooth,
-/area/f13/ncr)
 "hk" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -2138,9 +2109,6 @@
 	},
 /area/f13/wasteland)
 "hq" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	pixel_y = -6
-	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
@@ -2386,20 +2354,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building)
-"iB" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	pixel_y = -6
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/machinery/door/unpowered/secure_NCR,
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
-/turf/open/floor/carpet/nosmooth,
-/area/f13/ncr)
 "iC" = (
 /obj/structure/curtain{
 	color = "#5c131b";
@@ -2662,10 +2616,6 @@
 /obj/structure/sign/departments/restroom{
 	pixel_x = -31
 	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
@@ -2886,10 +2836,6 @@
 	},
 /area/f13/building)
 "kq" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
@@ -3470,19 +3416,6 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust/lit,
-/area/f13/ncr)
-"lX" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	pixel_y = -6
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/carpet/nosmooth,
 /area/f13/ncr)
 "lZ" = (
 /obj/effect/decal/cleanable/dirt{
@@ -4333,20 +4266,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust/lit,
 /area/f13/ncr)
-"oM" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 1;
-	pixel_y = 6
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/carpet/nosmooth,
-/area/f13/ncr)
 "oN" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -5024,16 +4943,6 @@
 	icon_state = "greendirtyfull"
 	},
 /area/f13/building)
-"ri" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 4;
-	pixel_x = 6
-	},
-/turf/open/floor/carpet/nosmooth,
-/area/f13/ncr)
 "rj" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -9393,10 +9302,6 @@
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "Hq" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 1;
-	pixel_y = 6
-	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
@@ -9448,16 +9353,6 @@
 	icon_state = "greendirtyfull"
 	},
 /area/f13/building)
-"HD" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 1;
-	pixel_y = 6
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/carpet/nosmooth,
-/area/f13/ncr)
 "HE" = (
 /obj/structure/wreck/trash/machinepiletwo,
 /turf/open/floor/plasteel/f13/vault_floor/white,
@@ -11012,7 +10907,7 @@
 /area/f13/legion)
 "MX" = (
 /obj/machinery/door/unpowered/secure_NCR,
-/turf/open/floor/wood,
+/turf/open/floor/carpet/nosmooth,
 /area/f13/ncr)
 "MY" = (
 /obj/structure/table,
@@ -11641,9 +11536,7 @@
 /area/f13/brotherhood/surface)
 "OZ" = (
 /obj/structure/simple_door/repaired,
-/turf/closed/wall/f13/wood{
-	color = "#cababa"
-	},
+/turf/open/floor/wood/f13/old,
 /area/f13/legion)
 "Pa" = (
 /turf/open/floor/wood/f13/oakbroken2,
@@ -11822,20 +11715,6 @@
 /obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/floor/carpet/red,
 /area/f13/legion)
-"PG" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 1;
-	pixel_y = 6
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 4;
-	pixel_x = 6
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/carpet/nosmooth,
-/area/f13/ncr)
 "PH" = (
 /obj/structure/bed,
 /obj/item/bedsheet{
@@ -13362,18 +13241,10 @@
 /turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "Vs" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 1;
-	pixel_y = 6
-	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
 /obj/machinery/door/unpowered/secure_NCR,
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
 /turf/open/floor/carpet/nosmooth,
 /area/f13/ncr)
 "Vt" = (
@@ -13558,16 +13429,6 @@
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
-/area/f13/ncr)
-"Wb" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
-/turf/open/floor/carpet/nosmooth,
 /area/f13/ncr)
 "Wc" = (
 /obj/item/melee/onehanded/club/ncrflag{
@@ -13965,10 +13826,6 @@
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
 "XQ" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
@@ -16720,7 +16577,7 @@ nh
 nh
 nh
 Vs
-iB
+Vs
 nh
 nh
 nh
@@ -16956,9 +16813,9 @@ PL
 IU
 Uw
 cj
-oM
+bL
 kq
-lX
+bL
 Uw
 IU
 IU
@@ -17213,9 +17070,9 @@ PL
 mg
 Uw
 Uw
-HD
 bL
-eN
+bL
+bL
 Fq
 IU
 qR
@@ -17470,7 +17327,7 @@ PL
 mg
 Uw
 Uw
-HD
+bL
 bL
 hq
 Uw
@@ -17727,9 +17584,9 @@ PL
 mg
 Uw
 Uw
-HD
 bL
-eN
+bL
+bL
 Uw
 IU
 IU
@@ -17984,9 +17841,9 @@ PL
 IU
 ce
 Uw
-HD
 bL
-eN
+bL
+bL
 ce
 IU
 KD
@@ -17994,7 +17851,7 @@ ik
 vD
 IU
 jp
-HD
+bL
 bL
 bL
 Uw
@@ -18243,7 +18100,7 @@ zk
 Uw
 Hq
 gK
-eN
+bL
 ce
 IU
 sj
@@ -18251,7 +18108,7 @@ gR
 WZ
 IU
 xX
-HD
+bL
 bL
 bL
 Vt
@@ -18498,9 +18355,9 @@ PL
 mg
 Uw
 Uw
-HD
 bL
-eN
+bL
+bL
 Fq
 IU
 Qy
@@ -18508,7 +18365,7 @@ cc
 WJ
 IU
 Hk
-HD
+bL
 bL
 cu
 Uw
@@ -18755,9 +18612,9 @@ PL
 mg
 Uw
 Uw
-HD
 bL
-eN
+bL
+bL
 Uw
 IU
 IU
@@ -18765,7 +18622,7 @@ cP
 IU
 IU
 cj
-HD
+bL
 bL
 sM
 Uw
@@ -19012,16 +18869,16 @@ PL
 mg
 Uw
 Uw
-HD
 bL
 bL
-fM
+bL
+bL
 XQ
 jJ
-Wb
+bL
 XQ
-fM
-fM
+bL
+bL
 bL
 bL
 bL
@@ -19269,16 +19126,16 @@ PL
 IU
 PJ
 Uw
-PG
-hi
-hi
-hi
-hi
-hi
-ri
-hi
-hi
-hi
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
 bL
 uM
 bL

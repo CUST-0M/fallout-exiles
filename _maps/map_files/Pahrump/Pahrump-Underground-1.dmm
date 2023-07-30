@@ -2574,6 +2574,13 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood)
+"brt" = (
+/obj/structure/fluff/rails{
+	dir = 4;
+	plane = -15
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/tunnel)
 "brA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -2819,6 +2826,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
+"bvz" = (
+/obj/item/pickaxe,
+/obj/structure/fluff/rails{
+	icon_state = "rails-l";
+	plane = -15
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/tunnel)
 "bvK" = (
 /obj/machinery/power/smes/engineering,
 /obj/structure/cable{
@@ -15944,6 +15959,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
+"ine" = (
+/obj/structure/fluff/rails{
+	icon_state = "rails-r";
+	plane = -15
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/tunnel)
 "ino" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -16755,7 +16777,7 @@
 /area/f13/building)
 "iQf" = (
 /obj/structure/sign/poster/contraband/hacking_guide,
-/turf/closed/wall/r_wall,
+/turf/closed/wall/r_wall/rust,
 /area/f13/brotherhood/rnd)
 "iQI" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -16881,56 +16903,6 @@
 	doc_content_3 = "Through discourse, we gain the strength of our Brothers' minds. Deceit and lies of all ilk serve only to harm that strength. <br> <br> Your caste and duties mean everything, you will follow your leader and your leader will lead you. <br> <br> You may only follow the orders of another if it will save the life of a brother. ";
 	doc_content_4 = "Theft is for lesser men, the Brotherhood provides for you and you provide for the Brotherhood. <br> <br>  What lesser men see as fashionable shall be shunned. Foreign garment and practice will do nothing but shame your fellow brothers.  ";
 	doc_content_5 = "The Blind can not read, only those who have taken the Oath of Fraternity may read this text.";
-	doc_title_1 = "Doctrine pt. 1";
-	doc_title_2 = "Doctrine pt. 2";
-	doc_title_3 = "Doctrine pt. 3";
-	doc_title_4 = "Doctrine pt. 4";
-	doc_title_5 = "Doctrine pt. 5";
-	icon = 'icons/obj/machines/particle_accelerator.dmi';
-	icon_keyboard = "generic_key";
-	icon_state = "control_boxp";
-	idle_power_usage = 1;
-	light_color = "#6e1722";
-	light_power = 2;
-	light_range = 3;
-	max_integrity = 1000;
-	name = "The Codex";
-	note = "Scribe Note of the Week:";
-	termtag = "Codex"
-	},
-/obj/machinery/computer/terminal{
-	density = 0;
-	desc = "A pre-war high security terminal. There's virtually no way to hack into this thing; it holds the most secure information the Brotherhood has to offer.";
-	doc_content_1 = "The preservation of technology is our primary goal, all others are secondary. <br> <br>  Shield yourself from those not bound to you by steel, for they are the blind. Aid them when you can, but lose not sight of yourself.";
-	doc_content_2 = "Give way your suspicions to the wisdom of thine Elder. Where he shows trust, so shall you. <br> <br> Fear those who do not pledge to the Brotherhood for though their eyes may be opened through service, they are now blind. ";
-	doc_content_3 = "Through discourse, we gain the strength of our Brothers' minds. Deceit and lies of all ilk serve only to harm that strength. <br> <br> Your caste and duties mean everything, you will follow your leader and your leader will lead you. <br> <br> You may only follow the orders of another if it will save the life of a brother. ";
-	doc_content_4 = "Theft is for lesser men, the Brotherhood provides for you and you provide for the Brotherhood. <br> <br>  What lesser men see as fashionable shall be shunned. Foreign garment and practice will do nothing but shame your fellow brothers.  ";
-	doc_content_5 = "The Blind can not read, only those who have taken the Oath of Fraternity may read this text.";
-	doc_title_1 = "Doctrine pt. 1";
-	doc_title_2 = "Doctrine pt. 2";
-	doc_title_3 = "Doctrine pt. 3";
-	doc_title_4 = "Doctrine pt. 4";
-	doc_title_5 = "Doctrine pt. 5";
-	icon = 'icons/obj/machines/particle_accelerator.dmi';
-	icon_keyboard = "generic_key";
-	icon_state = "control_boxp";
-	idle_power_usage = 1;
-	light_color = "#6e1722";
-	light_power = 2;
-	light_range = 3;
-	max_integrity = 1000;
-	name = "The Codex";
-	note = "Scribe Note of the Week:";
-	termtag = "Codex"
-	},
-/obj/machinery/computer/terminal{
-	density = 0;
-	desc = "A pre-war high security terminal. There's virtually no way to hack into this thing; it holds the most secure information the Brotherhood has to offer.";
-	doc_content_1 = "The preservation of technology is our primary goal, all others are secondary. <br> <br>  Shield yourself from those not bound to you by steel, for they are the blind.";
-	doc_content_2 = "Give way your suspicions to the wisdom of thine Elder. Where he shows trust, so shall you. <br> <br> Fear those who do not pledge to the Brotherhood for though their eyes may be opened through service, they are now blind. ";
-	doc_content_3 = "Through discourse, we gain the strength of our Brothers' minds. Deceit and lies of all ilk serve only to harm that strength. <br> <br> Your caste and duties mean everything, you will follow your leader and your leader will lead you. <br> <br> You may only follow the orders of another if it will save the life of a brother. ";
-	doc_content_4 = "Theft is for lesser men, the Brotherhood provides for you and you provide for the Brotherhood. ";
-	doc_content_5 = "We do not help them, or let them in. We keep knowledge they must never have.";
 	doc_title_1 = "Doctrine pt. 1";
 	doc_title_2 = "Doctrine pt. 2";
 	doc_title_3 = "Doctrine pt. 3";
@@ -18187,6 +18159,9 @@
 /obj/structure/bookcase/random,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/brotherhood/mining)
+"jHK" = (
+/turf/closed/wall/r_wall/rust,
+/area/f13/brotherhood/operations)
 "jIk" = (
 /obj/structure/sign/poster/contraband/scum,
 /turf/closed/wall/r_wall/rust,
@@ -20268,6 +20243,10 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/ncr)
+"kMS" = (
+/obj/structure/glowshroom,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/tunnel)
 "kNm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/painting/library_secure{
@@ -21001,12 +20980,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/offices1st)
 "ldM" = (
-/obj/structure/ladder/unbreakable{
-	height = 1;
-	id = "legionmine"
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/tunnel)
+/turf/closed/wall/r_wall/rust,
+/area/f13/brotherhood/rnd)
 "leu" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -23733,6 +23708,10 @@
 /obj/machinery/light/small,
 /turf/open/floor/mineral/plastitanium,
 /area/f13/caves)
+"mOP" = (
+/obj/structure/glowshroom/glowcap,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/tunnel)
 "mOS" = (
 /obj/structure/table/optable,
 /obj/effect/decal/cleanable/blood/old,
@@ -40185,6 +40164,11 @@
 /obj/effect/decal/remains/skulls,
 /turf/closed/wall/mineral/concrete/blastproof/storewall,
 /area/f13/legion)
+"wrM" = (
+/turf/closed/wall/f13/wood{
+	color = "#cababa"
+	},
+/area/f13/caves)
 "wsP" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/security/bos{
@@ -42202,6 +42186,10 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/brotherhood/operations)
+"xxM" = (
+/obj/structure/stairs/south,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/tunnel)
 "xxS" = (
 /obj/structure/closet/crate/miningcar,
 /turf/open/indestructible/ground/inside/mountain,
@@ -50465,7 +50453,7 @@ dSE
 tmf
 eRj
 eRj
-eew
+eRj
 eRj
 eRj
 eew
@@ -51236,7 +51224,7 @@ dSE
 saX
 eRj
 iin
-xfy
+eRj
 sOj
 eRj
 xfy
@@ -67954,7 +67942,7 @@ dOf
 wej
 wej
 wej
-wNy
+wej
 jzC
 xVz
 xVz
@@ -68725,7 +68713,7 @@ keR
 wej
 wej
 wej
-wNy
+wej
 qqM
 xVz
 xVz
@@ -97576,8 +97564,8 @@ wKL
 wKL
 wKL
 wKL
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 aoj
@@ -97833,8 +97821,8 @@ wKL
 wKL
 wKL
 wKL
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 aoj
@@ -98090,8 +98078,8 @@ eMo
 qld
 tDA
 neD
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 vPg
@@ -98347,8 +98335,8 @@ qBJ
 sjO
 gOc
 eQm
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 vPg
@@ -98604,8 +98592,8 @@ lkT
 qld
 rIn
 lkT
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 vPg
@@ -98861,8 +98849,8 @@ jlt
 qld
 qFE
 jlt
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 aoj
@@ -99118,8 +99106,8 @@ hSO
 nfk
 hSO
 hSO
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 aoj
@@ -99375,8 +99363,8 @@ sUG
 xvc
 sUG
 aVi
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 vPg
@@ -99632,8 +99620,8 @@ xvc
 xgF
 qow
 qOd
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 vPg
@@ -99889,8 +99877,8 @@ fZC
 hqf
 aVi
 heQ
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 vPg
@@ -100146,8 +100134,8 @@ vFi
 vnz
 nNu
 fgR
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 vPg
@@ -100403,8 +100391,8 @@ sUG
 qow
 sUG
 qow
-wKL
-wKL
+jHK
+jHK
 vPg
 vPg
 vPg
@@ -100654,14 +100642,14 @@ cfu
 rhb
 ncu
 cyx
-xNs
-xNs
-xNs
-xNs
-xNs
-xNs
-xNs
-xNs
+ldM
+ldM
+ldM
+ldM
+ldM
+ldM
+ldM
+ldM
 vPg
 vPg
 aoj
@@ -100911,14 +100899,14 @@ qvr
 yey
 gja
 sZz
-xNs
+ldM
 wrm
 tAs
 uTx
 vzK
-xNs
-xNs
-xNs
+ldM
+ldM
+ldM
 vPg
 vPg
 aoj
@@ -101168,14 +101156,14 @@ qvr
 yey
 jKF
 uUm
-xNs
+ldM
 noB
 jNd
 vzK
 kdo
-xNs
-xNs
-xNs
+ldM
+ldM
+ldM
 vPg
 vPg
 aoj
@@ -101425,14 +101413,14 @@ wxj
 yey
 qyR
 tLN
-xNs
+ldM
 vzK
 vzK
 yiX
 agk
-xNs
-xNs
-xNs
+ldM
+ldM
+ldM
 vPg
 vPg
 aoj
@@ -101685,11 +101673,11 @@ yix
 tKv
 vzK
 qZA
-xNs
-xNs
-xNs
-xNs
-xNs
+ldM
+ldM
+ldM
+ldM
+ldM
 vPg
 vPg
 vPg
@@ -101940,13 +101928,13 @@ qKB
 yey
 yix
 iQf
-xNs
-xNs
-xNs
-xNs
-xNs
-xNs
-xNs
+ldM
+ldM
+ldM
+ldM
+ldM
+ldM
+ldM
 vPg
 vPg
 vPg
@@ -102202,8 +102190,8 @@ fzc
 fzc
 fzc
 fzc
-xNs
-xNs
+ldM
+ldM
 vPg
 vPg
 vPg
@@ -102459,8 +102447,8 @@ fzc
 fzc
 fzc
 fzc
-xNs
-xNs
+ldM
+ldM
 vPg
 vPg
 vPg
@@ -102716,8 +102704,8 @@ fzc
 fzc
 fzc
 fzc
-xNs
-xNs
+ldM
+ldM
 vPg
 vPg
 vPg
@@ -102973,8 +102961,8 @@ fpN
 fzc
 fzc
 fzc
-xNs
-xNs
+ldM
+ldM
 vPg
 vPg
 vPg
@@ -103230,8 +103218,8 @@ fzc
 fzc
 fzc
 fzc
-xNs
-xNs
+ldM
+ldM
 vPg
 vPg
 vPg
@@ -106709,8 +106697,8 @@ vPg
 vPg
 vPg
 aoj
-vPg
-vPg
+lnr
+mOP
 vPg
 vPg
 vPg
@@ -106966,9 +106954,9 @@ vPg
 vPg
 vPg
 vPg
-vPg
-vPg
-vPg
+lnr
+lnr
+lnr
 vPg
 vPg
 vPg
@@ -107220,13 +107208,13 @@ aoj
 vPg
 vPg
 vPg
-vPg
-aoj
-vPg
-vPg
-vPg
-vPg
-vPg
+lnr
+lnr
+lnr
+lnr
+lnr
+lnr
+mOP
 vPg
 vPg
 vPg
@@ -107478,10 +107466,10 @@ aoj
 vPg
 vPg
 vPg
-vPg
-vPg
-vPg
-vPg
+lnr
+lnr
+lnr
+lnr
 vPg
 vPg
 vPg
@@ -107735,13 +107723,13 @@ vPg
 vPg
 vPg
 jYE
+lnr
+kMS
+lnr
+lnr
 vPg
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
+wrM
+wrM
 vPg
 vPg
 vPg
@@ -107990,15 +107978,15 @@ aoj
 vPg
 aoj
 vPg
+ine
+brt
+brt
+bvz
 lnr
 lnr
 lnr
-rJA
-vPg
-vPg
-vPg
-vPg
-vPg
+xxM
+wrM
 vPg
 vPg
 vPg
@@ -108249,13 +108237,13 @@ vPg
 vPg
 agL
 lnr
+kMS
 lnr
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
+lnr
+lnr
+lnr
+xxM
+wrM
 vPg
 vPg
 vPg
@@ -108506,13 +108494,13 @@ vPg
 vPg
 vPg
 rTo
-ldM
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
+lnr
+lnr
+lnr
+vvt
+lnr
+xxM
+wrM
 vPg
 vPg
 vPg
@@ -108766,10 +108754,10 @@ vPg
 vPg
 vPg
 vPg
-vPg
-vPg
-vPg
-vPg
+wrM
+wrM
+wrM
+wrM
 vPg
 vPg
 vPg
