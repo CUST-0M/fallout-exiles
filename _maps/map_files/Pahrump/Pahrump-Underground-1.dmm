@@ -240,16 +240,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"afL" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/structure/closet,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/rarerwhite,
-/area/f13/ncr)
 "agb" = (
 /obj/structure/railing{
 	layer = 4.25
@@ -29357,17 +29347,6 @@
 	icon_state = "rampdowntop"
 	},
 /area/f13/caves)
-"qba" = (
-/obj/structure/destructible/clockwork/wall_gear{
-	pixel_x = 32
-	},
-/obj/item/projectile/magic/animate{
-	pixel_x = 32
-	},
-/turf/open/floor/bronze{
-	name = "floor"
-	},
-/area/f13/brotherhood/rnd)
 "qbE" = (
 /obj/structure/bookcase/random,
 /obj/machinery/light/small,
@@ -29707,17 +29686,6 @@
 /obj/effect/landmark/start/f13/dendoctor,
 /turf/open/floor/carpet/green,
 /area/f13/den)
-"qki" = (
-/obj/structure/destructible/clockwork/wall_gear{
-	pixel_x = -32
-	},
-/obj/item/projectile/magic/animate{
-	pixel_x = -32
-	},
-/turf/open/floor/bronze{
-	name = "floor"
-	},
-/area/f13/brotherhood/rnd)
 "qkx" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -30507,11 +30475,6 @@
 /obj/structure/decoration/vent/rusty,
 /turf/open/water,
 /area/f13/sewer)
-"qHb" = (
-/obj/structure/destructible/clockwork/wall_gear,
-/obj/item/projectile/magic/animate,
-/turf/closed/wall/f13/wood,
-/area/f13/brotherhood/rnd)
 "qHd" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/traitbooks,
@@ -31203,15 +31166,6 @@
 "qYM" = (
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/offices2nd)
-"qYS" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/machinery/light/invisible{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/rarerwhite,
-/area/f13/ncr)
 "qYX" = (
 /obj/item/bedsheet/brown,
 /obj/effect/decal/cleanable/dirt,
@@ -32769,14 +32723,6 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/ncr)
-"rPB" = (
-/obj/structure/destructible/clockwork/wall_gear,
-/obj/item/projectile/magic/animate{
-	layer = 2.5;
-	name = "weird light"
-	},
-/turf/closed/wall/f13/wood,
-/area/f13/brotherhood/rnd)
 "rPI" = (
 /obj/structure/table{
 	layer = 2.9
@@ -46121,7 +46067,7 @@ qam
 wep
 dHX
 rBT
-afL
+ofI
 pAB
 prz
 pAB
@@ -48690,7 +48636,7 @@ jfW
 nNF
 nNF
 dHX
-qYS
+vsC
 rBT
 vsC
 hVV
@@ -101636,7 +101582,7 @@ wLv
 xSE
 xSE
 vKK
-qki
+oho
 hoL
 xSE
 xSE
@@ -102148,7 +102094,7 @@ wKL
 xxn
 wLv
 vMG
-qHb
+vMG
 xSE
 sqn
 xSE
@@ -102661,7 +102607,7 @@ qPC
 wKL
 xxn
 wLv
-rPB
+vMG
 oho
 qXf
 uPT
@@ -103176,7 +103122,7 @@ wKL
 xxn
 wLv
 vMG
-qHb
+vMG
 xSE
 sqn
 xSE
@@ -103692,7 +103638,7 @@ qci
 xSE
 xSE
 vKK
-qba
+oho
 hoL
 xSE
 xSE
@@ -106559,7 +106505,7 @@ wej
 wej
 wej
 wej
-wNy
+wej
 jLn
 lnr
 lnr
@@ -107331,7 +107277,7 @@ wej
 wej
 wej
 wNy
-jLn
+lnr
 lnr
 lnr
 vPg
