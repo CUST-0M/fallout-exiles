@@ -11853,12 +11853,6 @@
 /obj/structure/closet/cabinet,
 /turf/open/floor/carpet/black/nosmooth,
 /area/f13/legion)
-"QB" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/closed/wall/f13/store,
-/area/f13/wasteland)
 "QC" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -13368,6 +13362,12 @@
 	dir = 4
 	},
 /area/f13/clinic)
+"Wq" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/closed/wall/f13/store,
+/area/f13/wasteland)
 "Wu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old{
@@ -48133,7 +48133,7 @@ Zo
 Zo
 Zo
 Zo
-QB
+Wq
 PL
 PL
 PL
