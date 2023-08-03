@@ -15167,6 +15167,22 @@
 /obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/yellowchess/yellowchess2,
 /area/f13/caves)
+"mLG" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/structure/railing{
+	dir = 1;
+	layer = 2.6
+	},
+/obj/structure/railing{
+	layer = 3.9
+	},
+/obj/machinery/ammobench,
+/turf/open/floor/f13{
+	icon_state = "darkrusty"
+	},
+/area/f13/ncr)
 "mLX" = (
 /obj/structure/table{
 	layer = 2.9
@@ -36619,7 +36635,7 @@ kCy
 kCy
 kCy
 pis
-gVQ
+mLG
 pis
 kCy
 dHX
