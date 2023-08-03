@@ -21,7 +21,7 @@ $include policy.txt
 # There are various options which are hard-locked for security reasons.
 
 ##Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-SERVERNAME Fallout: Interstate 80
+SERVERNAME Fallout: Exiles
 
 ##Server tagline: This will appear right below the server's title.
 SERVERTAGLINE [18+] Take a trip to Utah and see the Bonneville Salt Flats!
