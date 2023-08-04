@@ -688,6 +688,14 @@
 "cu" = (
 /turf/open/floor/carpet/nosmooth,
 /area/f13/ncr)
+"cw" = (
+/mob/living/simple_animal/hostile/handy/assaultron{
+	faction = list("neutral","silicon","dog","hostile","pirate","wastebot","wolf","plants","turret","enclave","ghoul","cazador","supermutant","gecko","slime","radscorpion","skeleton","carp","bs","bighorner");
+	icon_dead = "robot_dead";
+	wander = 0
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/f13/wasteland)
 "cz" = (
 /obj/structure/filingcabinet{
 	density = 0;
@@ -1140,6 +1148,13 @@
 /obj/structure/simple_door/house,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/clinic)
+"ef" = (
+/obj/item/salvage/high{
+	icon = 'icons/fallout/mobs/robots/protectrons.dmi';
+	icon_state = "protectron_k_d"
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/f13/wasteland)
 "eg" = (
 /obj/structure/chair/sofa/corner{
 	color = "#800000"
@@ -1938,6 +1953,13 @@
 	name = "concrete wall"
 	},
 /area/f13/caves)
+"gP" = (
+/obj/structure/sign/poster/official/anniversary_vintage_reprint{
+	pixel_x = 32;
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white/lit,
+/area/f13/wasteland)
 "gR" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -2009,6 +2031,13 @@
 /obj/item/fishingrod,
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
+"hf" = (
+/obj/structure/table/reinforced,
+/obj/item/pda/roboticist{
+	pixel_x = -3
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/wasteland)
 "hg" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -2326,6 +2355,9 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/raiders)
+"iE" = (
+/turf/open/floor/plasteel/f13/vault_floor/white/lit,
+/area/f13/wasteland)
 "iF" = (
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -3356,6 +3388,20 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust/lit,
 /area/f13/ncr)
+"lY" = (
+/obj/structure/table/reinforced,
+/obj/item/bodypart/r_leg/robot{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/item/bodypart/l_leg/robot{
+	pixel_x = -5
+	},
+/obj/item/storage/part_replacer{
+	pixel_y = 10
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/wasteland)
 "lZ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -3520,6 +3566,18 @@
 /obj/structure/bodycontainer/morgue,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/clinic)
+"my" = (
+/obj/structure/railing{
+	dir = 6;
+	layer = 4.26;
+	pixel_x = 7;
+	pixel_y = -5
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/wasteland)
 "mz" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/destructible/tribal_torch/wall/lit,
@@ -3877,6 +3935,10 @@
 	name = "air";
 	sunlight_state = 1
 	},
+/area/f13/wasteland)
+"nF" = (
+/mob/living/simple_animal/hostile/handy/protectron/damaged,
+/turf/open/floor/mineral/titanium/white,
 /area/f13/wasteland)
 "nI" = (
 /obj/structure/table/wood/greyscale/red,
@@ -8911,6 +8973,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/f13/old,
 /area/f13/legion)
+"GC" = (
+/obj/structure/table/reinforced,
+/obj/item/bodypart/r_leg/robot/surplus_upgraded,
+/obj/item/bodypart/r_arm/robot,
+/turf/open/floor/wood/f13/oak,
+/area/f13/wasteland)
 "GD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -9786,6 +9854,12 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
+"Jy" = (
+/obj/structure/table/reinforced,
+/obj/item/bodypart/l_leg/robot/surplus,
+/obj/item/clothing/head/welding/f13,
+/turf/open/floor/wood/f13/oak,
+/area/f13/wasteland)
 "Jz" = (
 /obj/structure/table/wood/settler,
 /obj/item/trash/plate,
@@ -10752,6 +10826,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building)
+"Na" = (
+/obj/structure/table/reinforced,
+/obj/item/bodypart/head/robot,
+/turf/open/floor/wood/f13/oak,
+/area/f13/wasteland)
 "Nb" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -11426,6 +11505,14 @@
 	name = "concrete wall"
 	},
 /area/f13/raiders)
+"Po" = (
+/mob/living/simple_animal/hostile/handy/gutsy{
+	icon_living = "pvtgutsy";
+	icon_state = "pvtgutsy";
+	name = "Mr. Gutsy"
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/wasteland)
 "Pp" = (
 /obj/structure/closet/crate/bin/trashbin,
 /obj/effect/decal/cleanable/dirt{
@@ -12121,6 +12208,10 @@
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/clinic)
+"RJ" = (
+/mob/living/simple_animal/hostile/handy/protectron/dam2,
+/turf/open/floor/mineral/titanium/white,
+/area/f13/wasteland)
 "RK" = (
 /obj/structure/table/booth,
 /obj/machinery/chem_dispenser/drinks,
@@ -12248,6 +12339,11 @@
 /obj/structure/junk/micro,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building)
+"Sd" = (
+/obj/structure/table/reinforced,
+/obj/item/bodypart/r_arm/robot/surplus,
+/turf/open/floor/wood/f13/oak,
+/area/f13/wasteland)
 "Sf" = (
 /obj/structure/table,
 /obj/structure/junk/arcade,
@@ -13155,6 +13251,10 @@
 /obj/structure/sink/puddle,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/caves)
+"VN" = (
+/obj/structure/simple_door/house,
+/turf/open/floor/plasteel/f13/vault_floor/white/lit,
+/area/f13/wasteland)
 "VP" = (
 /obj/structure/chair/sofa/right,
 /obj/structure/chair/sofa/right{
@@ -14124,6 +14224,9 @@
 	pixel_y = 12
 	},
 /turf/open/indestructible/ground/outside/woodalt,
+/area/f13/wasteland)
+"ZC" = (
+/turf/open/floor/mineral/titanium/white,
 /area/f13/wasteland)
 "ZD" = (
 /obj/structure/table,
@@ -29930,8 +30033,8 @@ PL
 PL
 kC
 kC
-PL
-PL
+Tm
+Tm
 PL
 PL
 PL
@@ -30187,10 +30290,10 @@ PL
 kC
 kC
 kC
-PL
-PL
-PL
-PL
+Tm
+Tm
+Tm
+Tm
 PL
 PL
 PL
@@ -45993,13 +46096,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+Af
+Af
+Af
+Af
+Af
+Af
 PL
 PL
 Af
@@ -46250,13 +46353,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+iE
+iE
+iE
+my
+iE
+Af
 PL
 PL
 Af
@@ -46507,13 +46610,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+ZC
+RJ
+iE
+iE
+iE
+iE
+Af
 PL
 PL
 Af
@@ -46764,13 +46867,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+ZC
+nF
+iE
+iE
+iE
+iE
+Af
 PL
 PL
 Af
@@ -47021,13 +47124,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+ZC
+ef
+iE
+iE
+iE
+iE
+Af
 PL
 PL
 Af
@@ -47278,13 +47381,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+iE
+iE
+iE
+iE
+iE
+Af
 PL
 PL
 Af
@@ -47535,13 +47638,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+iE
+iE
+iE
+iE
+iE
+Af
 PL
 PL
 Af
@@ -47792,13 +47895,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+iE
+iE
+iE
+iE
+iE
+Af
 PL
 PL
 Af
@@ -48049,13 +48152,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+iE
+iE
+iE
+iE
+iE
+Af
 PL
 PL
 Af
@@ -48306,13 +48409,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+ZC
+cw
+iE
+iE
+iE
+iE
+Af
 PL
 PL
 Af
@@ -48563,13 +48666,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+ZC
+ZC
+iE
+iE
+iE
+iE
+Af
 PL
 PL
 Af
@@ -48820,13 +48923,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+iE
+gP
+iE
+iE
+iE
+Af
 PL
 PL
 Af
@@ -49077,13 +49180,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+Af
+Af
+Af
+VN
+Af
+Af
 PL
 PL
 Af
@@ -49334,13 +49437,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+Pj
+Pj
+Pj
+Pj
+Pj
+Af
 PL
 PL
 Af
@@ -49591,13 +49694,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Pj
+Pj
+GC
+Jy
+Pj
+Pj
+Af
 PL
 PL
 Af
@@ -49848,13 +49951,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Pj
+Pj
+Na
+Sd
+Po
+Pj
+Af
 PL
 PL
 Af
@@ -50105,13 +50208,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Pj
+Pj
+lY
+hf
+Pj
+Pj
+Af
 PL
 PL
 PL
@@ -50362,13 +50465,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+Pj
+Pj
+Pj
+Pj
+Pj
+Af
 PL
 PL
 PL
@@ -50619,13 +50722,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Af
+Af
+Af
+Af
+Af
+Af
+Af
 PL
 PL
 CC
