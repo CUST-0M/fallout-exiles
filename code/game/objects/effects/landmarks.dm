@@ -617,7 +617,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Decanus"
 
 /obj/effect/landmark/start/f13/vexillarius
-	name = "Vexillarius"
+	name = "Legion Vexillarius"
 	icon_state = "Vexillarius"
 
 /obj/effect/landmark/start/f13/vetlegionary
@@ -644,11 +644,11 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Slavemaster"
 
 /obj/effect/landmark/start/f13/explorer
-	name = "Explorer"
+	name = "Legion Explorer"
 	icon_state = "Legionary"
 
 /obj/effect/landmark/start/f13/venator
-	name = "Explorer"
+	name = "Legion Venator"
 	icon_state = "Legionary"
 
 /obj/effect/landmark/start/f13/auxilia
