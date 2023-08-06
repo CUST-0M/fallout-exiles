@@ -99,7 +99,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	req_admin_notify = 1
 	total_positions = 0
 	spawn_positions = 0
-	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13legate
+	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13praetorian
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS)
 
@@ -133,6 +133,50 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	ears = /obj/item/radio/headset/headset_legion/cent
 	box = /obj/item/storage/box/legate
 
+// Praetorian
+
+/datum/job/CaesarsLegion/Legionnaire/f13praetorian
+	title = "Legion Praetorian"
+	flag = F13PRAETORIAN
+	head_announce = list("Security")
+	supervisors = "Caesar, the Legate"
+	selection_color = "#ffdddd"
+	req_admin_notify = 1
+	total_positions = 0
+	spawn_positions = 0
+	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13praetorian
+	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS)
+	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS)
+
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13praetorian/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+	ADD_TRAIT(H, TRAIT_IRONFIST, src)
+	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+	if(H.mind)
+		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
+		H.mind.AddSpell(S)
+
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13praetorian	// Goliath
+	name = "Praetorian"
+	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13praetorian
+	shoes =	/obj/item/clothing/shoes/f13/military/plated
+	suit = null
+	head = /obj/item/clothing/head/helmet/f13/legion/orator
+	gloves = /obj/item/clothing/gloves/legion/plated
+	glasses = /obj/item/clothing/glasses/sunglasses/big
+	suit_store = null
+	r_pocket = /obj/item/storage/bag/money/small/legion
+	l_pocket = /obj/item/flashlight/lantern
+	r_hand = /obj/item/melee/powerfist/f13/goliath
+	l_hand = null
+	backpack = null
+	satchel = null
+	ears = /obj/item/radio/headset/headset_legion/cent
+	box = /obj/item/storage/survivalkit_tribal/chief
 
 // ORATOR
 
@@ -1038,10 +1082,10 @@ commented out pending rework*/
 ////Support Roles ////
 //////////////////////
 
-// Immunes are mostly an off-duty role meant to attend to the camp itself and the slaves or prisoners within.
+// Camp duties are mostly an off-duty role meant to attend to the camp itself and the slaves or prisoners within.
 
 /*datum/job/CaesarsLegion/Legionnaire/f13immune
-	title = "Legion Immune"
+	title = "Camp-duty"
 	flag = F13IMMUNE
 	total_positions = 4
 	spawn_positions = 1
@@ -1052,7 +1096,7 @@ commented out pending rework*/
 	exp_requirements = 300
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13immune
-	name = "Immune"
+	name = "Camp-duty"
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13immune
 	id = /obj/item/card/id/dogtag/legimmune
 	mask = /obj/item/clothing/mask/bandana/legion/camp
@@ -1338,11 +1382,11 @@ Plans: Add recipes/traits to keep refining support roles, Forgemaster done, othe
 Venator  - Zero slots, role built on cloning vet ranger, linear just vastly better than all but the Cent, snowflakey in command when it suits them, messes up the chain of command thats already messy for Legion. FUCK IT ENABLE IT
 */
 /*datum/job/CaesarsLegion/Legionnaire/f13venator
-	title = "Legion Explorer"
+	title = "Venator"
 	flag = F13VENATOR
 	total_positions = 1
 	spawn_positions = 1
-	description = "You are the Explorer -- the Hunter. With your powerful rifle and your many years of experience, you are a formidable killing machine, capable of taking down even the most formidable targets. Note that you are not a rank-and-file legionary, and you should not be operating as such -- your job is special operations, not fighting alongside the hordes of the Legion."
+	description = "You are the Venator -- the Hunter. With your powerful rifle and your many years of experience, you are a formidable killing machine, capable of taking down even the most formidable targets. Note that you are not a rank-and-file legionary, and you should not be operating as such -- your job is special operations, not fighting alongside the hordes of the Legion."
 	supervisors = "the Centurion"
 	selection_color = "#ffdddd"
 	display_order = JOB_DISPLAY_ORDER_VENATOR
