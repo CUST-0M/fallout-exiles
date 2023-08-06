@@ -84,7 +84,7 @@
 	melee_damage_lower = 20
 	melee_damage_upper = 30
 
-//Unique Dogs - Guerilla for Khans is a Rottweiler, Brutus and Lupa german shepherds, Sniffs-the-Earth a sheepdog.
+//Unique Dogs - Guerilla for Khans is a Rottweiler, Androcles Tatum is a german shepherd, Sniffs-the-Earth a sheepdog.
 //Feel free to move or add code for different behaviours like sleep, some unused sprites prepped for that sort of thing.
 
 /mob/living/simple_animal/hostile/wolf/playable/rottweiler
@@ -103,6 +103,12 @@
 	icon_state = "shepherd"
 	icon_living = "shepherd"
 	icon_dead = "shepherd_dead"
+	icon_gib = "gib"
+	
+/mob/living/simple_animal/hostile/wolf/playable/cyberdog
+	icon_state = "cyberdog"
+	icon_living = "cyberdog"
+	icon_dead = "cyberdog_dead"
 	icon_gib = "gib"
 
 /mob/living/simple_animal/hostile/wolf/mutcastle
