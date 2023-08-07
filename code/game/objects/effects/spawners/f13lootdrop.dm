@@ -2055,6 +2055,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 	lootcount = 1
 
 	loot = list(
+				/obj/item/stack/f13Cash/random/med = 43,
 				/obj/item/stack/f13Cash/random/ncr/med = 35,
 				/obj/item/stack/f13Cash/random/denarius/med = 30,
 				/obj/item/stack/f13Cash/random/aureus/med = 5,
