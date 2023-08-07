@@ -591,7 +591,47 @@ commented out pending rework*/
 		/obj/item/storage/backpack/spearquiver = 1,
 		)
 
+/datum/job/CaesarsLegion/Legionnaire/f13venator
+	title = "Venator"
+	flag = F13VENATOR
+	total_positions = 1
+	spawn_positions = 1
+	description = "You are the Venator -- the Hunter. With your powerful rifle and your many years of experience, you are a formidable killing machine, capable of taking down even the most formidable targets. Note that you are not a rank-and-file legionary, and you should not be operating as such -- your job is special operations, not fighting alongside the hordes of the Legion."
+	supervisors = "the Centurion"
+	selection_color = "#ffdddd"
+	display_order = JOB_DISPLAY_ORDER_VENATOR
+	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
+	exp_type = EXP_TYPE_LEGION
+	exp_requirements = 1500
 
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13venator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+	ADD_TRAIT(H, TRAIT_GENERIC, src)
+	ADD_TRAIT(H, TRAIT_SILENT_STEP, src)
+
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
+	name = "Legion Venator"
+	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13explorer
+	id = /obj/item/card/id/dogtag/legvenator
+	suit = /obj/item/clothing/suit/armor/f13/legion/venator
+	head = /obj/item/clothing/head/helmet/f13/legion/venator
+	mask = /obj/item/clothing/mask/bandana/legion/legdecan
+	neck = /obj/item/storage/belt/holster
+	glasses = /obj/item/clothing/glasses/night/polarizing
+	ears = /obj/item/radio/headset/headset_legion
+	r_pocket = /obj/item/binoculars
+	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper/snipervenator
+	backpack_contents = list(
+		/obj/item/ammo_box/magazine/w308 = 3,
+		/obj/item/melee/onehanded/machete/gladius = 1,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
+		/obj/item/gun/ballistic/revolver/revolver45 = 1,
+		/obj/item/ammo_box/c45rev = 3,
+		)
 
 ////////////////////
 ///Specialist///////
@@ -693,7 +733,7 @@ commented out pending rework*/
 	total_positions = 1
 	spawn_positions = 1
 	description = "Scout the area, secure key points, but do not ignore orders or wordlessly die some place. A good explorer helps his unit by taking initiative and helping the commander without needing micro-managment."
-	supervisors = "the Veteran Decanus must be obeyed, and as always, respect must be given to other Decanus. You are not a officer, but you are a specialist."
+	supervisors = "the Centurion must be obeyed, and as always, respect must be given to other . You are not a officer, but you are a specialist."
 	display_order = JOB_DISPLAY_ORDER_EXPLORER
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13explorer
 
@@ -1173,6 +1213,45 @@ commented out pending rework*/
 
 
 
+// Slavemaster
+
+datum/job/CaesarsLegion/Legionnaire/f13slavemaster
+	title = "Legion Slavemaster"
+	flag = F13SLAVEMASTER
+	total_positions = 1
+	spawn_positions = 1
+	description = "You are the feared and respected disciplinary corps of the Legion. Acting as both master of the Slaves and de-facto executioner of the Centurion's will within his ranks, you are a faceless and undoubtedly cruel torturer... but be careful to not let your hubris and malice lead to a strikeback from those you thought broken."
+	supervisors = "the Decani and Centurion"
+	exp_requirements = 300
+
+	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13slavemaster
+
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13slavemaster
+	name = "Legion Slavemaster"
+	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13legionary
+	id =			/obj/item/card/id/dogtag/legslavemaster
+	uniform =		/obj/item/clothing/under/gladiator
+	suit = 			/obj/item/clothing/suit/armor/f13/legion/prime/slavemaster
+	belt = 			/obj/item/melee/onehanded/slavewhip
+	head = 			/obj/item/clothing/head/helmet/f13/legion/prime/slavemaster
+	shoes =			/obj/item/clothing/shoes/roman
+	suit_store = 	/obj/item/melee/onehanded/machete/forgedmachete
+	backpack_contents = list(
+		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
+		/obj/item/flashlight/lantern = 1,
+		/obj/item/electropack/shockcollar = 3,
+		/obj/item/assembly/signaler/advanced = 3,
+		)
+
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13slavemaster/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+	ADD_TRAIT(H, TRAIT_TRIBAL, src)
+	ADD_TRAIT(H, TRAIT_GENERIC, src)
+
 // AUXILIA - Civilians with special training. Can sow new uniforms for soldiers who lost theirs, and are loyal so they would never abuse this.
 
 /datum/job/CaesarsLegion/auxilia
@@ -1181,7 +1260,7 @@ commented out pending rework*/
 	total_positions = 3
 	spawn_positions = 3
 	description = "A non-combat position in the Legion for slaves who perform tasks that need special training, such as surgery. They are loyal to the Legion and are expected to provide guidance to lesser slaves and fresh captures."
-	supervisors = "the Decani"
+	supervisors = "The men of the Legion"
 	display_order = JOB_DISPLAY_ORDER_AUXILIA
 	outfit = /datum/outfit/job/CaesarsLegion/auxilia
 
@@ -1380,89 +1459,7 @@ commented out pending rework*/
 /*
 Post Scriptum
 Plans: Add recipes/traits to keep refining support roles, Forgemaster done, others will need some minor tweaking. Planned is making the medicus more of a improvised surgery master, using primitive tools to good effect, because its interesting and unique.
-Venator  - Zero slots, role built on cloning vet ranger, linear just vastly better than all but the Cent, snowflakey in command when it suits them, messes up the chain of command thats already messy for Legion. FUCK IT ENABLE IT
-*/
-/datum/job/CaesarsLegion/Legionnaire/f13venator
-	title = "Venator"
-	flag = F13VENATOR
-	total_positions = 1
-	spawn_positions = 1
-	description = "You are the Venator -- the Hunter. With your powerful rifle and your many years of experience, you are a formidable killing machine, capable of taking down even the most formidable targets. Note that you are not a rank-and-file legionary, and you should not be operating as such -- your job is special operations, not fighting alongside the hordes of the Legion."
-	supervisors = "the Centurion"
-	selection_color = "#ffdddd"
-	display_order = JOB_DISPLAY_ORDER_VENATOR
-	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
-	exp_type = EXP_TYPE_LEGION
-	exp_requirements = 1500
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13venator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
-	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	ADD_TRAIT(H, TRAIT_SILENT_STEP, src)
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
-	name = "Legion Explorer"
-	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13explorer
-	id = /obj/item/card/id/dogtag/legvenator
-	suit = /obj/item/clothing/suit/armor/f13/legion/venator
-	head = /obj/item/clothing/head/helmet/f13/legion/venator
-	mask = /obj/item/clothing/mask/bandana/legion/legdecan
-	neck = /obj/item/storage/belt/holster
-	glasses = /obj/item/clothing/glasses/night/polarizing
-	ears = /obj/item/radio/headset/headset_legion
-	r_pocket = /obj/item/binoculars
-	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper/snipervenator
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/w308 = 3,
-		/obj/item/melee/onehanded/machete/gladius = 1,
-		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
-		/obj/item/gun/ballistic/revolver/revolver45 = 1,
-		/obj/item/ammo_box/c45rev = 3,
-		)
-
-// Slavemaster
-
-datum/job/CaesarsLegion/Legionnaire/f13slavemaster
-	title = "Legion Slavemaster"
-	flag = F13SLAVEMASTER
-	total_positions = 1
-	spawn_positions = 1
-	description = "You are the feared and respected disciplinary corps of the Legion. Acting as both master of the Slaves and de-facto executioner of the Centurion's will within his ranks, you are a faceless and undoubtedly cruel torturer... but be careful to not let your hubris and malice lead to a strikeback from those you thought broken."
-	supervisors = "the Decani and Centurion"
-	exp_requirements = 300
-
-	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13slavemaster
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13slavemaster
-	name = "Legion Slavemaster"
-	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13legionary
-	id =			/obj/item/card/id/dogtag/legslavemaster
-	uniform =		/obj/item/clothing/under/gladiator
-	suit = 			/obj/item/clothing/suit/armor/f13/legion/prime/slavemaster
-	belt = 			/obj/item/melee/onehanded/slavewhip
-	head = 			/obj/item/clothing/head/helmet/f13/legion/prime/slavemaster
-	shoes =			/obj/item/clothing/shoes/roman
-	suit_store = 	/obj/item/melee/onehanded/machete/forgedmachete
-	backpack_contents = list(
-		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
-		/obj/item/flashlight/lantern = 1,
-		/obj/item/electropack/shockcollar = 3,
-		/obj/item/assembly/signaler/advanced = 3,
-		)
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13slavemaster/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
-	ADD_TRAIT(H, TRAIT_TRIBAL, src)
-	ADD_TRAIT(H, TRAIT_GENERIC, src)
-
+/*
 
 /// Legion CitizenReally only used for ID console
 /datum/job/ncr/f13legioncitizen
