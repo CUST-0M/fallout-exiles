@@ -552,27 +552,6 @@
 
 	var/log_message = message
 
-	//FIND THRALLS
-	message = lowertext(message)
-	var/list/mob/living/listeners = list()
-	for(var/mob/living/L in get_hearers_in_view(8, user))
-		if(L.can_hear() && !L.anti_magic_check(FALSE, TRUE) && L.stat != DEAD)
-			if(L.has_status_effect(/datum/status_effect/chem/enthrall))//Check to see if they have the status
-				var/datum/status_effect/chem/enthrall/E = L.has_status_effect(/datum/status_effect/chem/enthrall)//Check to see if pet is on cooldown from last command and if the master is right
-				if(E.master != user)
-					continue
-				if(ishuman(L))
-					var/mob/living/carbon/human/H = L
-					if(istype(H.ears, /obj/item/clothing/ears/earmuffs))
-						continue
-
-				if (E.cooldown > 0)//If they're on cooldown you can't give them more commands.
-					continue
-				listeners += L
-
-	if(!listeners.len)
-		return 0
-
 	//POWER CALCULATIONS
 
 	var/power_multiplier = base_multiplier
