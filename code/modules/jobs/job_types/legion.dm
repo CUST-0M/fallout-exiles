@@ -339,7 +339,7 @@ commented out pending rework*/
 	total_positions = 1
 	spawn_positions = 1
 	description = "You are the leader of an expedition to the I-80 in Utah, the northern artery of the NCR. The White Legs performed adequately against the meek townspeople of New Canaan, but they require more training and wise leadership to pose a threat to the NCR. This task has been entrusted to you, do not invoke the wrath of Caesar. IN HOC SIGNO TAVRVS VINCES."
-	supervisors = "Mars"
+	supervisors = "The Centurion"
 	display_order = JOB_DISPLAY_ORDER_DECANVET
 	selection_color = "#ffdddd"
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13decanvet
@@ -849,6 +849,47 @@ commented out pending rework*/
 		/obj/item/throwing_star/tomahawk = 2,
 		)
 
+/*datum/job/CaesarsLegion/Legionnaire/f13venator
+	title = "Venator"
+	flag = F13VENATOR
+	total_positions = 1
+	spawn_positions = 1
+	description = "You are the Venator -- the Hunter. With your powerful rifle and your many years of experience, you are a formidable killing machine, capable of taking down even the most formidable targets. Note that you are not a rank-and-file legionary, and you should not be operating as such -- your job is special operations, not fighting alongside the hordes of the Legion."
+	supervisors = "the Centurion"
+	selection_color = "#ffdddd"
+	display_order = JOB_DISPLAY_ORDER_VENATOR
+	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
+	exp_type = EXP_TYPE_LEGION
+	exp_requirements = 1500
+
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13venator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+	ADD_TRAIT(H, TRAIT_GENERIC, src)
+	ADD_TRAIT(H, TRAIT_SILENT_STEP, src)
+
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
+	name = "Legion Explorer"
+	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13explorer
+	id = /obj/item/card/id/dogtag/legvenator
+	suit = /obj/item/clothing/suit/armor/f13/legion/venator
+	head = /obj/item/clothing/head/helmet/f13/legion/venator
+	mask = /obj/item/clothing/mask/bandana/legion/legdecan
+	neck = /obj/item/storage/belt/holster
+	glasses = /obj/item/clothing/glasses/night/polarizing
+	ears = /obj/item/radio/headset/headset_legion
+	r_pocket = /obj/item/binoculars
+	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper/snipervenator
+	backpack_contents = list(
+		/obj/item/ammo_box/magazine/w308 = 3,
+		/obj/item/melee/onehanded/machete/gladius = 1,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
+		/obj/item/gun/ballistic/revolver/revolver45 = 1,
+		/obj/item/ammo_box/c45rev = 3,
+		)
 
 ///////////////////
 ////Legionnaires///
@@ -1116,62 +1157,6 @@ commented out pending rework*/
 		return
 	ADD_TRAIT(H, TRAIT_MARS_TEACH, src)*/
 
-// FORGE MASTER
-
-/datum/job/CaesarsLegion/Legionnaire/f13campfollower	// Extra materials, Blueprints
-	title = "Forgemaster"
-	flag = F13CAMPFOLLOWER
-	total_positions = 1
-	spawn_positions = 1
-	description = "The Forgemaster makes weapons of all sorts and upgrades them, keeping order in the Forge and makes sure the camp is defended."
-	supervisors = "the Decani."
-	display_order = JOB_DISPLAY_ORDER_CAMPFOLLOWER
-	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13campfollower
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13campfollower
-	name = "Forgemaster"
-	id = /obj/item/card/id/dogtag/legforgemaster
-	glasses = /obj/item/clothing/glasses/welding
-	belt = /obj/item/storage/belt/utility/waster/forgemaster
-	neck = /obj/item/clothing/neck/apron/labor/forge
-	gloves = /obj/item/clothing/gloves/legion/forgemaster
-	shoes = /obj/item/clothing/shoes/f13/military/plated
-	r_pocket = /obj/item/flashlight/lantern
-	backpack_contents = list(
-		/obj/item/storage/bag/money/small/legenlisted = 1,
-		/obj/item/stack/sheet/metal/twenty = 2,
-		/obj/item/stack/sheet/mineral/wood/twenty = 1,
-		/obj/item/stack/sheet/leather/twenty = 1,
-		/obj/item/stack/sheet/cloth/thirty = 1,
-		/obj/item/stack/sheet/prewar/twenty = 1,
-		/obj/item/weldingtool = 1,
-		/obj/item/book/granter/trait/explosives = 1,
-		)
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13campfollower/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
-	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/dks)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/gladius)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/spatha)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/lance)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionshield)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/lever_action)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/grease_gun)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/brush)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingshotgun)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionlance)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/concussion)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/strongrocket)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/empgrenade)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalwar/xbow)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalwar/cheaparrow)
-
-
-
 // AUXILIA - Civilians with special training. Can sow new uniforms for soldiers who lost theirs, and are loyal so they would never abuse this.
 
 /datum/job/CaesarsLegion/auxilia
@@ -1380,48 +1365,7 @@ commented out pending rework*/
 Post Scriptum
 Plans: Add recipes/traits to keep refining support roles, Forgemaster done, others will need some minor tweaking. Planned is making the medicus more of a improvised surgery master, using primitive tools to good effect, because its interesting and unique.
 Venator  - Zero slots, role built on cloning vet ranger, linear just vastly better than all but the Cent, snowflakey in command when it suits them, messes up the chain of command thats already messy for Legion. FUCK IT ENABLE IT
-*/
-/*datum/job/CaesarsLegion/Legionnaire/f13venator
-	title = "Venator"
-	flag = F13VENATOR
-	total_positions = 1
-	spawn_positions = 1
-	description = "You are the Venator -- the Hunter. With your powerful rifle and your many years of experience, you are a formidable killing machine, capable of taking down even the most formidable targets. Note that you are not a rank-and-file legionary, and you should not be operating as such -- your job is special operations, not fighting alongside the hordes of the Legion."
-	supervisors = "the Centurion"
-	selection_color = "#ffdddd"
-	display_order = JOB_DISPLAY_ORDER_VENATOR
-	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
-	exp_type = EXP_TYPE_LEGION
-	exp_requirements = 1500
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13venator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
-	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	ADD_TRAIT(H, TRAIT_SILENT_STEP, src)
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
-	name = "Legion Explorer"
-	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13explorer
-	id = /obj/item/card/id/dogtag/legvenator
-	suit = /obj/item/clothing/suit/armor/f13/legion/venator
-	head = /obj/item/clothing/head/helmet/f13/legion/venator
-	mask = /obj/item/clothing/mask/bandana/legion/legdecan
-	neck = /obj/item/storage/belt/holster
-	glasses = /obj/item/clothing/glasses/night/polarizing
-	ears = /obj/item/radio/headset/headset_legion
-	r_pocket = /obj/item/binoculars
-	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper/snipervenator
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/w308 = 3,
-		/obj/item/melee/onehanded/machete/gladius = 1,
-		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
-		/obj/item/gun/ballistic/revolver/revolver45 = 1,
-		/obj/item/ammo_box/c45rev = 3,
-		)
+/*
 
 // Slavemaster
 
