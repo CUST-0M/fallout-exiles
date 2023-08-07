@@ -1078,11 +1078,11 @@ commented out pending rework*/
 		)
 
 
-//////////////////////
-////Support Roles ////
-//////////////////////
+////////////////////
+//Support Roles ////
+////////////////////
 
-// Camp duties are mostly an off-duty role meant to attend to the camp itself and the slaves or prisoners within.
+Camp duties are mostly an off-duty role meant to attend to the camp itself and the slaves or prisoners within.
 
 /*datum/job/CaesarsLegion/Legionnaire/f13immune
 	title = "Camp-duty"
@@ -1116,7 +1116,7 @@ commented out pending rework*/
 		return
 	ADD_TRAIT(H, TRAIT_MARS_TEACH, src)*/
 
-// FORGE MASTER
+FORGE MASTER
 
 /datum/job/CaesarsLegion/Legionnaire/f13campfollower	// Extra materials, Blueprints
 	title = "Forgemaster"
