@@ -112,7 +112,7 @@
 
 /obj/item/ammo_casing/energy/laser/ultra_pistol
 	projectile_type = /obj/item/projectile/beam/laser/ultra_pistol
-
+	@@ -125,36 +141,68 @@
 /obj/item/ammo_casing/energy/laser/pistol/wattz/magneto
 	projectile_type = /obj/item/projectile/beam/laser/pistol/wattz/magneto
 
@@ -149,7 +149,7 @@
 /obj/item/ammo_casing/energy/gammagun
 	projectile_type = /obj/item/projectile/beam/gamma
 	e_cost = 75
-
+	@@ -164,9 +212,16 @@
 	projectile_type = /obj/item/projectile/beam/laser/wattz2k
 	e_cost = 125
 
