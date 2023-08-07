@@ -173,11 +173,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	l_pocket = /obj/item/flashlight/lantern
 	r_hand = /obj/item/melee/powerfist/f13/goliath
 	l_hand = null
-	backpack = list(=
-		/obj/item/book/granter/martial/berserker = 1,
-		/obj/item/binoculars = 1,
-		/obj/item/reagent_containers/pill/patch/healingpowder/berserker = 2
-	)
+	backpack = null
 	satchel = null
 	ears = /obj/item/radio/headset/headset_legion/cent
 	box = /obj/item/storage/survivalkit_tribal/chief
@@ -322,6 +318,18 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 		/obj/item/melee/powerfist/f13/goliath = 1,
 		/obj/item/ammo_box/magazine/m14mm = 3,
 		)
+
+/* /datum/outfit/loadout/berserkercenturion
+	name = 			"Praetorian Candidate"
+	suit = 			/obj/item/clothing/suit/armor/f13/legion/centurion
+	head = 			/obj/item/clothing/head/helmet/f13/legion/centurion
+	backpack_contents = list(
+					/obj/item/melee/unarmed/sappers = 1,
+					/obj/item/book/granter/martial/berserker = 1,
+					/obj/item/reagent_containers/pill/patch/healingpowder/berserker = 2
+					)
+commented out pending rework*/
+
 
 // VETERAN DECANUS
 
@@ -626,7 +634,6 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	ADD_TRAIT(H, TRAIT_SILENT_STEP, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13vexillarius
@@ -708,7 +715,6 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	ADD_TRAIT(H, TRAIT_MARS_TEACH, src)
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_SILENT_STEP, src)
 
@@ -1078,7 +1084,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 
 // Camp duties are mostly an off-duty role meant to attend to the camp itself and the slaves or prisoners within.
 
-/datum/job/CaesarsLegion/Legionnaire/f13immune
+/*datum/job/CaesarsLegion/Legionnaire/f13immune
 	title = "Camp-duty"
 	flag = F13IMMUNE
 	total_positions = 4
@@ -1108,8 +1114,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_MARS_TEACH, src)
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	ADD_TRAIT(H, TRAIT_MARS_TEACH, src)*/
 
 // FORGE MASTER
 
@@ -1376,7 +1381,7 @@ Post Scriptum
 Plans: Add recipes/traits to keep refining support roles, Forgemaster done, others will need some minor tweaking. Planned is making the medicus more of a improvised surgery master, using primitive tools to good effect, because its interesting and unique.
 Venator  - Zero slots, role built on cloning vet ranger, linear just vastly better than all but the Cent, snowflakey in command when it suits them, messes up the chain of command thats already messy for Legion. FUCK IT ENABLE IT
 */
-/datum/job/CaesarsLegion/Legionnaire/f13venator
+/*datum/job/CaesarsLegion/Legionnaire/f13venator
 	title = "Venator"
 	flag = F13VENATOR
 	total_positions = 1
@@ -1458,12 +1463,12 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 
 
-// Legion CitizenReally only used for ID console
+*/// Legion CitizenReally only used for ID console
 /datum/job/ncr/f13legioncitizen
 	title = "Legion Citizen"
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13legioncitizen
 
-/*datum/outfit/job/CaesarsLegion/Legionnaire/f13legioncitizen
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13legioncitizen
 	name = "Legion Citizen (Role)"
 	uniform = /obj/item/clothing/under/f13/doctor
 	shoes = /obj/item/clothing/shoes/f13/fancy
