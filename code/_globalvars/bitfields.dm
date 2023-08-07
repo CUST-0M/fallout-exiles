@@ -287,5 +287,4 @@ GLOBAL_LIST_INIT(bitfields, list(
 		"VIS_INHERIT_ID" = VIS_INHERIT_ID,
 		"VIS_UNDERLAY" = VIS_UNDERLAY,
 		"VIS_HIDE" = VIS_HIDE
-	)
-	)
+	))
