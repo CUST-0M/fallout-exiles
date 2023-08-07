@@ -53,8 +53,8 @@
 	select_name = "bluetag"
 	harmful = FALSE
 
-/obj/item/ammo_casing/energy/laser/bluetag/hitscan
-	projectile_type = /obj/item/projectile/beam/lasertag/bluetag/hitscan
+/obj/item/ammo_casing/energy/laser/bluetag
+	projectile_type = /obj/item/projectile/beam/lasertag/bluetag
 
 /obj/item/ammo_casing/energy/laser/redtag
 	projectile_type = /obj/item/projectile/beam/lasertag/redtag
@@ -62,10 +62,10 @@
 	harmful = FALSE
 
 /obj/item/ammo_casing/energy/laser/redtag/hitscan
-	projectile_type = /obj/item/projectile/beam/lasertag/redtag/hitscan
+	projectile_type = /obj/item/projectile/beam/lasertag/redtag
 
-/obj/item/ammo_casing/energy/laser/redtag/hitscan/holy
-	projectile_type = /obj/item/projectile/beam/lasertag/redtag/hitscan/holy
+/obj/item/ammo_casing/energy/laser/redtag/holy
+	projectile_type = /obj/item/projectile/beam/lasertag/redtag/holy
 
 /obj/item/ammo_casing/energy/laser/magtag
 	projectile_type = /obj/item/projectile/beam/lasertag/mag
@@ -89,17 +89,10 @@
 ---Fallout 13---
 */
 
-/* here are the ammo sizes since nobody ever wrote these down
-electron chargepack = 2400, this is currently only used in the RCW
-mfc = 2000
-ec = 1600
-
-each one goes up by 4,000 power. why? nobody fucking knows lmao
-
-also: most hitscan weapons have more charge than their normal projectile counterparts, since the actual projectiles are lower in damage and AP. this is to represent spammability.
+/*Fuck you Frok, I'm gutting your hitscan lasers - Constantine
 */
 
-/obj/item/ammo_casing/energy/laser/scatter/tribeam
+/obj/item/ammo_casing/energy/laser/scatter
 	projectile_type = /obj/item/projectile/beam/laser/tribeam
 	pellets = 3
 	variance = 14
@@ -107,139 +100,62 @@ also: most hitscan weapons have more charge than their normal projectile counter
 	e_cost = 180 //11 shots
 	fire_sound = 'sound/f13weapons/tribeamfire.ogg'
 
-/obj/item/ammo_casing/energy/laser/scatter/tribeam/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/tribeam/hitscan
-	pellets = 3
-	variance = 45
-	select_name = "tribeam"
-	e_cost = 200 //10 shots
-
 /obj/item/ammo_casing/energy/laser/pistol
 	projectile_type = /obj/item/projectile/beam/laser/pistol
 	e_cost = 80 //20 shots
 	fire_sound = 'sound/f13weapons/aep7fire.ogg'
 
-/obj/item/ammo_casing/energy/laser/pistol/hitscan //25 damage per, with 0 near 0 AP-4 shot crit on unarmored target, significantly less useful against armored
-	projectile_type = /obj/item/projectile/beam/laser/pistol/hitscan
-	e_cost = 53.33 //30 shots, as per FNV
+/obj/item/ammo_casing/energy/laser/lucky37
+	projectile_type = /obj/item/projectile/beam/laser/pistol
+	e_cost = 180 //11 shots
+	fire_sound = 'sound/f13weapons/aep7fire.ogg'
 
 /obj/item/ammo_casing/energy/laser/ultra_pistol
 	projectile_type = /obj/item/projectile/beam/laser/ultra_pistol
-	e_cost = 80 //20 shots
-	fire_sound = 'sound/f13weapons/aep7fire.ogg'
-
-/obj/item/ammo_casing/energy/laser/ultra_rifle
-	projectile_type = /obj/item/projectile/beam/laser/ultra_rifle
-	e_cost = 80 //20 shots
-	fire_sound = 'sound/f13weapons/aep7fire.ogg'
-
-/obj/item/ammo_casing/energy/laser/pistol/recharger/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/recharger/hitscan
-	e_cost = 100 //20 shots
-	fire_sound = 'sound/f13weapons/aep7fire.ogg'
-
-/obj/item/ammo_casing/energy/laser/stun  //compliance regulator
-	projectile_type = /obj/item/projectile/beam/laser/pistol/hitscan/stun
-	e_cost = 100
-	harmful = FALSE
-
-/obj/item/ammo_casing/energy/laser/pistol/wattz
-	projectile_type = /obj/item/projectile/beam/laser/pistol/wattz
-	e_cost = 100 //16 shots
-
+	@@ -125,36 +141,68 @@
 /obj/item/ammo_casing/energy/laser/pistol/wattz/magneto
 	projectile_type = /obj/item/projectile/beam/laser/pistol/wattz/magneto
-
-/obj/item/ammo_casing/energy/laser/pistol/wattz/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/pistol/wattz/hitscan
-	e_cost = 53.33 //30 shots, as per FNV
-
-/obj/item/ammo_casing/energy/laser/pistol/wattz/magneto/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/pistol/wattz/magneto/hitscan
-	e_cost = 53.33 //30 shots, as per FNV
 
 /obj/item/ammo_casing/energy/laser/lasgun
 	projectile_type = /obj/item/projectile/beam/laser/lasgun
 	e_cost = 100 //20 shots
 	fire_sound = 'sound/f13weapons/aer9fire.ogg'
 
-/obj/item/ammo_casing/energy/laser/lasgun/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/lasgun/hitscan
-	e_cost = 80 //25 shots, as per FNV
-
-/obj/item/ammo_casing/energy/laser/lasgun/hitscan/focused
-	projectile_type = /obj/item/projectile/beam/laser/lasgun/hitscan/focused
-	e_cost = 400 //5 shots
-
 /obj/item/ammo_casing/energy/laser/solar
 	projectile_type = /obj/item/projectile/beam/laser/solar
-	e_cost = 30 //basically infinite shots
+	e_cost = 30 //10 shots, self-charges
 	fire_sound = 'sound/f13weapons/laser_pistol.ogg'
-
-/obj/item/ammo_casing/energy/laser/solar/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/solar/hitscan
-	e_cost = 125 //16 shots, self charges. selfchargng adds 100 each time it fires off, so 2 ticks per laser recharge.
 
 /obj/item/ammo_casing/energy/laser/rcw
 	projectile_type = /obj/item/projectile/beam/laser/rcw
-	e_cost = 100 //11 shots
+	e_cost = 100 //24 shots
 	fire_sound = 'sound/f13weapons/rcwfire.ogg'
-
-/obj/item/ammo_casing/energy/laser/rcw/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/rcw/hitscan
-	e_cost = 50 //it's actually 24 shots now, as it fires in a burst of 2
-
-/obj/item/ammo_casing/energy/laser/gatling/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/gatling/hitscan
-	e_cost = 10 //it's actually 240 shots now, as it fires in a burst of 5
 
 /obj/item/ammo_casing/energy/laser/laer
 	projectile_type = /obj/item/projectile/beam/laser/laer
 	e_cost = 125 //16 shots
 	fire_sound = 'sound/f13weapons/laerfire.ogg'
 
-/obj/item/ammo_casing/energy/laser/laer/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/laer/hitscan
-
 /obj/item/ammo_casing/energy/laser/aer14
 	projectile_type = /obj/item/projectile/beam/laser/aer14
 	e_cost = 80 //25 shots
 	fire_sound = 'sound/f13weapons/aer14fire.ogg'
-
-/obj/item/ammo_casing/energy/laser/aer14/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/aer14/hitscan
-	e_cost = 133.33 //15 shots, i hate the decimal value too trust me
 
 /obj/item/ammo_casing/energy/laser/aer12
 	projectile_type = /obj/item/projectile/beam/laser/aer12
 	e_cost = 100 //20 shots
 	fire_sound = 'sound/f13weapons/aer9fire.ogg'
 
-/obj/item/ammo_casing/energy/laser/aer12/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/aer12/hitscan
-	e_cost = 100 //20 shots
-	fire_sound = 'sound/f13weapons/aer9fire.ogg'
-
 /obj/item/ammo_casing/energy/gammagun
 	projectile_type = /obj/item/projectile/beam/gamma
 	e_cost = 75
-	fire_sound = 'sound/weapons/laser3.ogg'
-
-/obj/item/ammo_casing/energy/wattz2k
+	@@ -164,9 +212,16 @@
 	projectile_type = /obj/item/projectile/beam/laser/wattz2k
 	e_cost = 125
 
-/obj/item/ammo_casing/energy/wattz2k/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/wattz2k/hitscan
-	e_cost = 166.6 //12 shots
-
 /obj/item/ammo_casing/energy/wattz2k/extended
 	projectile_type = /obj/item/projectile/beam/laser/wattz2k
-	e_cost = 83.3 //24
-
-/obj/item/ammo_casing/energy/wattz2k/extended/hitscan
-	projectile_type = /obj/item/projectile/beam/laser/wattz2k/hitscan
-
+	e_cost = 62.5
 //musket
 
 /obj/item/ammo_casing/energy/laser/musket
@@ -248,17 +164,3 @@ also: most hitscan weapons have more charge than their normal projectile counter
 	fire_sound = 'sound/f13weapons/aer9fire.ogg'
 	fire_sound = 'sound/weapons/laser3.ogg'
 	
-//autolasers
-
-/obj/item/ammo_casing/energy/laser/autolaser
-	projectile_type = /obj/item/projectile/beam/laser/rcw/hitscan/autolaser
-	e_cost = 80 //30 shots
-
-/obj/item/ammo_casing/energy/laser/autolaser/shock
-	projectile_type = /obj/item/projectile/energy/teslacannon/oasis
-	fire_sound = 'sound/weapons/taser.ogg'
-	e_cost = 70 //35 shots
-
-// BETA // Obsolete
-/obj/item/ammo_casing/energy/laser/pistol/lasertest
-	projectile_type = /obj/item/projectile/beam/laser/pistol/lasertesting
