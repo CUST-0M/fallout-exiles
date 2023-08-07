@@ -95,6 +95,7 @@
 #define DNA_MUTANTTAIL_BLOCK		12
 #define DNA_MUTANTEAR_BLOCK			13
 #define DNA_MUTANTMARKING_BLOCK		14
+#define DNA_TAUR_BLOCK 				15
 
 #define DNA_SEQUENCE_LENGTH			4
 #define DNA_MUTATION_BLOCKS			8
@@ -126,6 +127,7 @@
 #define NOTRANSSTING	7
 #define MUTCOLORS_PARTSONLY	8	//Used if we want the mutant colour to be only used by mutant bodyparts. Don't combine this with MUTCOLORS, or it will be useless.
 #define NOZOMBIE		9
+#define DIGITIGRADE		10	//Uses weird leg sprites. Optional for Lizards, required for ashwalkers. Don't give it to other races unless you make sprites for this (see human_parts_greyscale.dmi)
 #define NO_UNDERWEAR	11
 #define NOLIVER			12
 #define NOSTOMACH		13
