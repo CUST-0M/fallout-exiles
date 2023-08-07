@@ -76,6 +76,7 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 "Veteran Decanus",
 "Frumentarius",
 "Explorer",
+"Forgemaster",
 "Auxilia",
 "Slave",
 
@@ -139,12 +140,12 @@ GLOBAL_LIST_INIT(legion_positions, list(
 	"Veteran Decanus",
 	"Prime Decanus",
 	"Recruit Decanus",
-	"Venator",
 	"Vexillarius",
 	"Veteran Legionary",
 	"Prime Legionary",
 	"Recruit Legionary",
 	"Explorer",
+	"Forgemaster",
 	"Auxilia",
 	"Slave",
 ))

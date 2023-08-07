@@ -1,5 +1,5 @@
-## Fallout: Exiles
-Based and maintained from Citadel Station by way of Desert Rose, Fortune, Fortuna, Lone Star, The Wasteland Rockstar, and Interstate-80. The cycle continues.
+## Interstate-80
+Based and maintained from Citadel Station by way of Desert Rose, Fortune, Fortuna, Lone Star, The Wasteland and Rockstar. Good grief.
 
 This one takes place in Wendover, Utah on the Nevada stateline just off I-80.
 
@@ -8,6 +8,10 @@ This one takes place in Wendover, Utah on the Nevada stateline just off I-80.
 * **Wiki:** <>
 * **Discord:** <https://discord.gg/WAv9hJzP9z>
 All relevant forum content takes place on the Discord!
+
+**Desert Rose Information**
+* **Code** <https://github.com/DesertRose2/desertrose>
+* **Legacy Code** <https://github.com/judgex/desertrose>
 
 **Citadel Station Information**  
 * **Website:** <http://citadel-station.net>
