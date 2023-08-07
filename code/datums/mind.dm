@@ -135,24 +135,6 @@
 		new_character.client.init_verbs() // re-initialize character specific verbs
 	current.update_atom_languages()
 
-//CIT CHANGE - makes arousal update when transfering bodies
-	if(isliving(new_character)) //New humans and such are by default enabled arousal. Let's always use the new mind's prefs.
-		var/mob/living/L = new_character
-		if(L.client?.prefs && L.client.prefs.auto_ooc && L.client.prefs.chat_toggles & CHAT_OOC)
-			DISABLE_BITFIELD(L.client.prefs.chat_toggles,CHAT_OOC)
-
-	hide_ckey = current.client?.prefs?.hide_ckey
-
-	SEND_SIGNAL(src, COMSIG_MIND_TRANSFER, new_character, old_character)
-	SEND_SIGNAL(new_character, COMSIG_MOB_ON_NEW_MIND)
-
-/datum/mind/proc/store_memory(new_text)
-	if((length_char(memory) + length_char(new_text)) <= MAX_MESSAGE_LEN)
-		memory += "[new_text]<BR>"
-
-/datum/mind/proc/wipe_memory()
-	memory = null
-
 // Datum antag mind procs
 /datum/mind/proc/add_antag_datum(datum_type_or_instance, team)
 	if(!datum_type_or_instance)

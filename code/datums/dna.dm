@@ -17,7 +17,6 @@
 	var/default_mutation_genes[DNA_MUTATION_BLOCKS] //List of the default genes from this mutation to allow DNA Scanner highlighting
 	var/stability = 100
 	var/scrambled = FALSE //Did we take something like mutagen? In that case we cant get our genes scanned to instantly cheese all the powers.
-	var/skin_tone_override //because custom skin tones are not found in the skin_tones global list.
 
 /datum/dna/New(mob/living/new_holder)
 	if(istype(new_holder))
@@ -53,9 +52,6 @@
 	destination.dna.real_name = real_name
 	destination.dna.custom_species = custom_species
 	destination.dna.temporary_mutations = temporary_mutations.Copy()
-	if(ishuman(destination))
-		var/mob/living/carbon/human/H = destination
-		H.give_genitals(TRUE)//This gives the body the genitals of this DNA. Used for any transformations based on DNA
 	if(transfer_SE)
 		destination.dna.mutation_index = mutation_index
 		destination.dna.default_mutation_genes = default_mutation_genes

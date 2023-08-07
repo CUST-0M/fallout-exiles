@@ -2622,41 +2622,6 @@
 	if(data["blood_DNA"])
 		S.add_blood_DNA(list(data["blood_DNA"] = data["blood_type"]))
 
-/obj/effect/decal/cleanable/semen
-	name = "semen"
-	desc = null
-	gender = PLURAL
-	density = 0
-	layer = ABOVE_NORMAL_TURF_LAYER
-	icon = 'icons/obj/genitals/effects.dmi'
-	icon_state = "semen1"
-	random_icon_states = list("semen1", "semen2", "semen3", "semen4")
-
-/obj/effect/decal/cleanable/semen/Initialize(mapload)
-	. = ..()
-	dir = GLOB.cardinals
-	add_blood_DNA(list("Non-human DNA" = "A+"))
-
-/obj/effect/decal/cleanable/semen/replace_decal(obj/effect/decal/cleanable/semen/S)
-	if(S.blood_DNA)
-		blood_DNA |= S.blood_DNA
-	return ..()
-
-/datum/reagent/consumable/semen/femcum
-	name = "Female Ejaculate"
-	description = "Vaginal lubricant found in most mammals and other animals of similar nature. Where you found this is your own business."
-	taste_description = "something with a tang" // wew coders who haven't eaten out a girl.
-	color = "#AAAAAA"
-	alpha = 77
-	decal_path = /obj/effect/decal/cleanable/semen/femcum
-
-/obj/effect/decal/cleanable/semen/femcum
-	name = "female ejaculate"
-	icon_state = "fem1"
-	random_icon_states = list("fem1", "fem2", "fem3", "fem4")
-	blood_state = null
-	bloodiness = null
-
 /datum/reagent/determination
 	name = "Determination"
 	description = "For when you need to push on a little more. Do NOT allow near plants."

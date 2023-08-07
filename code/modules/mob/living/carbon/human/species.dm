@@ -347,31 +347,6 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 		for(var/datum/disease/A in C.diseases)
 			A.cure(FALSE)
 
-	if(ishuman(C))
-		var/mob/living/carbon/human/H = C
-		if(NOGENITALS in H.dna.species.species_traits)
-			H.give_genitals(TRUE) //call the clean up proc to delete anything on the mob then return.
-		if(mutant_bodyparts["meat_type"]) //I can't believe it's come to the meat
-			H.type_of_meat = GLOB.meat_types[H.dna.features["meat_type"]]
-
-		if(H.physiology)
-			if(mutant_bodyparts["taur"])
-				var/datum/sprite_accessory/taur/T = GLOB.taur_list[H.dna.features["taur"]]
-				switch(T?.taur_mode)
-					if(STYLE_HOOF_TAURIC)
-						H.physiology.footstep_type = FOOTSTEP_MOB_SHOE
-					if(STYLE_PAW_TAURIC)
-						H.physiology.footstep_type = FOOTSTEP_MOB_CLAW
-					if(STYLE_SNEK_TAURIC)
-						H.physiology.footstep_type = FOOTSTEP_MOB_CRAWL
-					else
-						H.physiology.footstep_type = null
-			else
-				H.physiology.footstep_type = null
-
-		if(H.client && has_field_of_vision && CONFIG_GET(flag/use_field_of_vision))
-			H.LoadComponent(/datum/component/field_of_vision, H.field_of_vision_type)
-
 	C.add_or_update_variable_movespeed_modifier(/datum/movespeed_modifier/species, TRUE, multiplicative_slowdown = speedmod)
 
 	if(ROBOTIC_LIMBS in species_traits)
@@ -1567,7 +1542,6 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 			return FALSE
 		user.do_attack_animation(target, ATTACK_EFFECT_ASS_SLAP)
 		user.adjustStaminaLossBuffered(3)
-		target.adjust_arousal(20,maso = TRUE)
 		if (ishuman(target) && HAS_TRAIT(target, TRAIT_MASO) && target.has_dna() && prob(10))
 			target.mob_climax(forced_climax=TRUE)
 		if (!HAS_TRAIT(target, TRAIT_PERMABONER))
@@ -1961,7 +1935,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 				if(BP.receive_damage(damage_amount, 0, wound_bonus = wound_bonus, bare_wound_bonus = bare_wound_bonus, sharpness = sharpness))
 					H.update_damage_overlays()
 					if(damage_amount < 20)
-						H.adjust_arousal(damage_amount, maso = TRUE)
+					
 
 			else//no bodypart, we deal damage with a more general method.
 				H.adjustBruteLoss(damage_amount)

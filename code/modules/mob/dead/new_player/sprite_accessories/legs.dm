@@ -3,6 +3,4 @@
 
 /datum/sprite_accessory/legs/none
 	name = "Normal Legs"
-
-/datum/sprite_accessory/legs/digitigrade_lizard
-	name = "Digitigrade Legs"
+	

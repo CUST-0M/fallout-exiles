@@ -77,29 +77,8 @@
 	if(!GLOB.insect_markings_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/insect_markings, GLOB.insect_markings_list)
 
-	//CIT CHANGES - genitals and such
-	if(!GLOB.cock_shapes_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/penis, GLOB.cock_shapes_list)
-	if(!GLOB.balls_shapes_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/testicles, GLOB.balls_shapes_list)
-	if(!GLOB.vagina_shapes_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/vagina, GLOB.vagina_shapes_list)
-	if(!GLOB.breasts_shapes_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/breasts, GLOB.breasts_shapes_list)
-	if(!GLOB.butt_shapes_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/butt, GLOB.butt_shapes_list)
-	if(!GLOB.ipc_screens_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/screen, GLOB.ipc_screens_list)
-	if(!GLOB.ipc_antennas_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/antenna, GLOB.ipc_antennas_list)
-	if(!GLOB.mam_body_markings_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/mam_body_markings, GLOB.mam_body_markings_list)
-	if(!GLOB.mam_tails_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/mam_tails, GLOB.mam_tails_list)
-	if(!GLOB.mam_ears_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/ears/mam_ears, GLOB.mam_ears_list)
-	if(!GLOB.mam_snouts_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/snouts/mam_snouts, GLOB.mam_snouts_list)
+	//For now we will always return none for tail_human and ears.
+	return(list("mcolor" = pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"), "tail_lizard" = pick(GLOB.tails_list_lizard), "tail_human" = "None", "wings" = "None", "snout" = pick(GLOB.snouts_list), "horns" = pick(GLOB.horns_list), "ears" = "None", "frills" = pick(GLOB.frills_list), "spines" = pick(GLOB.spines_list), "body_markings" = pick(GLOB.body_markings_list), "legs" = "Normal Legs", "caps" = pick(GLOB.caps_list), "moth_wings" = pick(GLOB.moth_wings_list)))
 
 	//snowflake check so people's ckey features don't get randomly put on unmonkeys/spawns
 	var/list/snowflake_mam_tails_list = list()
@@ -158,74 +137,6 @@
 		if(PLURAL)
 			body_model = pick(MALE,FEMALE)
 
-	return(list(
-		"mcolor"			= color1,
-		"mcolor2"			= color2,
-		"mcolor3"			= color3,
-		"tail_lizard"		= pick(GLOB.tails_list_lizard),
-		"tail_human"		= "None",
-		"wings"				= "None",
-		"wings_color"		= "FFF",
-		"deco_wings"		= "None",
-		"snout"				= pick(GLOB.snouts_list),
-		"horns"				= "None",
-		"horns_color"		= "85615a",
-		"ears"				= "None",
-		"frills"			= pick(GLOB.frills_list),
-		"spines"			= pick(GLOB.spines_list),
-		"body_markings"		= pick(GLOB.body_markings_list),
-		"legs"				= pick("Plantigrade","Digitigrade"),
-		"caps"				= pick(GLOB.caps_list),
-		"insect_wings"		= pick(GLOB.insect_wings_list),
-		"insect_fluff"		= "None",
-		"insect_markings"	= pick(GLOB.insect_markings_list),
-		"taur"				= "None",
-		"mam_body_markings" = snowflake_markings_list.len ? pick(snowflake_markings_list) : "None",
-		"mam_ears" 			= snowflake_ears_list ? pick(snowflake_ears_list) : "None",
-		"mam_snouts"		= snowflake_mam_snouts_list ? pick(snowflake_mam_snouts_list) : "None",
-		"mam_tail"			= snowflake_mam_tails_list ? pick(snowflake_mam_tails_list) : "None",
-		"mam_tail_animated" = "None",
-		"xenodorsal" 		= "Standard",
-		"xenohead" 			= "Standard",
-		"xenotail" 			= "Xenomorph Tail",
-		"has_cock"			= FALSE,
-		"cock_shape"		= pick(GLOB.cock_shapes_list),
-		"cock_length"		= COCK_SIZE_DEF,
-		"cock_diameter_ratio"	= COCK_DIAMETER_RATIO_DEF,
-		"cock_color"		= pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),
-		"cock_taur"			= FALSE,
-		"has_balls" 		= FALSE,
-		"balls_color" 		= pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),
-		"balls_size"		= BALLS_SIZE_DEF,
-		"balls_shape"		= DEF_BALLS_SHAPE,
-		"balls_cum_rate"	= CUM_RATE,
-		"balls_cum_mult"	= CUM_RATE_MULT,
-		"balls_efficiency"	= CUM_EFFICIENCY,
-		"has_breasts" 		= FALSE,
-		"breasts_color" 	= pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),
-		"breasts_size" 		= pick(CONFIG_GET(keyed_list/breasts_cups_prefs)),
-		"breasts_shape"		= DEF_BREASTS_SHAPE,
-		"breasts_producing" = FALSE,
-		"has_vag"			= FALSE,
-		"vag_shape"			= pick(GLOB.vagina_shapes_list),
-		"vag_color"			= pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),
-		"has_womb"			= FALSE,
-		"has_butt"			= FALSE,
-		"butt_size"			= BUTT_SIZE_DEF,
-		"butt_color"		= pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),
-		"balls_visibility"	= GEN_VISIBLE_NO_UNDIES,
-		"breasts_visibility"= GEN_VISIBLE_NO_UNDIES,
-		"cock_visibility"	= GEN_VISIBLE_NO_UNDIES,
-		"vag_visibility"	= GEN_VISIBLE_NO_UNDIES,
-		"butt_visibility"   = GEN_VISIBLE_NO_UNDIES,
-		"ipc_screen"		= snowflake_ipc_antenna_list ? pick(snowflake_ipc_antenna_list) : "None",
-		"ipc_antenna"		= "None",
-		"flavor_text"		= "",
-		"silicon_flavor_text"		= "",
-		"meat_type"			= "Mammalian",
-		"body_model"		= body_model,
-		"body_size"			= RESIZE_DEFAULT_SIZE
-		))
 
 /proc/random_hair_style(gender)
 	switch(gender)
@@ -283,7 +194,6 @@
 		if(!findname(.))
 			break
 
-#define SKINTONE2HEX(skin_tone) GLOB.skin_tones[skin_tone] || skin_tone
 
 /proc/random_skin_tone()
 	return pick(GLOB.skin_tones - GLOB.nonstandard_skin_tones)

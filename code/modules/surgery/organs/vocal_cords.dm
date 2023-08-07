@@ -758,34 +758,6 @@
 			SEND_SIGNAL(L, COMSIG_ADD_MOOD_EVENT, "enthrallpraise", /datum/mood_event/enthrallpraise, descmessage)
 			E.cooldown += 1
 
-	//PUNISH mixable  works
-	else if(findtext(message, punish_words))
-		for(var/V in listeners)
-			var/mob/living/L = V
-			var/datum/status_effect/chem/enthrall/E = L.has_status_effect(/datum/status_effect/chem/enthrall)
-			var/descmessage = "[(E.lewd?"I've failed [E.enthrallGender]... What a bad, bad pet!":"I did a bad job...")]"
-			if(L == user)
-				continue
-			if (E.lewd)
-				if(HAS_TRAIT(L, TRAIT_MASO))
-					if(ishuman(L))
-						var/mob/living/carbon/human/H = L
-						H.adjust_arousal(3*power_multiplier,maso = TRUE)
-					descmessage += "And yet, it feels so good..!</span>" //I don't really understand masco, is this the right sort of thing they like?
-					E.enthrallTally += power_multiplier
-					E.resistanceTally -= power_multiplier
-					addtimer(CALLBACK(GLOBAL_PROC, .proc/to_chat, L, "<span class='love'>I've let [E.enthrallGender] down...!</b></span>"), 5)
-				else
-					addtimer(CALLBACK(GLOBAL_PROC, .proc/to_chat, L, "<span class='warning'>I've let [E.enthrallGender] down...</b></span>"), 5)
-			else
-				addtimer(CALLBACK(GLOBAL_PROC, .proc/to_chat, L, "<span class='warning'>I've failed [E.master]...</b></span>"), 5)
-				E.resistanceTally += power_multiplier
-				E.enthrallTally += power_multiplier
-				E.cooldown += 1
-			SEND_SIGNAL(L, COMSIG_ADD_MOOD_EVENT, "enthrallscold", /datum/mood_event/enthrallscold, descmessage)
-			E.cooldown += 1
-
-
 
 	//teir 0
 	//SAY MY NAME works

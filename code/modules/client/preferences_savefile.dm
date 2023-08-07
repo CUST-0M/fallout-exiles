@@ -152,7 +152,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["modless_key_bindings"]		>> modless_key_bindings
 
 	//citadel code
-	S["arousable"]			>> arousable
 	S["screenshake"]		>> screenshake
 	S["damagescreenshake"]	>> damagescreenshake
 	S["widescreenpref"]		>> widescreenpref
@@ -315,7 +314,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	//citadel code
 	WRITE_FILE(S["screenshake"], screenshake)
 	WRITE_FILE(S["damagescreenshake"], damagescreenshake)
-	WRITE_FILE(S["arousable"], arousable)
 	WRITE_FILE(S["widescreenpref"], widescreenpref)
 	WRITE_FILE(S["end_of_round_deathmatch"], end_of_round_deathmatch)
 	WRITE_FILE(S["autostand"], autostand)
@@ -449,52 +447,11 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["security_records"]			>>			security_records
 	S["medical_records"]			>>			medical_records
 
-	//Citadel code
-	S["feature_mcolor2"]				>> features["mcolor2"]
-	S["feature_mcolor3"]				>> features["mcolor3"]
-	S["feature_mam_body_markings"]		>> features["mam_body_markings"]
-	S["feature_mam_tail"]				>> features["mam_tail"]
-	S["feature_mam_ears"]				>> features["mam_ears"]
-	S["feature_mam_tail_animated"]		>> features["mam_tail_animated"]
-	S["feature_taur"]					>> features["taur"]
-	S["feature_mam_snouts"]				>> features["mam_snouts"]
-	S["feature_meat"]					>> features["meat_type"]
 	//Xeno features
 	S["feature_xeno_tail"]				>> features["xenotail"]
 	S["feature_xeno_dors"]				>> features["xenodorsal"]
 	S["feature_xeno_head"]				>> features["xenohead"]
-	//cock features
-	S["feature_has_cock"]				>> features["has_cock"]
-	S["feature_cock_shape"]				>> features["cock_shape"]
-	S["feature_cock_color"]				>> features["cock_color"]
-	S["feature_cock_length"]			>> features["cock_length"]
-	S["feature_cock_diameter"]			>> features["cock_diameter"]
-	S["feature_cock_taur"]				>> features["cock_taur"]
-	S["feature_cock_visibility"]		>> features["cock_visibility"]
-	//balls features
-	S["feature_has_balls"]				>> features["has_balls"]
-	S["feature_balls_color"]			>> features["balls_color"]
-	S["feature_balls_size"]				>> features["balls_size"]
-	S["feature_balls_visibility"]		>> features["balls_visibility"]
-	//breasts features
-	S["feature_has_breasts"]			>> features["has_breasts"]
-	S["feature_breasts_size"]			>> features["breasts_size"]
-	S["feature_breasts_shape"]			>> features["breasts_shape"]
-	S["feature_breasts_color"]			>> features["breasts_color"]
-	S["feature_breasts_producing"]		>> features["breasts_producing"]
-	S["feature_breasts_visibility"]		>> features["breasts_visibility"]
-	//vagina features
-	S["feature_has_vag"]				>> features["has_vag"]
-	S["feature_vag_shape"]				>> features["vag_shape"]
-	S["feature_vag_color"]				>> features["vag_color"]
-	S["feature_vag_visibility"]			>> features["vag_visibility"]
-	//womb features
-	S["feature_has_womb"]				>> features["has_womb"]
-	//butt features
-	S["feature_has_butt"] 				>> features["has_butt"]
-	S["feature_butt_color"] 			>> features["butt_color"]
-	S["feature_butt_size"] 				>> features["butt_size"]
-	S["feature_butt_visibility"] 		>> features["butt_visibility"]
+	
 	//flavor text
 	//Let's make our players NOT cry desperately as we wipe their savefiles of their special snowflake texts:
 	if((S["flavor_text"] != "") && (S["flavor_text"] != null) && S["flavor_text"]) //If old text isn't null and isn't "" but still exists.
@@ -608,44 +565,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 		size_max = CONFIG_GET(number/body_size_max)
 	features["body_size"]			= sanitize_num_clamp(features["body_size"], size_min, size_max, RESIZE_DEFAULT_SIZE, 0.01)
 
-	var/static/list/B_sizes
-	if(!B_sizes)
-		var/list/L = CONFIG_GET(keyed_list/breasts_cups_prefs)
-		B_sizes = L.Copy()
-	var/static/min_D
-	if(!min_D)
-		min_D = CONFIG_GET(number/penis_min_inches_prefs)
-	var/static/max_D
-	if(!max_D)
-		max_D = CONFIG_GET(number/penis_max_inches_prefs)
-	var/static/min_B
-	if(!min_B)
-		min_B = CONFIG_GET(number/butt_min_size_prefs)
-	var/static/max_B
-	if(!max_B)
-		max_B = CONFIG_GET(number/butt_max_size_prefs)
-	var/static/safe_visibilities
-	if(!safe_visibilities)
-		var/list/L = CONFIG_GET(keyed_list/safe_visibility_toggles)
-		safe_visibilities = L.Copy()
-
-	features["breasts_size"]		= sanitize_inlist(features["breasts_size"], B_sizes, BREASTS_SIZE_DEF)
-	features["cock_length"]			= sanitize_integer(features["cock_length"], min_D, max_D, COCK_SIZE_DEF)
-	features["butt_size"] 			= sanitize_integer(features["butt_size"], min_B, max_B, BUTT_SIZE_DEF)
-	features["breasts_shape"]		= sanitize_inlist(features["breasts_shape"], GLOB.breasts_shapes_list, DEF_BREASTS_SHAPE)
-	features["cock_shape"]			= sanitize_inlist(features["cock_shape"], GLOB.cock_shapes_list, DEF_COCK_SHAPE)
-	features["balls_shape"]			= sanitize_inlist(features["balls_shape"], GLOB.balls_shapes_list, DEF_BALLS_SHAPE)
-	features["vag_shape"]			= sanitize_inlist(features["vag_shape"], GLOB.vagina_shapes_list, DEF_VAGINA_SHAPE)
-	features["breasts_color"]		= sanitize_hexcolor(features["breasts_color"], 6, FALSE, "FFFFFF")
-	features["cock_color"]			= sanitize_hexcolor(features["cock_color"], 6, FALSE, "FFFFFF")
-	features["balls_color"]			= sanitize_hexcolor(features["balls_color"], 6, FALSE, "FFFFFF")
-	features["vag_color"]			= sanitize_hexcolor(features["vag_color"], 6, FALSE, "FFFFFF")
-	features["breasts_visibility"]	= sanitize_inlist(features["breasts_visibility"], safe_visibilities, GEN_VISIBLE_NO_UNDIES)
-	features["cock_visibility"]		= sanitize_inlist(features["cock_visibility"], safe_visibilities, GEN_VISIBLE_NO_UNDIES)
-	features["balls_visibility"]	= sanitize_inlist(features["balls_visibility"], safe_visibilities, GEN_VISIBLE_NO_UNDIES)
-	features["vag_visibility"]		= sanitize_inlist(features["vag_visibility"], safe_visibilities, GEN_VISIBLE_NO_UNDIES)
-	features["butt_visibility"] 	= sanitize_inlist(features["butt_visibility"], safe_visibilities, GEN_VISIBLE_NO_UNDIES)
-
 	custom_speech_verb				= sanitize_inlist(custom_speech_verb, GLOB.speech_verbs, "default")
 	custom_tongue					= sanitize_inlist(custom_tongue, GLOB.roundstart_tongues, "default")
 
@@ -743,37 +662,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	WRITE_FILE(S["feature_insect_fluff"]			, features["insect_fluff"])
 	WRITE_FILE(S["feature_insect_markings"]			, features["insect_markings"])
 	WRITE_FILE(S["feature_meat"]					, features["meat_type"])
-
-	WRITE_FILE(S["feature_has_cock"], features["has_cock"])
-	WRITE_FILE(S["feature_cock_shape"], features["cock_shape"])
-	WRITE_FILE(S["feature_cock_color"], features["cock_color"])
-	WRITE_FILE(S["feature_cock_length"], features["cock_length"])
-	WRITE_FILE(S["feature_cock_taur"], features["cock_taur"])
-	WRITE_FILE(S["feature_cock_visibility"], features["cock_visibility"])
-
-	WRITE_FILE(S["feature_has_balls"], features["has_balls"])
-	WRITE_FILE(S["feature_balls_color"], features["balls_color"])
-	WRITE_FILE(S["feature_balls_size"], features["balls_size"])
-	WRITE_FILE(S["feature_balls_visibility"], features["balls_visibility"])
-
-	WRITE_FILE(S["feature_has_breasts"], features["has_breasts"])
-	WRITE_FILE(S["feature_breasts_size"], features["breasts_size"])
-	WRITE_FILE(S["feature_breasts_shape"], features["breasts_shape"])
-	WRITE_FILE(S["feature_breasts_color"], features["breasts_color"])
-	WRITE_FILE(S["feature_breasts_producing"], features["breasts_producing"])
-	WRITE_FILE(S["feature_breasts_visibility"], features["breasts_visibility"])
-
-	WRITE_FILE(S["feature_has_vag"], features["has_vag"])
-	WRITE_FILE(S["feature_vag_shape"], features["vag_shape"])
-	WRITE_FILE(S["feature_vag_color"], features["vag_color"])
-	WRITE_FILE(S["feature_vag_visibility"], features["vag_visibility"])
-
-	WRITE_FILE(S["feature_has_womb"], features["has_womb"])
-
-	WRITE_FILE(S["feature_has_butt"], features["has_butt"])
-	WRITE_FILE(S["feature_butt_color"], features["butt_color"])
-	WRITE_FILE(S["feature_butt_size"], features["butt_size"])
-	WRITE_FILE(S["feature_butt_visibility"], features["butt_visibility"])
 
 	WRITE_FILE(S["feature_ooc_notes"], features["ooc_notes"])
 
