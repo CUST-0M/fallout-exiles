@@ -173,11 +173,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	l_pocket = /obj/item/flashlight/lantern
 	r_hand = /obj/item/melee/powerfist/f13/goliath
 	l_hand = null
-	backpack = list(=
-		/obj/item/book/granter/martial/berserker = 1,
-		/obj/item/binoculars = 1,
-		/obj/item/reagent_containers/pill/patch/healingpowder/berserker = 2
-	)
+	backpack = /obj/item/storage/backpack/legionr
 	satchel = null
 	ears = /obj/item/radio/headset/headset_legion/cent
 	box = /obj/item/storage/survivalkit_tribal/chief
