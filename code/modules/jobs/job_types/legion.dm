@@ -1456,10 +1456,7 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 		/obj/item/shovel/spade = 1,
 		)
 
-/*
-Post Scriptum
-Plans: Add recipes/traits to keep refining support roles, Forgemaster done, others will need some minor tweaking. Planned is making the medicus more of a improvised surgery master, using primitive tools to good effect, because its interesting and unique.
-/*
+
 
 /// Legion CitizenReally only used for ID console
 /datum/job/ncr/f13legioncitizen
