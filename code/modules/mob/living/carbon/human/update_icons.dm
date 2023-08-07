@@ -124,12 +124,25 @@ There are several things that need to be remembered:
 		if(wear_suit && (wear_suit.flags_inv & HIDEJUMPSUIT))
 			return
 
+
 		var/target_overlay = U.icon_state
 		if(U.adjusted == ALT_STYLE)
 			target_overlay = "[target_overlay]_d"
 
 		var/alt_worn = U.mob_overlay_icon || 'icons/mob/clothing/uniform.dmi'
 		var/variant_flag = NONE
+
+		if((DIGITIGRADE in dna.species.species_traits) && U.mutantrace_variation & STYLE_DIGITIGRADE && !(U.mutantrace_variation & STYLE_NO_ANTHRO_ICON))
+			alt_worn = U.anthro_mob_worn_overlay || 'icons/mob/clothing/uniform_digi.dmi'
+			variant_flag |= STYLE_DIGITIGRADE
+
+		var/mask
+		if(dna.species.mutant_bodyparts["taur"])
+			var/datum/sprite_accessory/taur/T = GLOB.taur_list[dna.features["taur"]]
+			var/clip_flag = U.mutantrace_variation & T?.hide_legs
+			if(clip_flag)
+				variant_flag |= clip_flag
+				mask = T.alpha_mask_state
 
 		var/mutable_appearance/uniform_overlay
 

@@ -667,6 +667,9 @@
 		if(!(HAIR in H.dna.species.species_traits)) //No hair? No problem!
 			H.dna.species.species_traits += HAIR
 		if(H.dna.species.use_skintones)
+			if(H.dna.skin_tone_override)
+				H.skin_tone = H.dna.skin_tone_override = "#FF8800"
+			else
 				H.skin_tone = "orange"
 		else if(MUTCOLORS in H.dna.species.species_traits) //Aliens with custom colors simply get turned orange
 			H.dna.features["mcolor"] = "f80"
