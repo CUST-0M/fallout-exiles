@@ -2598,29 +2598,6 @@
 
 
 //body bluids
-/datum/reagent/consumable/semen
-	name = "Semen"
-	description = "Sperm from some animal. Useless for anything but insemination, really."
-	taste_description = "something salty"
-	taste_mult = 2 //Not very overpowering flavor
-	data = list("donor"=null,"viruses"=null,"donor_DNA"=null,"blood_type"=null,"resistances"=null,"trace_chem"=null,"mind"=null,"ckey"=null,"gender"=null,"real_name"=null)
-	reagent_state = LIQUID
-	color = "#FFFFFF" // rgb: 255, 255, 255
-	can_synth = FALSE
-	nutriment_factor = 0.5 * REAGENTS_METABOLISM
-	var/decal_path = /obj/effect/decal/cleanable/semen
-
-/datum/reagent/consumable/semen/reaction_turf(turf/T, reac_volume)
-	if(!istype(T))
-		return
-	if(reac_volume < 10)
-		return
-
-	var/obj/effect/decal/cleanable/semen/S = locate() in T
-	if(!S)
-		S = new decal_path(T)
-	if(data["blood_DNA"])
-		S.add_blood_DNA(list(data["blood_DNA"] = data["blood_type"]))
 
 /datum/reagent/determination
 	name = "Determination"
