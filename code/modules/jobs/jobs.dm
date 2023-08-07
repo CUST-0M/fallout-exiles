@@ -149,7 +149,7 @@ GLOBAL_LIST_INIT(legion_positions, list(
 	"Recruit Legionary",
 	"Explorer",
 	"Slavemaster",
-	"Camp-duty"
+	"Camp-duty",
 	"Auxilia",
 	"Slave",
 ))
