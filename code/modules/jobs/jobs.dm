@@ -56,6 +56,7 @@ GLOBAL_LIST_INIT(command_positions, list(
 	"NCR Veteran Ranger",
 
 	"Legion Centurion",
+	"Veteran Decanus", //Wasn't here before. Still technically command, I put it here - Constantine
 
 	"Chief of Police",
 
@@ -132,6 +133,7 @@ GLOBAL_LIST_INIT(oasis_positions, list(
 
 GLOBAL_LIST_INIT(legion_command_positions, list(
 	"Legion Centurion",
+	"Veteran Decanus",
 ))
 
 GLOBAL_LIST_INIT(legion_positions, list(
@@ -140,12 +142,14 @@ GLOBAL_LIST_INIT(legion_positions, list(
 	"Veteran Decanus",
 	"Prime Decanus",
 	"Recruit Decanus",
+	"Venator",
 	"Vexillarius",
 	"Veteran Legionary",
 	"Prime Legionary",
 	"Recruit Legionary",
 	"Explorer",
-	"Forgemaster",
+	"Slavemaster",
+	"Camp-duty"
 	"Auxilia",
 	"Slave",
 ))
@@ -155,8 +159,10 @@ GLOBAL_LIST_INIT(ncr_rangervet_positions, list(
 ))
 
 GLOBAL_LIST_INIT(ncr_positions, list(
+	"Captain",
 	"Ambassador",
 	"Lieutenant",
+	"NCR Ranger",
 	"Sergeant",
 	"Corporal",
 	"Medical Officer",

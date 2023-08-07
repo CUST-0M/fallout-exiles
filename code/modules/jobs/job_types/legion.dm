@@ -645,7 +645,7 @@ commented out pending rework*/
 	total_positions = 1
 	spawn_positions = 1
 	description = "You are a Veteran of proven bravery. When not fighting, relay orders from the commander and act as a bodyguard."
-	supervisors = "the Veteran Decanus"
+	supervisors = "The Centurion, the decanii."
 	display_order = JOB_DISPLAY_ORDER_VEXILLARIUS
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13vexillarius
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
@@ -729,8 +729,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13explorer
 	title = "Explorer"
 	flag = F13EXPLORER
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	description = "Scout the area, secure key points, but do not ignore orders or wordlessly die some place. A good explorer helps his unit by taking initiative and helping the commander without needing micro-managment."
 	supervisors = "the Centurion must be obeyed, and as always, respect must be given to other . You are not a officer, but you are a specialist."
 	display_order = JOB_DISPLAY_ORDER_EXPLORER
