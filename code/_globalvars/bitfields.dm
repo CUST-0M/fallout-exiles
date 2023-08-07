@@ -1,4 +1,4 @@
-GLOBAL_LIST_INIT(bitfields, list(
+GLOBAL_LIST_INIT{bitfields, list(
 	"appearance_flags" = list(
 		"LONG_GLIDE" = LONG_GLIDE,
 		"RESET_COLOR" = RESET_COLOR,
@@ -287,4 +287,5 @@ GLOBAL_LIST_INIT(bitfields, list(
 		"VIS_INHERIT_ID" = VIS_INHERIT_ID,
 		"VIS_UNDERLAY" = VIS_UNDERLAY,
 		"VIS_HIDE" = VIS_HIDE
-	))
+	)
+	}
