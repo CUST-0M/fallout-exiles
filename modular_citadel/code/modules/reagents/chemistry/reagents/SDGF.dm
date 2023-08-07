@@ -98,7 +98,9 @@ IMPORTANT FACTORS TO CONSIDER WHILE BALANCING
 						ghosts -= C2
 				if(!SM.mind) //Something went wrong, use alt mechanics
 					return ..()
-			
+				SM.mind.enslave_mind_to_creator(M)
+				SM.mind.store_memory(M.mind.memory)
+
 				//If they're a zombie, they can try to negate it with this.
 				//I seriously wonder if anyone will ever use this function.
 				if(M.getorganslot(ORGAN_SLOT_ZOMBIE))//sure, it "treats" it, but "you've" still got it. Doesn't always work as well; needs a ghost.

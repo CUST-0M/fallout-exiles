@@ -63,6 +63,42 @@ I'd like to point out from my calculations it'll take about 60-80 minutes to die
 		qdel(O)
 	..()
 
+/datum/reagent/fermi/astral/on_mob_life(mob/living/carbon/M) // Gives you the ability to astral project for a moment!
+	M.alpha = 255
+	if(current_cycle == 0)
+		originalmind = M.mind
+		log_reagent("FERMICHEM: [M] ckey: [M.key] became an astral ghost")
+		origin = M
+		if (G == null)
+			G = new(get_turf(M.loc))
+		G.name = "[M]'s astral projection"
+		//var/datum/action/chem/astral/AS = new(G)
+		AS.Grant(G)
+		AS.origin = M
+		AS.originalmind = originalmind
+
+		if(M.mind)
+			M.mind.transfer_to(G)
+		SSblackbox.record_feedback("tally", "fermi_chem", 1, "Astral projections")
+		//INSURANCE
+		M.apply_status_effect(/datum/status_effect/chem/astral_insurance)
+		var/datum/status_effect/chem/astral_insurance/AI = M.has_status_effect(/datum/status_effect/chem/astral_insurance)
+		AI.original = M
+		AI.originalmind = M.mind
+
+	if(overdosed)
+		if(prob(50))
+			to_chat(G, "<span class='warning'>The high conentration of Astrogen in your blood causes you to lapse your concentration for a moment, bringing your projection back to yourself!</b></span>")
+			do_teleport(G, M.loc)
+	metabolization_rate = current_cycle/10 //exponential
+	sleepytime+=5
+	if(G)//This is a mess because of how slow qdel is, so this is all to stop runtimes.
+		if(G.mind)
+			if(G.stat == DEAD || G.pseudo_death == TRUE)
+				G.mind.transfer_to(M)
+				qdel(G)
+	..()
+
 /datum/reagent/fermi/astral/on_mob_delete(mob/living/carbon/M)
 	if(!(G?.mind))
 		if(!G)
