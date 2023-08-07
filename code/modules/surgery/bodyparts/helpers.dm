@@ -260,3 +260,35 @@
 		if(robotic)
 			L.change_bodypart_status(BODYPART_ROBOTIC)
 	. = L
+
+/mob/living/carbon/proc/Digitigrade_Leg_Swap(swap_back)
+	for(var/X in bodyparts)
+		var/obj/item/bodypart/O = X
+		if((O.body_part == LEG_LEFT || O.body_part == LEG_RIGHT) && ((!O.use_digitigrade && !swap_back) || (O.use_digitigrade && swap_back)))
+			O.use_digitigrade = swap_back ? NOT_DIGITIGRADE : FULL_DIGITIGRADE
+			O.update_limb(FALSE, src)
+
+	if(ishuman(src))
+		var/mob/living/carbon/human/H = src
+		if(H.w_uniform)
+			H.update_inv_w_uniform()
+		if(H.shoes)
+			H.update_inv_shoes()
+		if(H.wear_suit)
+			H.update_inv_wear_suit()
+
+/mob/living/carbon/proc/get_body_parts_flags()
+	for(var/X in bodyparts)
+		var/obj/item/bodypart/L = X
+		switch(L.body_part)
+			if(CHEST)
+				. |= GROIN
+			if(LEG_LEFT)
+				. |= FOOT_LEFT
+			if(LEG_RIGHT)
+				. |= FOOT_RIGHT
+			if(ARM_LEFT)
+				. |= HAND_LEFT
+			if(ARM_RIGHT)
+				. |= HAND_RIGHT
+		. |= L.body_part

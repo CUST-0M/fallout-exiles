@@ -82,5 +82,6 @@
 /datum/sprite_accessory/underwear
 	icon = 'icons/mob/clothing/underwear.dmi'
 	var/has_color = FALSE
+	var/has_digitigrade = FALSE
 	var/covers_groin = FALSE
 	var/covers_chest = FALSE

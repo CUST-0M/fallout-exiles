@@ -152,6 +152,12 @@
 			to_chat(src, "<span class='danger'>You are trying to equip this item to an unsupported inventory slot. Report this to a coder!</span>")
 			not_handled = TRUE
 
+	//Item is handled and in slot, valid to call callback, for this proc should always be true
+	if(!not_handled)
+		I.equipped(src, slot)
+	update_genitals()
+	return not_handled //For future deeper overrides
+
 /mob/living/carbon/human/equipped_speed_mods()
 	. = ..()
 	for(var/sloties in get_all_slots() - list(l_store, r_store, s_store))
@@ -237,6 +243,7 @@
 		s_store = null
 		if(!QDELETED(src))
 			update_inv_s_store()
+	update_genitals()
 
 /mob/living/carbon/human/wear_mask_update(obj/item/clothing/C, toggle_off = 1)
 	if((C.flags_inv & (HIDEHAIR|HIDEFACIALHAIR)) || (initial(C.flags_inv) & (HIDEHAIR|HIDEFACIALHAIR)))

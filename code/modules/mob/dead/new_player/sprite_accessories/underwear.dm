@@ -20,42 +20,51 @@
 	name = "Boxers"
 	icon_state = "boxers"
 	has_color = TRUE
+	has_digitigrade = TRUE
 	gender = MALE
 
 /datum/sprite_accessory/underwear/bottom/male_bee
 	name = "Boxers - Bee"
 	icon_state = "bee_shorts"
+	has_digitigrade = TRUE
 	gender = MALE
 
 /datum/sprite_accessory/underwear/bottom/male_hearts
 	name = "Boxers - Heart"
 	icon_state = "boxers_heart"
+	has_digitigrade = TRUE
 	gender = MALE
 
-
+/*
 /datum/sprite_accessory/underwear/bottom/male_stripe
 	name = "Boxers - Striped"
 	icon_state = "boxers_striped"
+	has_digitigrade = TRUE
 	gender = MALE
 
 /datum/sprite_accessory/underwear/bottom/male_commie
 	name = "Boxers - Striped Communist"
 	icon_state = "boxers_commie"
+	has_digitigrade = TRUE
 	gender = MALE
 
 /datum/sprite_accessory/underwear/bottom/male_usastripe
 	name = "Boxers - Striped Freedom"
 	icon_state = "boxers_assblastusa"
+	has_digitigrade = TRUE
 	gender = MALE
 
 /datum/sprite_accessory/underwear/bottom/male_uk
 	name = "Boxers - Striped UK"
 	icon_state = "boxers_uk"
+	has_digitigrade = TRUE
 	gender = MALE
+*/
 
 /datum/sprite_accessory/underwear/bottom/boxer_briefs
 	name = "Boxer Briefs"
 	icon_state = "boxer_briefs"
+	has_digitigrade = TRUE
 	has_color = TRUE
 
 /datum/sprite_accessory/underwear/bottom/male_kinky
@@ -67,6 +76,7 @@
 /datum/sprite_accessory/underwear/bottom/longjon
 	name = "Long John Bottoms"
 	icon_state = "ljonb"
+	has_digitigrade = TRUE
 	has_color = TRUE
 
 /datum/sprite_accessory/underwear/bottom/mankini
@@ -89,7 +99,7 @@
 	has_color = TRUE
 	gender = FEMALE
 
-
+/*
 /datum/sprite_accessory/underwear/bottom/female_beekini
 	name = "Panties - Bee-kini"
 	icon_state = "panties_bee-kini"
@@ -99,13 +109,14 @@
 	name = "Panties - Commie"
 	icon_state = "panties_commie"
 	gender = FEMALE
-
+*/
 
 /datum/sprite_accessory/underwear/bottom/fishnet_lower
 	name = "Panties - Fishnet"
 	icon_state = "fishnet_lower"
 	gender = FEMALE
 
+/*
 /datum/sprite_accessory/underwear/bottom/female_usastripe
 	name = "Panties - Freedom"
 	icon_state = "panties_assblastusa"
@@ -121,7 +132,7 @@
 	icon_state = "panties_neko"
 	has_color = TRUE
 	gender = FEMALE
-
+*/
 
 /datum/sprite_accessory/underwear/bottom/panties_slim
 	name = "Panties - Slim"
@@ -129,13 +140,13 @@
 	has_color = TRUE
 	gender = FEMALE
 
-
+/*
 /datum/sprite_accessory/underwear/bottom/striped_panties
 	name = "Panties - Striped"
 	icon_state = "striped_panties"
 	has_color = TRUE
 	gender = FEMALE
-
+*/
 
 /datum/sprite_accessory/underwear/bottom/panties_swimsuit
 	name = "Panties - Swimsuit"
@@ -149,7 +160,7 @@
 	has_color = TRUE
 	gender = FEMALE
 
-
+/*
 /datum/sprite_accessory/underwear/bottom/panties_uk
 	name = "Panties - UK"
 	icon_state = "panties_uk"
@@ -172,7 +183,7 @@
 	icon_state = "swimming_red"
 	gender = FEMALE
 	covers_chest = TRUE
-
+*/
 
 /datum/sprite_accessory/underwear/bottom/thong
 	name = "Thong"

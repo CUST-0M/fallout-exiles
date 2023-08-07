@@ -11,6 +11,7 @@
 	armor = list("melee" = 35, "bullet" = 40, "laser" = 35, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 	flags_inv = HIDEJUMPSUIT|HIDETAUR
 	resistance_flags = FIRE_PROOF
+	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_SNEK_TAURIC|STYLE_PAW_TAURIC
 
 /obj/item/clothing/head/hooded/explorer
 	name = "explorer hood"
