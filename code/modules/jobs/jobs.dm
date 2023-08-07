@@ -138,8 +138,8 @@ GLOBAL_LIST_INIT(legion_command_positions, list(
 
 GLOBAL_LIST_INIT(legion_positions, list(
 	"Legion Centurion",
-	"Legion Orator",
 	"Veteran Decanus",
+	"Legion Orator",
 	"Prime Decanus",
 	"Recruit Decanus",
 	"Venator",
