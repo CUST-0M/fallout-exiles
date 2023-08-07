@@ -159,16 +159,18 @@ GLOBAL_LIST_INIT(ncr_rangervet_positions, list(
 ))
 
 GLOBAL_LIST_INIT(ncr_positions, list(
-	"Captain",
-	"Ambassador",
-	"Lieutenant",
+	"NCR Captain",
+	"NCR Lieutenant",
+	"NCR Veteran Ranger",
+	"NCR Representative",
 	"NCR Ranger",
-	"Sergeant",
-	"Corporal",
-	"Medical Officer",
-	"Military Police",
-	"Trooper",
-	"Off Duty",
+	"NCR Heavy Trooper",
+	"NCR Sergeant",
+	"NCR Corporal",
+	"NCR Medical Officer",
+	"NCR Military Police",
+	"NCR Trooper",
+	"NCR Off Duty",
 ))
 
 GLOBAL_LIST_INIT(vault_positions, list(
@@ -184,6 +186,7 @@ GLOBAL_LIST_INIT(vault_positions, list(
 
 GLOBAL_LIST_INIT(wasteland_positions, list(
 	"Wastelander",
+	"Great Khan",
 	"Tribal",
 	"Raider",
 ))
