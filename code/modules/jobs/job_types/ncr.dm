@@ -164,7 +164,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
 	if(H.mind)
 		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
 		H.mind.AddSpell(S)
@@ -270,7 +269,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 
@@ -309,8 +307,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 
 
@@ -364,7 +360,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced/trenchraider = 1,
 		)
 
-// DRILL SERGEANT
+/*/ DRILL SERGEANT
 
 /datum/job/ncr/f13drillsergeant
 	title = "NCR Senior Enlisted Advisor"
@@ -446,6 +442,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/clothing/accessory/ncr/SSGT = 1
 		)
 
+*/
 
 // REPRESENATIVE
 
@@ -767,8 +764,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	. = ..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_IRONFIST, src)
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 
 /datum/outfit/job/ncr/f13heavytrooper	// Mk. 23, Bayonet, Heavy armor
@@ -932,7 +927,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
 
-/*/ COMBAT MEDIC
+// COMBAT MEDIC
 
 /datum/job/ncr/f13combatmedic
 	title = "Combat Medic"
@@ -978,12 +973,11 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	. = ..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/medx)
 
-*/
+
 
 /////////////////////////
 //// Regular Soldiers ///
@@ -1021,7 +1015,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	. = ..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+
 
 /datum/outfit/job/ncr/f13corporal
 	name = "NCR Corporal"
@@ -1112,7 +1106,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	. = ..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	
 
 /datum/outfit/job/ncr/f13trooper
 	name = "NCR Trooper"
@@ -1267,65 +1261,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		return
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	ADD_TRAIT(H, TRAIT_SURGERY_HIGH, src)
+	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/medx)
-
-
-// LOGISTICS OFFICER
-
-/datum/job/ncr/f13logisticsofficer
-	title = "Logistics Officer"
-	flag = F13LOGISTICSOFFICER
-	total_positions = 1
-	spawn_positions = 1
-	description = "You are the lead engineering professional in the embassy, you do not have any command authority beyond the logistical side. Your duties are to ensure your outpost is well defended, the armory is in order, and you always have supplies. Organize the rear echelon to offload the frontline officers and make things happen."
-	supervisors = "Captain and Above"
-	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCR_COMMAND)
-	selection_color = "#fff5cc"
-	display_order = JOB_DISPLAY_ORDER_LOGISTICSOFFICER
-	outfit = /datum/outfit/job/ncr/f13logisticsofficer
-
-/datum/outfit/job/ncr/f13logisticsofficer/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	. = ..()
-	if(visualsOnly)
-		return
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/servicerifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/ncrsalvagedarmorconversion)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tools/forged/entrenching_tool)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/ncrsalvagedhelmetconversion)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/incendiaryrocket)
-	//guns
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/ninemil)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/m1911)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/n99)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/m1garand)
-	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
-
-/datum/outfit/job/ncr/f13logisticsofficer		// M1 Garand, 9mm sidearm, Survival knife, C-4 bomb, Extra materials, Full blueprints
-	name = "NCR Logistics Officer"
-	jobtype	= /datum/job/ncr/f13logisticsofficer
-	id = /obj/item/card/id/dogtag/ncrlieutenant
-	uniform	= /obj/item/clothing/under/f13/ncr/ncr_officer
-	accessory = /obj/item/clothing/accessory/ncr/LT2
-	head = /obj/item/clothing/head/beret/ncr/ncr_sapper
-	neck = /obj/item/storage/belt/holster/legholster
-	suit = /obj/item/clothing/suit/armor/f13/utilityvest/logisticsofficer
-	glasses	= /obj/item/clothing/glasses/welding
-	belt = /obj/item/storage/belt/military/assault/ncr/engineer
-	gloves = /obj/item/clothing/gloves/color/yellow
-	suit_store = /obj/item/gun/ballistic/automatic/smg/greasegun
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/greasegun = 2,
-		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
-		/obj/item/ammo_box/magazine/m9mm = 2,
-		/obj/item/grenade/plastic/c4 = 1,
-		/obj/item/melee/onehanded/knife/survival = 1,
-		/obj/item/storage/bag/money/small/ncrofficers = 1,
-		/obj/item/stack/sheet/metal/twenty = 2,
-		/obj/item/stack/sheet/glass/ten = 2,
-		/obj/item/book/granter/trait/explosives = 1,
-		/obj/item/book/granter/crafting_recipe/blueprint/trapper = 1,
-		)
-
 
 // REAR ECHELON
 
