@@ -167,7 +167,7 @@ GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Captain",
 	"NCR Lieutenant",
 	"NCR Veteran Ranger",
-	"NCR Medical Officer"
+	"NCR Medical Officer",
 	"NCR Representative",
 	"NCR Ranger",
 	"NCR Military Police"
