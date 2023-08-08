@@ -883,15 +883,6 @@
 	item_state = "silver_id"
 	desc = "A rewritable card that allows you to put your name and assignment on it."
 
-/obj/item/card/id/dogtag/vigilante
-	name = "vigilante's badge"
-	desc = "An old silver badge."
-	assignment = "badge"
-	assignment = "Vigilante"
-	icon_state = "deputy"
-	item_state = "badge-deputy"
-
-
 /obj/item/card/id/dogtag/deputy
 	name = "officer's badge"
 	desc = "A silver badge which shows honour and dedication."

@@ -796,10 +796,6 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 /obj/effect/landmark/start/f13/cultleader
 	name = "Cult Leader"
 
-/obj/effect/landmark/start/f13/vigilante
-	name = "Vigilante"
-	icon_state = "Wastelander"
-
 /obj/effect/landmark/start/f13/wastelander
 	name = "Wastelander"
 	icon_state = "Wastelander"

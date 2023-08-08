@@ -1226,7 +1226,7 @@
 	autofire_shot_delay = 2
 	burst_shot_delay = 1.5
 	extra_damage = 25
-	fire_delay = 3
+	fire_delay = 4.5
 	spread = 8
 	recoil = 0.1
 	can_attachments = FALSE
