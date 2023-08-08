@@ -170,7 +170,7 @@ GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Medical Officer",
 	"NCR Representative",
 	"NCR Ranger",
-	"NCR Military Police"
+	"NCR Military Police",
 	"NCR Heavy Trooper",
 	"NCR Sergeant",
 	"NCR Combat Medic",
