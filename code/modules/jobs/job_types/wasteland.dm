@@ -1093,18 +1093,6 @@ datum/job/wasteland/f13dendoctor
 						)*/
 
 
-/datum/job/wasteland/f13adminboos
-	title = "Death"
-	flag = F13ADMINBOOS
-	faction = FACTION_WASTELAND
-	total_positions = 0
-	spawn_positions = 0
-	description = ""
-	supervisors = "no one"
-	selection_color = "#76885f"
-
-	outfit = /datum/outfit/job/wasteland/f13adminboos
-
 //New tribal role. Replaces old tribe stuff.
 /datum/job/wasteland/f13tribal
 	title = "Tribal"
