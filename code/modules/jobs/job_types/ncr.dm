@@ -242,7 +242,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	)
 
 /datum/outfit/job/ncr/f13lieutenant		// Republic's Pride, Binoculars, Bayonet, M1911 custom
-	name = "Lieutenant"
+	name = "NCR Lieutenant"
 	jobtype	= /datum/job/ncr/f13lieutenant
 	id = /obj/item/card/id/dogtag/ncrlieutenant
 	uniform	= /obj/item/clothing/under/f13/ncr/ncr_officer
@@ -276,7 +276,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 // SERGEANT
 
 /datum/job/ncr/f13sergeant
-	title = "Sergeant"
+	title = "NCR Sergeant"
 	flag = F13SERGEANT
 	total_positions = 1
 	spawn_positions = 1
@@ -308,6 +308,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		return
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
 
 /datum/outfit/job/ncr/f13sergeant
@@ -447,7 +448,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 // REPRESENATIVE
 
 /datum/job/ncr/f13representative
-	title = "Ambassador"
+	title = "NCR Representative"
 	flag = F13REP
 	access = list(ACCESS_BAR, ACCESS_NCR, ACCESS_CHANGE_IDS, ACCESS_NCR_ARMORY, ACCESS_NCRREP)
 	total_positions = 1
@@ -799,10 +800,10 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		)
 
 
-/*/ COMBAT ENGINEER
+// COMBAT ENGINEER
 
 /datum/job/ncr/f13combatengineer
-	title = "Combat Engineer"
+	title = "NCR Combat Engineer"
 	flag = F13COMBATENGINEER
 	total_positions = 1
 	spawn_positions = 1
@@ -884,12 +885,12 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/book/granter/crafting_recipe/blueprint/trapper = 1,
 		/obj/item/book/granter/trait/explosives = 1,
 
-		)*/
+		)
 
 // MILITARY POLICE
 
 /datum/job/ncr/f13mp
-	title = "Military Police"
+	title = "NCR Military Police"
 	flag = F13MP
 	total_positions = 2
 	spawn_positions = 2
@@ -987,7 +988,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 // CORPORAL
 
 /datum/job/ncr/f13corporal
-	title = "Corporal"
+	title = "NCR Corporal"
 	flag = F13CORPORAL
 	total_positions = 1
 	spawn_positions = 1
@@ -1079,7 +1080,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 // TROOPER
 
 /datum/job/ncr/f13trooper
-	title = "Trooper"
+	title = "NCR Trooper"
 	flag = F13TROOPER
 	total_positions = 5
 	spawn_positions = 5
@@ -1208,7 +1209,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 // MEDICAL OFFICER
 
 /datum/job/ncr/f13medicalofficer
-	title = "Medical Officer"
+	title = "NCR Medical Officer"
 	flag = F13MEDICALOFFICER
 	total_positions = 1
 	spawn_positions = 1
@@ -1264,7 +1265,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 // REAR ECHELON
 
 /datum/job/ncr/f13rearechelon
-	title = "Off Duty"
+	title = "NCR Off Duty"
 	flag = F13REARECHELON
 	total_positions = 4
 	spawn_positions = 4

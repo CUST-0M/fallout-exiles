@@ -39,7 +39,8 @@
 	desc = "Heavy fireman axe from the old world, Restored to working order by legion craftsmen. Excellent for smashing doors or heads."
 	icon_state = "legionaxe"
 	icon_prefix = "legionaxe"
-	force = 30
+	force = 25
+	armour_penetration = 0.25
 	throwforce = 15
 	wound_bonus = 10
 	bare_wound_bonus = 10
@@ -80,7 +81,8 @@
 	desc = "Heavy fireman axe from the old world, with its distinctive red colour and excellent quality steel. Excellent for smashing doors."
 	icon_state = "fireaxe"
 	icon_prefix = "fireaxe"
-	force = 26
+	force = 21
+	armour_penetration = 0.15
 	throwforce = 15
 	wound_bonus = 10
 	bare_wound_bonus = 10
