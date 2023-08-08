@@ -1205,10 +1205,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		)
 
 
-/////////////////
-/// Logistics ///
-/////////////////
-
 // MEDICAL OFFICER
 
 /datum/job/ncr/f13medicalofficer
