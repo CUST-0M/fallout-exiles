@@ -3742,6 +3742,8 @@
 #include "modular_citadel\code\modules\reagents\chemistry\recipes\fermi.dm"
 #include "modular_citadel\code\modules\reagents\objects\clothes.dm"
 #include "modular_citadel\code\modules\reagents\objects\items.dm"
+#include "modular_exiles\code\modules\clothing\f13glasses.dm"
+#include "modular_exiles\code\modules\clothing\f13masks.dm"
 #include "modular_exiles\code\modules\clothing\suits\f13armor.dm"
 #include "modular_exiles\code\modules\clothing\suits\f13armoraccessory.dm"
 #include "modular_exiles\code\modules\clothing\suits\f13factionarmor.dm"
