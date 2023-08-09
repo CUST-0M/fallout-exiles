@@ -12,13 +12,6 @@
 	resistance_flags = NONE
 	mutantrace_variation = STYLE_MUZZLE
 
-/obj/item/clothing/mask/gas/enclave
-	name = "gas mask mk 2"
-	desc = "An advanced gas mask with efficient cleanable filters and flash protected lenses."
-	icon_state = "gasmask_enclave"
-	item_state = "gasmask_enclave"
-	flash_protect = 2
-
 /obj/item/clothing/mask/gas/glass
 	name = "glass gas mask"
 	desc = "A face-covering mask that can be connected to an air supply. This one doesn't obscure your face however." //More accurate
@@ -154,13 +147,6 @@
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	flags_inv = HIDEFACIALHAIR|HIDEFACE|HIDEEYES|HIDEEARS|HIDEHAIR
 
-/obj/item/clothing/mask/gas/ranger
-	name = "ranger gas mask"
-	desc = "A close-fitting tactical mask issued to all NCR Rangers."
-	icon_state = "rangermask"
-	item_state = "rangermask"
-	flags_inv = HIDEFACIALHAIR|HIDEFACE|HIDEEYES|HIDEEARS|HIDEHAIR
-	visor_flags_inv = 0
 
 /obj/item/clothing/mask/brokengasmask
 	name = "broken gas mask"
