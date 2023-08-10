@@ -323,38 +323,19 @@
 // TRIBALS ///
 //////////////
 
-/obj/item/clothing/suit/armored/f13_armor/tribal/cloak
+/obj/item/clothing/suit/f13_armor/tribal/cloak
 	name = "f13_armor tribal cloak"
 	desc = "A f13_armor cloak made from gecko skins and small metal plates at vital areas to give some protection, a favorite amongst scouts of the tribe."
 	icon_state = "f13_armorcloak"
 	item_state = "f13_armorcloak"
 	armor = list("melee" = 30, "bullet" = 15, "laser" = 15, "energy" = 15, "bomb" = 15, "bio" = 5, "rad" = 15, "fire" = 25, "acid" = 5)
 
-/obj/item/clothing/suit/armored/f13_armor/tribal/simple
+/obj/item/clothing/suit/f13_armor/tribal/simple
 	name = "simple tribal armor"
 	desc = "Armor made of leather strips and a large, flat piece of turquoise. The wearer is displaying the Wayfinders traditional garb."
 	icon_state = "tribal_armor"
 	item_state = "tribal_armor"
 	armor = list("melee" = 30, "bullet" = 10, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 5, "rad" = 5, "fire" = 20, "acid" = 0)
-
-/obj/item/clothing/suit/hooded/cloak/birdclaw
-	name = "quickclaw armour"
-	icon_state = "birdarmor"
-	desc = "A suit of armour fashioned out of the remains of a legendary deathclaw, this one has been crafted to remove a good portion of its protection to improve on speed and trekking."
-	slowdown = 0.025
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 40, "bio" = 30, "rad" = 20, "fire" = 50, "acid" = 10)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/birdclaw
-	heat_protection = CHEST|GROIN|LEGS|ARMS|HANDS
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS|HANDS
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-/obj/item/clothing/head/hooded/cloakhood/birdclaw
-	name = "quickclaw hood"
-	icon_state = "hood_bird"
-	desc = "A hood made of deathclaw hides, f13_armor while also being comfortable to wear, designed for speed."
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 40, "bio" = 30, "rad" = 20, "fire" = 50, "acid" = 10)
-	heat_protection = HEAD
-	resistance_flags = FIRE_PROOF | ACID_PROOF
 
 /obj/item/clothing/suit/hooded/cloak/deathclaw
 	name = "deathclaw cloak"
@@ -394,7 +375,6 @@
 // MISC. //
 ///////////
 
-// Recipe winter coat + armor kit
 /obj/item/clothing/suit/toggle/armored/winterkit
 	name = "armored winter coat"
 	desc = "Fur lined coat with armor kit bits added to it."
@@ -404,17 +384,7 @@
 	cold_protection = CHEST | GROIN | LEGS | ARMS
 	armor = list("melee" = 15, "bullet" = 25, "laser" = 10, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
-/obj/item/clothing/suit/armored/f13_armor/mutantkit
-	name = "oversized armor kit"
-	desc = "Bits of armor fitted to a giant harness. Clearly not made for use by humans."
-	icon_state = "mutie_armorkit"
-	item_state = "mutie_armorkit"
-	heat_protection = CHEST | GROIN | LEGS| ARMS | HEAD
-	siemens_coefficient = 1.1
-	armor = list("melee" = 15, "bullet" = 25, "laser" = 10, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
-
-//Leather and metal
-/obj/item/clothing/suit/armor/f13/leather_jacket
+/obj/item/clothing/suit/f13_armor/leather_jacket
 	name = "leather jacket"
 	icon_state = "leather_jacket"
 	item_state = "leather_jacket"
@@ -423,7 +393,7 @@
 	slowdown = 0.025 //token slowdown
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 
-/obj/item/clothing/suit/armor/f13/leather_jacket/combat
+/obj/item/clothing/suit/f13_armor/leather_jacket/combat
 	name = "combat leather jacket"
 	icon_state = "combat_jacket"
 	item_state = "combat_jacket"
@@ -439,7 +409,7 @@
 	armor = list("melee" = 35, "bullet" = 22, "laser" = 22, "energy" = 15, "bomb" = 45, "bio" = 30, "rad" = 5, "fire" = 50, "acid" = 35, "wound" = 35)
 
 
-/obj/item/clothing/suit/armor/f13/kit
+/obj/item/clothing/suit/f13_armor/kit
 	name = "armor kit"
 	desc = "Separate armor parts you can wear over the clothing to get the most basic protection from the dangers of wasteland.<br>It sure is better than going into the battle without any armor at all."
 	icon_state = "armorkit"
@@ -452,7 +422,7 @@
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
-/obj/item/clothing/suit/armor/f13/punk
+/obj/item/clothing/suit/f13_armor/punk
 	name = "armor kit"
 	desc = "A couple of armor parts that can be worn over the clothing for moderate protection against the dangers of wasteland.<br>Do you feel lucky now? Well, do ya, punk?"
 	icon_state = "armorkit_punk"
@@ -462,20 +432,6 @@
 	icon = 'icons/fallout/clothing/armored_f13_armor.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_f13_armor.dmi'
 	slowdown = 0.025
-
-/obj/item/clothing/suit/armor/f13/punk/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/plates
-	name = "f13_armor armor plates"
-	desc = "Well-made metal plates covering your vital organs."
-	icon = 'icons/fallout/clothing/armored_f13_armor.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_f13_armor.dmi'
-	icon_state = "f13_armor_plates"
-	item_state = "armorkit"
-	armor = list("melee" = 33, "bullet" = 33, "laser" = 40, "energy" = 15, "bomb" = 20, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
-	slowdown = 0.08
 
 /obj/item/clothing/suit/armor/f13/leatherarmor
 	name = "leather armor"
@@ -517,15 +473,6 @@
 	slowdown = 0.2
 	strip_delay = 10
 
-/obj/item/clothing/suit/armor/fluff/metalarmor/Initialize()
-	. = ..()
-	AddComponent(/datum/component/spraycan_paintable)
-	START_PROCESSING(SSobj, src)
-
-/obj/item/clothing/suit/armor/fluff/metalarmor/Destroy()
-	STOP_PROCESSING(SSobj, src)
-	return ..()
-
 /obj/item/clothing/suit/armor/f13/metalarmor/reinforced
 	name = "reinforced metal armor"
 	desc = "A set of well-fitted plates formed together to provide effective protection."
@@ -545,7 +492,7 @@
 	strip_delay = 5
 
 //Combat armor
-/obj/item/clothing/suit/armor/f13/combat
+/obj/item/clothing/suit/f13_armor/combat
 	name = "combat armor"
 	desc = "An old military grade pre war combat armor."
 	icon_state = "combat_armor"
@@ -553,25 +500,6 @@
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
 	slowdown = 0.12
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 5)
-
-/obj/item/clothing/suit/armor/f13/combat/laserproof
-	name = "ablative combat armor"
-	desc = "An old military grade pre war combat armor. This one switches out its ballistic fibers for an ablative coating that disrupts energy weapons."
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 60, "energy" = 50, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
-
-/obj/item/clothing/suit/armor/f13/combat/dark
-	name = "combat armor"
-	desc = "An old military grade pre war combat armor. Now in dark, and extra-crispy!"
-	color = "#514E4E"
-
-/obj/item/clothing/suit/armor/f13/combat/Initialize()
-	. = ..()
-	AddComponent(/datum/component/spraycan_paintable)
-	START_PROCESSING(SSobj, src)
-
-/obj/item/clothing/suit/armor/f13/combat/Destroy()
-	STOP_PROCESSING(SSobj, src)
-	return ..()
 
 /obj/item/clothing/suit/armor/f13/combat/riotpolice
 	name = "combat body armor"
@@ -581,7 +509,7 @@
 	armor = list("melee" = 55, "bullet" = 55, "laser" = 45, "energy" = 35, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 35, "wound" = 45)
 	slowdown = 0.15
 
-/obj/item/clothing/suit/armor/f13/combat/mk2
+/obj/item/clothing/suit/f13_armor/combat/mk2
 	name = "reinforced combat armor"
 	desc = "A reinforced set of bracers, greaves, and torso plating of prewar design. This one is kitted with additional plates."
 	icon = 'icons/obj/clothing/suits.dmi'
@@ -590,11 +518,6 @@
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 50, "energy" = 22, "bomb" = 55, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 55)
 	slowdown = 0.15
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 8)
-
-/obj/item/clothing/suit/armor/f13/combat/mk2/dark
-	name = "reinforced combat armor"
-	desc = "A reinforced model based of the pre-war combat armor. Now in dark, f13_armor, and smoky barbeque!"
-	color = "#302E2E"
 
 /obj/item/clothing/suit/armor/f13/combat/swat
 	name = "SWAT combat armor"
@@ -642,12 +565,6 @@
 	slowdown = 0.05
 	item_state = "combat_armor_raider"
 
-/obj/item/clothing/suit/armor/f13/combat/scav
-	name = "russian combat armor"
-	desc = "An old military grade pre war combat armor, painted in black with white strips."
-	icon_state = "Scav_combatarmor"
-	item_state = "Scav_combatarmor"
-
 /////////////////
 // Power armor //
 /////////////////
@@ -689,9 +606,7 @@
 	var/emped = FALSE
 	/// Path of item that this set of armor gets salvaged into
 	var/obj/item/salvaged_type = null
-	/// Used to track next tool required to salvage the suit
-	var/salvage_step = 0
-
+	
 /obj/item/clothing/suit/armor/f13/power_armor/Initialize()
 	. = ..()
 	if(ispath(cell))
@@ -734,242 +649,14 @@
 	REMOVE_TRAIT(user, SPREAD_CONTROL, "PA_spreadcontrol")
 	REMOVE_TRAIT(user, TRAIT_POWER_ARMOR, "PA_worn_trait")
 
-/obj/item/clothing/suit/armor/f13/power_armor/Destroy()
-	. = ..()
-	STOP_PROCESSING(SSobj, src)
-
-/obj/item/clothing/suit/armor/f13/power_armor/process()
-	var/mob/living/carbon/human/user = src.loc
-	if(!user || !ishuman(user) || (user.wear_suit != src))
-		return
-	if((!cell || !cell?.use(usage_cost) || (salvage_step > 1))) // No cell, ran out of charge or we're in the process of being salvaged
-		if(!no_power)
-			remove_power(user)
-		return
-	if(no_power) // Above didn't proc and suit is currently unpowered, meaning cell is installed and has charge - restore power
-		restore_power(user)
-		return
-
-/obj/item/clothing/suit/armor/f13/power_armor/proc/remove_power(mob/user)
-	if(salvage_step > 1) // Being salvaged
-		to_chat(user, "<span class='warning'>Components in [src] require repairs!</span>")
-	else
-		to_chat(user, "<span class='warning'>\The [src] has ran out of charge!</span>")
-	slowdown += unpowered_slowdown
-	no_power = TRUE
-	remove_traits(user)
-	user.update_equipment_speed_mods()
-
-/obj/item/clothing/suit/armor/f13/power_armor/proc/restore_power(mob/user)
-	to_chat(user, "<span class='notice'>\The [src]'s power restored.</span>")
-	slowdown -= unpowered_slowdown
-	no_power = FALSE
-	assign_traits(user)
-	user.update_equipment_speed_mods()
-
-/obj/item/clothing/suit/armor/f13/power_armor/attackby(obj/item/I, mob/living/carbon/human/user, params)
-	if(powered && istype(I, /obj/item/stock_parts/cell))
-		if(cell)
-			to_chat(user, "<span class='warning'>\The [src] already has a cell installed.</span>")
-			return
-		if(user.transferItemToLoc(I, src))
-			cell = I
-			to_chat(user, "<span class='notice'>You successfully install \the [cell] into [src].</span>")
-		return
-
-	if(ispath(salvaged_type))
-		switch(salvage_step)
-			if(0)
-				// Salvage
-				if(istype(I, /obj/item/screwdriver))
-					if(ishuman(user) && user.wear_suit == src)
-						to_chat(user, "<span class='warning'>You have to take off the suit before salvaging it.</span>")
-						return
-					to_chat(user, "<span class='notice'>You begin unsecuring the wiring cover...</span>")
-					if(I.use_tool(src, user, 60, volume=50))
-						salvage_step = 1
-						to_chat(user, "<span class='notice'>You unsecure the wiring cover.</span>")
-					return
-			if(1)
-				// Salvage
-				if(istype(I, /obj/item/wirecutters))
-					if(ishuman(user) && user.wear_suit == src)
-						to_chat(user, "<span class='warning'>You have to take off the suit before salvaging it.</span>")
-						return
-					to_chat(user, "<span class='notice'>You start to cut down the wiring...</span>")
-					if(I.use_tool(src, user, 80, volume=50))
-						salvage_step = 2
-						to_chat(user, "<span class='notice'>You disconnect the wires.</span>")
-					return
-				// Fix
-				if(istype(I, /obj/item/screwdriver))
-					if(ishuman(user) && user.wear_suit == src)
-						to_chat(user, "<span class='warning'>You have to take off the suit before fixing it.</span>")
-						return
-					to_chat(user, "<span class='notice'>You begin securing the wiring cover...</span>")
-					if(I.use_tool(src, user, 60, volume=50))
-						salvage_step = 0
-						to_chat(user, "<span class='notice'>You secure the wiring cover.</span>")
-					return
-			if(2)
-				// Salvage
-				if(istype(I, /obj/item/wrench))
-					if(ishuman(user) && user.wear_suit == src)
-						to_chat(user, "<span class='warning'>You have to take off the suit before salvaging it.</span>")
-						return
-					to_chat(user, "<span class='notice'>You start loosening the bolts that secure components to the frame...</span>")
-					if(I.use_tool(src, user, 100, volume=50))
-						salvage_step = 3
-						to_chat(user, "<span class='notice'>You disconnect the inner components.</span>")
-					return
-				// Fix
-				if(istype(I, /obj/item/wirecutters))
-					if(ishuman(user) && user.wear_suit == src)
-						to_chat(user, "<span class='warning'>You have to take off the suit before fixing it.</span>")
-						return
-					to_chat(user, "<span class='notice'>You begin placing wires back into their place...</span>")
-					if(I.use_tool(src, user, 80, volume=50))
-						salvage_step = 1
-						to_chat(user, "<span class='notice'>You re-connect the wires.</span>")
-					return
-			if(3)
-				// Salvage
-				if(istype(I, /obj/item/weldingtool) || istype(I, /obj/item/gun/energy/plasmacutter))
-					if(ishuman(user) && user.wear_suit == src)
-						to_chat(user, "<span class='warning'>You have to take off the suit before salvaging it.</span>")
-						return
-					to_chat(user, "<span class='notice'>You begin slicing the servomotors apart from the frame...</span>")
-					if(I.use_tool(src, user, 150, volume=60))
-						salvage_step = 4
-						to_chat(user, "<span class='notice'>You disconnect servomotors from the main frame.</span>")
-					return
-				// Fix
-				if(istype(I, /obj/item/wrench))
-					if(ishuman(user) && user.wear_suit == src)
-						to_chat(user, "<span class='warning'>You have to take off the suit before fixing it.</span>")
-						return
-					to_chat(user, "<span class='notice'>You start securing components to the frame...</span>")
-					if(I.use_tool(src, user, 100, volume=50))
-						salvage_step = 2
-						to_chat(user, "<span class='notice'>You re-connect the inner components.</span>")
-					return
-			if(4)
-				// Salvage
-				if(istype(I, /obj/item/crowbar))
-					if(ishuman(user) && user.wear_suit == src)
-						to_chat(user, "<span class='warning'>You have to take off the suit before salvaging it.</span>")
-						return
-					to_chat(user, "<span class='notice'>You start to remove remaining components...</span>")
-					if(I.use_tool(src, user, 50, volume=70))
-						to_chat(user, "<span class='notice'>You finish salvaging the suit.</span>")
-						var/obj/item/ST = new salvaged_type(src)
-						user.put_in_hands(ST)
-						qdel(src)
-					return
-				// Fix
-				if(istype(I, /obj/item/weldingtool) || istype(I, /obj/item/gun/energy/plasmacutter))
-					if(ishuman(user) && user.wear_suit == src)
-						to_chat(user, "<span class='warning'>You have to take off the suit before fixing it.</span>")
-						return
-					to_chat(user, "<span class='notice'>You begin welding the servomotors to the frame...</span>")
-					if(I.use_tool(src, user, 150, volume=60))
-						salvage_step = 3
-						to_chat(user, "<span class='notice'>You re-connect servomotors to the main frame.</span>")
-					return
-	return ..()
-
-/obj/item/clothing/suit/armor/f13/power_armor/attack_self(mob/living/user)
-	if(powered)
-		toggle_cell(user)
-	return ..()
-
-/obj/item/clothing/suit/armor/f13/power_armor/AltClick(mob/living/user)
-	if(!user.canUseTopic(src, BE_CLOSE, ismonkey(user)))
-		return ..()
-	if(powered)
-		toggle_cell(user)
-	return
-
-/obj/item/clothing/suit/armor/f13/power_armor/proc/toggle_cell(mob/living/user)
-	if(cell)
-		user.visible_message("<span class='notice'>[user] removes \the [cell] from [src]!</span>", \
-			"<span class='notice'>You remove [cell].</span>")
-		cell.add_fingerprint(user)
-		user.put_in_hands(cell)
-		cell = null
-	else
-		to_chat(user, "<span class='warning'>[src] has no cell installed.</span>")
-
-/obj/item/clothing/suit/armor/f13/power_armor/examine(mob/user)
-	. = ..()
-	if(powered && (in_range(src, user) || isobserver(user)))
-		if(cell)
-			. += "The power meter shows [round(cell.percent(), 0.1)]% charge remaining."
-		else
-			. += "The power cell slot is currently empty."
-	if(ispath(salvaged_type))
-		. += salvage_hint()
-
-/obj/item/clothing/suit/armor/f13/power_armor/proc/salvage_hint()
-	switch(salvage_step)
-		if(0)
-			return "<span class='notice'>The wiring cover is <i>screwed</i> in place.</span>"
-		if(1)
-			return "<span class='notice'>The cover is <i>screwed</i> open and <i>wires</i> are visible.</span>"
-		if(2)
-			return "<span class='warning'>The wiring has been <i>cut</i> and components connected with <i>bolts</i> are visible.</span>"
-		if(3)
-			return "<span class='warning'>The components have been <i>unanchored</i> servomotors inside the suit can be <i>sliced through</i>.</span>"
-		if(4)
-			return "<span class='warning'>The servomotors have been <i>sliced apart</i> from the frame and remaining components can be <i>pried away</i>.</span>"
-
-/obj/item/clothing/suit/armor/f13/power_armor/emp_act(mob/living/carbon/human/owner, severity)
-	. = ..()
-	if(. & EMP_PROTECT_SELF)
-		return
-	if(!powered)
-		return
-	if(cell)
-		cell.emp_act(severity)
-	if(!emped)
-		if(isliving(loc))
-			var/mob/living/L = loc
-			var/induced_slowdown = 0
-			if(severity >= 41) /f13_armor emp
-				induced_slowdown = 4
-				to_chat(L, "<span class='boldwarning'>Warning: severe electromagnetic surge detected in armor. Rerouting power to emergency systems.</span>")
-			else
-				induced_slowdown = 2
-				to_chat(L, "<span class='warning'>Warning: f13_armor electromagnetic surge detected in armor. Rerouting power to emergency systems.</span>")
-			emped = TRUE
-			slowdown += induced_slowdown
-			L.update_equipment_speed_mods()
-			addtimer(CALLBACK(src, .proc/end_emp_effect, induced_slowdown), 50)
-	return
-
-/obj/item/clothing/suit/armor/f13/power_armor/proc/end_emp_effect(slowdown_induced)
-	emped = FALSE
-	slowdown -= slowdown_induced // Even if armor is dropped it'll fix slowdown
-	if(isliving(loc))
-		var/mob/living/L = loc
-		to_chat(L, "<span class='warning'>Armor power reroute successful. All systems operational.</span>")
-		L.update_equipment_speed_mods()
-
-/obj/item/clothing/suit/armor/f13/power_armor/run_block(mob/living/owner, atom/object, damage, attack_text, attack_type, armour_penetration, mob/attacker, def_zone, final_block_chance, list/block_return)
-	if((attack_type == ATTACK_TYPE_PROJECTILE) && (def_zone in protected_zones))
-		if(prob(70) && (damage < deflect_damage) && (armour_penetration <= 0)) // Weak projectiles like shrapnel get deflected
-			block_return[BLOCK_RETURN_REDIRECT_METHOD] = REDIRECT_METHOD_DEFLECT
-			return BLOCK_SHOULD_REDIRECT | BLOCK_REDIRECTED | BLOCK_SUCCESS | BLOCK_PHYSICAL_INTERNAL
-	return ..()
-
-/obj/item/clothing/suit/armor/f13/power_armor/t45b
+/obj/item/clothing/suit/f13_armor/power_armor/t45b
 	name = "T-45b power armor"
 	desc = "It's a set of early-model T-45 power armor with a custom air conditioning module and restored servomotors. Bulky, but almost as good as the real thing."
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 22, "bomb" = 55, "bio" = 65, "rad" = 55, "fire" = 85, "acid" = 0, "wound" = 65)
 	slowdown = 0.4
 	salvaged_type = /obj/item/clothing/suit/armoredf13_armor/salvaged_pa/t45b
 
-/obj/item/clothing/suit/armor/f13/power_armor/t45d
+/obj/item/clothing/suit/f13_armor/power_armor/t45d
 	name = "T-45d power armor"
 	desc = "Originally developed and manufactured for the United States Army by American defense contractor West Tek, the T-45d power armor was the first version of power armor to be successfully deployed in battle."
 	icon_state = "t45dpowerarmor"
@@ -979,15 +666,15 @@
 	salvaged_type = /obj/item/clothing/suit/armoredf13_armor/salvaged_pa/t45d
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45d/knightcaptain
-	name = "Head-Knight's T-45d Power Armour"
+	name = "head-knight's T-45d Power Armour"
 	desc = "A classic set of T-45d Power Armour only to be used in armed combat, it signifies the Head Knight and their place in the Brotherhood. A leader, and a beacon of structure in a place where chaos reigns. All must rally to his call, for he is the Head Knight and your safety is his duty."
 	icon_state = "t45dkc"
 	item_state = "t45dkc"
 	slowdown = 0.16
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45d/bos
-	name = "Brotherhood T-45d power armour"
-	desc = "A suit of T-45d Power Armour adorned with the markings of the Brotherhood of Steel. Commonly used by the Paladins of the Brotherhood."
+	name = "brotherhood T-45d power armor"
+	desc = "A suit of T-45d power armor adorned with the markings of the Brotherhood of Steel. Commonly used by the Paladins of the Brotherhood."
 	icon_state = "t45dpowerarmor_bos"
 	item_state = "t45dpowerarmor_bos"
 
@@ -1007,64 +694,19 @@
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 25)
 	salvaged_type = /obj/item/clothing/suit/armoredf13_armor/salvaged_pa/t51b
 
-/obj/item/clothing/suit/armor/f13/power_armor/t51b/altumt51
-	name = "Painted T-51b power armor"
-	desc = "A painted set of T51b power armor."
-	icon_state = "altumt51"
-	item_state = "altumt51"
-
 /obj/item/clothing/suit/armor/f13/power_armor/t51green
-	name = "Hardened T-51b power armor"
+	name = "hardened T-51b power armor"
 	desc = "The pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer. It's plates have been chemially treated to be stronger."
 	icon_state = "t51green"
 	item_state = "t51green"
 	slowdown = 0.25 //+0.05 from helmet = total 0.255
 	armor = list("melee" = 75, "bullet" = 75, "laser" = 75, "energy" = 27, "bomb" = 64, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 40, "wound" = 75)
 
-/obj/item/clothing/suit/armor/f13/power_armor/hmidwest
-	name = "Hardened Midwestern power armor"
-	desc = "This set of power armor belongs to the Midwestern branch of the Brotherhood of Steel. This particular one has gone through a chemical hardening process, increasing its armor capabilities."
-	icon_state = "midwestgrey_pa"
-	item_state = "midwestgrey_pa"
-	slowdown = 0.25 //+0.05 from helmet = total 0.255
-	armor = list("melee" = 75, "bullet" = 75, "laser" = 75, "energy" = 27, "bomb" = 64, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 40, "wound" = 75)
-
 /obj/item/clothing/suit/armor/f13/power_armor/t51b/bos
-	name = "Brotherhood T-51b Power Armour"
+	name = "brotherhood T-51b power armor"
 	desc = "The pinnacle of pre-war technology, appropriated by the Brotherhood of Steel. Commonly worn by Head Paladins."
 	icon_state = "t51bpowerarmor_bos"
 	item_state = "t51bpowerarmor_bos"
-
-/obj/item/clothing/suit/armor/f13/power_armor/t60
-	name = "T-60a power armor"
-	desc = "Developed in early 2077 after the Anchorage Reclamation, the T-60 series of power armor was designed to eventually replace the T-51b as the pinnacle of powered armor technology in the U.S. military arsenal."
-	icon_state = "t60powerarmor"
-	item_state = "t60powerarmor"
-	slowdown = 0.2
-	armor = list("melee" = 80, "bullet" = 70, "laser" = 80, "energy" = 30, "bomb" = 82, "bio" = 100, "rad" = 100, "fire" = 95, "acid" = 50, "wound" = 80)
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 30)
-	salvaged_type = /obj/item/clothing/suit/armoredf13_armor/salvaged_pa/t60
-
-/obj/item/clothing/suit/armor/f13/power_armor/t60/pineapple
-	name = "degraded T-60a power armor"
-	desc = "Developed in early 2077 after the Anchorage Reclamation, the T-60 series of power armor was designed to eventually replace the T-51b as the pinnacle of powered armor technology in the U.S. military arsenal. This suit is heavily degraded." //reskin of head knight armor
-	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 60, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
-	salvaged_type = null
-
-/obj/item/clothing/suit/armor/f13/power_armor/excavator
-	name = "excavator power armor"
-	desc = "Developed by Garrahan Mining Co. in collaboration with West Tek, the Excavator-class power armor was designed to protect miners from rockfalls and airborne contaminants while increasing the speed at which they could work. "
-	icon_state = "excavator"
-	item_state = "excavator"
-	slowdown = 0.4
-	armor = list("melee" = 80, "bullet" = 50, "laser" = 50, "energy" = 15, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 95, "acid" = 80, "wound" = 80)
-
-/obj/item/clothing/suit/armor/f13/power_armor/advanced
-	name = "advanced power armor"
-	desc = "An advanced suit of armor typically used by the Enclave.<br>It is composed of f13_armorweight metal alloys, reinforced with ceramic castings at key stress points.<br>Additionally, like the T-51b power armor, it includes a recycling system that can convert human waste into drinkable water, and an air conditioning system for its user's comfort."
-	icon_state = "advpowerarmor1"
-	item_state = "advpowerarmor1"
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 85, "energy" = 35, "bomb" = 72, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 50, "wound" = 90)
 
 //Various
 
@@ -1132,13 +774,6 @@
 	item_state = "postalbomber"
 	armor = list("melee" = 30, "bullet" = 40,"laser" = 30, "energy" = 20, "bomb" = 30, "bio" = 0, "rad" = 30, "fire" = 30, "acid" = 30, "wound" = 35)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-
-/obj/item/clothing/suit/armor/f13/battlecoat/vault
-	name = "command coat"
-	desc = "A heavy pre-war bomber coat, dyed blue with the number '113' embroidered on the back. Most often worn by leaders, such as the Overseer."
-	icon_state = "maxson_battlecoat"
-	item_state = "maxson_battlecoat"
-
 
 /obj/item/clothing/suit/armor/f13/battlecoat/vault/overseer
 	name = "Overseer's battlecoat"
@@ -2540,10 +2175,11 @@
 	desc = "A customized and moderately-worn suit of patrol ranger armor. A sun-worn thick olive duster is worn over the armor."
 	icon_state = "thaxarmor"
 	item_state = "thaxarmor"
+	armor = list("melee" = 30, "bullet" = 45, "laser" = 40, "energy" = 20, "bomb" = 55, "bio" = 60, "rad" = 15, "fire" = 60, "acid" = 30, "wound" = 40)
 
 /obj/item/clothing/suit/armor/f13/rangercombat
 	name = "veteran ranger combat armor"
-	desc = "The NCR veteran ranger combat armor, or black armor consists of a pre-war L.A.P.D. riot suit under a duster with rodeo jeans. Considered one of the most prestigious suits of armor to earn and wear while in service of the NCR Rangers."
+	desc = "The iconic NCR veteran ranger combat armor, or black armor consists of a pre-war L.A.P.D. riot suit under a duster with rodeo jeans. Considered one of the most prestigious suits of armor to earn and wear while in service of the NCR Rangers." //Yet they all die to cazadors - Constantine
 	icon_state = "ranger"
 	item_state = "ranger"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
@@ -2586,8 +2222,7 @@
 	item_state = "elder"
 	body_parts_covered = CHEST|ARMS|LEGS
 	armor = list("melee" = 20, "bullet" = 25, "laser" = 25, "energy" = 10, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 30)
-	allowed = list(/obj/item/gun)
-
+	
 /obj/item/clothing/suit/f13_armor/brotherhood/initiate
 	name = "initiate armor"
 	desc = "An old degraded pre war combat armor, repainted to the colour scheme of the Brotherhood of Steel."
@@ -2624,9 +2259,17 @@
 	item_state = "brotherhood_armor_captain"
 	armor = list("melee" = 55, "bullet" = 55, "laser" = 55, "energy" = 60, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
 
+/obj/item/clothing/suit/f13_armor/battlecoat/maxson
+	name = "command coat"
+	desc = "A heavy pre-war bomber coat, dyed blue with the number '113' embroidered on the back. Most often worn by leaders, such as the Overseer."
+	icon_state = "maxson_battlecoat"
+	item_state = "maxson_battlecoat"
+	armor = list("melee" = 10, "bullet" = 30, "laser" = 40, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
+
 //////////
 //Town///
 /////////
+
 /obj/item/clothing/suit/armor_f13/town/trenchcot
 	name = "town trenchcoat"
 	desc = "A non-descript black trenchcoat."
