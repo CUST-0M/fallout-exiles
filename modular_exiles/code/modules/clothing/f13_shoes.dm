@@ -24,7 +24,7 @@
 	icon_state = "tan"
 	item_state = "tan"
 
-/obj/item/clothing/shoes/f13shoes/brownie //Make a craft recipe, and delete this comment.
+/obj/item/clothing/shoes/f13shoes/brownie
 	name = "brown shoes"
 	desc = "A pair of brown leather shoes made of wasteland animals hides."
 	icon_state = "brownie"
@@ -53,7 +53,6 @@
 	desc = "A pair of slightly worn, steel-toed work boots.<br>Good at keeping toes safe from falling junk you find amid the ruins."
 	icon_state = "puttee_boots"
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 0, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
-
 
 /obj/item/clothing/shoes/f13shoes/raidertreads
 	name = "raider treads"
@@ -162,8 +161,9 @@
 	item_state = "legion_legate"
 	armor = list("melee" = 30, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 30, "bio" = 0, "rad" = 10, "fire" = 30, "acid" = 10)
 
-// ---------------------------------------------------------
-// Great Khan boots
+/////////////////
+// Great Khans///
+/////////////////
 
 /obj/item/clothing/shoes/f13shoes/military/khan
 	name = "steel-tipped boots"

@@ -1228,19 +1228,6 @@
 	strip_delay = 50
 	dynamic_hair_suffix = ""
 	dynamic_fhair_suffix = ""
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 1)
-
-/obj/item/clothing/head/helmet/f13/legion/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/head/helmet/f13/legion/marsheaddress
-	name = "priestess' headdress"
-	desc = "A headdress made of feathers and decorated with two golden tassles."
-	icon_state = "legion-priestess"
-	item_state = "legion-priestess"
-	dynamic_hair_suffix = "+generic"
-	salvage_loot = list()
 
 /obj/item/clothing/head/helmet/f13/legion/recruit
 	name = "legion recruit helmet"

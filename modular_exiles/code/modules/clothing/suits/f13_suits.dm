@@ -216,7 +216,7 @@
 		/obj/item/clothing/gloves,
 		/obj/item/holosign_creator,
 		/obj/item/assembly/signaler
-	) //robust storage options!! -superballs
+	)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 
 //Special Biosuit
