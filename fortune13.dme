@@ -3749,7 +3749,7 @@
 #include "modular_exiles\code\modules\clothing\f13_undersuit.dm"
 #include "modular_exiles\code\modules\clothing\head\f13_head.dm"
 #include "modular_exiles\code\modules\clothing\suits\f13_armor.dm"
-#include "modular_exiles\code\modules\clothing\suits\f13miscellaneous.dm"
 #include "modular_exiles\code\modules\clothing\suits\f13_power_armor.dm"
 #include "modular_exiles\code\modules\clothing\suits\f13_suits.dm"
+#include "modular_exiles\code\modules\clothing\suits\f13miscellaneous.dm"
 // END_INCLUDE
