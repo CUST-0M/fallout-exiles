@@ -771,7 +771,6 @@
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier2 //TIER 2 MELEE WEAPON
 	name = "tier 2 melee"
 	lootcount = 1
-
 	loot = list(/obj/effect/spawner/bundle/f13/throwingknife3,
 				/obj/item/melee/onehanded/knife/switchblade,
 				/obj/item/throwing_star/spear,
@@ -818,8 +817,7 @@
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier5 //TIER 5 MELEE WEAPON
 	name = "tier 5 melee"
 	lootcount = 1
-
-	loot = list(/obj/item/twohanded/thermic_lance,
+    loot = list(/obj/item/twohanded/thermic_lance,
 				/obj/item/twohanded/chainsaw,
 				/obj/item/twohanded/sledgehammer/rockethammer,
 				/obj/item/melee/powered/ripper,
@@ -994,12 +992,10 @@
 				/obj/effect/spawner/bundle/f13/dkssniper = 15,
 				/obj/effect/spawner/bundle/f13/pistol14 = 15,
 				/obj/item/gun/ballistic/revolver/grenadelauncher = 5,
-				/obj/item/gun/ballistic/rocketlauncher = 5,
 				/obj/effect/spawner/bundle/f13/riotshotgun = 10,
 				/obj/item/gun/ballistic/shotgun/automatic/combat/citykiller = 10,
 				/obj/effect/spawner/bundle/f13/guns/p90 = 1,
 				/obj/effect/spawner/bundle/f13/fnfal = 1,
-				/obj/item/gun/ballistic/automatic/bozar = 1
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/superhigh
@@ -1009,15 +1005,12 @@
 				/obj/effect/spawner/bundle/f13/brushgun = 15,
 				/obj/effect/spawner/bundle/f13/rangemaster = 15,
 				/obj/effect/spawner/bundle/f13/fnfal = 10,
-				/obj/item/gun/ballistic/rocketlauncher = 10,
-							
+				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/unique
 	name = "unique tier ballistic gun"
 	lootcount = 1
-
-	loot = list(
-				/obj/item/gun/ballistic/automatic/pistol/ninemil/maria,
+	loot = list(/obj/item/gun/ballistic/automatic/pistol/ninemil/maria,
 				/obj/item/gun/ballistic/rifle/hunting/paciencia,
 				/obj/item/gun/ballistic/automatic/varmint/ratslayer,
 				/obj/item/gun/ballistic/automatic/assault_rifle/infiltrator,
