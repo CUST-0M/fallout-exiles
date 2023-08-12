@@ -9,36 +9,9 @@
 /obj/item/clothing_item/under/f13undersuit/female
 	fitted = FEMALE_UNIFORM_TOP
 
-//ENCLAVE PEACEKEEPERS
-
-/obj/item/clothing_item/under/f13undersuitundersuit/enclave/science
-	name = "science officer uniform"
-	desc = "Off-white military style uniform for scientists."
-	icon_state = "uniform_enclave_science"
-	item_state = "uniform_enclave_science"
-
-
-/obj/item/clothing_item/under/f13undersuitundersuit/enclave/peacekeeper
-	name = "peacekeeper uniform"
-	desc = "Khaki standard issue uniform over a black turtleneck."
-	icon_state = "uniform_enclave_peacekeeper"
-	item_state = "uniform_enclave_peacekeeper"
-
-/obj/item/clothing_item/under/f13undersuitundersuit/enclave/officer
-	name = "officer uniform"
-	desc = "Khaki officers uniform with gold trimming over a black turtleneck."
-	icon_state = "uniform_enclave_officer"
-	item_state = "uniform_enclave_officer"
-
-/obj/item/clothing_item/under/f13undersuitundersuit/enclave/intel
-	name = "intel officer uniform"
-	desc = "Dark pants and turtleneck with hidden kevlar layers, since intel officers often wear no proper armor."
-	icon_state = "uniform_enclave_intel"
-	item_state = "uniform_enclave_intel"
-
 //Vault
 
-/obj/item/clothing_item/under/f13undersuitundersuit/housewifedress50s
+/obj/item/clothing_item/under/f13undersuit/housewifedress50s
 	name = "50s style dress"
 	desc = "Fancy checkered yellow dress with small shoulder puffs."
 	icon_state = "dress50s"
@@ -46,7 +19,7 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
 
-/obj/item/clothing_item/under/f13undersuitundersuit/picnicdress50s
+/obj/item/clothing_item/under/f13undersuit/picnicdress50s
 	name = "50s style dress"
 	desc = "Cheery polkadot casual dress."
 	icon_state = "dresspicnic50s"
@@ -54,7 +27,7 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
 
-/obj/item/clothing_item/under/f13undersuitundersuit/vault
+/obj/item/clothing_item/under/f13undersuit/vault
 	name = "vault jumpsuit"
 	desc = "A blue jumpsuit with a yellow vault pattern printed on it."
 	icon_state = "vault"
@@ -66,7 +39,7 @@
 	random_sensor = FALSE
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
 
-/obj/item/clothing_item/under/f13undersuitundersuit/vault13
+/obj/item/clothing_item/under/f13undersuit/vault13
 	name = "vault 113 jumpsuit"
 	desc = "A blue jumpsuit with a yellow vault pattern and the number 113 printed on it."
 	icon_state = "vault13"
@@ -81,7 +54,7 @@
 
 //NCR
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ncr
+/obj/item/clothing_item/under/f13undersuit/ncr
 	name = "NCR desert fatigues"
 	desc = "A set of standard issue New California Republic trooper fatigues."
 	icon_state = "ncr_uniform"
@@ -90,7 +63,7 @@
 	item_color = "ncr_uniform"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ncr/ncr_officer
+/obj/item/clothing_item/under/f13undersuit/ncr/ncr_officer
 	name = "NCR officer fatigues"
 	desc = "A standard service uniform for commissioned officers of the New California Republic."
 	can_adjust = TRUE
@@ -98,7 +71,7 @@
 	item_state = "ncr_officer"
 	item_color = "ncr_officer"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ncr/conscript
+/obj/item/clothing_item/under/f13undersuit/ncr/conscript
 	name = "NCR conscript fatigues"
 	desc = "A standard duty uniform for conscripts of the New California Republic."
 	can_adjust = FALSE
@@ -106,14 +79,14 @@
 	item_state = "ncr_conscript"
 	item_color = "ncr_conscript"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ncr/scout
+/obj/item/clothing_item/under/f13undersuit/ncr/scout
 	name = "NCR scout fatigues"
 	desc = "A standard duty uniform for scouts of the New California Republic."
 	icon_state = "scoutclothes"
 	item_state = "scoutclothes"
 	item_color = "scoutclothes"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ncr/sniper
+/obj/item/clothing_item/under/f13undersuit/ncr/sniper
 	name = "NCR sniper fatigues"
 	desc = "A standard duty uniform for snipers of the New California Republic."
 	can_adjust = FALSE
@@ -121,7 +94,7 @@
 	item_state = "ncr_snipermgs"
 	item_color = "ncr_snipermgs"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ncr/pants
+/obj/item/clothing_item/under/f13undersuit/ncr/pants
 	name = "NCR fatigue pants"
 	desc = "A set of standard issue fatigue pants without the upper overcoat. For when you really need to show off your guns."
 	can_adjust = FALSE
@@ -129,7 +102,7 @@
 	item_state = "ncr_fatigue_pants"
 	item_color = "ncr_fatigue_pants"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ncr/ncr_shorts
+/obj/item/clothing_item/under/f13undersuit/ncr/ncr_shorts
 	name = "NCR fatigue shorts"
 	desc = "A set of uniform shorts and lightweight shirt for NCR troopers deployed in hot climates."
 	can_adjust = TRUE
@@ -137,14 +110,14 @@
 	item_state = "ncr_shorts"
 	item_color = "ncr_shorts"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ncrcaravan
+/obj/item/clothing_item/under/f13undersuit/ncrcaravan
 	name = "NCR caravaneer outfit"
 	desc = "A soft outfit commonly worn by NCR caravaneers."
 	icon_state = "caravaneer"
 	item_state = "caravaneer"
 	item_color = "caravaneer"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ncr/ncr_dress
+/obj/item/clothing_item/under/f13undersuit/ncr/ncr_dress
 	name = "NCR dress uniform"
 	desc = "A crisp tan NCRA dress uniform, complete with tie."
 	can_adjust = TRUE
@@ -152,7 +125,7 @@
 	item_state = "ncr_dress"
 	item_color = "ncr_dress"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ncrcf
+/obj/item/clothing_item/under/f13undersuit/ncr/ncrcf
 	name = "caravaneer outfit"
 	desc = "A cheap blue shirt and slacks, the letters 'NCRCF' emblazened on the back. A meek reminder of who owns you."
 	can_adjust = TRUE
@@ -162,21 +135,21 @@
 
 //Settlers
 
-/obj/item/clothing_item/under/f13undersuitundersuit/brahminm
+/obj/item/clothing_item/under/f13undersuit/brahminm
 	name = "brahmin skin outfit"
 	desc = "A basic outfit consisting of a white shirt and patched trousers with Y-shaped suspenders"
 	icon_state = "brahmin_m"
 	item_state = "brahmin_m"
 	item_color = "brahmin_m"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/brahminf
+/obj/item/clothing_item/under/f13undersuit/brahminf
 	name = "brahmin skin outfit"
 	desc = "A basic outfit consisting of a white shirt and patched trousers with Y-shaped suspenders"
 	icon_state = "brahmin_f"
 	item_state = "brahmin_f_s"
 	item_color = "brahmin_f"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/doctorm
+/obj/item/clothing_item/under/f13undersuit/doctorm
 	name = "doctor fatigues"
 	desc = "It's a white t-shirt with brown trousers made for those who treasure life."
 	icon_state = "doctor_m"
@@ -184,7 +157,7 @@
 	item_color = "doctor_m"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
 
-/obj/item/clothing_item/under/f13undersuitundersuit/doctorf
+/obj/item/clothing_item/under/f13undersuit/doctorf
 	name = "doctor fatigues"
 	desc = "It's a white t-shirt with brown trousers made for those who treasure life."
 	icon_state = "doctor_f"
@@ -192,14 +165,14 @@
 	item_color = "doctor_f"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
 
-/obj/item/clothing_item/under/f13undersuitundersuit/caravan
+/obj/item/clothing_item/under/f13undersuit/caravan
 	name = "caravan pants"
 	desc = "Brown thick caravaneer pants."
 	icon_state = "caravan"
 	item_state = "caravan"
 	item_color = "caravan"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/settler
+/obj/item/clothing_item/under/f13undersuit/settler
 	name = "settler outfit"
 	desc = "A crudely made cloth robe with a belt worn over grey pants."
 	icon_state = "settler"
@@ -209,7 +182,7 @@
 //The City
 
 //Ranger
-/obj/item/clothing_item/under/f13undersuitundersuit/ranger
+/obj/item/clothing_item/under/f13undersuit/ranger
 	name = "ranger outfit"
 	desc = "Simple rustic clothes for a big iron packin' lawman."
 	icon_state = "ranger"
@@ -217,42 +190,42 @@
 	item_color = "ranger"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ranger/trail
+/obj/item/clothing_item/under/f13undersuit/ranger/trail
 	name = "ranger outfit"
 	desc = "Simple rustic clothes for a big iron packin' lawman. Worn often by NCR rangers."
 	icon_state = "cowboyrang"
 	item_state = "cowboyrang"
 	item_color = "cowboyrang"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ranger/patrol
+/obj/item/clothing_item/under/f13undersuit/ranger/patrol
 	name = "patrol ranger outfit"
 	desc = "A pair of brown slacks and a breathable shirt, meant to be worn under NCR patrol ranger armour."
 	icon_state = "patrolranger"
 	item_state = "patrolranger"
 	item_color = "patrolranger"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ranger/vet
+/obj/item/clothing_item/under/f13undersuit/ranger/vet
 	name = "ranger flannel outfit"
 	desc = "Simple rustic clothes for any big iron packin' ranger."
 	icon_state = "vetranger"
 	item_state = "vetranger"
 	item_color = "vetranger"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ranger/vet/foxflannel
+/obj/item/clothing_item/under/f13undersuit/ranger/vet/foxflannel
 	name = "black ranger flannel outfit"
 	desc = "A black flannel ontop of a pair of slim-fitting pre-war jeans that were kept in excellent condition. The back leather panel is worn out but you can barely make out: '512'."
 	icon_state = "foxflannel"
 	item_state = "foxflannel"
 	item_color = "foxflannel"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ranger/vet/thaxflannel
+/obj/item/clothing_item/under/f13undersuit/ranger/vet/thaxflannel
 	name = "Thaxton's ranger flannel outfit"
 	desc = "A simple outfit for a burly, big iron packin' lawman. A golden belt-buckle in the rough shape of a medallion is proudly presented atop a leather gunbelt."
 	icon_state = "thaxflannel"
 	item_state = "thaxflannel"
 	item_color = "thaxflannel"
 
-/obj/item/clothing_item/under/f13undersuitundersuit/ranger/erin
+/obj/item/clothing_item/under/f13undersuit/ranger/erin
 	name = "desert pants"
 	desc = "An old pair of beat up, Pre-War BDUs. These ones are emblazoned with desert patterns, and it has been reinforced around the left knee."
 	icon_state = "erin_pants"
@@ -344,6 +317,32 @@
 	item_color = "recon"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 40, "fire" = 30, "acid" = 80)
 
+//ENCLAVE
+
+/obj/item/clothing_item/under/f13undersuit/enclave/science
+	name = "science officer uniform"
+	desc = "Off-white military style uniform for scientists."
+	icon_state = "uniform_enclave_science"
+	item_state = "uniform_enclave_science"
+
+/obj/item/clothing_item/under/f13undersuit/enclave/peacekeeper
+	name = "peacekeeper uniform"
+	desc = "Khaki standard issue uniform over a black turtleneck."
+	icon_state = "uniform_enclave_peacekeeper"
+	item_state = "uniform_enclave_peacekeeper"
+
+/obj/item/clothing_item/under/f13undersuit/enclave/officer
+	name = "officer uniform"
+	desc = "Khaki officers uniform with gold trimming over a black turtleneck."
+	icon_state = "uniform_enclave_officer"
+	item_state = "uniform_enclave_officer"
+
+/obj/item/clothing_item/under/f13undersuit/enclave/intel
+	name = "intel officer uniform"
+	desc = "Dark pants and turtleneck with hidden kevlar layers, since intel officers often wear no proper armor."
+	icon_state = "uniform_enclave_intel"
+	item_state = "uniform_enclave_intel"
+	
 //Legion
 
 /obj/item/clothing_item/under/f13undersuit/campfollowermale
@@ -636,12 +635,6 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
 
-/obj/item/clothing_item/under/f13undersuit/xenon	//Currently broken when worn
-	name = "flashy jumpsuit"
-	desc = "A jumpsuit that seems to come from another time."
-	icon_state = "xenon"
-	item_state = "xenon"
-
 /obj/item/clothing_item/under/f13undersuit/roving
 	name = "roving trader outfit "
 	desc = "It's an outfit commonly worn by the roving traders."
@@ -740,7 +733,8 @@
 		A.UpdateButtonIcon()
 
 
-//WAYFARER TRIBAL
+//TRIBAL
+
 /obj/item/clothing_item/under/f13undersuit/tribe
 	name = "tribal rags"
 	desc = "Dusty rags decorated with strips of leather and small pieces of turquoise."
@@ -797,21 +791,108 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
-/obj/item/clothing_item/under/f13undersuit/wayfarer/acolyte
-	name = "acolyte's garbs"
-	desc = "Hand-woven cotton ornated with pieces of turquoise form little more than loincloth, which can be adjusted depending on the wearer's preferences. Well suited for a simpler life lived by the Wayfarer tribe."
-	icon_state = "acolyte"
-	item_state = "acolyte"
-	item_color = "acolyte"
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = TRUE
-
 /obj/item/clothing_item/under/f13undersuit/wayfarer/hunter
 	name = "rugged loincloth"
 	desc = "Minimal yet hardy clothing padded in places by leather which can be taken off if need be, covering no more than it needs to. Ideal for those of the Wayfarer tribe who spend their time away from the tribe in pursuit of the hunt."
 	icon_state = "hunter"
 	item_state = "hunter"
 	item_color = "hunter"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = TRUE
+
+/obj/item/clothing_item/under/f13undersuitundersuit/whitelegs
+	name = "White Legs garb"
+	desc = "A segmented pair of dark leather shorts with an orange belt, paired with a distinct facewrap, worn by members of the White Legs tribe."
+	icon_state = "white_legs_under"
+	item_state = "white_legs_under"
+	item_color = "white_legs_under"
+
+/obj/item/clothing_item/under/f13undersuitundersuit/whitelegsalt
+	name = "White Legs garb"
+	desc = "A segmented pair of dark leather shorts with an orange belt, paired with a distinct facewrap, worn by members of the White Legs tribe."
+	icon_state = "white_legs_under2"
+	item_state = "white_legs_under2"
+	item_color = "white_legs_under2"
+
+/obj/item/clothing_item/under/f13undersuitundersuit/female/whitelegs
+	name = "White Legs garb"
+	desc = "A segmented pair of dark leather shorts with an orange belt and matching sports bra, paired with a distinct facewrap, worn by members of the White Legs tribe."
+	icon_state = "white_legs_under_f"
+	item_state = "white_legs_under_f"
+	item_color = "white_legs_under_f"
+
+/obj/item/clothing_item/under/f13undersuitundersuitundersuit/female/whitelegsfalt
+	name = "White Legs garb"
+	desc = "A segmented pair of dark leather shorts with an orange belt and matching sports bra, paired with a distinct facewrap, worn by members of the White Legs tribe."
+	icon_state = "white_legs_underf2"
+	item_state = "white_legs_underf2"
+	item_color = "white_legs_underf2"
+
+/obj/item/clothing_item/under/f13undersuitundersuit/rustwalkers
+	name = "Rustwalkers outfit"
+	desc = "A plaid shirt with torn short sleeves with a set of grey cargo pants, commonly worn by members of the Rustwalkers tribe."
+	icon_state = "rustwalkers_under"
+	item_state = "rustwalkers_under"
+	item_color = "rustwalkers_under"
+	can_adjust = TRUE
+
+/obj/item/clothing_item/under/f13undersuit/female/rustwalkers
+	name = "Rustwalkers outfit"
+	desc = "A cropped red leather jacket with a torn sleeve, alongside a pair of torn brown trousers patched with fishnets, commonly worn by members of the Rustwalkers tribe."
+	icon_state = "rustwalkers_under_f"
+	item_state = "rustwalkers_under_f"
+	item_color = "rustwalkers_under_f"
+
+/obj/item/clothing_item/under/f13undersuit/eighties
+	name = "Eighties outfit"
+	desc = "A thin, short sleeved grey shirt that's longer down the back, with black jeans and a series of chains used as a belt. Commonly worn by members of the Eighties tribe."
+	icon_state = "80s_under"
+	item_state = "80s_under"
+	item_color = "80s_under"
+
+/obj/item/clothing_item/under/f13undersuit/female/eighties
+	name = "Eighties outfit"
+	desc = "A simple grey corset with brown jeans and a series of chains used as a belt and harness. Commonly worn by members of the Eighties tribe."
+	icon_state = "80s_under_f"
+	item_state = "80s_under_f"
+	item_color = "80s_under_f"
+
+/obj/item/clothing_item/under/f13undersuit/deadhorses
+	name = "Dead Horses garb"
+	desc = "A simple leather bandolier with a pouch, paired with a gecko-hide loincloth. Commonly worn by members of the Dead Horses tribe."
+	icon_state = "dead_horses_under"
+	item_state = "dead_horses_under"
+	item_color = "dead_horses_under"
+
+/obj/item/clothing_item/under/f13undersuit/female/deadhorses
+	name = "Dead Horses garb"
+	desc = "A simple gecko-hide sports bra and loincloth. Commonly worn by members of the Dead Horses tribe."
+	icon_state = "dead_horses_under_f"
+	item_state = "dead_horses_under_f"
+	item_color = "dead_horses_under_f"
+
+/obj/item/clothing_item/under/f13undersuit/sorrows
+	name = "Sorrows garb"
+	desc = "A simple pair of blue shorts with a length of the fabric extending down each leg. Commonly worn by members of the Sorrows tribe."
+	icon_state = "sorrows_under"
+	item_state = "sorrows_under"
+	item_color = "sorrows_under"
+
+/obj/item/clothing_item/under/f13undersuit/female/sorrows
+	name = "Sorrows garb"
+	desc = "A simple set of blue shorts with a length of the fabric extending down each leg and similarly coloured sports bra. Commonly worn by members of the Sorrows tribe."
+	icon_state = "sorrows_under_f"
+	item_state = "sorrows_under_f"
+	item_color = "sorrows_under_f"
+
+/obj/item/clothing_item/under/f13undersuit/bone
+	name = "Bone Dancer outfit"
+	desc = "A full body skin tight overalls, seemingly of brown color. Commonly worn by members of the Bone Dancers tribe."
+	icon_state = "bone_dancer"
+	item_state = "bone_dancer"
+	item_color = "bone_dancer"
+	var/sleeves_adjusted = 0
+	alt_covers_chest = TRUE
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
@@ -869,52 +950,6 @@
 	icon_state = "nato_uniform"
 	item_state = "nato_uniform"
 	item_color = "nato_uniform"
-
-//Prom Dress
-
-/obj/item/clothing_item/under/f13undersuit/prom_dress
-	name = "purple prom dress"
-	desc = "This purple dress has miraculously survived the war, and seems mostly undamaged, except for a few loose ends from wear and tear. The dress is made from a soft fabric, likely a marbled velvet."
-	icon_state = "promdress"
-	item_state = "promdress"
-	item_color = "promdress"
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = FALSE
-
-//Dust Devils
-
-//Boomers
-
-//Bright Brotherhood
-
-//Nightkin Gang
-
-//The Chairmen
-
-//Greasers
-
-//Maud's Muggers
-
-//Jackals
-
-//Powder Gangers
-
-//The Kings
-
-//Mutant Band
-
-//Remnants
-
-/obj/item/clothing_item/under/f13undersuit/enclave_officer
-	name = "enclave officer uniform"
-	desc = "A standard Enclave officer uniform.<br>The outer layer is made of a sturdy material designed to withstand the harsh conditions of the wasteland."
-	icon_state = "enclave_o"
-	item_state = "bl_suit"
-	item_color = "enclave_o"
-	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 40)
-
-//Old World Militaries
-//US Army
 
 /obj/item/clothing_item/under/f13undersuit/army
 	name = "US Army combat uniform"
@@ -1809,101 +1844,6 @@
 
 //TRIBALS
 
-/obj/item/clothing_item/under/f13undersuitundersuit/whitelegs
-	name = "White Legs garb"
-	desc = "A segmented pair of dark leather shorts with an orange belt, paired with a distinct facewrap, worn by members of the White Legs tribe."
-	icon_state = "white_legs_under"
-	item_state = "white_legs_under"
-	item_color = "white_legs_under"
-
-/obj/item/clothing_item/under/f13undersuitundersuit/whitelegsalt
-	name = "White Legs garb"
-	desc = "A segmented pair of dark leather shorts with an orange belt, paired with a distinct facewrap, worn by members of the White Legs tribe."
-	icon_state = "white_legs_under2"
-	item_state = "white_legs_under2"
-	item_color = "white_legs_under2"
-
-/obj/item/clothing_item/under/f13undersuitundersuit/female/whitelegs
-	name = "White Legs garb"
-	desc = "A segmented pair of dark leather shorts with an orange belt and matching sports bra, paired with a distinct facewrap, worn by members of the White Legs tribe."
-	icon_state = "white_legs_under_f"
-	item_state = "white_legs_under_f"
-	item_color = "white_legs_under_f"
-
-/obj/item/clothing_item/under/f13undersuitundersuitundersuit/female/whitelegsfalt
-	name = "White Legs garb"
-	desc = "A segmented pair of dark leather shorts with an orange belt and matching sports bra, paired with a distinct facewrap, worn by members of the White Legs tribe."
-	icon_state = "white_legs_underf2"
-	item_state = "white_legs_underf2"
-	item_color = "white_legs_underf2"
-
-/obj/item/clothing_item/under/f13undersuitundersuit/rustwalkers
-	name = "Rustwalkers outfit"
-	desc = "A plaid shirt with torn short sleeves with a set of grey cargo pants, commonly worn by members of the Rustwalkers tribe."
-	icon_state = "rustwalkers_under"
-	item_state = "rustwalkers_under"
-	item_color = "rustwalkers_under"
-	can_adjust = TRUE
-
-/obj/item/clothing_item/under/f13undersuit/female/rustwalkers
-	name = "Rustwalkers outfit"
-	desc = "A cropped red leather jacket with a torn sleeve, alongside a pair of torn brown trousers patched with fishnets, commonly worn by members of the Rustwalkers tribe."
-	icon_state = "rustwalkers_under_f"
-	item_state = "rustwalkers_under_f"
-	item_color = "rustwalkers_under_f"
-
-/obj/item/clothing_item/under/f13undersuit/eighties
-	name = "Eighties outfit"
-	desc = "A thin, short sleeved grey shirt that's longer down the back, with black jeans and a series of chains used as a belt. Commonly worn by members of the Eighties tribe."
-	icon_state = "80s_under"
-	item_state = "80s_under"
-	item_color = "80s_under"
-
-/obj/item/clothing_item/under/f13undersuit/female/eighties
-	name = "Eighties outfit"
-	desc = "A simple grey corset with brown jeans and a series of chains used as a belt and harness. Commonly worn by members of the Eighties tribe."
-	icon_state = "80s_under_f"
-	item_state = "80s_under_f"
-	item_color = "80s_under_f"
-
-/obj/item/clothing_item/under/f13undersuit/deadhorses
-	name = "Dead Horses garb"
-	desc = "A simple leather bandolier with a pouch, paired with a gecko-hide loincloth. Commonly worn by members of the Dead Horses tribe."
-	icon_state = "dead_horses_under"
-	item_state = "dead_horses_under"
-	item_color = "dead_horses_under"
-
-/obj/item/clothing_item/under/f13undersuit/female/deadhorses
-	name = "Dead Horses garb"
-	desc = "A simple gecko-hide sports bra and loincloth. Commonly worn by members of the Dead Horses tribe."
-	icon_state = "dead_horses_under_f"
-	item_state = "dead_horses_under_f"
-	item_color = "dead_horses_under_f"
-
-/obj/item/clothing_item/under/f13undersuit/sorrows
-	name = "Sorrows garb"
-	desc = "A simple pair of blue shorts with a length of the fabric extending down each leg. Commonly worn by members of the Sorrows tribe."
-	icon_state = "sorrows_under"
-	item_state = "sorrows_under"
-	item_color = "sorrows_under"
-
-/obj/item/clothing_item/under/f13undersuit/female/sorrows
-	name = "Sorrows garb"
-	desc = "A simple set of blue shorts with a length of the fabric extending down each leg and similarly coloured sports bra. Commonly worn by members of the Sorrows tribe."
-	icon_state = "sorrows_under_f"
-	item_state = "sorrows_under_f"
-	item_color = "sorrows_under_f"
-
-/obj/item/clothing_item/under/f13undersuit/bone
-	name = "Bone Dancer outfit"
-	desc = "A full body skin tight overalls, seemingly of brown color. Commonly worn by members of the Bone Dancers tribe."
-	icon_state = "bone_dancer"
-	item_state = "bone_dancer"
-	item_color = "bone_dancer"
-	var/sleeves_adjusted = 0
-	alt_covers_chest = TRUE
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = TRUE
 
 /// Item Update
 
