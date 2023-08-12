@@ -757,7 +757,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	exp_requirements = 750
 
 	loadout_options = list(
-		/datum/outfit/loadout/shockht,	// Minigun
+		/datum/outfit/loadout/cqcht,	// Super Sledge
 		/datum/outfit/loadout/supportht, // R84
 		)
 
@@ -784,11 +784,11 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		)
 
-/datum/outfit/loadout/shockht
-	name = "Shock Heavy Trooper"
+/datum/outfit/loadout/cqcht
+	name = "CQC Heavy Trooper"
 	backpack_contents = list(
-		/obj/item/minigunpackbal5mm = 1,
-		/obj/item/melee/onehanded/knife/bowie = 1,
+		/obj/item/twohanded/sledgehammer/supersledge = 1,
+		/obj/item/grenade/smokebomb = 2,
 		)
 
 /datum/outfit/loadout/supportht
