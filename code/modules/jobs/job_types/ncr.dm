@@ -788,7 +788,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "CQC Heavy Trooper"
 	backpack_contents = list(
 		/obj/item/twohanded/sledgehammer/supersledge = 1,
-		/obj/item/grenade/smokebomb = 2
+		/obj/item/grenade/smokebomb = 2,
 		/obj/item/book/granter/trait/bigleagues = 1,
 		)
 
