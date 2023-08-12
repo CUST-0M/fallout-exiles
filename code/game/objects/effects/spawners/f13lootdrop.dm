@@ -1010,8 +1010,7 @@
 				/obj/effect/spawner/bundle/f13/rangemaster = 15,
 				/obj/effect/spawner/bundle/f13/fnfal = 10,
 				/obj/item/gun/ballistic/rocketlauncher = 10,
-				/obj/item/gun/ballistic/automatic/bozar = 10
-				)
+							
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/unique
 	name = "unique tier ballistic gun"
