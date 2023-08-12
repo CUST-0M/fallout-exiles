@@ -817,8 +817,7 @@
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier5 //TIER 5 MELEE WEAPON
 	name = "tier 5 melee"
 	lootcount = 1
-	
-    loot = list(/obj/item/twohanded/thermic_lance,
+	loot = list(/obj/item/twohanded/thermic_lance,
 				/obj/item/twohanded/chainsaw,
 				/obj/item/twohanded/sledgehammer/rockethammer,
 				/obj/item/melee/powered/ripper,
