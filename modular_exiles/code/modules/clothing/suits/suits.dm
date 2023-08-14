@@ -137,7 +137,7 @@
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 15, "energy" = 5, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
 
-/obj/item/clothing/suit/f13/veteran
+/obj/item/clothing/suit/f13/merc_veteran
 	name = "merc veteran coat"
 	desc = " A blue leather coat adorned with war medals.<br>This type of outfit is common for professional mercenaries and bounty hunters."
 	icon_state = "veteran"
@@ -278,10 +278,6 @@
 	slowdown = 0.05
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 
-/obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
 //Armored jacket
 /obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket/armored
 	name = "Great Khan armored jacket"
@@ -292,10 +288,6 @@
 	armor = list("melee" = 37, "bullet" = 37, "laser" = 40, "energy" = 25, "bomb" = 30, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 0, "wound" = 30)
 	slowdown = 0.08
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
-
-/obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket/armored/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
 
 //Battlecoat
 /obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket/coat
@@ -319,10 +311,6 @@
 	slowdown = 0.05
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
 
-/obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket/coat/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
 // --------------------------------------------------------------------------
 
 /obj/item/clothing/suit/toggle/labcoat/f13/followers
@@ -341,41 +329,12 @@
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/medical
 
-/obj/item/clothing/suit/armor/f13/generaluniform
-	name = "Yuma 1st Irregular General Uniform"
-	desc = "A uniform created by Kaleb alongside the laser muskets. On the breast is a patch of the Yuma 1st Irregulars, a sun over a wasteland desert, a cactus standing lonely in the middle. It denotes him as the Leader of the militia company."
-	icon_state = "gen_uniform"
-	item_state = "gen_uniform"
-	armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)	//change those values
-
-/obj/item/clothing/suit/hooded/cloak/desert
-	name = "desert cloak"
-	icon_state = "desertcloak"
-	desc = "A practical cloak made out of animal hide."
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/desert
-	armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)
-	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-
-
-/obj/item/clothing/head/hooded/cloakhood/desert
-	name = "desert cloak hood"
-	icon_state = "desertcloak"
-	desc = "A protective and concealing hood."
-	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
-	armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)
-
-/obj/item/clothing/suit/hooded/cloak/desert/raven_cloak
-	name = "Raven cloak"
-	desc = "A huge cloak made out of hundreds of knife-like black bird feathers. It glitters in the light, ranging from blue to dark green and purple."
-	icon_state = "raven_cloak"
-	item_state = "raven_cloak"
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/desert/raven_hood
-
-/obj/item/clothing/head/hooded/cloakhood/desert/raven_hood
-	name = "Raven cloak hood"
-	desc = "A hood fashioned out of patchwork and feathers"
-	icon_state = "raven_hood"
-	item_state = "raven_hood"
+	/obj/item/clothing/suit/armor/f13/generaluniform
+		name = "Yuma 1st Irregular General Uniform"
+		desc = "A uniform created by Kaleb alongside the laser muskets. On the breast is a patch of the Yuma 1st Irregulars, a sun over a wasteland desert, a cactus standing lonely in the middle. It denotes him as the Leader of the militia company."
+		icon_state = "gen_uniform"
+		item_state = "gen_uniform"
+		armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)	//change those values
 
 /obj/item/clothing/suit/hooded/cloak/goliath
 	name = "deathclaw cloak"
@@ -420,7 +379,6 @@
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)
 
-
 /obj/item/clothing/suit/hooded/cloak/goliath/tatteredred
 	name = "tattered red cloak"
 	desc = "An old ragged, tattered red cloak that is covered in burns and bullet holes."
@@ -429,33 +387,11 @@
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)
 
-
-
 /obj/item/clothing/head/hooded/cloakhood/goliath/tattered
 	name = "tattered red cloak hood"
 	desc = "A tattered hood, better than nothing in the waste."
 	icon_state = "golhood"
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)
-
-/obj/item/clothing/suit/hooded/cloak/drake //SS13 item, obviously
-	name = "drake armour"
-	desc = "A suit of armour fashioned from the remains of an ash drake."
-	icon_state = "dragon"
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/drake
-	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
-
-/obj/item/clothing/head/hooded/cloakhood/drake
-	name = "drake helm"
-	desc = "The skull of a dragon."
-	icon_state = "dragon"
-	heat_protection = HEAD
-	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
 
 /obj/item/clothing/suit/hooded/cloak/hhunter
 	name = "Razorclaw armour"

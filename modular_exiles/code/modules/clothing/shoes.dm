@@ -3,64 +3,64 @@
 /obj/item/clothing/shoes
 	var/stepsound = TRUE
 */
-/obj/item/clothing/shoes/f13shoes
+/obj/item/clothing/shoes/f13
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
 
-/obj/item/clothing/shoes/f13shoes/enclave/serviceboots
+/obj/item/clothing/shoes/shoes/f13/serviceboots
 	name = "enclave service boots"
 	desc = "Tall shiny boots with kevlar layers."
 	icon_state = "boots_enclave"
 	item_state = "boots_enclave"
 
-/obj/item/clothing/shoes/f13shoes/rag
+/obj/item/clothing/shoes/shoes/f13/rag
 	name = "footcloths"
 	desc = "Ripped cloth used as improvised foot strips, instead of shoes. Crude and gets dirty fast."
 	icon_state = "rag"
 	item_state = "rag"
 
-/obj/item/clothing/shoes/f13shoes/tan
+/obj/item/clothing/shoes/f13/tan
 	name = "tan shoes"
 	desc = "A pair of tanned leather shoes."
 	icon_state = "tan"
 	item_state = "tan"
 
-/obj/item/clothing/shoes/f13shoes/brownie
+/obj/item/clothing/shoes/f13/brownie
 	name = "brown shoes"
 	desc = "A pair of brown leather shoes made of wasteland animals hides."
 	icon_state = "brownie"
 	item_state = "brownie"
 
-/obj/item/clothing/shoes/f13shoes/fancy
+/obj/item/clothing/shoes/f13/fancy
 	name = "black shoes"
 	desc = "A pair of fancy black shoes." //Nice shoes!
 	icon_state = "fancy"
 	item_state = "fancy"
 
-/obj/item/clothing/shoes/f13shoes/cowboy
+/obj/item/clothing/shoes/f13/cowboy
 	name = "cowboy boots"
 	desc = "A pair of cowhide boots with spurs.<br>They have a Cuban heel, rounded to pointed toe, high shaft, and, traditionally, no lacing."
 	icon_state = "cowboy"
 	item_state = "cowboy"
 
-/obj/item/clothing/shoes/f13shoes/explorer
+/obj/item/clothing/shoes/f13/explorer
 	name = "worn boots"
 	desc = "A pair of slightly worn, steel-toed work boots.<br>Good at keeping toes safe from falling junk you find amid the ruins."
 	icon_state = "explorer"
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 0, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
 
-/obj/item/clothing/shoes/f13shoes/puttees
+/obj/item/clothing/shoes/f13/puttees
 	name = "puttees"
 	desc = "A pair of slightly worn, steel-toed work boots.<br>Good at keeping toes safe from falling junk you find amid the ruins."
 	icon_state = "puttee_boots"
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 0, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
 
-/obj/item/clothing/shoes/f13shoes/raidertreads
+/obj/item/clothing/shoes/f13/raidertreads
 	name = "raider treads"
 	desc = "A decrepit boot on one foot, fuckall on the other, the height of raider fashion."
 	icon_state = "raidertreads"
 	item_state = "raidertreads"
 
-/obj/item/clothing/shoes/f13shoes/diesel
+/obj/item/clothing/shoes/f13/diesel
 	name = "male diesel boots"
 	desc = "Fancy mens' steel-toed boots."
 	icon_state = "diesel_m"
@@ -69,13 +69,13 @@
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
 
-/obj/item/clothing/shoes/f13shoes/diesel/alt
+/obj/item/clothing/shoes/f13/diesel/alt
 	name = "female diesel boots"
 	desc = "Fancy womens' knee-high platform boots with shiny steel clasps."
 	icon_state = "diesel_f"
 	item_state = "diesel_f"
 
-/obj/item/clothing/shoes/f13shoes/military
+/obj/item/clothing/shoes/f13/military
 	name = "military boots"
 	desc = "High speed, no-drag combat boots, designed for use by the U.S. Army before the Great War."
 	icon_state = "military"
@@ -89,31 +89,31 @@
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
 
-/obj/item/clothing/shoes/f13shoes/military/leather
+/obj/item/clothing/shoes/f13/military/leather
 	name = "leather combat boots"
 	desc = "A pair of laced, heavy-duty leather boots designed for hard combat."
 	icon_state = "laced"
 	item_state = "laced"
 
-/obj/item/clothing/shoes/f13shoes/military/desert
+/obj/item/clothing/shoes/f13/military/desert
 	name = "desert combat boots"
 	desc = "An old pair of desert combat boots. This one seems to have a tighter fit, and a padded interior."
 	icon_state = "erin_boot"
 	item_state = "erin_boot"
 
-/obj/item/clothing/shoes/f13shoes/military/ncr
+/obj/item/clothing/shoes/f13/military/ncr
 	name = "patrol boots"
 	desc = "A pair of standard issue brown boots, with a puttee."
 	icon_state = "ncr_boots"
 	item_state = "ncr"
 
-/obj/item/clothing/shoes/f13shoes/military/ncr_officer_boots
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots
 	name = "officer boots"
 	desc = "A pair of well-polished brown leather calf boots fitted with straps."
 	icon_state = "ncr_officer_boots"
 	item_state = "ncr_officer_boots"
 
-/obj/item/clothing/shoes/roman
+/obj/item/clothing/shoes/f13/roman
 	name = "roman sandals"
 	desc = "Sandals with buckled leather straps on it."
 	icon = 'icons/fallout/clothing/shoes.dmi'
@@ -125,7 +125,7 @@
 	permeability_coefficient = 0.9
 	can_be_tied = FALSE
 
-/obj/item/clothing/shoes/f13shoes/peltboots
+/obj/item/clothing/shoes/f13/peltboots
 	name = "pelt boots"
 	desc = "These boots are made from tanned hide and lined with soft long horner wool. A fashion from wealthy tribes that has spread. "
 	icon = 'icons/fallout/clothing/shoes.dmi'
@@ -135,7 +135,7 @@
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
 
-/obj/item/clothing/shoes/f13shoes/military/legion
+/obj/item/clothing/shoes/f13/military/legion
 	name = "rough leather boots"
 	desc = "A pair of crudely made leather boots, followng the standardized pattern laid down according to the wisdom of Caesar."
 	icon = 'icons/fallout/clothing/shoes.dmi'
@@ -143,7 +143,7 @@
 	icon_state = "legion_leather"
 	item_state = "legion_leather"
 
-/obj/item/clothing/shoes/f13shoes/military/plated
+/obj/item/clothing/shoes/f13/military/plated
 	name = "plated war boots"
 	desc = "A pair of leather boots reinforced with hardened toe caps and shin guards, usually recycled old workboot steel caps taken from rotted old boots and glued to new ones."
 	icon = 'icons/fallout/clothing/shoes.dmi'
@@ -152,7 +152,7 @@
 	item_state = "legion_war"
 	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
-/obj/item/clothing/shoes/f13shoes/military/legate
+/obj/item/clothing/shoes/f13/military/legate
 	name = "heavy metal boots"
 	desc = "A pair of heavy leather boots with bronzed metal leg guards added. These belong to a Legate of Caesar's Legion."
 	icon = 'icons/fallout/clothing/shoes.dmi'
@@ -165,7 +165,7 @@
 // Great Khans///
 /////////////////
 
-/obj/item/clothing/shoes/f13shoes/military/khan
+/obj/item/clothing/shoes/f13/military/khan
 	name = "steel-tipped boots"
 	desc = "A pair of leather boots reinforced with metal toe caps. The shin guards can be removed easily (alt-click)."
 	icon = 'icons/fallout/clothing/khans.dmi'
@@ -175,24 +175,24 @@
 	armor = list(melee = 20, bullet = 20, laser = 10, energy = 10, bomb = 20, bio = 0, rad = 0, fire = 20, acid = 0)
 	var/boottoggled = FALSE
 
-/obj/item/clothing/shoes/f13shoes/military/khan/Goji
+/obj/item/clothing/shoes/f13/military/khan/Goji
 	name = "steel-tipped Snakeskin Loafers"
 	desc = "A pair of Snakeskin Loafers reinforced with metal toe caps."
 	icon = 'icons/fallout/clothing/khans.dmi'
 	icon_state = "Gojishoes"
 	item_state = "Gojishoes"
 
-/obj/item/clothing/shoes/f13shoes/military/khan/AltClick(mob/user)
+/obj/item/clothing/shoes/f13/military/khan/AltClick(mob/user)
 	. = ..()
 	if(!user.canUseTopic(src, BE_CLOSE, ismonkey(user)))
 		return
 	boot_toggle(user)
 	return TRUE
 
-/obj/item/clothing/shoes/f13shoes/military/khan/ui_action_click()
+/obj/item/clothing/shoes/f13/military/khan/ui_action_click()
 	boot_toggle()
 
-/obj/item/clothing/shoes/f13shoes/military/khan/proc/boot_toggle()
+/obj/item/clothing/shoes/f13/military/khan/proc/boot_toggle()
 	set src in usr
 
 	if(!can_use(usr))
@@ -213,7 +213,7 @@
 		A.UpdateButtonIcon()
 
 
-/obj/item/clothing/shoes/f13shoes/military/khan_pelt
+/obj/item/clothing/shoes/f13/military/khan_pelt
 	name = "tall pelt boots"
 	desc = "A pair of soft pelt boots with fur lining."
 	icon = 'icons/fallout/clothing/khans.dmi'
@@ -221,18 +221,16 @@
 	icon_state = "khan_peltboots"
 	item_state = "khan_peltboots"
 
-
-
 //Fluff
 
-/obj/item/clothing/shoes/f13shoes/swimfins
+/obj/item/clothing/shoes/f13/swimfins
 	name = "swimming fins"
 	desc = "You see, Ivan, when you wear fin in desert, they help you swim good if you find much water."
 	icon_state = "flippers"
 	item_state = "flippers"
 	clothing_flags = NOSLIP
 
-/obj/item/clothing/shoes/f13shoes/moon
+/obj/item/clothing/shoes/f13/moon
 	name = "moon boots"
 	desc = "These boots are constructed with a thin rubber exterior and cellular rubber midsole covered by colorful nylon fabrics and using polyurethane foams.<br>To the Moon!"
 	icon_state = "moon"
@@ -244,7 +242,7 @@
 	max_heat_protection_temperature = SHOES_MAX_TEMP_PROTECT
 	clothing_flags = NOSLIP
 
-/obj/item/clothing/shoes/f13shoes/doom
+/obj/item/clothing/shoes/f13/doom
 	name = "mars boots"
 	desc = "These boots are constructed with a titanium alloy. There are some runes engraved on the side.<br>To Mars!"
 	icon_state = "mars"
@@ -256,7 +254,7 @@
 	max_heat_protection_temperature = SHOES_MAX_TEMP_PROTECT
 	clothing_flags = NOSLIP
 
-/obj/item/clothing/shoes/f13shoes/miner
+/obj/item/clothing/shoes/f13/miner
 	name = "mining boots"
 	desc = "Heavy-duty work boots with steel-reinforced toes and some fluffy wool for extra warmth."
 	icon_state = "miner"
@@ -265,7 +263,7 @@
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
 
-/obj/item/clothing/shoes/f13shoes/jamrock
+/obj/item/clothing/shoes/f13/jamrock
 	name = "Green Snakeskin Shoes"
 	desc = "They may have lost some of their lustre over the years, but these green crocodile leather shoes fit you perfectly."
 	icon_state = "jamrock_skins"
@@ -274,13 +272,13 @@
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
 
-/obj/item/clothing/shoes/f13shoes/mutie
+/obj/item/clothing/shoes/f13/mutie
 	name = "super mutant sandals"
 	desc = "A pair of oversized sandals, likely designed for super mutants."
 	icon_state = "mutie_sandals"
 	icon_state = "mutie_sandals"
 
-/obj/item/clothing/shoes/f13shoes/mutie/boots
+/obj/item/clothing/shoes/f13/mutie/boots
 	name = "super mutant boots"
 	desc = "A pair of oversized boots."
 	icon_state = "mutie_boots"
@@ -288,33 +286,25 @@
 	armor = list("melee" = 40, "bullet" = 20, "laser" = 20, "energy" = 20, "bomb" = 20, "bio" = 80, "rad" = 80, "fire" = 80, "acid" = 50)
 	cold_protection = FEET
 
-/obj/item/clothing/shoes/f13shoes/mutie/boots/dark
-	icon_state = "mutie_boots_dark"
-	icon_state = "mutie_boots_dark"
-
-/obj/item/clothing/shoes/f13shoes/mutie/boots/ncr
-	icon_state = "mutie_boots_ncr"
-	icon_state = "mutie_boots_ncr"
-
-/obj/item/clothing/shoes/f13shoes/mutie/boots/ncr/ranger
+/obj/item/clothing/shoes/f13/mutie/boots/ncr/ranger
 	icon_state = "mutie_boots_ranger"
 	icon_state = "mutie_boots_ranger"
 
-/obj/item/clothing/shoes/f13shoes/tribal_sandals
+/obj/item/clothing/shoes/f13/tribal_sandals
 	icon_state = "tribaltreads"
 	icon_state = "tribaltreads"
 
-/obj/item/clothing/shoes/f13shoes/highheels
+/obj/item/clothing/shoes/f13/highheels
 	name = "high heels"
 	desc = "Keep your head, heels and standards high."
 	icon_state = "fancyheels"
 	item_state = "fancyheels"
 
-/obj/item/clothing/shoes/f13shoes/whitelegshoes
+/obj/item/clothing/shoes/f13/whitelegshoes
 	desc = "Hardened by years of barefoot walking, impervious to glass traps."
 	icon_state = "whitelegs"
 	item_state = "whitelegs"
 
-/obj/item/clothing/shoes/f13shoes/whitelegshoes/Initialize()
+/obj/item/clothing/shoes/f13/whitelegshoes/Initialize()
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)

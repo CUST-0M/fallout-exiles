@@ -1,25 +1,25 @@
 //Fallout 13 goggles directory
 
-/obj/item/clothing/f13glasses/f13
+/obj/item/clothing/f13glasses/name
 	armor = list(melee = 10, bullet = 10, laser = 10, energy = 10, bomb = 10, bio = 10, rad = 10, fire = 10, acid = 10)
 
-/obj/item/clothing/f13glasses/f13/biker
+/obj/item/clothing/glasses/f13/biker
 	name = "biker goggles"
 	desc = "Simple goggles to protect against wind and dirt."
 	icon_state = "biker"
 	item_state = "biker"
 
-/obj/item/clothing/f13glasses/legiongoggles
+/obj/item/clothing/glasses/f13/legiongoggles
 	name = "sandstorm goggles"
 	desc = "Post-war makeshift protective goggles made by legion artisans."
 	icon_state = "legion"
 	item_state = "legion"
 
-/obj/item/clothing/f13glasses/legionpolarizing
+/obj/item/clothing/glasses/f13/legionpolarizing
 	icon_state = "legpolarizing"
 	item_state = "legpolarizing"
 
-/obj/item/clothing/f13glasses/night/polarizing
+/obj/item/clothing/glasses/f13/night/polarizing
 	name = "polarizing goggles"
 	desc = "Fancy goggles with rare polarizing glass from some old cache, usually reserved for commanders and a few select scouts."
 	icon_state = "legpolarizing"
@@ -28,14 +28,14 @@
 	lighting_alpha = LIGHTING_PLANE_ALPHA_NV_TRAIT
 	glass_colour_type = /datum/client_colour/glass_colour/lightorange
 	
-/obj/item/clothing/f13glasses/night/f13/enclave
+/obj/item/clothing/glasses/f13/night/pilotgoggles
 	name = "\improper pilot goggles"
 	desc = "Heat-sensitive goggles commonly worn by Enclave Personnel."
 	icon_state = "enclavegoggles"
 	item_state = "enclavegoggles"
 	vision_correction = 1 
 
-/obj/item/clothing/f13glasses/night/ncr
+/obj/item/clothing/glasses/f13/night/ncr
 	name = "lit shades"
 	desc = "Strangely ancient technology used to help provide rudimentary eye cover. Larger than average enhanced shielding blocks flashes, it's also got Night Vision installed, wow!"
 	icon_state = "bigsunglasses"
@@ -44,18 +44,18 @@
 
 //Fallout 13 sunglasses
 
-/obj/item/clothing/f13glasses/sunglasses/f13
+/obj/item/clothing/glasses/f13/sunglasses
 	icon = 'icons/fallout/clothing/glasses.dmi'
 	armor = list(melee = 10, bullet = 10, laser = 10, energy = 10, bomb = 10, bio = 10, rad = 10, fire = 10, acid = 10)
 
 
 //Fallout 13 thermals
 
-/obj/item/clothing/f13glasses/thermal/f13
+/obj/item/clothing/glasses/f13/thermal
 	icon = 'icons/fallout/clothing/glasses.dmi'
 	armor = list(melee = 10, bullet = 10, laser = 10, energy = 10, bomb = 10, bio = 10, rad = 10, fire = 10, acid = 10)
 
-/obj/item/clothing/f13glasses/thermal/f13/doctorwho
+/obj/item/clothing/glasses/f13/thermal/doctorwho
 	name = "3D glasses"
 	desc = "<i>People assume that time is a strict progression of cause to effect, but, actually, from a non-linear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly... Timey-wimey... Stuff.</i>"
 	icon_state = "3d"
@@ -65,11 +65,11 @@
 
 //Fallout 13 science goggles
 
-/obj/item/clothing/f13glasses/science/f13
+/obj/item/clothing/glasses/f13/science
 	icon = 'icons/fallout/clothing/glasses.dmi'
 	armor = list(melee = 10, bullet = 10, laser = 10, energy = 10, bomb = 10, bio = 10, rad = 10, fire = 10, acid = 10)
 
-/obj/item/clothing/f13glasses/science/f13/steampunk
+/obj/item/clothing/f13glasses/science/steampunk
 	name = "\improper goggles"
 	desc = "If the legends are true, these goggles belonged to a genius alchemist.<br>Or maybe it's just a steampunk enthusiast's cherished toy."
 	icon_state = "steampunk"
@@ -79,10 +79,10 @@
 
 //Augmented eye
 
-/obj/item/clothing/f13glasses/hud/health/f13
+/obj/item/clothing/glasses/f13/hud/health
 	armor = list(melee = 10, bullet = 10, laser = 10, energy = 10, bomb = 10, bio = 10, rad = 10, fire = 10, acid = 10)
 
-/obj/item/clothing/f13glasses/hud/health/f13/eye
+/obj/item/clothing/glasses/f13/hud/health/eye
 	name = "augmented eye"
 	desc = "An easy-to-use augmenation that enhances the user's sight properties.<br>Stick it directly in your eye. It might sting a little..."
 	icon_state = "aug"

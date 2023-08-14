@@ -11,7 +11,7 @@
 	resistance_flags = NONE
 
 
-/obj/item/clothing/suit/armor/Initialize()
+/obj/item/clothing/suit/f13_armor/Initialize()
 	. = ..()
 	if(!allowed)
 		allowed = GLOB.security_vest_allowed
@@ -99,10 +99,10 @@
 	armor = list("melee" = 10, "bullet" = 35, "laser" = 5, "energy" = 0, "bomb" = 5, "bio" = 10, "rad" = 0, "fire" = 5, "acid" = 0)
 
 /////////////////
-// MIXED ARMOR //
+// Wasteland ARMOR //
 /////////////////
 
-/obj/item/clothing/suit/f13_armor/mixed/rustedcowboy
+/obj/item/clothing/suit/f13_armor/wasteland/rustedcowboy
 	name = "rusted cowboy outfit"
 	desc = "A weather treated leather cowboy outfit. Yeehaw Pard'!"
 	icon_state = "rusted_cowboy"
@@ -113,7 +113,7 @@
 	permeability_coefficient = 0.5
 	armor = list("melee" = 23, "bullet" = 20, "laser" = 15, "energy" = 15, "bomb" = 30, "bio" = 10, "rad" = 10, "fire" = 40, "acid" = 10,)
 
-/obj/item/clothing/suit/f13_armor/mixed/chitinarmor
+/obj/item/clothing/suit/f13_armor/wasteland/chitinarmor
 	name = "insect chitin armor"
 	desc = "A suit made from gleaming insect chitin. The glittering black scales are remarkably resistant to hostile environments, except cold."
 	icon_state = "insect"
@@ -125,15 +125,7 @@
 	permeability_coefficient = 0.5
 	armor = list("melee" = 15, "bullet" = 15, "laser" = 20, "energy" = 20, "bomb" = 10, "bio" = 50, "rad" = 50, "fire" = 70, "acid" = 80)
 
-/obj/item/clothing/suit/f13_armor/mixed/wastetribe
-	name = "wasteland tribe armor"
-	desc = "Soft armor made from layered dog hide strips glued together, with some metal bits here and there."
-	icon_state = "tribal"
-	item_state = "tribal"
-	flags_inv = HIDEJUMPSUIT
-	armor = list("melee" = 22, "bullet" = 5, "laser" = 10, "energy" = 10, "bomb" = 5, "bio" = 0, "rad" = 5, "fire" = 5, "acid" = 0)
-
-/obj/item/clothing/suit/f13_armor/mixed/vaquero
+/obj/item/clothing/suit/f13_armor/wasteland/vaquero
 	name = "vaquero suit"
 	desc = "An ornate suit popularized by traders from the south, using tiny metal studs and plenty of silver thread wich serves as decoration and also reflects energy very well, useful when facing the desert sun or a rogue Eyebot."
 	icon_state = "vaquero"
@@ -143,13 +135,37 @@
 	siemens_coefficient = 1.1
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 30, "energy" = 25, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
-/obj/item/clothing/suit/f13_armor/mixed/wastewar
+/obj/item/clothing/suit/f13_armor/wasteland/wastewar
 	name = "wasteland warrior armor"
 	desc = "a mad attempt to recreate armor based of images of japanese samurai, using a sawn up old car tire as shoulder pads, bits of chain to cover the hips and pieces of furniture for a breastplate. Might stop a blade but nothing else, burns easily too."
 	icon_state = "wastewar"
 	item_state = "wastewar"
 	resistance_flags = FLAMMABLE
 	armor = list("melee" = 25, "bullet" = 5, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = -10, "acid" = 0)
+
+/obj/item/clothing/suit/f13_armor/wasteland/blondie
+	name = "wasteland warrior armor"
+	desc = "a mad attempt to recreate armor based of images of japanese samurai, using a sawn up old car tire as shoulder pads, bits of chain to cover the hips and pieces of furniture for a breastplate. Might stop a blade but nothing else, burns easily too."
+	icon_state = "wastewar"
+	item_state = "wastewar"
+	resistance_flags = FLAMMABLE
+	armor = list("melee" = 5, "bullet" = 15, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = -10, "acid" = 0)
+
+/obj/item/clothing/suit/f13_armor/wasteland/tuco
+	name = "wasteland warrior armor"
+	desc = "a mad attempt to recreate armor based of images of japanese samurai, using a sawn up old car tire as shoulder pads, bits of chain to cover the hips and pieces of furniture for a breastplate. Might stop a blade but nothing else, burns easily too."
+	icon_state = "wastewar"
+	item_state = "wastewar"
+	resistance_flags = FLAMMABLE
+	armor = list("melee" = 5, "bullet" = 15, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = -10, "acid" = 0)
+
+/obj/item/clothing/suit/f13_armor/wasteland/angeleyes
+	name = "wasteland warrior armor"
+	desc = "a mad attempt to recreate armor based of images of japanese samurai, using a sawn up old car tire as shoulder pads, bits of chain to cover the hips and pieces of furniture for a breastplate. Might stop a blade but nothing else, burns easily too."
+	icon_state = "wastewar"
+	item_state = "wastewar"
+	resistance_flags = FLAMMABLE
+	armor = list("melee" = 5, "bullet" = 15, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = -10, "acid" = 0)
 
 ////////////////
 // ARMOR KITS //
@@ -384,7 +400,7 @@
 	cold_protection = CHEST | GROIN | LEGS | ARMS
 	armor = list("melee" = 15, "bullet" = 25, "laser" = 10, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
-/obj/item/clothing/suit/f13_armor/leather_jacket
+/obj/item/clothing/suit/armor/f13/leather_jacket
 	name = "leather jacket"
 	icon_state = "leather_jacket"
 	item_state = "leather_jacket"
@@ -454,7 +470,7 @@
 /obj/item/clothing/suit/armor/f13/metalarmor
 	name = "metal armor"
 	desc = "A set of plates formed together to form a crude chestplate."
-	icon = 'icons/fallout/clothing/armored_f13_armor.dmi'
+	icon = 'icons/fallout/clothing_item/f13_armor.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_f13_armor.dmi'
 	icon_state = "metal_chestplate"
 	item_state = "metal_chestplate"
@@ -465,8 +481,8 @@
 /obj/item/clothing/suit/armor/f13/metalarmor/laserproof
 	name = "polished metal armor"
 	desc = "A set of plates formed together to form a crude chestplate. These have been waxed and buffed to a mirror finish, but it looks a bit thinner."
-	icon = 'icons/fallout/clothing/armored_f13_armor.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_f13_armor.dmi'
+	icon = 'icons/fallout/clothing_item/f13_armor.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/f13_armor.dmi'
 	icon_state = "armor_enclave_peacekeeper"
 	item_state = "armor_enclave_peacekeeper"
 	armor = list("melee" = 38, "bullet" = 38, "laser" = 72, "energy" = 25, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
@@ -2425,12 +2441,6 @@
 	flags_inv = HIDEJUMPSUIT
 	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
 
-/obj/item/clothing/suit/f13_armor/enclave/environmentalsuit/seva
-	name = "enclave seva suit"
-	desc = "This bodysuit, intended for conducting research in the Zone, combines a closed-cycle respiratory module and an external isolation coating, resulting in excellent protection from anomalies."
-	icon_state = "enclave_seva"
-	item_state = "enclave_seva"
-
 /obj/item/clothing/suit/f13_armor/enclave/combat
 	name = "enclave combat armor"
 	desc = "An old set of pre-war combat armor, painted black."
@@ -2453,7 +2463,6 @@
 	item_state = "advanced"
 	slowdown = 0.25 //+0.1 from helmet = total 0.35
 	armor = list("melee" = 85, "bullet" = 85, "laser" = 85, "energy" = 65, "bomb" = 70, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 50, "wound" = 75)
-	salvaged_type = /obj/item/clothing/suit/armoredf13_armor/salvaged_pa/x02 // Oh the misery
 
 /obj/item/clothing/suit/f13_armor/power_armor/hellfire
 	name = "enclave hellfire power armor"
