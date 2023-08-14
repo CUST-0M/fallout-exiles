@@ -154,66 +154,6 @@
 
 /////////////////////////////////////////Necromantic Stone///////////////////
 
-/obj/item/necromantic_stone
-	name = "necromantic stone"
-	desc = "A shard capable of resurrecting humans as skeleton thralls."
-	icon = 'icons/obj/wizard.dmi'
-	icon_state = "necrostone"
-	item_state = "electronic"
-	lefthand_file = 'icons/mob/inhands/misc/devices_lefthand.dmi'
-	righthand_file = 'icons/mob/inhands/misc/devices_righthand.dmi'
-	w_class = WEIGHT_CLASS_TINY
-	var/list/spooky_scaries = list()
-	var/unlimited = 0
-
-/obj/item/necromantic_stone/unlimited
-	unlimited = 1
-
-/obj/item/necromantic_stone/attack(mob/living/carbon/human/M, mob/living/carbon/human/user)
-	if(!istype(M))
-		return ..()
-
-	if(!istype(user) || !user.canUseTopic(M, BE_CLOSE))
-		return
-
-	if(M.stat != DEAD)
-		to_chat(user, "<span class='warning'>This artifact can only affect the dead!</span>")
-		return
-
-	if(!M.mind || !M.client)
-		to_chat(user, "<span class='warning'>There is no soul connected to this body...</span>")
-		return
-
-	check_spooky()//clean out/refresh the list
-	if(spooky_scaries.len >= 3 && !unlimited)
-		to_chat(user, "<span class='warning'>This artifact can only affect three undead at a time!</span>")
-		return
-
-	M.set_species(/datum/species/skeleton/space, icon_update=0)
-	M.revive(full_heal = 1, admin_revive = 1)
-	spooky_scaries |= M
-	to_chat(M, "<span class='userdanger'>You have been revived by </span><B>[user.real_name]!</B>")
-	to_chat(M, "<span class='userdanger'>[user.p_theyre(TRUE)] your master now, assist [user.p_them()] even if it costs you your new life!</span>")
-
-	equip_roman_skeleton(M)
-
-	desc = "A shard capable of resurrecting humans as skeleton thralls[unlimited ? "." : ", [spooky_scaries.len]/3 active thralls."]"
-
-/obj/item/necromantic_stone/proc/check_spooky()
-	if(unlimited) //no point, the list isn't used.
-		return
-
-	for(var/X in spooky_scaries)
-		if(!ishuman(X))
-			spooky_scaries.Remove(X)
-			continue
-		var/mob/living/carbon/human/H = X
-		if(H.stat == DEAD)
-			H.dust(TRUE)
-			spooky_scaries.Remove(X)
-			continue
-	listclearnulls(spooky_scaries)
-
 /obj/item/voodoo
 	name = "wicker doll"
 	desc = "Something creepy about it."
