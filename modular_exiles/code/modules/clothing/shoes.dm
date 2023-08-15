@@ -128,7 +128,7 @@
 /obj/item/clothing/shoes/f13/peltboots
 	name = "pelt boots"
 	desc = "These boots are made from tanned hide and lined with soft long horner wool. A fashion from wealthy tribes that has spread. "
-	icon = 'modular_exiles/icons/clothes/shoes.dmi''
+	icon = 'modular_exiles/icons/clothes/shoes.dmi'
 	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/feet.dmi'
 	icon_state = "legion_pelt"
 	item_state = "legion_pelt"
