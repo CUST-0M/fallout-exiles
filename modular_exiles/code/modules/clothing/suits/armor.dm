@@ -725,7 +725,7 @@
 	armor = list("melee" = 30, "bullet" = 25,"laser" = 25, "energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 0)
 	flags_inv = HIDEJUMPSUIT
 
-/obj/item/clothing/suit/armor/f13_armor/wastewar
+/obj/item/clothing/suit/armor/f13/wastewar
 	name = "wasteland warrior armor"
 	desc = "A mad attempt to recreate armor based of images of japanese samurai, using a sawn up old car tire as shoulder pads, bits of chain to cover the hips and pieces of furniture for a breastplate. Might stop a blade but nothing else."
 	icon = 'modular_exiles/icons/clothing/armor.dmi'
