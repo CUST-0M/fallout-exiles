@@ -1605,13 +1605,6 @@
 	item_state = "locust"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 40)
 
-/obj/item/clothing/under/f13/gunner
-	name = "gunner combat uniform"
-	desc = "An ancient combat uniform, that went out of use around the time of the Great War. it has scratch marks and a skull painted on it to symbolize that its part of the gunners"
-	icon_state = "GunnerPlates"
-	item_state = "GunnerPlates"
-	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 40)
-
 /obj/item/clothing/under/f13/marlowduds
 	name = "Marlow gang attire"
 	desc = "A washed out crimson overshirt with blue neckerchief and suspended black slacks. The attire is synonymous with the colors of the criminal Marlow gang."
