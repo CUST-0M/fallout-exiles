@@ -933,7 +933,7 @@
 /obj/item/clothing/under/f13/chinese
 	name = "PLA uniform"
 	desc = "An pre-war People's Liberation Army uniform, worn by enlisted and NCOs."
-	icon = 'modular_exiles/icons/clothes/uniforms.dmi''
+	icon = 'modular_exiles/icons/clothes/uniforms.dmi'
 	mob_overlay_icon = 'modular_exiles/icons/clothes/uniform.dmi'
 	icon_state = "chinese_soldier"
 	item_state = "chinese_soldier"
