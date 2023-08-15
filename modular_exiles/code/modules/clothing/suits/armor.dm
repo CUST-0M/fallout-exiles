@@ -1739,8 +1739,8 @@
 	desc = "Worn leather strips, used as makeshift protection from chafing and sharp stones by labor slaves."
 	icon_state = "legion_slaveleather"
 	item_state = "legion_slaveleather"
-	icon = 'icons/fallout/clothing/suit/armors_utility.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit/armor_utility.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	allowed = list(/obj/item/hatchet, /obj/item/scythe, /obj/item/cultivator, /obj/item/shovel)
 	armor = list("melee" = 20, "bullet" = 5, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 0)
 

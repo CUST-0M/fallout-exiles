@@ -79,7 +79,7 @@
 				/obj/item/clothing/suit/toggle/lawyer/purple,
 				/obj/item/clothing/suit/toggle/labcoat/f13/wanderer,
 				/obj/item/clothing/under/f13/agent47,
-				/obj/item/clothing/under/f13/keksweater,
+				/obj/item/clothing/under/f13/redsweater,
 				/obj/item/clothing/under/lawyer/black,
 				/obj/item/clothing/under/misc/poly_bottomless,
 				/obj/item/clothing/under/pants/blackjeans,
@@ -130,7 +130,7 @@
 	/obj/item/clothing/under/f13/follower,
 	/obj/item/clothing/under/f13/helenduds,
 	/obj/item/clothing/under/f13/ikeduds,
-	/obj/item/clothing/under/f13/keksweater,
+	/obj/item/clothing/under/f13/redsweater,
 	/obj/item/clothing/under/f13/ncrcaravan,
 	/obj/item/clothing/under/f13/machinist,
 	/obj/item/clothing/under/f13/marlowduds,
@@ -345,9 +345,8 @@
 				/obj/effect/spawner/bundle/f13/armor/psycho,
 				/obj/item/clothing/suit/armor/f13/duster,
 				/obj/effect/spawner/bundle/f13/armor/combatduster,
-				/obj/item/clothing/suit/armor/f13/raider/iconoclast,
-				/obj/item/clothing/suit/armor/f13/plates,
-	)
+				/obj/item/clothing/suit/armor/f13/raider/iconoclast
+				)
 
 /obj/effect/spawner/bundle/f13/armor/supafly
 	name = "supafly raider armor spawner"
@@ -403,11 +402,11 @@
 	loot = list(
 				/obj/effect/spawner/bundle/f13/knight,
 				/obj/effect/spawner/bundle/f13/metal,
-				/obj/effect/spawner/bundle/f13/laserproofmetal,
+				/obj/effect/spawner/bundle/f13/armor/laserproofmetal,
 				/obj/item/clothing/suit/f13/leather_jacket/combat,
 				/obj/item/clothing/suit/armor/f13/leather_jacket/combat/coat,
 				/obj/item/clothing/suit/vest,
-				/obj/item/clothing/suit/vest/alt,
+				/obj/item/clothing/suit/vest/alt
 				)
 
 /obj/effect/spawner/bundle/f13/armor/knight
@@ -440,7 +439,7 @@
 				/obj/effect/spawner/bundle/f13/armor/combat,
 				/obj/effect/spawner/bundle/f13/armor/bulletproof,
 				/obj/effect/spawner/bundle/f13/armor/sulphite,
-				/obj/effect/spawner/bundle/f13/armor/vault,
+				/obj/effect/spawner/bundle/f13/armor/vault
 				)
 
 /obj/effect/spawner/bundle/f13/armor/metal/reinforced
@@ -482,8 +481,7 @@
 	loot = list(
 				/obj/effect/spawner/bundle/f13/armor/t45b_salvaged,
 				/obj/effect/spawner/bundle/f13/armor/riot,
-				/obj/effect/spawner/bundle/f13/armor/combat/mk2,
-				/obj/effect/spawner/bundle/f13/armor/combat/mk2/dark
+				/obj/effect/spawner/bundle/f13/armor/combat/mk2
 				)
 
 /obj/effect/spawner/bundle/f13/armor/t45b_salvaged
@@ -504,7 +502,7 @@
 	name = "vault armor spawner"
 	items = list(
 				/obj/item/clothing/suit/vest/big,
-				/obj/item/clothing/head/helmet/riot/vaultsec,
+				/obj/item/clothing/head/helmet/riot/vaultsec
 				)
 
 /obj/effect/spawner/bundle/f13/armor/combat/mk2
@@ -533,21 +531,21 @@
 	name = "tier 5 armor"
 	loot = list(
 				/obj/effect/spawner/bundle/f13/armor/t45d,
-				/obj/effect/spawner/bundle/f13/armor/t51b,
+				/obj/effect/spawner/bundle/f13/armor/t51b
 				)
 
 /obj/effect/spawner/bundle/f13/armor/t45d
 	name = "t45d power armor spawner"
 	items = list(
 				/obj/item/clothing/suit/f13/power_armor/t45d,
-				/obj/item/clothing/head/helmet/f13/power_armor/t45d,
+				/obj/item/clothing/head/helmet/f13/power_armor/t45d
 				)
 
 /obj/effect/spawner/bundle/f13/armor/t51b
 	name = "t51b power armor spawner"
 	items = list(
 				/obj/item/clothing/suit/f13/power_armor/t51b,
-				/obj/item/clothing/head/helmet/f13/power_armor/t51b,
+				/obj/item/clothing/head/helmet/f13/power_armor/t51b
 				)
 
 
@@ -558,7 +556,7 @@
 	loot = list(
 			/obj/effect/spawner/lootdrop/f13/armor/tier1 = 90,
 			/obj/effect/spawner/lootdrop/f13/armor/tier2 = 9,
-			/obj/effect/spawner/lootdrop/f13/armor/tier3 = 1,
+			/obj/effect/spawner/lootdrop/f13/armor/tier3 = 1
 			)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid
@@ -672,7 +670,7 @@
 		/obj/item/stack/sheet/prewar/twenty,
 		/obj/item/stack/sheet/plastic/twenty,
 		/obj/item/defibrillator/primitive,
-		/obj/item/reagent_containers/syringe/bluespace,
+		/obj/item/reagent_containers/syringe/bluespace
 		)
 
 
@@ -695,7 +693,7 @@
 		/obj/item/reagent_containers/glass/bottle/frostoil = 5,
 		/obj/item/book/granter/trait/midsurgery = 5,
 		/obj/item/reagent_containers/glass/bottle/FEV_solution = 2,
-		/obj/item/reagent_containers/glass/bottle/FEV_solution/two = 2,
+		/obj/item/reagent_containers/glass/bottle/FEV_solution/two = 2
 		)
 
 /obj/effect/spawner/lootdrop/f13/medical/random_fev
@@ -729,7 +727,7 @@
 	items = list(
 				/obj/item/melee/onehanded/knife/throwing,
 				/obj/item/melee/onehanded/knife/throwing,
-				/obj/item/melee/onehanded/knife/throwing,
+				/obj/item/melee/onehanded/knife/throwing
 				)
 
 
@@ -796,7 +794,7 @@
 				/obj/item/melee/unarmed/maceglove,
 				/obj/item/melee/unarmed/punchdagger,
 				/obj/item/twohanded/baseball/louisville,
-				/obj/item/shield/riot,
+				/obj/item/shield/riot
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier5 //TIER 5 MELEE WEAPON
@@ -980,7 +978,7 @@
 				/obj/effect/spawner/bundle/f13/riotshotgun = 10,
 				/obj/item/gun/ballistic/shotgun/automatic/combat/citykiller = 10,
 				/obj/effect/spawner/bundle/f13/guns/p90 = 1,
-				/obj/effect/spawner/bundle/f13/fnfal = 1,
+				/obj/effect/spawner/bundle/f13/fnfal = 1
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/superhigh
@@ -989,7 +987,7 @@
 				/obj/effect/spawner/bundle/f13/amr = 10,
 				/obj/effect/spawner/bundle/f13/brushgun = 15,
 				/obj/effect/spawner/bundle/f13/rangemaster = 15,
-				/obj/effect/spawner/bundle/f13/fnfal = 10,
+				/obj/effect/spawner/bundle/f13/fnfal = 10
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/unique
@@ -1107,7 +1105,7 @@
 	name = "pepperbox gun spawner"
 	items = list(
 				/obj/item/gun/ballistic/revolver/hobo/pepperbox,
-				/obj/item/ammo_box/c10mm/improvised,
+				/obj/item/ammo_box/c10mm/improvised
 				)
 
 /obj/effect/spawner/bundle/f13/huntingshotgun
@@ -1268,7 +1266,7 @@
 	name = "trench shotgun and ammo spawner"
 	items = list(
 				/obj/item/gun/ballistic/shotgun/trench,
-				/obj/item/ammo_box/shotgun/buck,
+				/obj/item/ammo_box/shotgun/buck
 				)
 
 /obj/effect/spawner/bundle/f13/wattz
@@ -1585,7 +1583,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 	name = "automatic rifle and ammo spawner"
 	items = list(
 			/obj/item/gun/ballistic/automatic/bar,
-			/obj/item/ammo_box/magazine/m762/ext,
+			/obj/item/ammo_box/magazine/m762/ext
 	)
 
 /obj/effect/spawner/bundle/f13/rocketlauncher
@@ -1753,7 +1751,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 				/obj/item/grenade/f13/radiation,
 				/obj/item/grenade/plastic/x4,
 				/obj/item/grenade/stingbang/shred = 1,
-				/obj/effect/spawner/bundle/f13/rocketlauncher,
+				/obj/effect/spawner/bundle/f13/rocketlauncher
 				)
 
 
@@ -1865,7 +1863,8 @@ obj/effect/spawner/bundle/f13/combat_rifle
 					/obj/item/seeds/reishi,
 					/obj/item/seeds/cannabis,
 					/obj/item/seeds/starthistle,
-					/obj/item/seeds/random)
+					/obj/item/seeds/random
+					)
 	. = ..()
 
 /obj/effect/spawner/lootdrop/f13/foodspawner
@@ -1910,7 +1909,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 				/obj/item/reagent_containers/food/condiment/soysauce,
 				/obj/item/reagent_containers/food/snacks/beans,
 				/obj/item/reagent_containers/food/snacks/cracker,
-				/obj/item/reagent_containers/food/snacks/lollipop,
+				/obj/item/reagent_containers/food/snacks/lollipop
 				)
 
 
@@ -2043,7 +2042,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 				/obj/item/stack/f13Cash/random/high = 2,
 				/obj/item/stack/f13Cash/random/ncr/high = 1,
 				/obj/item/stack/f13Cash/random/denarius/high = 1,
-				/obj/item/stack/f13Cash/random/aureus/high = 1,
+				/obj/item/stack/f13Cash/random/aureus/high = 1
 				)
 
 /obj/effect/spawner/lootdrop/f13/cash_random_high
@@ -2062,7 +2061,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 				/obj/item/stack/f13Cash/random/low = 10,
 				/obj/item/stack/f13Cash/random/ncr/low = 5,
 				/obj/item/stack/f13Cash/random/denarius/low = 5,
-				/obj/item/stack/f13Cash/random/aureus/low = 1,
+				/obj/item/stack/f13Cash/random/aureus/low = 1
 				)
 
 /obj/effect/spawner/lootdrop/f13/cash_legion_low
@@ -2089,7 +2088,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 			/obj/item/stack/f13Cash/random/high = 1,
 			/obj/item/stack/f13Cash/random/denarius/low = 10,
 			/obj/item/stack/f13Cash/random/aureus/low = 5,
-			/obj/item/stack/f13Cash/random/low = 1,
+			/obj/item/stack/f13Cash/random/low = 1
 			)
 
 /obj/effect/spawner/lootdrop/f13/cash_legion_high
@@ -2101,7 +2100,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 		/obj/item/stack/f13Cash/random/high = 10,
 		/obj/item/stack/f13Cash/random/denarius/med = 10,
 		/obj/item/stack/f13Cash/random/aureus/med = 5,
-		/obj/item/stack/f13Cash/random/med = 1,
+		/obj/item/stack/f13Cash/random/med = 1
 		)
 
 
@@ -2112,7 +2111,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 			/obj/item/stack/f13Cash/random/ncr/low = 50,
 			/obj/item/stack/f13Cash/random/low = 10,
 			/obj/item/stack/f13Cash/random/ncr/med = 25,
-			/obj/item/stack/f13Cash/random/med = 5,
+			/obj/item/stack/f13Cash/random/med = 5
 			)
 
 /obj/effect/spawner/lootdrop/f13/cash_ncr_med
@@ -2122,7 +2121,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 			/obj/item/stack/f13Cash/random/ncr/med = 50,
 			/obj/item/stack/f13Cash/random/med = 10,
 			/obj/item/stack/f13Cash/random/ncr/high = 25,
-			/obj/item/stack/f13Cash/random/high = 5,
+			/obj/item/stack/f13Cash/random/high = 5
 			)
 
 /obj/effect/spawner/lootdrop/f13/cash_ncr_high
@@ -2132,7 +2131,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 			/obj/item/stack/f13Cash/random/ncr/high = 50,
 			/obj/item/stack/f13Cash/random/high = 10,
 			/obj/item/stack/f13Cash/random/ncr/med = 25,
-			/obj/item/stack/f13Cash/random/med = 5,
+			/obj/item/stack/f13Cash/random/med = 5
 			)
 
 /obj/effect/spawner/lootdrop/f13/deadrodent_or_brainwashdisk
@@ -2213,7 +2212,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 		/obj/item/book/granter/crafting_recipe/blueprint/uzi,
 		/obj/item/book/granter/crafting_recipe/blueprint/greasegun,
 		/obj/item/book/granter/crafting_recipe/blueprint/commando,
-		/obj/item/book/granter/crafting_recipe/blueprint/m1carbine,
+		/obj/item/book/granter/crafting_recipe/blueprint/m1carbine
 	)
 /obj/effect/spawner/lootdrop/f13/blueprintMid
 	name = "blueprint-tier(Mid) item spawner"
@@ -2226,7 +2225,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 		/obj/item/book/granter/crafting_recipe/blueprint/smg10mm,
 		/obj/item/book/granter/crafting_recipe/blueprint/aep7,
 		/obj/item/book/granter/crafting_recipe/blueprint/scoutcarbine,
-		/obj/item/book/granter/crafting_recipe/blueprint/sniper,
+		/obj/item/book/granter/crafting_recipe/blueprint/sniper
 	)
 
 /obj/effect/spawner/lootdrop/f13/blueprintHigh
@@ -2241,7 +2240,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 		/obj/item/book/granter/crafting_recipe/blueprint/marksman,
 		/obj/item/book/granter/crafting_recipe/blueprint/combatrifle,
 		/obj/item/book/granter/crafting_recipe/blueprint/plasmapistol,
-		/obj/item/book/granter/crafting_recipe/blueprint/brushgun,
+		/obj/item/book/granter/crafting_recipe/blueprint/brushgun
 	)
 
 /obj/effect/spawner/lootdrop/f13/blueprintVHigh
@@ -2251,7 +2250,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 	loot = list(
 		/obj/item/book/granter/crafting_recipe/blueprint/neostead,
 		/obj/item/book/granter/crafting_recipe/blueprint/riotshotgun,
-		/obj/item/book/granter/crafting_recipe/blueprint/aer9,
+		/obj/item/book/granter/crafting_recipe/blueprint/aer9
 	)
 
 /obj/effect/spawner/lootdrop/f13/blueprintVHighBallistics
@@ -2281,7 +2280,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 		/obj/item/advanced_crafting_components/conductors,
 		/obj/item/advanced_crafting_components/receiver,
 		/obj/item/advanced_crafting_components/assembly,
-		/obj/item/advanced_crafting_components/alloys,
+		/obj/item/advanced_crafting_components/alloys
 	)
 
 /obj/effect/spawner/lootdrop/f13/advcrafting
@@ -2295,7 +2294,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 		/obj/item/advanced_crafting_components/receiver,
 		/obj/item/advanced_crafting_components/assembly,
 		/obj/item/advanced_crafting_components/alloys,
-		/obj/item/ingot/adamantine, // Valuable for smithing
+		/obj/item/ingot/adamantine
 	)
 
 /obj/effect/spawner/lootdrop/f13/attachments
@@ -2334,7 +2333,7 @@ obj/effect/spawner/bundle/f13/combat_rifle
 			/obj/item/storage/box/ration/menu_eight,
 			/obj/item/storage/box/ration/menu_nine,
 			/obj/item/storage/box/ration/menu_ten,
-			/obj/item/storage/box/ration/menu_eleven,
+			/obj/item/storage/box/ration/menu_eleven
 			)
 
 /obj/effect/spawner/lootdrop/f13/ncr_k_ration
@@ -2345,5 +2344,5 @@ obj/effect/spawner/bundle/f13/combat_rifle
 	loot = list(
 			/obj/item/storage/box/ration/ranger_breakfast,
 			/obj/item/storage/box/ration/ranger_lunch,
-			/obj/item/storage/box/ration/ranger_dinner,
+			/obj/item/storage/box/ration/ranger_dinner
 			)

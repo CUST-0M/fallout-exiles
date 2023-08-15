@@ -1048,9 +1048,9 @@
 	cost = 1
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_WASTELAND
 
-/datum/gear/uniform/wasteland/keksweater
+/datum/gear/uniform/wasteland/redsweater
 	name = "Red sweater"
-	path = /obj/item/clothing/under/f13/keksweater
+	path = /obj/item/clothing/under/f13/redsweater
 	cost = 1
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_WASTELAND
 
