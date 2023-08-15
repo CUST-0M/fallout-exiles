@@ -264,6 +264,25 @@
 	icon_state = "tdgreen"
 	item_state = "tdgreen"
 
+//Inherited from SS13
+/obj/item/clothing/suit/armor/vest/bulletproof
+	name = "bulletproof armor"
+	desc = "A heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent."
+	icon_state = "bulletproof"
+	item_state = "armor"
+	blood_overlay_type = "armor"
+	armor = list("melee" = 27, "bullet" = 60, "laser" = 27, "energy" = 35, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10, "wound" = 50)
+	strip_delay = 70
+	equip_delay_other = 50
+
+/obj/item/clothing/suit/armor/tribal/bone/cool
+	name = "bone armor"
+	desc = "A tribal armor plate, crafted from animal bone."
+	icon_state = "bonearmor"
+	item_state = "bonearmor"
+	blood_overlay_type = "armor"
+	armor = list("melee" = 65, "bullet" = 5, "laser" = 0, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 45)
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
 
 /obj/item/clothing/suit/armor/riot/knight
 	name = "plate armour"
