@@ -485,21 +485,21 @@
 /obj/effect/spawner/bundle/f13/armor/riot
 	name = "riot armor spawner"
 	items = list(
-				/obj/item/clothing/suit/f13/combat/riotpolice,
+				/obj/item/clothing/suit/armor/f13/combat/riotpolice,
 				/obj/item/clothing/head/helmet/f13/combat/rangerbroken
 				)
 
 /obj/effect/spawner/bundle/f13/armor/vault
 	name = "vault armor spawner"
 	items = list(
-				/obj/item/clothing/suit/vest/big,
+				/obj/item/clothing/suit/armor/vest/big,
 				/obj/item/clothing/head/helmet/riot/vaultsec
 				)
 
 /obj/effect/spawner/bundle/f13/armor/combat/mk2
 	name = "MkII combat armor spawner"
 	items = list(
-				/obj/item/clothing/suit/f13/combat/mk2,
+				/obj/item/clothing/suit/armor/f13/combat/mk2,
 				/obj/item/clothing/head/helmet/f13/combat/mk2
 				)
 
@@ -528,14 +528,14 @@
 /obj/effect/spawner/bundle/f13/armor/t45d
 	name = "t45d power armor spawner"
 	items = list(
-				/obj/item/clothing/suit/f13/power_armor/t45d,
+				/obj/item/clothing/suit/armor/f13/power_armor/t45d,
 				/obj/item/clothing/head/helmet/f13/power_armor/t45d
 				)
 
 /obj/effect/spawner/bundle/f13/armor/t51b
 	name = "t51b power armor spawner"
 	items = list(
-				/obj/item/clothing/suit/f13/power_armor/t51b,
+				/obj/item/clothing/suit/armor/f13/power_armor/t51b,
 				/obj/item/clothing/head/helmet/f13/power_armor/t51b
 				)
 
