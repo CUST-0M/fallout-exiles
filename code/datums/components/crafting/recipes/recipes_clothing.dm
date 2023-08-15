@@ -712,8 +712,8 @@ datum/crafting_recipe/steelbib/heavy
 
 /datum/crafting_recipe/ncrsalvagedhelmetconversion
 	name = "NCR salvaged T-45b helmet"
-	result = /obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b/ncr
-	reqs = list(/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b = 1,
+	result = /obj/item/clothing/head/helmet/f13/salvaged_pa/t45b/ncr
+	reqs = list(/obj/item/clothing/head/helmet/f13/salvaged_pa/t45b = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 20
 	category = CAT_CLOTHING

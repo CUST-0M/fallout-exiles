@@ -286,7 +286,7 @@
 	icon_state = "t45bhelmet"
 	item_state = "t45bhelmet"
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 22, "bomb" = 55, "bio" = 65, "rad" = 55, "fire" = 85, "acid" = 0, "wound" = 40)
-	salvaged_type = /obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b
+	salvaged_type = /obj/item/clothing/head/helmet/f13/salvaged_pa/t45b
 
 /obj/item/clothing/head/helmet/f13/power_armor/t45d
 	name = "T-45d power helmet"
@@ -295,7 +295,7 @@
 	item_state = "t45dhelmet0"
 	actions_types = list(/datum/action/item_action/toggle_helmet_light)
 	armor = list("melee" = 72.5, "bullet" = 72.5, "laser" = 72.5, "energy" = 25, "bomb" = 65, "bio" = 75, "rad" = 80, "fire" = 85, "acid" = 30, "wound" = 40)
-	salvaged_type = /obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45d
+	salvaged_type = /obj/item/clothing/head/helmet/f13/salvaged_pa/t45d
 
 /obj/item/clothing/head/helmet/f13/power_armor/t45d/update_icon_state()
 	icon_state = "t45dhelmet[light_on]"
@@ -316,7 +316,7 @@
 	item_state = "t51bhelmet0"
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 27, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 40, "wound" = 70)
 	actions_types = list(/datum/action/item_action/toggle_helmet_light)
-	salvaged_type = /obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t51b
+	salvaged_type = /obj/item/clothing/head/helmet/f13/salvaged_pa/t51b
 
 /obj/item/clothing/head/helmet/f13/power_armor/t51b/update_icon_state()
 	icon_state = "t51bhelmet[light_on]"

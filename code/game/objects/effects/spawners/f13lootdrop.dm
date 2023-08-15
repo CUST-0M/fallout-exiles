@@ -479,7 +479,7 @@
 	name = "salvaged t45b power armor spawner"
 	items = list(
 				/obj/item/clothing/suit/armor/f13/salvaged_pa/t45b,
-				/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b
+				/obj/item/clothing/head/helmet/f13/salvaged_pa/t45b
 				)
 
 /obj/effect/spawner/bundle/f13/armor/riot
@@ -514,7 +514,7 @@
 	name = "hotrod power armor spawner"
 	items = list(
 				/obj/item/clothing/suit/armor/salvaged_pa/t45b/hotrod,
-				/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b/hotrod
+				/obj/item/clothing/head/helmet/f13/salvaged_pa/t45b/hotrod
 				)
 
 
