@@ -1,4 +1,4 @@
-/datum/gear/donator/kits/mrmannstealthsuit
+/datum/gear/donator/kits/mrmannstealthsuit //deepfry this mf if you see this shit - Constantine
 	name = "Stealth Suit Bundle"
 	path = /obj/item/storage/box/large/custom_kit/mrmannstealthsuit
 	category = LOADOUT_CATEGORY_UNIFORM

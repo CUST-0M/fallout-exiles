@@ -128,7 +128,7 @@
 	icon_state = "mutie_bracer_sign"
 	item_state = "mutie_bracer_sign"
 
-/obj/item/clothing/gloves/botanic_leather
+/obj/item/clothing/gloves/f13/botanic_leather
 	name = "farmers gloves"
 	desc = "These thick leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin.  They're also quite warm."
 	icon = 'icons/fallout/clothing/gloves.dmi'
@@ -149,7 +149,7 @@
 //LEGION//
 //////////
 
-/obj/item/clothing/gloves/legion
+/obj/item/clothing/gloves/f13/legion
 	name = "leather gloves"
 	desc = "Fingerless leather gloves to improve grip worn by legionaires."
 	icon = 'icons/fallout/clothing/gloves.dmi'
@@ -163,7 +163,7 @@
 	cold_protection = HANDS
 	min_cold_protection_temperature = GLOVES_MIN_TEMP_PROTECT
 
-/obj/item/clothing/gloves/legion/forgemaster
+/obj/item/clothing/gloves/f13/legion/forgemaster
 	name = "forgemaster gloves"
 	desc = "A pair of heavy duty leather gloves designed to help the Forgemaster do his work."
 	icon_state = "legion_forge"
@@ -174,15 +174,15 @@
 	heat_protection = HANDS
 	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
 
-/obj/item/clothing/gloves/legion/plated
+/obj/item/clothing/gloves/f13/plated
 	name = "plated gloves"
 	desc = "Leather gloves with metal reinforcement."
-	icon_state = "legion_plated"
-	item_state = "legion_plated"
+	icon_state = "gloves_plated"
+	item_state = "gloves_plated"
 	transfer_prints = FALSE
 	armor = list("melee" = 20, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 10, "bio" = 0, "rad" = 10, "fire" = 10, "acid" = 10)
 
-/obj/item/clothing/gloves/legion/legate
+/obj/item/clothing/gloves/f13/legion/legate
 	name = "brass gauntlets"
 	desc = "Heavy finely crafted metal gloves."
 	icon_state = "legion_legate"

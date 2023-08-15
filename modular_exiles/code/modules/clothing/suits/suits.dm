@@ -329,13 +329,6 @@
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/medical
 
-	/obj/item/clothing/suit/armor/f13/generaluniform
-		name = "Yuma 1st Irregular General Uniform"
-		desc = "A uniform created by Kaleb alongside the laser muskets. On the breast is a patch of the Yuma 1st Irregulars, a sun over a wasteland desert, a cactus standing lonely in the middle. It denotes him as the Leader of the militia company."
-		icon_state = "gen_uniform"
-		item_state = "gen_uniform"
-		armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)	//change those values
-
 /obj/item/clothing/suit/hooded/cloak/goliath
 	name = "deathclaw cloak"
 	desc = "A staunch, practical cloak made out of sinew and skin from the fearsome deathclaw."
