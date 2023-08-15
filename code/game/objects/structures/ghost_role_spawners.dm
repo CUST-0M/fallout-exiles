@@ -769,7 +769,7 @@
 		/obj/item/attachments/scope = 1,
 		/obj/item/gun/ballistic/revolver/revolver44 = 1,
 		/obj/item/ammo_box/m44 = 2,
-		/obj/item/clothing/mask/gas/ranger = 1,
+		/obj/item/clothing/mask/f13/gas/ranger = 1,
 		/obj/item/melee/onehanded/knife/bowie = 1,
 		)
 
@@ -871,41 +871,3 @@
 	var/area/A = get_area(src)
 	if(A)
 		notify_ghosts("A small gang of raiders are arriving at \the [A.name].", source = src, action=NOTIFY_ATTACK, flashwindow = FALSE, ignore_key = POLL_IGNORE_RAIDER, ignore_dnr_observers = FALSE)
-
-/*/obj/effect/mob_spawn/human/fallout13/tribal
-	name = "Spear Hunter Spawn"
-	desc = "An entry point for spear hunters to join a battle."
-	faction = "Tribe"
-	mob_name = "Spear Hunter"
-	job_description = "Spear Hunter"
-	short_desc = "You are a hunter hailing from the local tribe in the region. Honor your your tribe, and those that came before you!"
-	flavour_text = "For the gods!"
-	assignedrole = "Spear Hunter"
-	outfit = /datum/outfit/job/tribal/f13hunter
-	suit_store = /obj/item/twohanded/spear/bonespear/deathclaw
-	backpack_contents = list(
-		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
-		/obj/item/melee/onehanded/knife/bone = 1,
-		/obj/item/binoculars = 1,
-		/obj/item/restraints/legcuffs/bola/tactical = 1
-	)
-	
-/obj/effect/mob_spawn/human/fallout13/tribal/ranged
-	name = "Bow Hunter Spawn"
-	desc = "An entry point for bow hunters to join a battle."
-	mob_name = "Bow Hunter"
-	job_description = "Bow Hunter"
-	assignedrole = "Bow Hunter"
-	suit_store = /obj/item/gun/ballistic/automatic/tribalbow
-	belt = /obj/item/storage/belt/tribe_quiver/bone
-	backpack_contents = list(
-		/obj/item/melee/onehanded/knife/bone = 1,
-		/obj/item/restraints/legcuffs/bola = 2,
-		/obj/item/binoculars = 1,
-		/obj/item/reagent_containers/pill/patch/healingpowder = 1
-	)
-
-/obj/effect/mob_spawn/human/fallout13/tribal/special(mob/living/new_spawn)
-	new_spawn.real_name = random_unique_name(gender)
-*/
-//We already have new tribals, no need to have duplicates.
