@@ -432,8 +432,8 @@
 	item_state = "armorkit_punk"
 	armor = list("melee" = 20, "bullet" = 40, "laser" = 15, "energy" = 15, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
 	strip_delay = 30
-	icon = 'icons/fallout/clothing/armored_f13_armor.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_f13_armor.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
 	slowdown = 0.025
 
 /obj/item/clothing/suit/armor/f13/leatherarmor
@@ -458,7 +458,7 @@
 	name = "metal armor"
 	desc = "A set of plates formed together to form a crude chestplate."
 	icon = 'icons/fallout/clothing_item/f13_armor.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_f13_armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
 	icon_state = "metal_chestplate"
 	item_state = "metal_chestplate"
 	armor = list("melee" = 40, "bullet" = 45, "laser" = 50, "energy" = 15, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
@@ -741,8 +741,8 @@
 /obj/item/clothing/suit/armor/f13_armor/wastewar
 	name = "wasteland warrior armor"
 	desc = "A mad attempt to recreate armor based of images of japanese samurai, using a sawn up old car tire as shoulder pads, bits of chain to cover the hips and pieces of furniture for a breastplate. Might stop a blade but nothing else."
-	icon = 'icons/fallout/clothing/armored_f13_armor.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_f13_armor.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
 	icon_state = "wastewar"
 	item_state = "wastewar"
 	armor = list("melee" = 35, "bullet" = 25, "laser" = 25, "energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 0, "wound" = 35)
@@ -1348,14 +1348,14 @@
 	armor = list("melee" = 55, "bullet" = 35,"laser" = 20, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
 	flags_inv = HIDEJUMPSUIT
 	strip_delay = 40
-	icon = 'icons/fallout/clothing/armored_f13_armor.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_f13_armor.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
 
 /obj/item/clothing/suit/armor/f13/chitinarmor
 	name = "insect chitin armor"
 	desc = " set of f13_armor armor made of insect chitin. Tough and f13_armor, it provides some moderate protection from trauma while allowing the user to remain mobile and protected from the elements."
-	icon = 'icons/fallout/clothing/armored_f13_armor.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_f13_armor.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
 	icon_state = "insect"
 	item_state = "insect"
 	armor = list("melee" = 40, "bullet" = 35,"laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100, "wound" = 35)
