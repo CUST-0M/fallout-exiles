@@ -411,8 +411,8 @@ Suits. 0-10 in its primary value, slowdown 0, various utility
 // Heavy armor. 50-65 in its primary value, slowdown 0.15
 /obj/item/clothing/suit/armored/heavy
 	name = "heavy armor template"
-	icon = 'icons/fallout/clothing/armored_heavy.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	slowdown = 0.15
 	allowed = list(/obj/item/gun, /obj/item/melee/onehanded, /obj/item/twohanded, /obj/item/melee/smith, /obj/item/melee/smith/twohand)
 	strip_delay = 50

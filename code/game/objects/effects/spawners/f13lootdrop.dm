@@ -469,13 +469,6 @@
 				/obj/item/clothing/head/helmet/alt
 				)
 
-/obj/effect/spawner/bundle/f13/armor/combat/dark
-	name = "dark combat armor spawner"
-	items = list(
-				/obj/item/clothing/suit/armor/f13/combat/dark,
-				/obj/item/clothing/head/helmet/f13/combat/dark
-				)
-
 
 /obj/effect/spawner/bundle/f13/armor/sulphite
 	name = "sulphite raider armor spawner"

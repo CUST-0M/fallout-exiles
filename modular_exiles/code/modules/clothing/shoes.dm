@@ -116,8 +116,8 @@
 /obj/item/clothing/shoes/f13/roman
 	name = "roman sandals"
 	desc = "Sandals with buckled leather straps on it."
-	icon = 'icons/fallout/clothing/shoes.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/shoe.dmi'
+	icon = 'modular_exiles/icons/clothes/shoes.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/feet.dmi'
 	icon_state = "legion_sandals"
 	item_state = "legion_sandals"
 	strip_delay = 100
@@ -128,8 +128,8 @@
 /obj/item/clothing/shoes/f13/peltboots
 	name = "pelt boots"
 	desc = "These boots are made from tanned hide and lined with soft long horner wool. A fashion from wealthy tribes that has spread. "
-	icon = 'icons/fallout/clothing/shoes.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/shoe.dmi'
+	icon = 'modular_exiles/icons/clothes/shoes.dmi''
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/feet.dmi'
 	icon_state = "legion_pelt"
 	item_state = "legion_pelt"
 	cold_protection = FEET
@@ -271,24 +271,6 @@
 	armor = list("melee" = 20, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 20, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
-
-/obj/item/clothing/shoes/f13/mutie
-	name = "super mutant sandals"
-	desc = "A pair of oversized sandals, likely designed for super mutants."
-	icon_state = "mutie_sandals"
-	icon_state = "mutie_sandals"
-
-/obj/item/clothing/shoes/f13/mutie/boots
-	name = "super mutant boots"
-	desc = "A pair of oversized boots."
-	icon_state = "mutie_boots"
-	icon_state = "mutie_boots"
-	armor = list("melee" = 40, "bullet" = 20, "laser" = 20, "energy" = 20, "bomb" = 20, "bio" = 80, "rad" = 80, "fire" = 80, "acid" = 50)
-	cold_protection = FEET
-
-/obj/item/clothing/shoes/f13/mutie/boots/ncr/ranger
-	icon_state = "mutie_boots_ranger"
-	icon_state = "mutie_boots_ranger"
 
 /obj/item/clothing/shoes/f13/tribal_sandals
 	icon_state = "tribaltreads"

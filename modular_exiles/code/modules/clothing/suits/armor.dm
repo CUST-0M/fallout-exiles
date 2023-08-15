@@ -502,7 +502,6 @@
 	item_state = "combat_armor"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
 	slowdown = 0.12
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 5)
 
 /obj/item/clothing/suit/armor/f13/combat/riotpolice
 	name = "combat body armor"
@@ -515,12 +514,11 @@
 /obj/item/clothing/suit/armor/f13/combat/mk2
 	name = "reinforced combat armor"
 	desc = "A reinforced set of bracers, greaves, and torso plating of prewar design. This one is kitted with additional plates."
-	icon = 'icons/obj/clothing/suit/armors.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
 	icon_state = "combat_armor_mk2"
 	item_state = "combat_armor_mk2"
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 50, "energy" = 22, "bomb" = 55, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 55)
 	slowdown = 0.15
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 8)
 
 /obj/item/clothing/suit/armor/f13/combat/swat
 	name = "SWAT combat armor"
@@ -681,7 +679,7 @@
 	icon_state = "t45dpowerarmor_bos"
 	item_state = "t45dpowerarmor_bos"
 
-/obj/item/clothing/suit/armor/armor/f13/power_armor/t45d/sierra
+/obj/item/clothing/suit/armor/f13/power_armor/t45d/sierra
 	name = "Scorched Sierra power armor"
 	desc = "A captured set of T-45d power armor put into use by the NCR, it's been heavily modified and decorated with the head of a bear and intricate gold trimming. A two headed bear is scorched into the breastplate."
 	icon_state = "sierra"
@@ -756,8 +754,8 @@
 	armor = list("melee" = 45, "bullet" = 20,"laser" = 20, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	flags_inv = HIDEJUMPSUIT
 	strip_delay = 40
-	icon = 'icons/fallout/clothing/armor.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor.dmi'
+	icon = 'modular_exiles/icons/clothes/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
 
 /obj/item/clothing/suit/armor/f13/battlecoat //Maxson's battlecoat from Fallout 4
 	name = "battlecoat"
@@ -766,8 +764,8 @@
 	item_state = "maxson_battlecoat"
 	armor = list("melee" = 30, "bullet" = 20,"laser" = 20, "energy" = 20, "bomb" = 30, "bio" = 0, "rad" = 30, "fire" = 30, "acid" = 30, "wound" = 35)
 	strip_delay = 30
-	icon = 'icons/fallout/clothing/f13_armor.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor.dmi'
+	icon = 'modular_exiles/icons/clothes/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 
 /obj/item/clothing/suit/armor/f13/USPSbomber
@@ -1332,7 +1330,7 @@
 
 //RAIDERS
 
-/obj/item/clothing/suit/armor/armor/f13/combat/mk2/bandit_duster
+/obj/item/clothing/suit/armor/f13/combat/mk2/bandit_duster
 	name = "reinforced duster armor"
 	desc = "A reinforced set of combat armor covered by a black duster."
 	icon_state = "Bandit_duster"
@@ -1513,7 +1511,7 @@
 	item_state = "raider_rebel"
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 35, "energy" = 20, "bomb" = 40, "bio" = 40, "rad" = 20, "fire" = 60, "acid" = 20)
 
-/obj/item/clothing/suit/armor/armor/f13/raider/sadist
+/obj/item/clothing/suit/armor/f13/raider/sadist
 	name = "sadist raider armor"
 	desc = "A bunch of metal chaps adorned with severed hands at the waist with a leather plate worn on the left shoulder. Very intimidating."
 	icon_state = "sadist"
@@ -1565,7 +1563,7 @@
 	item_state = "combatduster"
 	slowdown = 0.07
 
-/obj/item/clothing/suit/armor/armor/f13/raider/combatduster/patrolduster
+/obj/item/clothing/suit/armor/f13/raider/combatduster/patrolduster
 	name = "Patrol Duster"
 	desc = "What appears to be an NCR patrol ranger's armor under a green tinted duster. The armor itself looks much more well kept then the duster itself, said duster looking somewhat faded. On the back of the duster, is a symbol of a skull with an arrow piercing through the eye."
 	armor = list("melee" = 20, "bullet" = 30, "laser" = 35, "energy" = 20, "bomb" = 40, "bio" = 40, "rad" = 20, "fire" = 60, "acid" = 20)
@@ -1580,22 +1578,22 @@
 	icon_state = "ncrexile"
 	item_state = "ncrexile"
 
-/obj/item/clothing/suit/armor/armor/f13/exile/legexile
+/obj/item/clothing/suit/armor/f13/exile/legexile
 	name = "modified Legion armor"
 	desc = "A modified detoriated armor kit consisting of Legion gear and scrap metal."
 	armor = list("melee" = 40, "bullet" = 25, "laser" = 35, "energy" = 20, "bomb" = 40, "bio" = 40, "rad" = 20, "fire" = 60, "acid" = 20)
 	icon_state = "legexile"
 	item_state = "legexile"
 
-/obj/item/clothing/suit/armor/armor/f13/exile/bosexile
+/obj/item/clothing/suit/armor/f13/exile/bosexile
 	name = "modified Brotherhood armor"
 	desc = "A modified detoriated armor kit consisting of brotherhood combat armor and scrap metal."
-	icon = 'icons/fallout/clothing/armored_heavy.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	icon_state = "exile_bos"
 	item_state = "exile_bos"
 
-/obj/item/clothing/suit/armor/armor/f13/raider/raidercombat
+/obj/item/clothing/suit/armor/f13/raider/raidercombat
 	name = "combat raider armor"
 	desc = "An old military-grade pre-war combat armor. It appears to be fitted with metal plates to replace the crumbling ceramic."
 	icon_state = "raider_combat"
@@ -1603,7 +1601,7 @@
 	armor = list("melee" = 40, "bullet" = 40 , "laser" = 40,"energy" = 25, "bomb" = 50, "bio" = 50, "rad" = 10, "fire" = 60, "acid" = 10)
 	slowdown = 0.1
 
-/obj/item/clothing/suit/armor/armor/f13/raider/raidermetal
+/obj/item/clothing/suit/armor/f13/raider/raidermetal
 	name = "metal raider armor"
 	desc = "A suit of welded, fused metal plates. Looks bulky, with great protection."
 	icon_state = "raider_metal"
@@ -1757,13 +1755,14 @@
 ///////
 //NCR//
 ///////
+
 /obj/item/clothing/suit/armor/armor/f13/utilityvest
 	name = "utility vest"
 	desc = "A practical vest with pockets for tools and such."
 	icon_state = "vest_utility"
 	item_state = "vest_utility"
-	icon = 'icons/fallout/clothing/suit/armors_utility.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit/armor_utility.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 20, "fire" = 30, "acid" = 0, "wound" = 30)
 	slowdown = 0.02
 

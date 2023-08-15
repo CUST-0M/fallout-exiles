@@ -654,7 +654,7 @@
 /obj/item/clothing/under/f13/khan
 	name = "great khan uniform"
 	desc = "Clothing marking the wearer as one of the the Great Khans. Most common are denim pants."
-	icon = 'modular_exiles/icons/clothes/uniforms.dmi'
+	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
 	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/uniform.dmi'
 	icon_state = "khan_uniform"
 	item_state = "khan_uniform"
@@ -665,7 +665,7 @@
 /obj/item/clothing/under/f13/khan/shorts
 	name = "great khan jorts"
 	desc = "Clothing marking the wearer as one of the the Great Khans. Most common are denim pants, but jorts is a acceptable alternative."
-	icon = 'modular_exiles/icons/clothes/uniform.dmi'
+	icon = 'modular_exiles/icons/clothing/uniform.dmi'
 	icon_state = "khan_short"
 	item_state = "khan_short"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 10, "fire" = 10, "acid" = 40)
@@ -673,7 +673,7 @@
 /obj/item/clothing/under/f13/khan/booty
 	name = "khan booty shorts"
 	desc = "Clothing marking the wearer as one of the the Great Khans. Most common are denim pants, But this pair doesn't seem to leave much to the imagination."
-	icon = 'modular_exiles/icons/clothing/uniform.dmi'
+	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
 	icon_state = "khan_booty"
 	item_state = "khan_booty"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 10, "fire" = 10, "acid" = 40)
@@ -681,7 +681,7 @@
 /obj/item/clothing_item/under/f13/khan/Goji
 	name = "Leather Pants"
 	desc = "Clothing marking the wearer as one of the the Great Khans. Most common are denim pants, but this is a pair of tight leather pants."
-	icon = 'modular_exiles/icons/clothes/uniform.dmi'
+	icon = 'modular_exiles/icons/clothing/uniform.dmi'
 	icon_state = "Gojipants"
 	item_state = "Gojipants"
 	item_color = "Gojipants"
@@ -900,7 +900,7 @@
 	desc = "Fine handcrafted tribal clothing, now torn and faded. A simple lointcloth that comes with a piece of cloth to cover the chest with as well."
 	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
 	icon_state = "clothing_tribalout"
-	mob_overlay_icon = 'modular_exiles/icons/clothes/uniform.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/clothing/uniform.dmi'
 	item_state = "clothing_tribalout"
 	body_parts_covered = GROIN
 	fitted = FEMALE_UNIFORM_TOP
@@ -933,8 +933,8 @@
 /obj/item/clothing/under/f13/chinese
 	name = "PLA uniform"
 	desc = "An pre-war People's Liberation Army uniform, worn by enlisted and NCOs."
-	icon = 'modular_exiles/icons/clothes/uniforms.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/clothes/uniform.dmi'
+	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/clothing/uniform.dmi'
 	icon_state = "chinese_soldier"
 	item_state = "chinese_soldier"
 
@@ -942,7 +942,7 @@
 	name = "PLA officer's uniform"
 	desc = "An pre-war People's Liberation Army uniform, worn by officers."
 	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
-	mob_overlay_icon = 'modular_exiles/icon/mob/clothes/uniform.dmi'
+	mob_overlay_icon = 'modular_exiles/icon/mob/clothing/uniform.dmi'
 	icon_state = "chinese_officer"
 	item_state = "chinese_officer"
 
@@ -952,48 +952,48 @@
 /obj/item/clothing/under/f13/police/officer
 	name = "police officer's uniform"
 	desc = "A classic law enforcement uniform, composed of a dark navy long sleeve shirt, dark navy pants, and a black tie."
-	icon = 'icons/fallout/clothing/uniforms.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/uniform.dmi'
 	icon_state = "police_officer"
 	item_state = "police_officer"
 
 /obj/item/clothing/under/f13/police/lieutenant
 	name = "police lieutenant's uniform"
 	desc = "A classic law enforcement uniform, composed of a dark navy long sleeve shirt, dark navy pants, and a black tie."
-	icon = 'icons/fallout/clothing_item/uniforms.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/uniform.dmi'
 	icon_state = "police_lieutenant"
 	item_state = "police_lieutenant"
 
 /obj/item/clothing/under/f13/police/chief
 	name = "police chief's uniform"
 	desc = "A classic law enforcement uniform, composed of a dark navy long sleeve shirt, dark navy pants, and a black tie."
-	icon = 'icons/fallout/clothing_item/uniforms.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	mob_overlay_icon = 'modular_exiles/mob/clothing/uniform.dmi'
 	icon_state = "police_chief"
 	item_state = "police_chief"
 
 /obj/item/clothing/under/f13/police/formal
 	name = "police formal uniform"
 	desc = "A formal police uniform."
-	icon = 'icons/fallout/clothing/uniforms.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
+	mob_overlay_icon = 'modular_exiles/mob/clothing/uniform.dmi'
 	icon_state = "police_formal"
 	item_state = "police_formal"
 
 /obj/item/clothing/under/f13/police/trooper
 	name = "state police uniform"
 	desc = "The uniform of the State Police force, composed of a a gray long sleeve shirt, gray pants, and a black tie."
-	icon = 'icons/fallout/clothing/uniforms.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/uniform.dmi'
 	icon_state = "state_trooper"
 	item_state = "state_trooper"
 
 /obj/item/clothing/under/f13/police/swat
 	name = "SWAT officer uniform"
 	desc = "A US Army combat uniform, modified for SWAT team personnel."
-	icon = 'icons/fallout/clothing_item/uniforms.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
+	mob_overlay_icon = 'modular_exiles/mob/clothing/uniform.dmi'
 	icon_state = "army_uniform"
 	item_state = "army_uniform"
 
