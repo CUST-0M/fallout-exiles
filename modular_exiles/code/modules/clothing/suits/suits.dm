@@ -46,8 +46,8 @@
 /obj/item/clothing/suit/overalls
 	name = "overalls"
 	desc = "A set of denim overalls suitable for farming."
-	icon = 'modular_exiles/icons/icons/clothing/suits_utility.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
+	icon = 'modular_exiles/icons/clothing/suits_utility.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	icon_state = "overalls_farmer"
 	item_state = "overalls_farmer"
 	armor = list("melee" = 15, "bullet" = 10, "laser" = 10, "energy" = 0, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)

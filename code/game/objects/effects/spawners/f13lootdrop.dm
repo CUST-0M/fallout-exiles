@@ -400,19 +400,19 @@
 /obj/effect/spawner/lootdrop/f13/armor/tier2 //TIER 2 ARMOR
 	name = "tier 2 armor"
 	loot = list(
-				/obj/effect/spawner/bundle/f13/knight,
-				/obj/effect/spawner/bundle/f13/metal,
+				/obj/effect/spawner/bundle/f13/armor/knight,
+				/obj/effect/spawner/bundle/f13/armor/metal,
 				/obj/effect/spawner/bundle/f13/armor/laserproofmetal,
-				/obj/item/clothing/suit/f13/leather_jacket/combat,
+				/obj/item/clothing/suit/f13/armor/leather_jacket/combat,
 				/obj/item/clothing/suit/armor/f13/leather_jacket/combat/coat,
-				/obj/item/clothing/suit/vest,
-				/obj/item/clothing/suit/vest/alt
+				/obj/item/clothing/suit/armor/vest,
+				/obj/item/clothing/suit/armor/vest/alt
 				)
 
 /obj/effect/spawner/bundle/f13/armor/knight
 	name = "knight armor spawner"
 	items = list(
-				/obj/item/clothing/suit/f13/metalarmor,
+				/obj/item/clothing/suit/armor/f13/metalarmor,
 				/obj/item/clothing/head/helmet/knight/f13/metal
 				)
 
@@ -438,7 +438,6 @@
 				/obj/effect/spawner/bundle/f13/armor/swat,
 				/obj/effect/spawner/bundle/f13/armor/combat,
 				/obj/effect/spawner/bundle/f13/armor/bulletproof,
-				/obj/effect/spawner/bundle/f13/armor/sulphite,
 				/obj/effect/spawner/bundle/f13/armor/vault
 				)
 
@@ -468,14 +467,6 @@
 				/obj/item/clothing/head/helmet/alt
 				)
 
-
-/obj/effect/spawner/bundle/f13/armor/sulphite
-	name = "sulphite raider armor spawner"
-	items = list(
-				/obj/item/clothing/suit/f13/sulphitearmor,
-				/obj/item/clothing/head/helmet/f13/sulphitehelm
-				)
-
 /obj/effect/spawner/lootdrop/f13/armor/tier4 //TIER 4 ARMOR
 	name = "tier 4 armor"
 	loot = list(
@@ -487,7 +478,7 @@
 /obj/effect/spawner/bundle/f13/armor/t45b_salvaged
 	name = "salvaged t45b power armor spawner"
 	items = list(
-				/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45b,
+				/obj/item/clothing/suit/armor/f13/salvaged_pa/t45b,
 				/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b
 				)
 
@@ -515,14 +506,14 @@
 /obj/effect/spawner/bundle/f13/armor/raiderpa
 	name = "raider power armor spawner"
 	items = list(
-				/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45b/raider,
-				/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b/raider
+				/obj/item/clothing/suit/armor/f13/salvaged_pa/t45b/raider,
+				/obj/item/clothing/head/helmet/f13/salvaged_pa/t45b/raider
 				)
 
 /obj/effect/spawner/bundle/f13/armor/hotrodpa
 	name = "hotrod power armor spawner"
 	items = list(
-				/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45b/hotrod,
+				/obj/item/clothing/suit/armor/salvaged_pa/t45b/hotrod,
 				/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b/hotrod
 				)
 
@@ -567,7 +558,6 @@
 			/obj/effect/spawner/lootdrop/f13/armor/tier2 = 70,
 			/obj/effect/spawner/lootdrop/f13/armor/tier3 = 35,
 			/obj/effect/spawner/lootdrop/f13/armor/tier4 = 10
-			///obj/item/traumapack = 1 //one ring to rule them all
 			)
 
 /*	------------------------------------------------

@@ -33,8 +33,8 @@
 /obj/item/clothing/mask/f13/bandana/legion
 	name = "legion mask template"
 	desc = "Should not exist."
-	icon = 'icons/fallout/clothing/masks.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/mask.dmi'
+	icon = 'modular_exiles/icons/clothing/masks.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/mask.dmi'
 	flags_inv = HIDEFACE
 	visor_flags_inv = HIDEFACE
 	adjusted_flags = null
@@ -63,8 +63,8 @@
 /obj/item/clothing/mask/f13/bandana/legion/legdecan
 	name = "decanus bandana"
 	desc = "A fine decan bandana in dark red."
-	icon = 'icons/fallout/clothing/masks.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/mask.dmi'
+	icon = 'modular_exiles/icons/clothing/masks.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/mask.dmi'
 	icon_state = "legdecan"
 
 /obj/item/clothing/mask/f13/bandana/legion/legcenturion

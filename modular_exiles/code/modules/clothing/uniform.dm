@@ -678,10 +678,11 @@
 	item_state = "khan_booty"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 10, "fire" = 10, "acid" = 40)
 
-/obj/item/clothing_item/under/f13/khan/Goji
+/obj/item/clothing/under/f13/khan/Goji
 	name = "Leather Pants"
 	desc = "Clothing marking the wearer as one of the the Great Khans. Most common are denim pants, but this is a pair of tight leather pants."
-	icon = 'modular_exiles/icons/clothing/uniform.dmi'
+	icon = 'modular_exiles/icons/clothing/uniforms.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/uniform.dmi'
 	icon_state = "Gojipants"
 	item_state = "Gojipants"
 	item_color = "Gojipants"
@@ -717,7 +718,6 @@
 	for(var/X in actions)
 		var/datum/action/A = X
 		A.UpdateButtonIcon()
-
 
 //TRIBAL
 
