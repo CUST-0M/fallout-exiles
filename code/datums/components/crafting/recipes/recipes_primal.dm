@@ -408,17 +408,6 @@
 	tools = list(TOOL_WORKBENCH)
 	always_available = FALSE
 
-/datum/crafting_recipe/tribalwar/chitinarmor
-	name = "Insect Chitin Armor"
-	result = /obj/item/clothing/suit/armor/f13/chitinarmor
-	time = 30
-	reqs = list(/obj/item/stack/sheet/animalhide/chitin = 12,
-				/obj/item/stack/sheet/sinew = 4,
-				/obj/item/stack/sheet/cloth = 4)
-	category = CAT_TRIBAL
-	tools = list(TOOL_WORKBENCH)
-	always_available = FALSE
-
 /datum/crafting_recipe/tribalwar/deathclawspear
 	name = "Deathclaw Spear"
 	result = /obj/item/twohanded/spear/bonespear/deathclaw

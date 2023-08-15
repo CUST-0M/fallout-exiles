@@ -1,5 +1,5 @@
 /*FOR REFERENCE
-/obj/item/clothing/suit/armor/f13_armor
+/obj/item/clothing/suit/armor/f13
 	allowed = null
 	cold_protection = CHEST|GROIN
 	min_cold_protection_temperature = ARMOR_MIN_TEMP_PROTECT
@@ -11,7 +11,7 @@
 	resistance_flags = NONE
 
 
-/obj/item/clothing/suit/armor/f13_armor/Initialize()
+/obj/item/clothing/suit/armor/f13/Initialize()
 	. = ..()
 	if(!allowed)
 		allowed = GLOB.security_vest_allowed
@@ -223,7 +223,7 @@
 
 /obj/item/clothing/suit/armor/f13/leather
 	name = "leather armor"
-	desc = "Before the war motorcycle-football was one of the largest specator sports in America. This armor copies the style of armor used by the players,	using leather boiled in corn oil to make hard sheets to emulate the f13_armor weight and toughness of the original polymer armor."
+	desc = "Before the war motorcycle-football was one of the largest specator sports in America. This armor copies the style of armor used by the players,	using leather boiled in corn oil to make hard sheets to emulate the armor weight and toughness of the original polymer armor."
 	icon_state = "leather_armor"
 	item_state = "leather_armor"
 	armor = list("melee" = 23, "bullet" = 18, "laser" = 12, "energy" = 5, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 0)
@@ -330,7 +330,7 @@
 
 /obj/item/clothing/suit/armor/f13/legion/explorer
 	name = "legion explorer armor"
-	desc = "f13_armor armor with layered strips of laminated linen and leather and worn with a large pouch for storing your binoculars."
+	desc = "Light armor with layered strips of laminated linen and leather and worn with a large pouch for storing your binoculars."
 	icon_state = "legion_explorer"
 	armor = list("melee" = 30, "bullet" = 30, "laser" = 15, "energy" = 15, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/binocular
@@ -340,10 +340,10 @@
 //////////////
 
 /obj/item/clothing/suit/armor/f13/tribal/cloak
-	name = "f13_armor tribal cloak"
-	desc = "A f13_armor cloak made from gecko skins and small metal plates at vital areas to give some protection, a favorite amongst scouts of the tribe."
-	icon_state = "f13_armorcloak"
-	item_state = "f13_armorcloak"
+	name = "tribal cloak"
+	desc = "A light cloak made from gecko skins and small metal plates at vital areas to give some protection, a favorite amongst scouts of the tribe."
+	icon_state = "lightcloak"
+	item_state = "lightcloak"
 	armor = list("melee" = 30, "bullet" = 15, "laser" = 15, "energy" = 15, "bomb" = 15, "bio" = 5, "rad" = 15, "fire" = 25, "acid" = 5)
 
 /obj/item/clothing/suit/armor/f13/tribal/simple
@@ -457,23 +457,12 @@
 /obj/item/clothing/suit/armor/f13/metalarmor
 	name = "metal armor"
 	desc = "A set of plates formed together to form a crude chestplate."
-	icon = 'icons/fallout/clothing_item/f13_armor.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	icon_state = "metal_chestplate"
 	item_state = "metal_chestplate"
 	armor = list("melee" = 40, "bullet" = 45, "laser" = 50, "energy" = 15, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
 	slowdown = 0.22
-	strip_delay = 10
-
-/obj/item/clothing/suit/armor/f13/metalarmor/laserproof
-	name = "polished metal armor"
-	desc = "A set of plates formed together to form a crude chestplate. These have been waxed and buffed to a mirror finish, but it looks a bit thinner."
-	icon = 'icons/fallout/clothing_item/f13_armor.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/f13_armor.dmi'
-	icon_state = "armor_enclave_peacekeeper"
-	item_state = "armor_enclave_peacekeeper"
-	armor = list("melee" = 38, "bullet" = 38, "laser" = 72, "energy" = 25, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
-	slowdown = 0.2
 	strip_delay = 10
 
 /obj/item/clothing/suit/armor/f13/metalarmor/reinforced
@@ -655,7 +644,7 @@
 	desc = "It's a set of early-model T-45 power armor with a custom air conditioning module and restored servomotors. Bulky, but almost as good as the real thing."
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 22, "bomb" = 55, "bio" = 65, "rad" = 55, "fire" = 85, "acid" = 0, "wound" = 65)
 	slowdown = 0.4
-	salvaged_type = /obj/item/clothing/suit/armor/armoredf13_armor/salvaged_pa/t45b
+	salvaged_type = /obj/item/clothing/suit/armor/salvaged_pa/t45b
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45d
 	name = "T-45d power armor"
@@ -664,7 +653,7 @@
 	item_state = "t45dpowerarmor"
 	slowdown = 0.25
 	armor = list("melee" = 72.5, "bullet" = 72.5, "laser" = 72.5, "energy" = 25, "bomb" = 65, "bio" = 75, "rad" = 80, "fire" = 85, "acid" = 30, "wound" = 70)
-	salvaged_type = /obj/item/clothing/suit/armor/armoredf13_armor/salvaged_pa/t45d
+	salvaged_type = /obj/item/clothing/suit/armor/salvaged_pa/t45d
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45d/knightcaptain
 	name = "head-knight's T-45d Power Armour"
@@ -693,7 +682,7 @@
 	slowdown = 0.25 //+0.05 from helmet = total 0.255
 	armor = list("melee" = 72.5, "bullet" = 72.5, "laser" = 72.5, "energy" = 30, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 40, "wound" = 72)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 25)
-	salvaged_type = /obj/item/clothing/suit/armor/armoredf13_armor/salvaged_pa/t51b
+	salvaged_type = /obj/item/clothing/suit/armor/salvaged_pa/t51b
 
 /obj/item/clothing/suit/armor/f13/power_armor/t51green
 	name = "hardened T-51b power armor"
@@ -844,7 +833,7 @@
 
 /obj/item/clothing/suit/armor/f13/steelbib
 	name = "steel breastplate"
-	desc = "a steel breastplate inspired by a pre-war design. It provides some protection against impacts, cuts, and f13_armor-velocity bullets. It's pressed steel construction feels heavy."
+	desc = "a steel breastplate inspired by a pre-war design. It provides some protection against impacts, cuts, and heavy-velocity bullets. It's pressed steel construction feels heavy."
 	icon_state = "steel_bib"
 	item_state = "steel_bib"
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 30, "energy" = 10, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = -10)
@@ -1189,8 +1178,8 @@
 /obj/item/clothing/suit/armor/f13/tribal/whitelegslight
 	name = "white Legs light armor"
 	desc = "A small series of tan and khaki armour plates, held in place with a thin bandolier. Commonly worn by members of the White Legs tribe."
-	icon_state = "white_legs_armour_f13_armor"
-	item_state = "white_legs_armour_f13_armor"
+	icon_state = "white_legs_armour_light"
+	item_state = "white_legs_armour_light"
 
 /obj/item/clothing/suit/armor/f13/tribal/whitelegs/extra
 	name = "white Legs light armor"
@@ -1216,7 +1205,7 @@
 	name = "white Legs Akoiah armor"
 	desc = "Made of bones taken from the mighty Ainka-Akoiah and reinforced heavily with metal plating, this set of armor acts as a symbol and a reminder of the White Legs' dominance over the untamed wastes."
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/tiny
-	icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	icon = 'icons/fallout/clothing/armor.dmi'
 	icon_state = "white_legs_bone_heavy"
 	item_state = "white_legs_bone_heavy"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 25, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
@@ -1348,17 +1337,6 @@
 	strip_delay = 40
 	icon = 'modular_exiles/icons/clothing/armor.dmi'
 	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
-
-/obj/item/clothing/suit/armor/f13/chitinarmor
-	name = "insect chitin armor"
-	desc = " set of f13_armor armor made of insect chitin. Tough and f13_armor, it provides some moderate protection from trauma while allowing the user to remain mobile and protected from the elements."
-	icon = 'modular_exiles/icons/clothing/armor.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
-	icon_state = "insect"
-	item_state = "insect"
-	armor = list("melee" = 40, "bullet" = 35,"laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100, "wound" = 35)
-	flags_inv = HIDEJUMPSUIT
-	strip_delay = 40
 
 ///////////////
 // WASTELAND //
@@ -1837,7 +1815,7 @@
 	icon_state = "ncr_labcoat"
 	item_state = "ncr_labcoat"
 	armor = list("melee" = 15, "bullet" = 50, "laser" = 40, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
-	allowed = list(/obj/item/gun, /obj/item/analyzer, /obj/item/stack/medical, /obj/item/dnainjector, /obj/item/reagent_containers/dropper, /obj/item/reagent_containers/syringe, /obj/item/reagent_containers/hypospray, /obj/item/healthanalyzer, /obj/item/flashf13_armor/pen, /obj/item/reagent_containers/glass/bottle, /obj/item/reagent_containers/glass/beaker, /obj/item/reagent_containers/pill, /obj/item/storage/pill_bottle, /obj/item/paper, /obj/item/melee/classic_baton/telescopic, /obj/item/soap, /obj/item/sensor_device, /obj/item/tank/internals/emergency_oxygen, /obj/item/tank/internals/plasmaman)
+	allowed = list(/obj/item/gun, /obj/item/analyzer, /obj/item/stack/medical, /obj/item/dnainjector, /obj/item/reagent_containers/dropper, /obj/item/reagent_containers/syringe, /obj/item/reagent_containers/hypospray, /obj/item/healthanalyzer, /obj/item/flashlight/pen, /obj/item/reagent_containers/glass/bottle, /obj/item/reagent_containers/glass/beaker, /obj/item/reagent_containers/pill, /obj/item/storage/pill_bottle, /obj/item/paper, /obj/item/melee/classic_baton/telescopic, /obj/item/soap, /obj/item/sensor_device, /obj/item/tank/internals/emergency_oxygen, /obj/item/tank/internals/plasmaman)
 
 /obj/item/clothing/suit/armor/f13/ncr/lieutenant
 	name = "NCR officer vest"
@@ -1936,7 +1914,7 @@
 	item_state = "ranger"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 30, "energy" = 25, "bomb" = 25, "bio" = 10, "rad" = 20, "fire" = 35, "acid" = 10)
 
-	/obj/item/clothing/suit/armor/f13_armor/eliteriot
+	/obj/item/clothing/suit/armor/ranger/eliteriot
 	name = "elite riot gear"
 	desc = "A heavily reinforced set of military grade armor, commonly seen in the Divide now repurposed and reissued to Chief Rangers."
 	icon_state = "elite_riot"
@@ -2067,7 +2045,7 @@
 
 /obj/item/clothing/suit/armor/f13/vest/oasis
 	name = "OPD vest"
-	desc = "a f13_armorweight ballistic vest that combines protection and comfort. This one has pockets sewn into the front and a badge pinned on it."
+	desc = "a lightweight ballistic vest that combines protection and comfort. This one has pockets sewn into the front and a badge pinned on it."
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 	armor = list("melee" = 15, "bullet" = 45, "laser" = 15,  "energy" = 30, "bomb" = 40, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10, "wound" = 50)
 	icon_state = "blueshift"
