@@ -124,7 +124,7 @@
 	/obj/item/clothing/under/f13/cowboyb,
 	/obj/item/clothing/under/f13/cowboyg,
 	/obj/item/clothing/under/f13/cowboyt,
-	/obj/item/clothing/under/f13/bearvest,
+	/obj/item/clothing/under/f13/khan/bearvest,
 	/obj/item/clothing/under/f13/doctor,
 	/obj/item/clothing/under/f13/doctorf,
 	/obj/item/clothing/under/f13/follower,
@@ -138,7 +138,7 @@
 	/obj/item/clothing/under/f13/mercc,
 	/obj/item/clothing/under/f13/merca,
 	/obj/item/clothing/under/f13/petrochico,
-	/obj/item/clothing/under/f13/ncrcf,
+	/obj/item/clothing/under/f13/ncr/ncrcf,
 	/obj/item/clothing/under/f13/rag,
 	/obj/item/clothing/under/f13/raider_leather,
 	/obj/item/clothing/under/f13/raiderharness,
@@ -422,14 +422,6 @@
 				/obj/item/clothing/suit/armor/f13/metalarmor,
 				/obj/item/clothing/head/helmet/f13/metalmask
 				)
-
-/obj/effect/spawner/bundle/f13/armor/laserproofmetal
-	name = "polsihed metal armor spawner"
-	items = list(
-				/obj/item/clothing/suit/armor/f13/metalarmor/laserproof,
-				/obj/item/clothing/head/helmet/f13/metalmask
-				)
-
 
 /obj/effect/spawner/lootdrop/f13/armor/tier3 //TIER 3 ARMOR
 	name = "tier 3 armor"

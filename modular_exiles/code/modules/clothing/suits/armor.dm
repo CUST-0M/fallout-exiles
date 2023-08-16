@@ -981,7 +981,6 @@
 	item_state = "raider_combat"
 	armor = list("melee" = 35, "bullet" = 25, "laser" = 15, "energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 5)
 
-
 ////////////
 // LEGION //
 ////////////

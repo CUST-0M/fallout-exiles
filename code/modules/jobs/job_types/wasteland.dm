@@ -330,7 +330,7 @@ Raider
 /datum/outfit/loadout/raider_powder
 	name = "Powder Ganger"
 	belt = /obj/item/storage/belt/bandolier
-	uniform = /obj/item/clothing/under/f13/ncrcf
+	uniform = /obj/item/clothing/under/f13/ncr/ncrcf
 	suit = /obj/item/clothing/suit/armor/vest/big
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/hunting = 1,
@@ -456,7 +456,7 @@ Raider
 		/obj/item/clothing/under/f13/machinist, \
 		/obj/item/clothing/under/f13/mercc, \
 		/obj/item/clothing/under/f13/merchant, \
-		/obj/item/clothing/under/f13/ncrcf, \
+		/obj/item/clothing/under/f13/ncr/ncrcf, \
 		/obj/item/clothing/under/f13/petrochico, \
 		/obj/item/clothing/under/f13/relaxedwear, \
 		/obj/item/clothing/under/f13/spring, \

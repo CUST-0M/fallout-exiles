@@ -17,7 +17,7 @@
 
 /datum/gear/uniform/ncrcf
 	name = "NCRCF outfit"
-	path = /obj/item/clothing/under/f13/ncrcf
+	path = /obj/item/clothing/under/f13/ncr/ncrcf
 
 /datum/gear/uniform/brahminskin
 	name = "brahmin skin outfit"

@@ -744,7 +744,7 @@
 		/obj/item/clothing/under/pants/f13/ghoul, \
 		/obj/item/clothing/under/jabroni, \
 		/obj/item/clothing/under/f13/merca, \
-		/obj/item/clothing/under/f13/bearvest, \
+		/obj/item/clothing/under/f13/khan/bearvest, \
 		/obj/item/clothing/under/pants/chaps, \
 		/obj/item/clothing/under/f13/rag \
 		)
