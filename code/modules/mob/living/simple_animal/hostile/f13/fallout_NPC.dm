@@ -212,7 +212,7 @@
 	uniform = /obj/item/clothing/under/f13/enclave/peacekeeper
 	shoes = /obj/item/clothing/shoes/f13/serviceboots
 	gloves = /obj/item/clothing/gloves/f13/military
-	mask = /obj/item/clothing/mask/f13/gas/enclave/enclavegasmask
+	mask = /obj/item/clothing/mask/f13/gas/enclave/gasmaskmkii
 	head = /obj/item/clothing/head/f13/enclave/peacekeeper
 
 /obj/effect/mob_spawn/human/corpse/enclave/soldier
@@ -220,8 +220,7 @@
 	uniform = /obj/item/clothing/under/f13/enclave/peacekeeper
 	shoes = /obj/item/clothing/shoes/f13/serviceboots
 	gloves = /obj/item/clothing/gloves/f13/military
-	mask = /obj/item/clothing/mask/gas/enclave
-
+	mask = /obj/item/clothing/mask/f13/gas/enclave/gasmaskmkii
 
 /////////////////////
 // BROTHERHOOD NPC //
@@ -485,6 +484,6 @@
 	uniform = /obj/item/clothing/under/f13/legskirt
 	suit = /obj/item/clothing/suit/armor/f13/legion/vet
 	shoes = /obj/item/clothing/shoes/f13/military/legion
-	gloves = /obj/item/clothing/gloves/legion
+	gloves = /obj/item/clothing/gloves/f13/legion
 	head = /obj/item/clothing/head/helmet/f13/legion/prime/decan
 

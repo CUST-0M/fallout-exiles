@@ -76,7 +76,7 @@
 //Enclave Masks//
 /////////////////
 
-/obj/item/clothing/mask/f13/gas/enclave/enclavegasmask
+/obj/item/clothing/mask/f13/gas/enclave/gasmaskmkii
 	name = "gas mask mk 2"
 	desc = "An advanced gas mask with efficient cleanable filters and flash protected lenses."
 	icon_state = "gasmask_enclave"

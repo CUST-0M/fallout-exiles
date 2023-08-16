@@ -39,9 +39,9 @@
 /obj/item/clothing/suit/armor/vest/big
 	name = "security vest"
 	desc = "A thick bullet-resistant vest composed of ballistic plates and padding. Common with pre-war security forces."
-	icon = 'icons/fallout/clothing/armored_medium.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
-	icon_state = "vest_armor"
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
+	icon_state = "vault_security"
 	item_state = "vest_armor"
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 25, "energy" = 20, "bomb" = 50, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 40)
 	slowdown = 0.18

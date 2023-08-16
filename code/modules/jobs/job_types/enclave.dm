@@ -25,7 +25,7 @@
 
 /datum/outfit/job/enclave/peacekeeper
 	id = /obj/item/card/id/dogtag/enclave/trooper
-	mask = /obj/item/clothing/mask/gas/enclave
+	mask = /obj/item/clothing/mask/f13/gas/enclave/gasmaskmkii
 	neck = /obj/item/storage/belt/holster/legholster
 	uniform = /obj/item/clothing/under/f13/enclave/peacekeeper
 	gloves = /obj/item/clothing/gloves/f13/military
