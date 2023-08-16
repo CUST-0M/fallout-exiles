@@ -644,7 +644,6 @@
 	desc = "It's a set of early-model T-45 power armor with a custom air conditioning module and restored servomotors. Bulky, but almost as good as the real thing."
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 22, "bomb" = 55, "bio" = 65, "rad" = 55, "fire" = 85, "acid" = 0, "wound" = 65)
 	slowdown = 0.4
-	salvaged_type = /obj/item/clothing/suit/armor/salvaged_pa/t45b
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45d
 	name = "T-45d power armor"
@@ -653,7 +652,6 @@
 	item_state = "t45dpowerarmor"
 	slowdown = 0.25
 	armor = list("melee" = 72.5, "bullet" = 72.5, "laser" = 72.5, "energy" = 25, "bomb" = 65, "bio" = 75, "rad" = 80, "fire" = 85, "acid" = 30, "wound" = 70)
-	salvaged_type = /obj/item/clothing/suit/armor/salvaged_pa/t45d
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45d/knightcaptain
 	name = "head-knight's T-45d Power Armour"
