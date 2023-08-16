@@ -1907,14 +1907,14 @@
 	item_state = "duster_recon"
 	armor = list("melee" = 12, "bullet" = 35, "laser" = 10, "energy" = 5, "bomb" = 5, "bio" = 10, "rad" = 10, "fire" = 15, "acid" = 0)
 
-	/obj/item/clothing/suit/armor/f13/ranger/vetranger
+/obj/item/clothing/suit/armor/f13/ranger/vetranger
 	name = "veteran ranger combat armor"
 	desc = "The NCR veteran ranger combat armor, or black armor consists of a pre-war L.A.P.D. riot suit under a duster with rodeo jeans. Considered one of the most prestigious suits of armor to earn and wear while in service of the NCR Rangers."
 	icon_state = "ranger"
 	item_state = "ranger"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 30, "energy" = 25, "bomb" = 25, "bio" = 10, "rad" = 20, "fire" = 35, "acid" = 10)
 
-	/obj/item/clothing/suit/armor/ranger/eliteriot
+/obj/item/clothing/suit/armor/ranger/eliteriot
 	name = "elite riot gear"
 	desc = "A heavily reinforced set of military grade armor, commonly seen in the Divide now repurposed and reissued to Chief Rangers."
 	icon_state = "elite_riot"
@@ -2176,7 +2176,7 @@
 	slowdown = 0.25 //+0.1 from helmet = total 0.35
 	armor = list("melee" = 85, "bullet" = 85, "laser" = 85, "energy" = 65, "bomb" = 70, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 50, "wound" = 75)
 	
-	/obj/item/clothing/suit/armor/f13/enclave/power_armor/x02/mkII //needs sprites but thats for later
+/obj/item/clothing/suit/armor/f13/enclave/power_armor/x02/mkII //needs sprites but thats for later
 	name = "MKII advanced power armor"
 	desc = "Upgraded pre-war power armor design used by the Enclave. It is mildly worn due to it's age and lack of maintenance after the fall of the Enclave."
 	icon_state = "advanced"

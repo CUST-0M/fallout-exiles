@@ -6,7 +6,7 @@
 	resistance_flags = NONE
 	has_sensor = NO_SENSORS //kek
 
-/obj/item/clothing_item/under/f13/female
+/obj/item/clothing/under/f13/female
 	fitted = FEMALE_UNIFORM_TOP
 
 //Vault

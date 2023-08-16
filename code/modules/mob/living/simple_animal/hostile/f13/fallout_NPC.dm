@@ -203,22 +203,22 @@
 	name = "enclave scientist"
 	uniform = /obj/item/clothing/under/f13/enclave/science
 	suit = /obj/item/clothing/suit/armor/f13/environmentalsuit
-	shoes = /obj/item/clothing/shoes/f13/enclave/serviceboots
+	shoes = /obj/item/clothing/shoes/f13/serviceboots
 	gloves = /obj/item/clothing/gloves/color/latex/nitrile
 	head = /obj/item/clothing/head/helmet/f13/envirosuit
 
 /obj/effect/mob_spawn/human/corpse/enclave
 	name = "enclave specialist"
 	uniform = /obj/item/clothing/under/f13/enclave/peacekeeper
-	shoes = /obj/item/clothing/shoes/f13/enclave/serviceboots
+	shoes = /obj/item/clothing/shoes/f13/serviceboots
 	gloves = /obj/item/clothing/gloves/f13/military
-	mask = /obj/item/clothing/mask/gas/enclave
+	mask = /obj/item/clothing/mask/f13/gas/enclave/enclavegasmask
 	head = /obj/item/clothing/head/f13/enclave/peacekeeper
 
 /obj/effect/mob_spawn/human/corpse/enclave/soldier
 	name = "enclave armored infantry"
 	uniform = /obj/item/clothing/under/f13/enclave/peacekeeper
-	shoes = /obj/item/clothing/shoes/f13/enclave/serviceboots
+	shoes = /obj/item/clothing/shoes/f13/serviceboots
 	gloves = /obj/item/clothing/gloves/f13/military
 	mask = /obj/item/clothing/mask/gas/enclave
 

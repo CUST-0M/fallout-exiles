@@ -1114,9 +1114,6 @@ datum/job/wasteland/f13dendoctor
 	/datum/outfit/loadout/brawler,
 	/datum/outfit/loadout/spearman,
 	/datum/outfit/loadout/shaman,
-	/datum/outfit/loadout/wayfarermelee,
-	/datum/outfit/loadout/wayfarerranged,
-	/datum/outfit/loadout/wayfarershaman,
 	/datum/outfit/loadout/deadhorsesmelee,
 	/datum/outfit/loadout/deadhorsesranged,
 	/datum/outfit/loadout/deadhorsesshaman,
@@ -1309,44 +1306,6 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/clothing/suit/toggle/armor/f13khan_jacket = 1,
 		/obj/item/storage/bag/money/small/khan = 1,
 		/obj/item/radio/headset/headset_khans = 1,
-	)
-
-//Wayfarers
-/datum/outfit/loadout/wayfarermelee
-	name = "Wayfarer Warrior"
-	suit = /obj/item/clothing/suit/armor/f13/lightcloak
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/wayfarer = 1,
-		/obj/item/clothing/head/helmet/f13/wayfarer/hunter = 1,
-		/obj/item/twohanded/spear/bonespear = 1,
-		/obj/item/reagent_containers/pill/patch/bitterdrink = 1
-	)
-
-/datum/outfit/loadout/wayfarerranged
-	name = "Wayfarer Archer"
-	suit = /obj/item/clothing/suit/armor/f13/kit
-	head = /obj/item/clothing/head/helmet/f13/wayfarer/antler
-	neck = /obj/item/clothing/neck/mantle/brown
-	backpack_contents = list(
-		/obj/item/gun/ballistic/bow/sturdy = 1,
-		/obj/item/storage/belt/tribe_quiver/bone = 1,
-		/obj/item/storage/belt/tribe_quiver = 1,
-		/obj/item/binoculars = 1,
-		/obj/item/melee/onehanded/club/warclub = 1
-		)
-
-/datum/outfit/loadout/wayfarershaman
-	name = "Wayfarer Shaman"
-	suit = /obj/item/clothing/suit/armor/f13/lightcloak
-	backpack_contents = list(
-		/obj/item/storage/bag/plants = 1,
-		/obj/item/cultivator = 1,
-		/obj/item/reagent_containers/glass/bucket/wood = 1,
-		/obj/item/warpaint_bowl = 1,
-		/obj/item/melee/onehanded/knife/ritualdagger = 1,
-		/obj/item/stack/medical/gauze/improvised = 1,
-		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
-		/obj/item/book/granter/crafting_recipe/tribal/wayfarer = 1,
 	)
 
 //Rustwalkers
