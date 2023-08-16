@@ -395,7 +395,7 @@
 /obj/effect/mob_spawn/human/corpse/ncr/ranger
 	name = "NCR Ranger"
 	uniform = /obj/item/clothing/under/f13/ranger/patrol
-	suit = /obj/item/clothing/suit/armor/f13/combat/ncr_patrol
+	suit = /obj/item/clothing/suit/armor/f13/ranger/combat/ncr_patrol
 	shoes = /obj/item/clothing/shoes/f13/military/leather
 	gloves = /obj/item/clothing/gloves/patrol
 	head = /obj/item/clothing/head/f13/ranger
@@ -488,38 +488,3 @@
 	gloves = /obj/item/clothing/gloves/legion
 	head = /obj/item/clothing/head/helmet/f13/legion/prime/decan
 
-////////////////
-// TRIBAL NPC //
-////////////////
-
-/mob/living/simple_animal/hostile/tribe
-	name = "Wayfarer Hunter"
-	desc = "A hunter of the wayfarer tribe, wielding a glaive."
-	icon = 'icons/fallout/mobs/humans/fallout_npc.dmi'
-	icon_state = "tribal_raider"
-	icon_living = "tribal_raider"
-	icon_dead = "tribal_raider_dead"
-	faction = list("Tribe")
-	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
-	speak_chance = 0
-	turns_per_move = 5
-	response_help_simple = "pokes"
-	response_disarm_simple = "shoves"
-	response_harm_simple = "hits"
-	speed = 1
-	stat_attack = 1
-	robust_searching = 1
-	maxHealth = 200
-	health = 200
-	harm_intent_damage = 8
-	melee_damage_lower = 50
-	melee_damage_upper = 50
-	attack_verb_simple = "attacks"
-	attack_sound = 'sound/weapons/bladeslice.ogg'
-	a_intent = INTENT_HARM
-	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0)
-	unsuitable_atmos_damage = 15
-	status_flags = CANPUSH
-	speak = list("For our kin!", "This will be a good hunt.", "The gods look upon me today.")
-	speak_emote = list("says")
-	speak_chance = 1
