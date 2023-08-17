@@ -180,16 +180,6 @@
 	heat_protection = CHEST | GROIN | LEGS| ARMS | HEAD
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 10, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 0)
 
-/obj/item/clothing/suit/armor/f13/tribalraider
-	name = "tribal raider wear"
-	desc = "Very worn bits of clothing and armor in a style favored by many tribes."
-	icon_state = "tribal_outcast"
-	item_state = "tribal_outcast"
-	heat_protection = CHEST | GROIN | LEGS| ARMS | HEAD
-	armor = list("melee" = 30, "bullet" = 20, "laser" = 15, "energy" = 10, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 15, "acid" = 0)
-	allowed = list(/obj/item/gun, /obj/item/kitchen, /obj/item/twohanded, /obj/item/melee/onehanded, /obj/item/twohanded/spear, /obj/item/melee/smith, /obj/item/melee/smith/twohand
-	)
-
 ////////////////
 // ARMOR KITS //
 ////////////////
@@ -269,20 +259,6 @@
 	siemens_coefficient = 0.8
 	cold_protection = CHEST | GROIN | LEGS| ARMS | HEAD
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 15, "energy" = 15, "bomb" = 15, "bio" = 20, "rad" = 10, "fire" = 15, "acid" = 5)
-
-/obj/item/clothing/suit/armor/f13/tanvest
-	name = "tanned vest"
-	icon_state = "tanleather"
-	item_state = "tanleather"
-	desc = "Layers of leather glued together to make a stiff vest, crude but gives some protection against wild beasts and knife stabs to the liver."
-	armor = list("melee" = 18, "bullet" = 5, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
-
-/obj/item/clothing/suit/armor/f13/cowboyvest
-	name = "cowboy vest"
-	icon_state = "cowboybvest"
-	item_state = "cowboybvest"
-	desc = "Stylish and has discrete lead plates inserted, just in case someone brings a laser to a fistfight."
-	armor = list("melee" = 15, "bullet" = 10, "laser" = 10, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 0, "acid" = 0)
 	
 ////////////////
 /////Town//////
@@ -311,29 +287,7 @@
 // LEGION //
 ////////////
 
-/obj/item/clothing/suit/armor/f13/legion/recruit
-	name = "legion recruit armor"
-	desc = "Legion recruit armor is a common f13_armor armor, clearly inspired by gear worn by old world football players and baseball catchers, much of it restored ancient actual sports equipment, other newly made from mostly leather, tanned and boiled in oil."
-	icon_state = "legion_recruit"
-	armor = list("melee" = 30, "bullet" = 25, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
 
-/obj/item/clothing/suit/armor/f13/legion/prime
-	name = "legion prime armor"
-	desc = "It's a legion prime armor, the warrior has been granted some additional protective pieces to add to his suit."
-	icon_state = "legion_prime"
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 15, "energy" = 15, "bomb" = 25, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
-
-/obj/item/clothing/suit/armor/f13/legion/recruit/slavemaster
-	name = "slavemaster armor"
-	desc = "Issued to slave masters to keep them cool during long hours of watching the slaves work in the sun."
-	icon_state = "legion_master"
-
-/obj/item/clothing/suit/armor/f13/legion/explorer
-	name = "legion explorer armor"
-	desc = "Light armor with layered strips of laminated linen and leather and worn with a large pouch for storing your binoculars."
-	icon_state = "legion_explorer"
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 15, "energy" = 15, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/binocular
 
 //////////////
 // TRIBALS ///
@@ -368,25 +322,6 @@
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 40, "bio" = 20, "rad" = 20, "fire" = 40, "acid" = 10)
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 
-/obj/item/clothing/suit/armor/hooded/cloak/razorclaw
-	name = "razorclaw cloak"
-	icon_state = "razorclaw"
-	desc = "A suit of armour fashioned out of the remains of a legendary deathclaw."
-	armor = list("melee" = 45, "bullet" = 35, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 50, "acid" = 10)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/razorclaw
-	heat_protection = CHEST|GROIN|LEGS|ARMS|HANDS
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS|HANDS
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-/obj/item/clothing/head/hooded/cloakhood/razorclaw
-	name = "razorclaw helm"
-	icon_state = "helmet_razorclaw"
-	desc = "The skull of a legendary deathclaw."
-	armor = list("melee" = 45, "bullet" = 35, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 30, "rad" = 25, "fire" = 50, "acid" = 10)
-	heat_protection = HEAD
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-
 ///////////
 // MISC. //
 ///////////
@@ -415,7 +350,6 @@
 	desc = "A combat leather jacket, outfitted with a special armored leather coat."
 	armor = list("melee" = 35, "bullet" = 22, "laser" = 22, "energy" = 15, "bomb" = 45, "bio" = 30, "rad" = 5, "fire" = 50, "acid" = 35, "wound" = 35)
 
-
 /obj/item/clothing/suit/armor/f13/armorkit
 	name = "armor kit"
 	desc = "Separate armor parts you can wear over the clothing to get the most basic protection from the dangers of wasteland.<br>It sure is better than going into the battle without any armor at all."
@@ -433,7 +367,7 @@
 	armor = list("melee" = 20, "bullet" = 40, "laser" = 15, "energy" = 15, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
 	strip_delay = 30
 	icon = 'modular_exiles/icons/clothing/armor.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	slowdown = 0.025
 
 /obj/item/clothing/suit/armor/f13/leatherarmor
@@ -727,7 +661,7 @@
 	name = "wasteland warrior armor"
 	desc = "A mad attempt to recreate armor based of images of japanese samurai, using a sawn up old car tire as shoulder pads, bits of chain to cover the hips and pieces of furniture for a breastplate. Might stop a blade but nothing else."
 	icon = 'modular_exiles/icons/clothing/armor.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	icon_state = "wastewar"
 	item_state = "wastewar"
 	armor = list("melee" = 35, "bullet" = 25, "laser" = 25, "energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 0, "wound" = 35)
@@ -742,7 +676,7 @@
 	flags_inv = HIDEJUMPSUIT
 	strip_delay = 40
 	icon = 'modular_exiles/icons/clothes/armor.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 
 /obj/item/clothing/suit/armor/f13/battlecoat //Maxson's battlecoat from Fallout 4
 	name = "battlecoat"
@@ -752,7 +686,7 @@
 	armor = list("melee" = 30, "bullet" = 20,"laser" = 20, "energy" = 20, "bomb" = 30, "bio" = 0, "rad" = 30, "fire" = 30, "acid" = 30, "wound" = 35)
 	strip_delay = 30
 	icon = 'modular_exiles/icons/clothes/armor.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 
 /obj/item/clothing/suit/armor/f13/USPSbomber
@@ -762,19 +696,6 @@
 	item_state = "postalbomber"
 	armor = list("melee" = 30, "bullet" = 40,"laser" = 30, "energy" = 20, "bomb" = 30, "bio" = 0, "rad" = 30, "fire" = 30, "acid" = 30, "wound" = 35)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-
-/obj/item/clothing/suit/armor/f13/battlecoat/vault/overseer
-	name = "Overseer's battlecoat"
-	desc = "A heavy pre-war bomber coat, dyed blue with the insignia of the Vault-Tec embroidered on the back. This one is worn by the Coalition's Overseer."
-	icon_state = "maxson_battlecoat"
-	item_state = "maxson_battlecoat"
-
-/obj/item/clothing/suit/armor/f13/battlecoat/vault/marshal
-	name = "Marhsal's battlecoat"
-	desc = "A heavy pre-war bomber coat, dyed blue with the insignia of the Vault-Tec City Coalition embroidered on the back. This one is worn by the Marshals of the Coalition."
-	icon_state = "maxson_battlecoat"
-	item_state = "maxson_battlecoat"
-
 
 /obj/item/clothing/suit/armor/f13/brahmin_leather_duster
 	name = "brahmin leather duster"
@@ -881,7 +802,7 @@
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 30, "energy" = 10, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = -10)
 
 ////////////
-// OUTLAW //
+// RAIDER //
 ////////////
 
 /obj/item/clothing/suit/armor/f13/supafly
@@ -949,7 +870,6 @@
 	item_state = "legexile"
 	armor = list("melee" = 45, "bullet" = 30, "laser" = 20, "energy" = 15, "bomb" = 30, "bio" = 25, "rad" = 20, "fire" = 35, "acid" = 0)
 
-
 /obj/item/clothing/suit/armor/f13/armoredcoat
 	name = "armored battlecoat"
 	desc = "A heavy padded leather coat with faded colors, worn over a armor vest."
@@ -992,34 +912,6 @@
 	item_state = "opifex_apron"
 	blood_overlay_type = "armor"
 	armor = list("melee" = 45, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 30, "bio" = 5, "rad" = 10, "fire" = 45, "acid" = 10)
-
-/obj/item/clothing/suit/armor/f13/legion/vet
-	name = "legion veteran armor"
-	desc = "Armor worn by veteran legionaries who have proven their combat prowess in many battles, its hardened leather is sturdier than that of previous ranks."
-	icon_state = "legion_veteran"
-	armor = list("melee" = 45, "bullet" = 30, "laser" = 20, "energy" = 15, "bomb" = 30, "bio" = 5, "rad" = 5, "fire" = 35, "acid" = 0)
-	slowdown = 0.075
-
-/obj/item/clothing/suit/armor/f13/legion/vexil
-	name = "legion vexillarius armor"
-	desc = "The armor appears to be based off of a suit of Legion veteran armor, with the addition of circular metal plates attached to the torso, as well as a banner displaying the flag of the Legion worn on the back."
-	icon_state = "legion_vex"
-	armor = list("melee" = 45, "bullet" = 35, "laser" = 25, "energy" = 20, "bomb" = 35, "bio" = 5, "rad" = 5, "fire" = 35, "acid" = 0)
-	slowdown = 0.075
-
-/obj/item/clothing/suit/armor/f13/legion/combat
-	name = "Legion combat armor"
-	desc = "An old military grade pre war combat armor and, repainted to the colour scheme of Caesar's Legion."
-	icon_state = "legion_combat"
-	item_state = "legion_combat"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 30, "energy" = 20, "bomb" = 25, "bio" = 10, "rad" = 10, "fire" = 20, "acid" = 10)
-
-/obj/item/clothing/suit/armor/f13/legion/breacher
-	name = "legion breacher armor"
-	desc = "A suit with the standard metal reinforcements of a veteran and a patched bulletproof vest worn over it."
-	icon_state = "legion_heavy"
-	item_state = "legion_heavy"
-	armor = list("melee" = 65, "bullet" = 45, "laser" = 30, "energy" = 20, "bomb" = 30, "bio" = 20, "rad" = 25, "fire" = 30, "acid" = 5)
 
 /obj/item/clothing/suit/armor/f13/legion/centurion
 	name = "legion centurion armor"
@@ -1324,17 +1216,6 @@
 	slowdown = 0
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 8)
 
-/obj/item/clothing/suit/armor/f13/tribal
-	name = "tribal armor"
-	desc = "A set of armor made of gecko hides.<br>It's pretty good for makeshift armor."
-	icon_state = "tribal"
-	item_state = "tribal"
-	armor = list("melee" = 55, "bullet" = 35,"laser" = 20, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
-	flags_inv = HIDEJUMPSUIT
-	strip_delay = 40
-	icon = 'modular_exiles/icons/clothing/armor.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/suit.dmi'
-
 ///////////////
 // WASTELAND //
 ///////////////
@@ -1379,7 +1260,6 @@
 	desc = "Heavy armor with ballistic inserts, sewn into a padded riot police coat."
 	armor = list("melee" = 70, "bullet" = 45, "laser" = 20, "energy" = 20, "bomb" = 45, "bio" = 35, "rad" = 10, "fire" = 50, "acid" = 10)
 
-//Recipe bone armor + metal and leather
 /obj/item/clothing/suit/armor/f13/tribal
 	name = "tribal heavy carapace"
 	desc = "Thick layers of leather and bone, with metal reinforcements, surely this will make the wearer tough and uncaring for claws and blades."
@@ -1603,12 +1483,25 @@
 /datum/component/storage/concrete/pockets/tiny/legion
 	max_items = 3
 
+
+/obj/item/clothing/suit/armor/f13/legion/recruit/slavemaster
+	name = "slavemaster armor"
+	desc = "Issued to slave masters to keep them cool during long hours of watching the slaves work in the sun."
+	icon_state = "legion_master"
+
+/obj/item/clothing/suit/armor/f13/legion/explorer
+	name = "legion explorer armor"
+	desc = "Light armor with layered strips of laminated linen and leather and worn with a large pouch for storing your binoculars."
+	icon_state = "legion_explorer"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 15, "energy" = 15, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/binocular
+
 /obj/item/clothing/suit/armor/f13/legion/recruit
 	name = "legion recruit armor"
 	desc = "Well, it's better than nothing."
 	icon_state = "legion_recruit"
 	item_state = "legion_recruit"
-	armor = list("melee" = 33, "bullet" = 25, "laser" = 5, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 33, "bullet" = 25, "laser" = 10, "energy" = 10, "bomb" = 25, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
 	slowdown = 0.04
 
 /obj/item/clothing/suit/armor/f13/legion/prime
@@ -1616,7 +1509,7 @@
 	desc = "Legion Primes have survived some skirmishes, and when promoted often recieve a set of armor, padded leather modeled on ancient baseball catcher uniforms and various plates of metal or boiled leather."
 	icon_state = "legion_prime"
 	item_state = "legion_prime"
-	armor = list("melee" = 45, "bullet" = 30, "laser" = 10, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 45, "bullet" = 30, "laser" = 15, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
 
 /obj/item/clothing/suit/armor/f13/legion/prime/decan
 	name = "legion prime decanus armor"
@@ -1709,16 +1602,6 @@
 	armor = list("melee" = 60, "bullet" = 60, "laser" = 40, "energy" = 35, "bomb" = 45, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 15) // Wouldn't it be hilarious if we just tore apart Legate's armor?
 
-/obj/item/clothing/suit/armor/f13/slavelabor
-	name = "old leather strips"
-	desc = "Worn leather strips, used as makeshift protection from chafing and sharp stones by labor slaves."
-	icon_state = "legion_slaveleather"
-	item_state = "legion_slaveleather"
-	icon = 'modular_exiles/icons/clothing/armor.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
-	allowed = list(/obj/item/hatchet, /obj/item/scythe, /obj/item/cultivator, /obj/item/shovel)
-	armor = list("melee" = 20, "bullet" = 5, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 0)
-
 /obj/item/clothing/suit/armor/f13/legion/vet/explorercanada
 	name = "custom explorer armor"
 	desc = "Armor based on layered strips of laminated linen and leather, the technique giving it surprising resilience for low weight. This one has been custom made."
@@ -1726,6 +1609,28 @@
 	item_state = "legion_explorercustom"
 	armor = list("melee" = 45, "bullet" = 35, "laser" = 15, "energy" = 10, "bomb" = 40, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
 	slowdown = 0.03
+
+/obj/item/clothing/suit/armor/f13/legion/vet/explorercanada
+	name = "coated explorer armor"
+	desc = "Armor based on layered strips of laminated linen and leather, the technique giving it surprising resilience for low weight. This one has been custom made."
+	icon_state = "legion_explorercustom"
+	item_state = "legion_explorercustom"
+	armor = list("melee" = 45, "bullet" = 35, "laser" = 15, "energy" = 10, "bomb" = 40, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
+	slowdown = 0.03
+
+/obj/item/clothing/suit/armor/f13/legion/combat
+	name = "Legion combat armor"
+	desc = "An old military grade pre war combat armor and, repainted to the colour scheme of Caesar's Legion."
+	icon_state = "legion_combat"
+	item_state = "legion_combat"
+	armor = list("melee" = 35, "bullet" = 35, "laser" = 30, "energy" = 20, "bomb" = 25, "bio" = 10, "rad" = 10, "fire" = 20, "acid" = 10)
+
+/obj/item/clothing/suit/armor/f13/legion/combat
+	name = "Legion combat armor"
+	desc = "An old military grade pre war combat armor and, repainted to the colour scheme of Caesar's Legion."
+	icon_state = "legion_combat"
+	item_state = "legion_combat"
+	armor = list("melee" = 35, "bullet" = 35, "laser" = 30, "energy" = 20, "bomb" = 25, "bio" = 10, "rad" = 10, "fire" = 20, "acid" = 10)
 
 ///////
 //NCR//
@@ -1836,27 +1741,6 @@
 	icon_state = "ncr_officer_coat"
 	item_state = "ncr_officer_coat"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 40, "energy" = 40, "bomb" = 45, "bio" = 40, "rad" = 45, "fire" = 45, "acid" = 20)
-
-/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack
-	name = "NCR dress jacket"
-	desc = "A brown dress uniform jacket intended for enlisted NCRA personnel."
-	icon_state = "ncr_dressjack"
-	item_state = "ncr_dressjack"
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
-
-/obj/item/clothing/suit/armor/f13/ncr/ncr_codressjack
-	name = "NCR dress jacket"
-	desc = "A brown dress uniform jacket for commissioned NCRA personnel."
-	icon_state = "ncr_codressjack"
-	item_state = "ncr_codressjack"
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
-
-/obj/item/clothing/suit/armor/f13/ncrcfjacket
-	name = "NCRCF jacket"
-	desc = "A cheap, standard issue teal canvas jacket issued to poor suckers who find themselves at the butt-end of the NCR's judiciary system."
-	icon_state = "ncrcfjacket"
-	item_state = "ncrcfjacket"
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
 	
 /obj/item/clothing/suit/armor/f13/ncr/combat
 	name = "NCR combat armor"
