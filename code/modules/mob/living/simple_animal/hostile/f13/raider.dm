@@ -204,7 +204,7 @@
 	uniform = /obj/item/clothing/under/f13/raiderrags
 	suit = /obj/item/clothing/suit/armor/f13/tribal
 	shoes = /obj/item/clothing/shoes/f13/rag
-	mask = /obj/item/clothing/mask/facewrap
+	mask = /obj/item/clothing/mask/f13/facewrap
 	head = /obj/item/clothing/head/helmet/f13/fiend
 
 //////////////
