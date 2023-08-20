@@ -395,8 +395,8 @@ Suits. 0-10 in its primary value, slowdown 0, various utility
 //Light armor. 15-30 in its primary value, slowdown 0.05
 /obj/item/clothing/suit/armored/light
 	name = "light armor template"
-	icon = 'icons/fallout/clothing/armored_light.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	slowdown = 0.05
 	allowed = list(/obj/item/gun, /obj/item/melee/onehanded, /obj/item/melee/smith,)
 
@@ -412,8 +412,8 @@ Suits. 0-10 in its primary value, slowdown 0, various utility
 // Medium armor. 35-45 in its primary value, slowdown 0.1
 /obj/item/clothing/suit/armored/medium
 	name = "medium armor template"
-	icon = 'icons/fallout/clothing/armored_medium.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	slowdown = 0.1
 	allowed = list(/obj/item/gun, /obj/item/melee/onehanded, /obj/item/melee/smith,)
 	strip_delay = 40

@@ -445,7 +445,7 @@
 	head = /obj/item/clothing/head/helmet/f13/envirosuit
 	mask =/obj/item/clothing/mask/breath/medical
 	gloves = /obj/item/clothing/gloves/color/latex/nitrile
-	suit = /obj/item/clothing/suit/armor/f13/environmentalsuit
+	suit = /obj/item/clothing/suit/armor/f13/enclave/environmentalsuit
 	belt = /obj/item/storage/belt/medical
 	suit_store =  /obj/item/tank/internals/oxygen
 

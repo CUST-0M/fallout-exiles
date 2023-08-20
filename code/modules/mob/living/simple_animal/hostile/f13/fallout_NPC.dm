@@ -202,7 +202,7 @@
 /obj/effect/mob_spawn/human/corpse/enclavescientist
 	name = "enclave scientist"
 	uniform = /obj/item/clothing/under/f13/enclave/science
-	suit = /obj/item/clothing/suit/armor/f13/environmentalsuit
+	suit = /obj/item/clothing/suit/armor/f13/enclave/environmentalsuit
 	shoes = /obj/item/clothing/shoes/f13/serviceboots
 	gloves = /obj/item/clothing/gloves/color/latex/nitrile
 	head = /obj/item/clothing/head/helmet/f13/envirosuit

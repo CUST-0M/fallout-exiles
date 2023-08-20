@@ -654,7 +654,7 @@
 	armor = list("melee" = 45, "bullet" = 20,"laser" = 20, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	flags_inv = HIDEJUMPSUIT
 	strip_delay = 40
-	icon = 'modular_exiles/icons/clothes/armor.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
 	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 
 /obj/item/clothing/suit/armor/f13/battlecoat //Maxson's battlecoat from Fallout 4
@@ -664,7 +664,7 @@
 	item_state = "maxson_battlecoat"
 	armor = list("melee" = 30, "bullet" = 20,"laser" = 20, "energy" = 20, "bomb" = 30, "bio" = 0, "rad" = 30, "fire" = 30, "acid" = 30, "wound" = 35)
 	strip_delay = 30
-	icon = 'modular_exiles/icons/clothes/armor.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
 	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 
@@ -1045,7 +1045,7 @@
 	name = "white Legs Akoiah armor"
 	desc = "Made of bones taken from the mighty Ainka-Akoiah and reinforced heavily with metal plating, this set of armor acts as a symbol and a reminder of the White Legs' dominance over the untamed wastes."
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/tiny
-	icon = 'icons/fallout/clothing/armor.dmi'
+	icon = 'modular_exiles/icons/clothing/armor.dmi'
 	icon_state = "white_legs_bone_heavy"
 	item_state = "white_legs_bone_heavy"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 25, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
@@ -2011,3 +2011,4 @@
 	icon_state = "hellfire"
 	item_state = "hellfire"
 	armor = list("melee" = 90, "bullet" = 90, "laser" = 90, "energy" = 70, "bomb" = 80, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 50, "wound" = 90)
+

@@ -403,7 +403,7 @@
 				/obj/effect/spawner/bundle/f13/armor/knight,
 				/obj/effect/spawner/bundle/f13/armor/metal,
 				/obj/effect/spawner/bundle/f13/armor/laserproofmetal,
-				/obj/item/clothing/suit/f13/armor/leather_jacket/combat,
+				/obj/item/clothing/suit/armor/f13/leather_jacket,
 				/obj/item/clothing/suit/armor/f13/leather_jacket/combat/coat,
 				/obj/item/clothing/suit/armor/vest,
 				/obj/item/clothing/suit/armor/vest/alt
@@ -505,7 +505,7 @@
 /obj/effect/spawner/bundle/f13/armor/hotrodpa
 	name = "hotrod power armor spawner"
 	items = list(
-				/obj/item/clothing/suit/armor/salvaged_pa/t45b/hotrod,
+				/obj/item/clothing/suit/armor/f13/salvaged_pa/t45b/hotrod,
 				/obj/item/clothing/head/helmet/f13/salvaged_pa/t45b/hotrod
 				)
 
