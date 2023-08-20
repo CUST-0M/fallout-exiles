@@ -25,7 +25,7 @@
 		/datum/matchmaking_pref/patron = list(
 			/datum/job/CaesarsLegion,
 		),
-		/datum/matchmaking_pref/outlaw = list(
+		/datum/matchmaking_pref/raider = list(
 			/datum/job/latterdaysaints,
 			/datum/job/wendover,
 			/datum/job/wasteland/f13wastelander,

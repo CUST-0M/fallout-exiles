@@ -39,7 +39,7 @@ Raider
 			/datum/job/wasteland/f13raider,
 			/datum/job/wasteland/f13tribal
 		),
-		/datum/matchmaking_pref/outlaw = list(
+		/datum/matchmaking_pref/raider = list(
 			/datum/job/wasteland/f13raider,
 			/datum/job/wendover,
 			/datum/job/CaesarsLegion,
@@ -75,7 +75,7 @@ Raider
 
 
 /datum/outfit/job/wasteland/f13raider
-	name = "Outlaw"
+	name = "Raider"
 	jobtype = /datum/job/wasteland/f13raider
 
 	id = null
@@ -874,7 +874,7 @@ Raider
 	social_faction = FACTION_RAIDERS
 	total_positions = 4
 	spawn_positions = 4
-	description = "The mob rules in Yuma. A hitman for the Den's Boss, you are a highly loyal enforcer charged with keeping order among the outlaw groups inhabiting the Den."
+	description = "The mob rules in Yuma. A hitman for the Den's Boss, you are a highly loyal enforcer charged with keeping order among the raider groups inhabiting the Den."
 	supervisors = "The Boss."
 	selection_color = "#ff4747"
 	exp_requirements = 600
@@ -946,11 +946,11 @@ Raider
 	social_faction = FACTION_RAIDERS
 	total_positions = 1
 	spawn_positions = 1
-	description = "The mob rules in Yuma, and you're on top. Keeping the loose association of Khans, outlaws, and other no-goods together you maintain order in The Den by force. Ensure that all inhabitants of the Den obey their rules, and spread your influence over the wasteland. Be careful though - even your own men can't be trusted."
+	description = "The mob rules in Yuma, and you're on top. Keeping the loose association of Khans, raiders, and other no-goods together you maintain order in The Den by force. Ensure that all inhabitants of the Den obey their rules, and spread your influence over the wasteland. Be careful though - even your own men can't be trusted."
 	supervisors = "The Overboss, God."
 	selection_color = "#ff4747"
 	exp_requirements = 1000
-	exp_type = EXP_TYPE_OUTLAW
+	exp_type = EXP_TYPE_RAIDER
 
 	outfit = /datum/outfit/job/wasteland/f13mobboss
 
@@ -1023,7 +1023,7 @@ datum/job/wasteland/f13dendoctor
 	supervisors = "The Boss."
 	selection_color = "#ff4747"
 	exp_requirements = 1000
-	exp_type = EXP_TYPE_OUTLAW
+	exp_type = EXP_TYPE_RAIDER
 
 	outfit = /datum/outfit/job/wasteland/f13dendoctor
 

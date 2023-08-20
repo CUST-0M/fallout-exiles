@@ -83,7 +83,7 @@
 #define EXP_TYPE_DECANUS        "Decanus"
 #define EXP_TYPE_TRIBAL			"Tribal"
 #define EXP_TYPE_FOLLOWERS		"Followers of the Apocalypse"
-#define EXP_TYPE_OUTLAW			"Outlaw"
+#define EXP_TYPE_RAIDER			"Raider"
 #define EXP_TYPE_EIGHTIES		"80s"
 #define EXP_TYPE_WHITELEGS		"White Legs"
 #define EXP_TYPE_LDS			"New Canaanites"

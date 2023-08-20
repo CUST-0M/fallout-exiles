@@ -1126,7 +1126,7 @@
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
 
-///OUTLAW TAGS////
+////RAIDER TAGS////
 
 /obj/item/card/id/rusted
 	name = "rusted tags"

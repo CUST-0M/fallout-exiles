@@ -1955,14 +1955,14 @@ All effects don't start immediately, but rather get worse over time; the rate is
 
 /datum/reagent/consumable/ethanol/turbo
 	name = "Turbo"
-	description = "A turbulent cocktail associated with outlaw hoverbike racing. Not for the faint of heart."
+	description = "A turbulent cocktail associated with raider hoverbike racing. Not for the faint of heart."
 	color = "#e94c3a"
 	boozepwr = 85
 	quality = DRINK_VERYGOOD
-	taste_description = "the outlaw spirit"
+	taste_description = "the raider spirit"
 	glass_icon_state = "turbo"
 	glass_name = "Turbo"
-	glass_desc = "A turbulent cocktail for outlaw hoverbikers."
+	glass_desc = "A turbulent cocktail for raider hoverbikers."
 	value = REAGENT_VALUE_RARE
 
 /datum/reagent/consumable/ethanol/turbo/on_mob_life(mob/living/carbon/M)

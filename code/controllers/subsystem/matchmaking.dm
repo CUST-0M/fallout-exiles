@@ -248,7 +248,7 @@ SUBSYSTEM_DEF(matchmaking)
 	log_verb = "owed favors to"
 
 
-/datum/matchmaking_pref/outlaw
+/datum/matchmaking_pref/raider
 	pref_text = "Hunters after you"
 	target_type = /datum/matchmaking_pref/bounty_hunter
 	spawn_time = 5 MINUTES
@@ -262,7 +262,7 @@ SUBSYSTEM_DEF(matchmaking)
 
 /datum/matchmaking_pref/bounty_hunter
 	pref_text = "Hunt outlaw bounties"
-	target_type = /datum/matchmaking_pref/outlaw
+	target_type = /datum/matchmaking_pref/raider
 	spawn_time = 5 MINUTES
 	acquire_memory = "You remember the face in the wanted poster of a criminal, rumored to be wandering this area, for whose head you've been promised a reward"
 	span_class = "danger"

@@ -881,7 +881,7 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
-//OUTLAW DESERTERS
+//DESERTERS
 /obj/item/clothing/under/f13/exile
 	name = "disheveled NCR fatigues"
 	desc = "A disheveled and modified duty uniform resembling NCR fatigues."

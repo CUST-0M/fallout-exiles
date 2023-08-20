@@ -29,7 +29,7 @@ Mayor
 			/datum/job/eighties,
 			/datum/job/wasteland/f13wastelander,
 		),
-		/datum/matchmaking_pref/outlaw = list(
+		/datum/matchmaking_pref/raider = list(
 			/datum/job/wendover,
 			/datum/job/wasteland,
 		),

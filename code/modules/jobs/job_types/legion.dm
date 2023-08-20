@@ -1445,7 +1445,7 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 //Laborers farm and mine.
 /datum/outfit/loadout/slaveworker
 	name = "Worker"
-	suit = /obj/item/clothing/suit/armor/f13/slavelabor
+	suit = /obj/item/clothing/suit/f13/slavelabor
 	shoes =	/obj/item/clothing/shoes/f13/rag
 	r_hand = /obj/item/flashlight/flare/torch
 	backpack_contents = list(
@@ -1455,7 +1455,6 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 		/obj/item/soap/homemade = 1,
 		/obj/item/shovel/spade = 1,
 		)
-
 
 
 /// Legion CitizenReally only used for ID console
