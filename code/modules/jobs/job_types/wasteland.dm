@@ -428,13 +428,12 @@ Raider
 	..()
 	suit = pick(
 		/obj/item/clothing/suit/armor/f13/kit, \
-		/obj/item/clothing/suit/f13/veteran, \
+		/obj/item/clothing/suit/armor/armor/f13/duster/vet, \
 		/obj/item/clothing/suit/toggle/labcoat/f13/wanderer, \
 		/obj/item/clothing/suit/f13/duster, \
 		/obj/item/clothing/suit/f13/mfp/raider, \
 		/obj/item/clothing/suit/armor/f13/leatherarmor, \
-		/obj/item/clothing/suit/armor/f13/modif_r_vest, \
-		/obj/item/clothing/suit/armored/light/cowboyvest, \
+		/obj/item/clothing/suit/armor/light/cowboyvest, \
 		/obj/item/clothing/suit/f13/vest, \
 		/obj/item/clothing/suit/toggle/lawyer/black \
 		)
