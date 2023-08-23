@@ -402,7 +402,6 @@
 	loot = list(
 				/obj/effect/spawner/bundle/f13/armor/knight,
 				/obj/effect/spawner/bundle/f13/armor/metal,
-				/obj/effect/spawner/bundle/f13/armor/laserproofmetal,
 				/obj/item/clothing/suit/armor/f13/leather_jacket,
 				/obj/item/clothing/suit/armor/f13/leather_jacket/combat/coat,
 				/obj/item/clothing/suit/armor/vest,

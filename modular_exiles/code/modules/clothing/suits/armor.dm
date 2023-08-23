@@ -881,55 +881,6 @@
 	armor = list("melee" = 35, "bullet" = 25, "laser" = 15, "energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 5)
 
 ////////////
-// LEGION //
-////////////
-
-/obj/item/clothing/suit/armor/f13/legion/legate
-	name = "legion legate armor"
-	desc = "The armor appears to be a full suit of heavy gauge steel and offers full body protection. It also has a cloak in excellent condition, but the armor itself bears numerous battle scars and the helmet is missing half of the left horn. The Legate's suit appears originally crafted, in contrast to other Legion armor which consists of repurposed pre-War sports equipment."
-	icon_state = "legion_legate"
-	armor = list("melee" = 70, "bullet" = 60, "laser" = 45, "energy" = 45, "bomb" = 45, "bio" = 50, "rad" = 30, "fire" = 70, "acid" = 20)
-
-//////////////////////////
-// BROTHERHOOD OF STEEL //
-//////////////////////////
-
-/obj/item/clothing/suit/armor/f13/combat/bos
-	name = "initiate armor"
-	desc = "An old military grade pre war combat armor, repainted to the colour scheme of the Brotherhood of Steel."
-	icon_state = "brotherhood_armor"
-	item_state = "brotherhood_armor"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 30, "energy" = 20, "bomb" = 25, "bio" = 10, "rad" = 10, "fire" = 20, "acid" = 10)
-
-/obj/item/clothing/suit/armor/f13/combatmk2/bos
-	name = "reinforced initiate armor"
-	desc = "A reinforced set of bracers, greaves, and torso plating of prewar design This one is kitted with additional plates and, repainted to the colour scheme of the Brotherhood of Steel."
-	icon_state = "brotherhood_armor_mk2"
-	item_state = "brotherhood_armor_mk2"
-	armor = list("melee" = 35, "bullet" = 40, "laser" = 35, "energy" = 20, "bomb" = 30, "bio" = 10, "rad" = 10, "fire" = 20, "acid" = 10)
-
-/obj/item/clothing/suit/armor/f13/combatmk2/knight
-	name = "brotherhood armor"
-	desc = "A combat armor set made by the Brotherhood of Steel, standard issue for all Knights. It bears a red stripe."
-	icon_state = "brotherhood_armor_knight"
-	item_state = "brotherhood_armor_knight"
-	armor = list("melee" = 35, "bullet" = 40, "laser" = 40, "energy" = 30, "bomb" = 30, "bio" = 10, "rad" = 20, "fire" = 25, "acid" = 10)
-
-/obj/item/clothing/suit/armor/f13/combatmk2/senknight
-	name = "brotherhood senior knight armor"
-	desc = "A combat armor set made by the Brotherhood of Steel, standard issue for all Senior Knight. It bears a silver stripe."
-	icon_state = "brotherhood_armor_senior"
-	item_state = "brotherhood_armor_senior"
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 30, "bomb" = 30, "bio" = 10, "rad" = 25, "fire" = 25, "acid" = 10)
-
-/obj/item/clothing/suit/armor/f13/combatmk2/headknight
-	name = "brotherhood knight-captain armor"
-	desc = "A combat armor set made by the Brotherhood of Steel, standard issue for all Knight-Captains. It bears golden embroidery."
-	icon_state = "brotherhood_armor_captain"
-	item_state = "brotherhood_armor_captain"
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 30, "bomb" = 30, "bio" = 15, "rad" = 25, "fire" = 30, "acid" = 15)
-
-////////////
 // TOWN ////
 ////////////
 
@@ -1769,14 +1720,6 @@
 	item_state = "headscribe"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
 	armor = list("melee" = 10, "bullet" = 35, "laser" = 35, "energy" = 40, "bomb" = 36, "bio" = 50, "rad" = 69, "fire" = 10, "acid" = 70, "wound" = 30)
-
-/obj/item/clothing/suit/armor/f13/brotherhood/elder
-	name = "Brotherhood Elder's robe"
-	desc = "A blue cloth robe with some scarlet red parts, traditionally worn by the Brotherhood of Steel Elder."
-	icon_state = "elder"
-	item_state = "elder"
-	body_parts_covered = CHEST|ARMS|LEGS
-	armor = list("melee" = 20, "bullet" = 25, "laser" = 25, "energy" = 10, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 30)
 	
 /obj/item/clothing/suit/armor/f13/brotherhood/initiate
 	name = "initiate armor"
@@ -1821,6 +1764,14 @@
 	item_state = "maxson_battlecoat"
 	armor = list("melee" = 10, "bullet" = 30, "laser" = 40, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
 
+/obj/item/clothing/suit/armor/f13/brotherhood/elder
+	name = "Brotherhood Elder's robe"
+	desc = "A blue cloth robe with some scarlet red parts, traditionally worn by the Brotherhood of Steel Elder."
+	icon_state = "elder"
+	item_state = "elder"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
+	armor = list("melee" = 20, "bullet" = 35, "laser" = 40, "energy" = 40, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 30)
+
 //////////
 //Town///
 /////////
@@ -1850,7 +1801,7 @@
 	name = "OPD Chief's jacket"
 	desc = "A navy-blue jacket with blue shoulder designations, '/OPD/' stitched into one of the chest pockets, and hidden ceramic trauma plates. It has a small compartment for a holdout pistol."
 	icon = 'modular_exiles/icons/clothing/armor.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/suit'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/suit.dmi'
 	icon_state = "police_chief"
 	item_state = "police_chief"
 	armor = list("melee" = 45, "bullet" = 65, "laser" = 45,  "energy" = 35, "bomb" = 40, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10, "wound" = 55)
