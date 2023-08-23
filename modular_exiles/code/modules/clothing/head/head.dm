@@ -1228,8 +1228,8 @@
 /obj/item/clothing/head/helmet/f13/combat/mk2/legion
 	name = "reinforced Legion combat helmet"
 	desc = "A pre-war helmet in good condition, made from advanced materialas and paintend in the colors of Caesar's Legion."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "legion-combat2"
 	item_state = "legion-combat2"
 

@@ -167,18 +167,6 @@
 	resistance_flags = FLAMMABLE
 	armor = list("melee" = 5, "bullet" = 15, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = -10, "acid" = 0)
 
-////////////////
-// ARMOR KITS //
-////////////////
-
-/obj/item/clothing/suit/armor/f13/badlands
-	name = "badlands raider armor"
-	desc = "A leather top with a bandolier over it and a straps that cover the arms. Suited for warm climates, comes with storage space."
-	icon_state = "badlands"
-	item_state = "badlands"
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-	heat_protection = CHEST | GROIN | LEGS| ARMS | HEAD
-	armor = list("melee" = 25, "bullet" = 25, "laser" = 10, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 0)
 
 ////////////////
 // ARMOR KITS //
@@ -571,7 +559,8 @@
 	desc = "A classic set of T-45d Power Armour only to be used in armed combat, it signifies the Head Knight and their place in the Brotherhood. A leader, and a beacon of structure in a place where chaos reigns. All must rally to his call, for he is the Head Knight and your safety is his duty."
 	icon_state = "t45dkc"
 	item_state = "t45dkc"
-	slowdown = 0.16
+	slowdown = 0.30
+	armor = list("melee" = 70, "bullet" = 70, "laser" = 60, "energy" = 20, "bomb" = 65, "bio" = 75, "rad" = 80, "fire" = 85, "acid" = 30, "wound" = 70)
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45d/bos
 	name = "brotherhood T-45d power armor"
@@ -1049,7 +1038,6 @@
 	armor = list("melee" = 25, "bullet" = 40, "laser" = 20, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10, "wound" = 30)
 	slowdown = 0.01
 
-
 /obj/item/clothing/suit/armor/f13/tribal/deadhorses
 	name = "dead Horses armour"
 	desc = "A simple leather bandolier and gecko hide chest covering, with an engraved metal pauldron and a pair of black leather straps. Commonly worn by the members of the Dead Horses tribe."
@@ -1110,13 +1098,7 @@
 
 //RAIDERS
 
-/obj/item/clothing/suit/armor/f13/combat/mk2/bandit_duster
-	name = "reinforced duster armor"
-	desc = "A reinforced set of combat armor covered by a black duster."
-	icon_state = "Bandit_duster"
-	item_state = "Bandit_duster"
-	slowdown = 0
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 8)
+
 
 ///////////////
 // WASTELAND //
@@ -1134,13 +1116,6 @@
 	desc = "Taking pieces off from a wrecked power armor will at least give you thick plating, but don't expect too much of this shot up, piecemeal armor.."
 	icon_state = "recycled_power"
 	armor = list("melee" = 50, "bullet" = 45, "laser" = 30, "energy" = 25, "bomb" = 35, "bio" = 5, "rad" = 15, "fire" = 15, "acid" = 5)
-
-/obj/item/clothing/suit/armor/f13/raidermetal
-	name = "iron raider suit"
-	desc = "More rust than metal, with gaping holes in it, this armor looks like a pile of junk. Under the rust some quality steel still remains however."
-	icon_state = "raider_metal"
-	item_state = "raider_metal"
-	armor = list("melee" = 55, "bullet" = 40, "laser" = 15, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 15, "fire" = 20, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/wardenplate
 	name = "warden plates"
@@ -1289,14 +1264,18 @@
 	desc = "A set of armor made from bulky plastic and rubber. A faded sports team logo is printed in various places. Go Desert Rats!"
 	icon_state = "yankee"
 	item_state = "yankee"
+	heat_protection = CHEST | GROIN | LEGS| ARMS | HEAD
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 30, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 
 /obj/item/clothing/suit/armor/f13/raider/badlands
 	name = "badlands raider armor"
 	desc = "A leather top with a bandolier over it and a straps that cover the arms."
 	icon_state = "badlands"
 	item_state = "badlands"
+	heat_protection = CHEST | GROIN | LEGS| ARMS | HEAD
 	armor = list("melee" = 30, "bullet" = 30, "laser" = 30, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 
 /obj/item/clothing/suit/armor/f13/raider/painspike
 	name = "painspike raider armor"
@@ -1311,6 +1290,21 @@
 	icon_state = "iconoclast"
 	item_state = "iconoclast"
 	armor = list("melee" = 35, "bullet" = 35, "laser" = 35, "bio" = 0, "rad" = 60, "fire" = 25, "acid" = 25, "wound" = 35)
+
+/obj/item/clothing/suit/armor/f13/combat/mk2/bandit_duster
+	name = "reinforced duster armor"
+	desc = "A reinforced set of combat armor covered by a black duster."
+	icon_state = "Bandit_duster"
+	item_state = "Bandit_duster"
+	slowdown = 0
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 10, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 0)
+
+/obj/item/clothing/suit/armor/f13/raidermetal
+	name = "iron raider suit"
+	desc = "More rust than metal, with gaping holes in it, this armor looks like a pile of junk. Under the rust some quality steel still remains however."
+	icon_state = "raider_metal"
+	item_state = "raider_metal"
+	armor = list("melee" = 55, "bullet" = 40, "laser" = 15, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 15, "fire" = 20, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/raider/combatduster
 	name = "combat duster"
@@ -1436,14 +1430,6 @@
 	armor = list("melee" = 60, "bullet" = 37, "laser" = 25, "energy" = 15, "bomb" = 30, "bio" = 5, "rad" = 5, "fire" = 35, "acid" = 0, "wound" = 40)
 	slowdown = 0.05
 
-/obj/item/clothing/suit/armor/f13/legion
-	name = "legion veteran decan armor"
-	desc = "A Legion veterans armor reinforced with a patched bulletproof vest, the wearer has the markings of a Decanus."
-	icon_state = "legion_heavy"
-	item_state = "legion_heavy"
-	armor = list("melee" = 70, "bullet" = 50, "laser" = 25, "energy" = 15, "bomb" = 25, "bio" = 50, "rad" = 20, "fire" = 70, "acid" = 0, "wound" = 50)
-	slowdown = 0.1
-
 /obj/item/clothing/suit/armor/f13/legion/vet/explorer
 	name = "legion explorer armor"
 	desc = "Armor based on layered strips of laminated linen and leather, the technique giving it surprising resilience for low weight."
@@ -1468,12 +1454,20 @@
 	item_state = "legion_venator"
 	armor = list("melee" = 50, "bullet" = 35, "laser" = 20, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
 
+/obj/item/clothing/suit/armor/f13/legion/vetdecan
+	name = "legion veteran decan armor"
+	desc = "A Legion veterans armor reinforced with a patched bulletproof vest, the wearer has the markings of a Decanus."
+	icon_state = "legion_heavy"
+	item_state = "legion_heavy"
+	armor = list("melee" = 60, "bullet" = 45, "laser" = 25, "energy" = 15, "bomb" = 25, "bio" = 50, "rad" = 20, "fire" = 70, "acid" = 0, "wound" = 50)
+	slowdown = 0.1
+
 /obj/item/clothing/suit/armor/f13/legion/centurion //good all around
 	name = "legion centurion armor"
 	desc = "Every Centurion is issued some of the best armor available in the Legion, and adds better pieces from slain opponents over time."
 	icon_state = "legion_centurion"
 	item_state = "legion_centurion"
-	armor = list("melee" = 70, "bullet" = 45, "laser" = 45, "energy" = 25, "bomb" = 45, "bio" = 20, "rad" = 20, "fire" = 45, "acid" = 45, "wound" = 55)
+	armor = list("melee" = 70, "bullet" = 50, "laser" = 45, "energy" = 25, "bomb" = 45, "bio" = 20, "rad" = 20, "fire" = 45, "acid" = 45, "wound" = 55)
 	slowdown = 0.1
 
 /obj/item/clothing/suit/armor/f13/legion/palacent //laser resist spec
@@ -1498,8 +1492,7 @@
 	icon_state = "legion_legate"
 	item_state = "legion_legate"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 40, "energy" = 35, "bomb" = 45, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0)
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 15) // Wouldn't it be hilarious if we just tore apart Legate's armor?
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 80, "energy" = 35, "bomb" = 45, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/legion/vet/explorercanada
 	name = "coated explorer armor"
