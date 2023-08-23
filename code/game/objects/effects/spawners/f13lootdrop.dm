@@ -455,7 +455,7 @@
 /obj/effect/spawner/bundle/f13/armor/bulletproof
 	name = "bulletproof armor spawner"
 	items = list(
-				/obj/item/clothing/suit/bulletproof,
+				/obj/item/clothing/suit/armor/vest/bulletproof,
 				/obj/item/clothing/head/helmet/alt
 				)
 

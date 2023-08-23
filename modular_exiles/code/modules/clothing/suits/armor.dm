@@ -21,7 +21,7 @@
 // DUSTERS & COATS //
 /////////////////////
 
-/obj/item/clothing/suit/armor/armor/f13/duster
+/obj/item/clothing/suit/armor/f13/duster
 	name = "duster"
 	desc = "A long brown leather overcoat with discrete protective reinforcements sewn into the lining."
 	icon_state = "duster"
@@ -31,35 +31,35 @@
 	cold_protection = CHEST | GROIN
 	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
 
-/obj/item/clothing/suit/armor/armor/f13/duster/lonesome
+/obj/item/clothing/suit/armor/f13/duster/lonesome
 	name = "lonesome duster"
 	desc = "A blue leather coat with the number 21 on the back.<br><i>If war doesn't change, men must change, and so must their symbols.</i><br><i>Even if there is nothing at all, know what you follow.</i>"
 	icon_state = "duster_courier"
 	item_state = "duster_courier"
 	armor = list("melee" = 25, "bullet" = 30, "laser" = 25, "energy" = 25, "bomb" = 25, "bio" = 5, "rad" = 15, "fire" = 20, "acid" = 10)
 
-/obj/item/clothing/suit/armor/armor/f13/duster/battlecoat
+/obj/item/clothing/suit/armor/f13/duster/battlecoat
 	name = "battlecoat"
 	desc = "A heavy padded coat that distributes heat efficiently, designed to protect pre-War bomber pilots from anti-aircraft lasers."
 	icon_state = "maxson_battlecoat"
 	item_state = "maxson_battlecoat"
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 25, "energy" = 25, "bomb" = 10, "bio" = 5, "rad" = 10, "fire" = 25, "acid" = 5)
 
-/obj/item/clothing/suit/armor/armor/f13/duster/vet
+/obj/item/clothing/suit/armor/f13/duster/vet
 	name = "merc veteran coat"
 	desc = "A blue leather coat with its sleeves cut off, adorned with war medals.<br>This type of outfit is common for professional mercenaries and bounty hunters."
 	icon_state = "duster_vet"
 	item_state = "duster_vet"
 	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 20, "bio" = 0, "rad" = 5, "fire" = 10, "acid" = 5)
 
-/obj/item/clothing/suit/armor/armor/f13/duster/brahmin
+/obj/item/clothing/suit/armor/f13/duster/brahmin
 	name = "brahmin leather duster"
 	desc = "A duster made from tanned brahmin hide. It has a thick waxy surface from the processing, making it surprisingly laser resistant."
 	icon_state = "duster_brahmin"
 	item_state = "duster_brahmin"
 	armor = list("melee" = 14, "bullet" = 14, "laser" = 25, "energy" = 20, "bomb" = 10, "bio" = 5, "rad" = 0, "fire" = 25, "acid" = 5)
 
-/obj/item/clothing/suit/armor/armor/f13/duster/desperado
+/obj/item/clothing/suit/armor/f13/duster/desperado
 	name = "desperado's duster"
 	desc = "A dyed brahmin hide duster, with a thick waxy surface, making it less vulnerable to lasers and energy based weapons."
 	icon_state = "duster_lawman"
@@ -70,28 +70,28 @@
 // KEVLAR VESTS //
 //////////////////
 
-/obj/item/clothing/suit/armor/armor/f13/vest/flak
+/obj/item/clothing/suit/armor/f13/vest/flak
 	name = "ancient flak vest"
 	desc = "Poorly maintained, this patched vest will still still stop some bullets, but don't expect any miracles. The ballistic nylon used in its construction is inferior to kevlar, and very weak to acid, but still quite tough."
 	icon_state = "vest_flak"
 	item_state = "vest_flak"
 	armor = list("melee" = 0, "bullet" = 30, "laser" = 0, "energy" = 0, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = -50)
 
-/obj/item/clothing/suit/armor/armor/f13/vest/kevlar
+/obj/item/clothing/suit/armor/f13/vest/kevlar
 	name = "kevlar vest"
 	desc = "Worn but serviceable, the vest is is effective against ballistic impacts."
 	icon_state = "vest_kevlar"
 	item_state = "vest_kevlar"
 	armor = list("melee" = 5, "bullet" = 35, "laser" = 5, "energy" = 0, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
-/obj/item/clothing/suit/armor/armor/f13/vest/bulletproof
+/obj/item/clothing/suit/armor/f13/vest/bulletproof
 	name = "bulletproof vest"
 	desc = "This vest is in good shape, the layered kevlar f13_armorweight yet very good at stopping bullets."
 	icon_state = "vest_bullet"
 	item_state = "vest_bullet"
 	armor = list("melee" = 10, "bullet" = 40, "laser" = 5, "energy" = 5, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
-/obj/item/clothing/suit/armor/armor/f13/vest/followers
+/obj/item/clothing/suit/armor/f13/vest/followers
 	name = "followers armor vest"
 	desc = "A coat with the markings of the Followers, concealing a bullet-proof vest."
 	icon_state = "vest_follower"
@@ -102,7 +102,7 @@
 // Wasteland ARMOR //
 /////////////////////
 
-/obj/item/clothing/suit/armor/armor/f13/wasteland/rustedcowboy
+/obj/item/clothing/suit/armor/f13/wasteland/rustedcowboy
 	name = "rusted cowboy outfit"
 	desc = "A weather treated leather cowboy outfit. Yeehaw Pard'!"
 	icon_state = "rusted_cowboy"
@@ -113,7 +113,7 @@
 	permeability_coefficient = 0.5
 	armor = list("melee" = 23, "bullet" = 20, "laser" = 15, "energy" = 15, "bomb" = 30, "bio" = 10, "rad" = 10, "fire" = 40, "acid" = 10,)
 
-/obj/item/clothing/suit/armor/armor/f13/wasteland/chitinarmor
+/obj/item/clothing/suit/armor/f13/wasteland/chitinarmor
 	name = "insect chitin armor"
 	desc = "A suit made from gleaming insect chitin. The glittering black scales are remarkably resistant to hostile environments, except cold."
 	icon_state = "insect"
@@ -125,7 +125,7 @@
 	permeability_coefficient = 0.5
 	armor = list("melee" = 15, "bullet" = 15, "laser" = 20, "energy" = 20, "bomb" = 10, "bio" = 50, "rad" = 50, "fire" = 70, "acid" = 80)
 
-/obj/item/clothing/suit/armor/armor/f13/wasteland/vaquero
+/obj/item/clothing/suit/armor/f13/wasteland/vaquero
 	name = "vaquero suit"
 	desc = "An ornate suit popularized by traders from the south, using tiny metal studs and plenty of silver thread wich serves as decoration and also reflects energy very well, useful when facing the desert sun or a rogue Eyebot."
 	icon_state = "vaquero"
@@ -135,7 +135,7 @@
 	siemens_coefficient = 1.1
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 30, "energy" = 25, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
-/obj/item/clothing/suit/armor/armor/f13/wasteland/wastewar
+/obj/item/clothing/suit/armor/f13/wasteland/wastewar
 	name = "wasteland warrior armor"
 	desc = "a mad attempt to recreate armor based of images of japanese samurai, using a sawn up old car tire as shoulder pads, bits of chain to cover the hips and pieces of furniture for a breastplate. Might stop a blade but nothing else, burns easily too."
 	icon_state = "wastewar"
@@ -429,7 +429,7 @@
 	item_state = "armoralt"
 	armor = list("melee" = 35, "bullet" = 50, "laser" = 40, "energy" = 25, "bomb" = 55, "bio" = 60, "rad" = 15, "fire" = 60, "acid" = 30, "wound" = 55)
 
-/obj/item/clothing/suit/armor/armor/f13/combat/chinese
+/obj/item/clothing/suit/armor/f13/combat/chinese
 	name = "chinese combat armor"
 	desc = "An uncommon suit of pre-war Chinese combat armor. It's a very basic and straightforward piece of armor that covers the front of the user."
 	icon_state = "chicom_armor"
@@ -1485,7 +1485,7 @@
 	armor = list("melee" = 60, "bullet" = 37, "laser" = 25, "energy" = 15, "bomb" = 30, "bio" = 5, "rad" = 5, "fire" = 35, "acid" = 0, "wound" = 40)
 	slowdown = 0.05
 
-/obj/item/clothing/suit/armor/armor/f13/legion
+/obj/item/clothing/suit/armor/f13/legion
 	name = "legion veteran decan armor"
 	desc = "A Legion veterans armor reinforced with a patched bulletproof vest, the wearer has the markings of a Decanus."
 	icon_state = "legion_heavy"
@@ -1576,7 +1576,7 @@
 //NCR//
 ///////
 
-/obj/item/clothing/suit/armor/armor/f13/utilityvest
+/obj/item/clothing/suit/armor/f13/utilityvest
 	name = "utility vest"
 	desc = "A practical vest with pockets for tools and such."
 	icon_state = "vest_utility"

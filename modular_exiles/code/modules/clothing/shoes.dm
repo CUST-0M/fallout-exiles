@@ -116,8 +116,8 @@
 /obj/item/clothing/shoes/f13/roman
 	name = "roman sandals"
 	desc = "Sandals with buckled leather straps on it."
-	icon = 'modular_exiles/icons/clothes/shoes.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/feet.dmi'
+	icon = 'modular_exiles/icons/clothing/shoes.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/feet.dmi'
 	icon_state = "legion_sandals"
 	item_state = "legion_sandals"
 	strip_delay = 100
@@ -128,8 +128,8 @@
 /obj/item/clothing/shoes/f13/peltboots
 	name = "pelt boots"
 	desc = "These boots are made from tanned hide and lined with soft long horner wool. A fashion from wealthy tribes that has spread. "
-	icon = 'modular_exiles/icons/clothes/shoes.dmi'
-	mob_overlay_icon = 'modular_exiles/icons/mob/clothes/feet.dmi'
+	icon = 'modular_exiles/icons/clothing/shoes.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/feet.dmi'
 	icon_state = "legion_pelt"
 	item_state = "legion_pelt"
 	cold_protection = FEET
@@ -139,7 +139,7 @@
 	name = "rough leather boots"
 	desc = "A pair of crudely made leather boots, followng the standardized pattern laid down according to the wisdom of Caesar."
 	icon = 'icons/fallout/clothing/shoes.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/shoe.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothing/shoe.dmi'
 	icon_state = "legion_leather"
 	item_state = "legion_leather"
 
@@ -147,7 +147,7 @@
 	name = "plated war boots"
 	desc = "A pair of leather boots reinforced with hardened toe caps and shin guards, usually recycled old workboot steel caps taken from rotted old boots and glued to new ones."
 	icon = 'icons/fallout/clothing/shoes.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/shoe.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothing/shoe.dmi'
 	icon_state = "legion_war"
 	item_state = "legion_war"
 	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
@@ -156,7 +156,7 @@
 	name = "heavy metal boots"
 	desc = "A pair of heavy leather boots with bronzed metal leg guards added. These belong to a Legate of Caesar's Legion."
 	icon = 'icons/fallout/clothing/shoes.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/shoe.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothing/shoe.dmi'
 	icon_state = "legion_legate"
 	item_state = "legion_legate"
 	armor = list("melee" = 30, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 30, "bio" = 0, "rad" = 10, "fire" = 30, "acid" = 10)
@@ -169,7 +169,7 @@
 	name = "steel-tipped boots"
 	desc = "A pair of leather boots reinforced with metal toe caps. The shin guards can be removed easily (alt-click)."
 	icon = 'icons/fallout/clothing/khans.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/khaans.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothing/khaans.dmi'
 	icon_state = "khan_boots"
 	item_state = "khan_boots"
 	armor = list(melee = 20, bullet = 20, laser = 10, energy = 10, bomb = 20, bio = 0, rad = 0, fire = 20, acid = 0)
@@ -217,7 +217,7 @@
 	name = "tall pelt boots"
 	desc = "A pair of soft pelt boots with fur lining."
 	icon = 'icons/fallout/clothing/khans.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/khaans.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothing/khaans.dmi'
 	icon_state = "khan_peltboots"
 	item_state = "khan_peltboots"
 
