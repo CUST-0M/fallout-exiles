@@ -1236,7 +1236,7 @@
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 40)
 
 /obj/item/clothing/under/f13/worn
-	name = "worn outfit "
+	name = "worn outfit"
 	desc = "A worn khaki shirt without any buttons left, and a ragged pair of jeans.<br>It may seem a bad outfit choice at first, yet there are wastelanders out there who can't afford even that."
 	icon_state = "worn"
 	item_state = "brownjsuit"
@@ -1246,6 +1246,15 @@
 	name = "vault jumpsuit"
 	desc = "The regulation clothing worn by the vault dwellers of Vault-Tec vaults. It's made of sturdy leather.<br>This particular jumpsuit has no number on the back."
 	icon_state = "vault"
+	item_state = "b_suit"
+	item_color = "vault"
+	can_adjust = TRUE
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 10, "rad" = 30, "fire" = 30, "acid" = 40)
+
+/obj/item/clothing/under/f13/vaultsec
+	name = "vault security jumpsuit"
+	desc = "The regulation clothing worn by the vault dwellers of Vault-Tec vaults. It's made of sturdy leather.<br>This particular jumpsuit has no number on the back."
+	icon_state = "vaultsec"
 	item_state = "b_suit"
 	item_color = "vault"
 	can_adjust = TRUE

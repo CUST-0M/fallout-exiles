@@ -1379,7 +1379,6 @@
 /datum/component/storage/concrete/pockets/tiny/legion
 	max_items = 3
 
-
 /obj/item/clothing/suit/armor/f13/legion/forgemaster
 	name = "forgemaster armor"
 	desc = "Legion armor reinforced with metal, worn with a Forgemaster apron with the bull insignia over it."

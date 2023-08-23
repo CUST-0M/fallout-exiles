@@ -62,7 +62,7 @@
 	jobtype = /datum/job/enclave/enclavecpt
 	head = /obj/item/clothing/head/helmet/f13/power_armor/advanced/hellfire
 	uniform = /obj/item/clothing/under/f13/enclave/officer
-	suit = /obj/item/clothing/suit/armor/f13/power_armor/advanced/hellfire
+	suit = /obj/item/clothing/suit/armor/f13/power_armor/hellfire
 	suit_store = /obj/item/gun/energy/laser/plasma/glock/extended
 	accessory = /obj/item/clothing/accessory/ncr/CPT
 	id = /obj/item/card/id/dogtag/enclave/officer
@@ -113,7 +113,7 @@
 
 	head = /obj/item/clothing/head/helmet/f13/enclave/officer
 	uniform = /obj/item/clothing/under/f13/enclave/officer
-	suit = /obj/item/clothing/suit/armor/f13/enclavetrenchcoat
+	suit = /obj/item/clothing/suit/armor/f13/enclave/enclavetrenchcoat
 	accessory = /obj/item/clothing/accessory/ncr/LT1
 	id = /obj/item/card/id/dogtag/enclave/officer
 	ears = /obj/item/radio/headset/headset_enclave/command
@@ -177,8 +177,8 @@
 /datum/outfit/job/enclave/peacekeeper/f13gysergeant
 	name = "Enclave Gunnery Sergeant"
 	jobtype = /datum/job/enclave/f13gysergeant
-	head = /obj/item/clothing/head/helmet/f13/enclave/marine
-	suit = /obj/item/clothing/suit/armor/f13/enclave/marine
+	head = /obj/item/clothing/head/helmet/f13/power_armor/x02helmet
+	suit = /obj/item/clothing/suit/armor/f13/enclave/power_armor/x02/mkII
 	accessory = /obj/item/clothing/accessory/enclave/master_sergeant
 
 	backpack_contents = list(
@@ -235,8 +235,8 @@
 /datum/outfit/job/enclave/peacekeeper/Armoredinfantry
 	name = "Enclave Armored Infantry"
 	jobtype = /datum/job/enclave/Armoredinfantry
-	head = /obj/item/clothing/head/helmet/f13/power_armor/x02helmet
-	suit = /obj/item/clothing/suit/armor/f13/power_armor/x02
+	head = /obj/item/clothing/head/helmet/f13/power_armor/advanced
+	suit = /obj/item/clothing/suit/armor/f13/enclave/power_armor/x02
 	accessory = /obj/item/clothing/accessory/enclave/specialist
 
 	backpack_contents = list(
@@ -288,8 +288,8 @@
 /datum/outfit/job/enclave/peacekeeper/enclavesgt
 	name = "Enclave Sergeant"
 	jobtype = /datum/job/enclave/enclavesgt
-	suit = /obj/item/clothing/suit/armor/f13/combat/mk2/remnant
-	head = /obj/item/clothing/head/helmet/f13/combat/mk2/remnant
+	suit = /obj/item/clothing/suit/armor/f13/power_armor/x02
+	head = /obj/item/clothing/head/helmet/f13/power_armor/x02helmet
 	accessory = /obj/item/clothing/accessory/enclave/sergeant
 
 	backpack_contents = list(
@@ -341,7 +341,7 @@
 /datum/outfit/job/enclave/peacekeeper/f13specialist
 	name = "Enclave Specialist"
 	jobtype = /datum/job/enclave/f13specialist
-	suit = /obj/item/clothing/suit/armor/bulletproof
+	suit = /obj/item/clothing/suit/armor/f13/enclave/armorvest
 	suit_store = /obj/item/gun/ballistic/automatic/smg/mp5
 	accessory = /obj/item/clothing/accessory/enclave/specialist
 
@@ -398,8 +398,8 @@
 /datum/outfit/job/enclave/peacekeeper/enclavespy
 	name = "Enclave Private"
 	jobtype = /datum/job/enclave/enclavespy
-	head = /obj/item/clothing/head/helmet/f13/combat/swat/enclave
-	suit = /obj/item/clothing/suit/armor/f13/combat/swat/enclave
+	head = /obj/item/clothing/head/helmet/f13/combat/mk2/remnant
+	suit = /obj/item/clothing/suit/armor/f13/enclave/combat
 	accessory = /obj/item/clothing/accessory/enclave
 
 	backpack_contents = list(

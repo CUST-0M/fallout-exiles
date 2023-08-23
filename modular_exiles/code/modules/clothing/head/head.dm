@@ -322,12 +322,6 @@
 	icon_state = "t51bhelmet[light_on]"
 	item_state = "t51bhelmet[light_on]"
 
-/obj/item/clothing/head/helmet/f13/power_armor/t51b/altum
-	name = "Painted T-51b power helmet"
-	desc = "It's a T-51b power helmet, typically used by the Brotherhood, looks a little Russian."
-	icon_state = "altumt51helm"
-	item_state = "altumt51helm"
-
 /obj/item/clothing/head/helmet/f13/power_armor/t51b/bos
 	name = "T-51b power helmet"
 	desc = "It's a T-51b power helmet, typically used by the Brotherhood. It looks somewhat charming."
@@ -353,13 +347,6 @@
 	desc = "The T-60 powered helmet, equipped with targetting software suite, Friend-or-Foe identifiers, dynamic HuD, and an internal music player. This suit is heavily degraded." //reskin of head knight armor
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 60, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
 
-/obj/item/clothing/head/helmet/f13/power_armor/excavator
-	name = "excavator power helmet"
-	desc = "The helmet of the excavator power armor suit."
-	icon_state = "excavator"
-	item_state = "excavator"
-	armor = list("melee" = 80, "bullet" = 50, "laser" = 50, "energy" = 15, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 95, "acid" = 80, "wound" = 80)
-
 /obj/item/clothing/head/helmet/f13/power_armor/advanced
 	name = "advanced power helmet"
 	desc = "It's an advanced power armor MK1 helmet, typically used by the Enclave. It looks somewhat threatening."
@@ -375,18 +362,6 @@
 	slowdown = 0.1
 	armor = list("melee" = 85, "bullet" = 85, "laser" = 85, "energy" = 65, "bomb" = 70, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 50, "wound" = 75)
 	actions_types = list(/datum/action/item_action/toggle_helmet_light)
-
-/obj/item/clothing/head/helmet/f13/power_armor/x02helmet/altumHelm
-	name = "hellfire power helmet"
-	desc = "The advanced MKII power armor helmet. Just looking at this makes you feel self conscious about your DNA."
-	icon_state = "AltumHelm"
-	item_state = "AltumHelm"
-
-/obj/item/clothing/head/helmet/f13/power_armor/x02helmet/sokkxxhelm
-	name =  "experimental X02 power armor helmet"
-	desc = "A modified X02 helmet that has had it's circuitry replaced with parts from an old functional tesla coil. This one seemingly doesn't discharge in the immediate area."
-	icon_state = "pinkhelmet"
-	item_state = "pinkhelmet"
 
 /obj/item/clothing/head/helmet/f13/power_armor/advanced/hellfire
 	name = "hellfire power armor helmet"
@@ -638,34 +613,6 @@
 	desc = "A resistant, tan peaked cap, typically worn by pre-War Generals."
 	icon_state = "macarthur"
 	item_state = "macarthur"
-
-/obj/item/clothing/head/helmet/f13/ncr/rangercombat/pricecustom
-	name = "spider riot helmet"
-	desc = "A customised riot helmet reminiscient of the more advanced riot helmets found in the Divide, sporting purple lenses over the traditional red or green and a pair of red fangs painted over the respirator. The back of the helmet has a the face of an albino spider painted over it."
-	icon_state = "price_ranger"
-	item_state = "price_ranger"
-
-/obj/item/clothing/head/helmet/f13/ncr/rangercombat/foxcustom
-	name = "reclaimed ranger-hunter combat helmet"
-	desc = "A reclaimed Ranger-Hunter centurion helmet, carefully and lovingly restored to working condition with a sniper's veil wrapped around the neck. 'DE OPPRESSO LIBER' is stenciled on the front."
-	icon_state = "foxranger"
-	item_state = "foxranger"
-	actions_types = list(/datum/action/item_action/toggle)
-	toggle_message = "You put the sniper's veil on"
-	alt_toggle_message = "You take the sniper's veil off"
-	can_toggle = 1
-	toggle_cooldown = 0
-
-/obj/item/clothing/head/helmet/f13/ncr/rangercombat/degancustom
-	name = "reclaimed ranger-hunter combat helmet"
-	desc = "A reclaimed Ranger-Hunter centurion helmet, carefully and lovingly restored to working condition with a sniper's veil wrapped around the neck. 'DE OPPRESSO LIBER' is stenciled on the front."
-	icon_state = "elite_riot"
-	item_state = "elite_riot"
-	actions_types = list(/datum/action/item_action/toggle)
-	toggle_message = "You put the sniper's veil on"
-	alt_toggle_message = "You take the sniper's veil off"
-	can_toggle = 1
-	toggle_cooldown = 0
 
 /obj/item/clothing/head/helmet/f13/power_armor/midwest/hardened
 	name = "hardened midwestern power helmet"
@@ -939,7 +886,6 @@
 //ENCLAVE//
 ///////////
 
-
 /obj/item/clothing/head/f13/enclave
 	name = "officer hat"
 	desc = "A standard-issue Enclave officer's cap."
@@ -1024,7 +970,6 @@
 	icon_state = "hat_enclave_officer"
 	item_state = "hat_enclave_officer"
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 50, "energy" = 22, "bomb" = 55, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 55)
-
 
 //////////
 //LEGION//
