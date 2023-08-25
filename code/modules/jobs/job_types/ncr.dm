@@ -903,7 +903,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	neck = /obj/item/storage/belt/holster/legholster
 	accessory = /obj/item/clothing/accessory/armband/black
 	head = /obj/item/clothing/head/f13/ncr/steelpot_mp
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
+	suit = /obj/item/clothing/suit/armor/f13/ncr/ncrarmormantreinf
 	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
 	backpack = /obj/item/storage/backpack/satchel/trekker
 	suit_store = /obj/item/gun/ballistic/shotgun/police
@@ -1052,7 +1052,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 /datum/outfit/loadout/corporalcommand	
 	name = "Combat Medic"
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle
+	suit = /obj/item/clothing/suit/armor/f13/ncr/ncrarmormant
 	suit_store = /obj/item/gun/ballistic/automatic/m1carbine
 	neck = /obj/item/storage/belt/holster/legholster
 	head = /obj/item/clothing/head/f13/ncr/steelpot_goggles
@@ -1108,7 +1108,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	id = /obj/item/card/id/dogtag/ncrtrooper
 	accessory = /obj/item/clothing/accessory/ncr/TPR
 	head = /obj/item/clothing/head/f13/ncr
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor
+	suit = /obj/item/clothing/suit/armor/f13/ncr/ncrarmorvest
 	glasses	= null
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
@@ -1133,66 +1133,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/ammo_box/magazine/m10mm_adv/ext = 2,
 		/obj/item/shovel/trench = 1,
 		/obj/item/stack/sheet/mineral/sandbags = 10,
-		/obj/item/storage/box/ration/menu_eight = 1,
-		)
-
-
-// CONSCRIPT
-
-/datum/job/ncr/f13conscript
-	title = "Conscript"
-	flag = F13CONSCRIPT
-	total_positions = 3
-	spawn_positions = 3
-	description = "You are the recent bulk of the NCR Army. You have been recently conscripted, given little to no training and were issued a gun. Obey your the NCOs and officers, no matter what you are expected to follow military discipline."
-	supervisors = "The Drill Sergeant, Corporals and Above"
-	selection_color = "#fff5cc"
-	display_order = JOB_DISPLAY_ORDER_TROOPER
-	outfit = /datum/outfit/job/ncr/f13conscript
-	mapexclude = list("standard")
-
-	loadout_options = list(
-		/datum/outfit/loadout/conscriptvarmint, // Service Rifle, Bayonet
-		/datum/outfit/loadout/conscripthunting, // Hunting rifle, Trench tool, Sandbags
-		)
-
-	matchmaking_allowed = list(
-		/datum/matchmaking_pref/friend = list(
-			/datum/job/ncr,
-			),
-		/datum/matchmaking_pref/rival = list(
-			/datum/job/ncr,
-			),
-		)
-
-/datum/outfit/job/ncr/f13conscript
-	name = "NCR Conscript"
-	jobtype	= /datum/job/ncr/f13conscript
-	id = /obj/item/card/id/dogtag/ncrtrooper
-	accessory = /obj/item/clothing/accessory/ncr/REC
-	head = /obj/item/clothing/head/f13/ncr/standard/conscript
-	uniform = /obj/item/clothing/under/f13/ncr/conscript
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/conscript
-	backpack_contents = list(
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
-		)
-
-/datum/outfit/loadout/conscriptvarmint
-	name = "Assault"
-	suit_store = /obj/item/gun/ballistic/automatic/varmint
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle = 1,
-		/obj/item/melee/onehanded/knife/bayonet = 1,
-		/obj/item/storage/box/ration/menu_two = 1,
-		)
-
-/datum/outfit/loadout/conscripthunting
-	name = "Reservist"
-	suit_store = /obj/item/gun/ballistic/rifle/hunting
-	backpack_contents = list(
-		/obj/item/ammo_box/a308 = 2,
-		/obj/item/shovel/trench = 1,
-		/obj/item/stack/sheet/mineral/sandbags = 7,
 		/obj/item/storage/box/ration/menu_eight = 1,
 		)
 
