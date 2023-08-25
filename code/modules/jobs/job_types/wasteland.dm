@@ -300,17 +300,6 @@ Raider
 		/obj/item/book/granter/crafting_recipe/scav_one = 1
 		)
 
-/datum/outfit/loadout/raider_vault
-	name = "Vault Renegade"
-	suit = /obj/item/clothing/suit/armor/vest/big
-	uniform = /obj/item/clothing/under/f13/exile/vault
-	id = /obj/item/card/id/rusted/fadedvaultid
-	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/pistol/n99 = 1,
-		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
-		/obj/item/radio/headset = 1
-		)
-
 /datum/outfit/loadout/raider_tribal
 	name = "Tribal Outcast"
 	uniform = /obj/item/clothing/under/f13/exile/tribal
@@ -428,12 +417,10 @@ Raider
 	..()
 	suit = pick(
 		/obj/item/clothing/suit/armor/f13/kit, \
-		/obj/item/clothing/suit/armor/armor/f13/duster/vet, \
 		/obj/item/clothing/suit/toggle/labcoat/f13/wanderer, \
 		/obj/item/clothing/suit/f13/duster, \
 		/obj/item/clothing/suit/f13/mfp/raider, \
 		/obj/item/clothing/suit/armor/f13/leatherarmor, \
-		/obj/item/clothing/suit/armor/light/cowboyvest, \
 		/obj/item/clothing/suit/f13/vest, \
 		/obj/item/clothing/suit/toggle/lawyer/black \
 		)
