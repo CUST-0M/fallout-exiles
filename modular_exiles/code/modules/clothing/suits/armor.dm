@@ -581,8 +581,6 @@
 	item_state = "t51bpowerarmor"
 	slowdown = 0.25 //+0.05 from helmet = total 0.255
 	armor = list("melee" = 72.5, "bullet" = 72.5, "laser" = 72.5, "energy" = 30, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 40, "wound" = 72)
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 25)
-	salvaged_type = /obj/item/clothing/suit/armor/salvaged_pa/t51b
 
 /obj/item/clothing/suit/armor/f13/power_armor/t51green
 	name = "hardened T-51b power armor"

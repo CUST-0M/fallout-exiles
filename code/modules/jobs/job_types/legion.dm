@@ -370,7 +370,7 @@ commented out pending rework*/
 	suit = /obj/item/clothing/suit/armor/f13/legion/vetdecan
 	mask = /obj/item/clothing/mask/f13/bandana/legion/legdecan
 	neck = /obj/item/storage/belt/holster
-	gloves = /obj/item/clothing/gloves/legion/plated
+	gloves = /obj/item/clothing/gloves/f13/plated
 	ears = /obj/item/radio/headset/headset_legion/cent
 	glasses = /obj/item/clothing/glasses/f13/sunglasses
 	shoes = /obj/item/clothing/shoes/f13/military/plated
@@ -464,7 +464,7 @@ commented out pending rework*/
 	head = /obj/item/clothing/head/helmet/f13/legion/prime/decan
 	mask = /obj/item/clothing/mask/f13/bandana/legion/legdecan
 	neck = /obj/item/storage/belt/holster
-	glasses = /obj/item/clothing/glasses/legiongoggles
+	glasses = /obj/item/clothing/glasses/f13/legiongoggles
 	shoes = /obj/item/clothing/shoes/f13/military/plated
 	r_pocket = /obj/item/flashlight/lantern
 	l_pocket = /obj/item/restraints/handcuffs
@@ -553,7 +553,7 @@ commented out pending rework*/
 	head = /obj/item/clothing/head/helmet/f13/legion/recruit/decan
 	mask = /obj/item/clothing/mask/f13/bandana/legion/legdecan
 	neck = /obj/item/storage/belt/holster
-	glasses = /obj/item/clothing/glasses/legiongoggles
+	glasses = /obj/item/clothing/glasses/f13/legiongoggles
 	r_pocket = /obj/item/flashlight/lantern
 	box = /obj/item/storage/survivalkit_tribal
 	backpack_contents = list(
@@ -618,7 +618,7 @@ commented out pending rework*/
 	id = /obj/item/card/id/dogtag/legvenator
 	suit = /obj/item/clothing/suit/armor/f13/legion/venator
 	head = /obj/item/clothing/head/helmet/f13/legion/venator
-	mask = /obj/item/clothing/mask/bandana/legion/legdecan
+	mask = /obj/item/clothing/mask/f13/bandana/legion/legdecan
 	neck = /obj/item/storage/belt/holster
 	glasses = /obj/item/clothing/glasses/f13/night/polarizing
 	ears = /obj/item/radio/headset/headset_legion
@@ -833,7 +833,7 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight
 	l_pocket = /obj/item/binoculars
 	shoes = /obj/item/clothing/shoes/laceup
-	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof
+	suit = /obj/item/clothing/suit/armor/f13/vest/bulletproof
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
@@ -1171,7 +1171,7 @@ commented out pending rework*/
 	glasses = /obj/item/clothing/glasses/welding
 	belt = /obj/item/storage/belt/utility/waster/forgemaster
 	neck = /obj/item/clothing/neck/apron/labor/forge
-	gloves = /obj/item/clothing/gloves/legion/forgemaster
+	gloves = /obj/item/clothing/gloves/f13/legion/forgemaster
 	shoes = /obj/item/clothing/shoes/f13/military/plated
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
@@ -1230,7 +1230,7 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 	suit = 			/obj/item/clothing/suit/armor/f13/legion/prime/slavemaster
 	belt = 			/obj/item/melee/onehanded/slavewhip
 	head = 			/obj/item/clothing/head/helmet/f13/legion/prime/slavemaster
-	shoes =			/obj/item/clothing/shoes/roman
+	shoes =			/obj/item/clothing/shoes/f13/roman
 	suit_store = 	/obj/item/melee/onehanded/machete/forgedmachete
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
@@ -1281,7 +1281,7 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 	jobtype = /datum/job/CaesarsLegion/auxilia
 	id = /obj/item/card/id/dogtag/legauxilia
 	head = /obj/item/clothing/head/f13/auxilia
-	shoes = /obj/item/clothing/shoes/roman
+	shoes = /obj/item/clothing/shoes/f13/roman
 	ears = /obj/item/radio/headset/headset_legion
 	gloves = null
 	belt = null

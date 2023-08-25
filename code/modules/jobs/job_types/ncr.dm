@@ -80,11 +80,11 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	uniform	= /obj/item/clothing/under/f13/ncr/ncr_dress
 	shoes = /obj/item/clothing/shoes/f13/military/ncr_officer_boots
 	accessory = /obj/item/clothing/accessory/ncr
-	head = /obj/item/clothing/head/beret/ncr_codresscap
+	head = /obj/item/clothing/head/beret/f13/ncrberet
 	neck = /obj/item/storage/belt/holster
 	glasses = /obj/item/clothing/glasses/sunglasses/big
 	gloves = /obj/item/clothing/gloves/f13/leather
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack
+	suit = /obj/item/clothing/suit/armor/f13/ncr/colonel
 	r_pocket = /obj/item/binoculars
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/deagle
 	backpack_contents = list(
@@ -123,7 +123,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	head = /obj/item/clothing/head/f13/ncr/ncr_campaign
 	neck = /obj/item/storage/belt/holster
 	gloves = /obj/item/clothing/gloves/f13/leather
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack
+	suit = /obj/item/clothing/suit/f13/ncr_dressjack
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/deagle
 	r_hand = /obj/item/melee/onehanded/club/ncrflag
 	backpack_contents = list(
@@ -174,9 +174,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	id = /obj/item/card/id/dogtag/ncrcaptain
 	uniform	= /obj/item/clothing/under/f13/ncr/ncr_officer
 	head = /obj/item/clothing/head/beret/ncr
-	glasses = /obj/item/clothing/glasses/sunglasses/big
 	ears = /obj/item/radio/headset/headset_ncr_com
-	glasses = /obj/item/clothing/glasses/night/ncr
 	gloves = /obj/item/clothing/gloves/f13/leather
 	shoes = /obj/item/clothing/shoes/f13/military/ncr_officer_boots
 	accessory = /obj/item/clothing/accessory/ncr/CPT
@@ -461,8 +459,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 	loadout_options = list(
 		/datum/outfit/loadout/repbrahminbaron,
-		/datum/outfit/loadout/repexecutive,
-		/*datum/outfit/loadout/repambassador*/
+		/datum/outfit/loadout/repexecutive
 		)
 
 	matchmaking_allowed = list(
@@ -570,7 +567,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	head = /obj/item/clothing/head/helmet/f13/ncr/rangercombat
 	gloves = /obj/item/clothing/gloves/rifleman
 	shoes =	/obj/item/clothing/shoes/f13/military/leather
-	glasses	= /obj/item/clothing/glasses/sunglasses
 	neck = /obj/item/storage/belt/holster
 	ears = /obj/item/radio/headset/headset_ranger
 	mask = /obj/item/clothing/mask/gas/ranger
@@ -665,7 +661,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	head = /obj/item/clothing/head/f13/trailranger
 	gloves = /obj/item/clothing/gloves/patrol
 	shoes = /obj/item/clothing/shoes/f13/military/leather
-	glasses	= /obj/item/clothing/glasses/sunglasses
 	belt = null
 	ears = /obj/item/radio/headset/headset_ranger
 	r_pocket = /obj/item/binoculars
@@ -907,7 +902,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	id = /obj/item/card/id/dogtag/ncrsergeant
 	neck = /obj/item/storage/belt/holster/legholster
 	accessory = /obj/item/clothing/accessory/armband/black
-	glasses	= /obj/item/clothing/glasses/sunglasses/big
 	head = /obj/item/clothing/head/f13/ncr/steelpot_mp
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
 	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
@@ -978,9 +972,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		return
 	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)
 	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/medx)
-
-
 
 /////////////////////////
 //// Regular Soldiers ///
@@ -1182,7 +1173,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	head = /obj/item/clothing/head/f13/ncr/standard/conscript
 	uniform = /obj/item/clothing/under/f13/ncr/conscript
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/conscript
-	glasses	= null
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		)
@@ -1238,7 +1228,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	accessory =	/obj/item/clothing/accessory/ncr/LT2
 	head = /obj/item/clothing/head/beret/ncr/ncr_medic
 	neck = /obj/item/storage/belt/holster/legholster
-	glasses = /obj/item/clothing/glasses/hud/health/f13
 	gloves = /obj/item/clothing/gloves/color/latex/nitrile
 	ears = /obj/item/radio/headset/headset_ncr_com
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/labcoat

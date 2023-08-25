@@ -1999,7 +1999,6 @@ obj/item/clothing/head/f13/army/beret
 	armor = list("melee" = 60, "bullet" = 60, "laser" = 50, "energy" = 15, "bomb" = 40, "bio" = 55, "rad" = 25, "fire" = 55, "acid" = 15, "wound" = 25)
 	slowdown = 0.05
 
-
 /obj/item/clothing/head/helmet/f13/salvaged_pa/ncr_t45b
 	name = "ncr salvaged T-45b helmet"
 	desc = "It's an NCR salvaged T-45b power armor helmet, better repaired than regular salvaged PA, and decorated with the NCR flag and other markings for an NCR Heavy Trooper."

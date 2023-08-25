@@ -114,7 +114,7 @@
 	item_state = "ncr_officer_boots"
 
 /obj/item/clothing/shoes/f13/roman
-	name = "roman sandals"
+	name = "leather sandals"
 	desc = "Sandals with buckled leather straps on it."
 	icon = 'modular_exiles/icons/clothing/shoes.dmi'
 	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/feet.dmi'
