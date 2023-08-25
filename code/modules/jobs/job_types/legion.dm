@@ -45,7 +45,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	uniform = /obj/item/clothing/under/f13/legskirt
 	shoes = /obj/item/clothing/shoes/f13/military/legion
-	gloves = /obj/item/clothing/gloves/legion
+	gloves = /obj/item/clothing/gloves/f13/legion
 	box = /obj/item/storage/survivalkit_tribal
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -121,7 +121,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	shoes =	/obj/item/clothing/shoes/f13/military/legate
 	suit = /obj/item/clothing/suit/armor/f13/legion/legate
 	head = /obj/item/clothing/head/helmet/f13/legion/legate
-	gloves = /obj/item/clothing/gloves/legion/legate
+	gloves = /obj/item/clothing/gloves/f13/legion/legate
 	glasses = /obj/item/clothing/glasses/sunglasses/big
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/pistol14
 	r_pocket = /obj/item/storage/bag/money/small/legion
@@ -166,7 +166,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	shoes =	/obj/item/clothing/shoes/f13/military/plated
 	suit = null
 	head = /obj/item/clothing/head/helmet/f13/legion/orator
-	gloves = /obj/item/clothing/gloves/legion/plated
+	gloves = /obj/item/clothing/gloves/f13/plated
 	glasses = /obj/item/clothing/glasses/sunglasses/big
 	suit_store = null
 	r_pocket = /obj/item/storage/bag/money/small/legion
@@ -272,7 +272,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	mask = /obj/item/clothing/mask/bandana/legion/legcenturion
 	ears = /obj/item/radio/headset/headset_legion/cent
 	neck = /obj/item/clothing/neck/mantle/legion
-	gloves = /obj/item/clothing/gloves/legion/plated
+	gloves = /obj/item/clothing/gloves/f13/plated
 	glasses = /obj/item/clothing/glasses/night/polarizing
 	shoes = /obj/item/clothing/shoes/f13/military/plated
 	r_pocket = /obj/item/restraints/handcuffs
@@ -684,7 +684,7 @@ commented out pending rework*/
 	mask = /obj/item/clothing/mask/bandana/legion/legvet
 	neck = /obj/item/storage/belt/holster
 	glasses = /obj/item/clothing/glasses/sunglasses
-	gloves = /obj/item/clothing/gloves/legion/plated
+	gloves = /obj/item/clothing/gloves/f13/plated
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healpoultice = 1,
