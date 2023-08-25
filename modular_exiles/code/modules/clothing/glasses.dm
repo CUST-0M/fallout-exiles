@@ -35,13 +35,6 @@
 	item_state = "enclavegoggles"
 	vision_correction = 1 
 
-/obj/item/clothing/glasses/f13/night/ncr
-	name = "lit shades"
-	desc = "Strangely ancient technology used to help provide rudimentary eye cover. Larger than average enhanced shielding blocks flashes, it's also got Night Vision installed, wow!"
-	icon_state = "bigsunglasses"
-	item_state = "bigsunglasses"
-
-
 //Fallout 13 sunglasses
 
 /obj/item/clothing/glasses/f13/sunglasses
@@ -62,6 +55,11 @@
 	item_state = "3d"
 	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 100, fire = 100, acid = 100)
 
+/obj/item/clothing/glasses/f13/night/ncr
+	name = "lit shades"
+	desc = "Strangely ancient technology used to help provide rudimentary eye cover. Larger than average enhanced shielding blocks flashes, it's also got Night Vision installed, wow!"
+	icon_state = "bigsunglasses"
+	item_state = "bigsunglasses"
 
 //Fallout 13 science goggles
 

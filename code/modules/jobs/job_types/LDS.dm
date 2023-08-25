@@ -94,7 +94,7 @@ Mayor
 	suit = /obj/item/clothing/suit/toggle/lawyer/black
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/m1911/custom
 	backpack_contents = list(
-		/obj/item/clothing/suit/armor/bulletproof = 1,
+		/obj/item/clothing/suit/armor/f13/vest/bulletproof = 1,
 		/obj/item/clothing/head/helmet/f13/combat/swat = 1,
 		/obj/item/storage/book/bible = 1,
 		/obj/item/ammo_box/magazine/m45 = 3,
@@ -181,7 +181,7 @@ datum/outfit/job/latterdaysaints/f13missionary/pre_equip(mob/living/carbon/human
 	shoes = /obj/item/clothing/shoes/laceup
 	backpack = /obj/item/storage/backpack/satchel/bone
 	satchel = /obj/item/storage/backpack/satchel/leather
-	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof
+	suit = /obj/item/clothing/suit/armor/f13/vestarmor
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m45 = 3,
 		/obj/item/melee/onehanded/club/warclub = 1,

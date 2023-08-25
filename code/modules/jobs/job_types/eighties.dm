@@ -487,9 +487,9 @@
 		uniform = /obj/item/clothing/under/f13/eighties
 	
 	suit = pick(
-		/obj/item/clothing/suit/f13/tribal/heavy/eighties, \
-		/obj/item/clothing/suit/f13/tribal/eighties, \
-		/obj/item/clothing/suit/f13/tribal/light/eighties, \
+		/obj/item/clothing/suit/armor/f13/tribal/eightiesheavy, \
+		/obj/item/clothing/suit/armor/f13/tribal/eighties, \
+		/obj/item/clothing/suit/armor/f13/tribal/eightieslight, \
 		)
 
 /datum/outfit/job/eighties/f13eighty/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -744,7 +744,6 @@
 		/obj/item/clothing/under/pants/f13/ghoul, \
 		/obj/item/clothing/under/jabroni, \
 		/obj/item/clothing/under/f13/merca, \
-		/obj/item/clothing/under/f13/khan/bearvest, \
 		/obj/item/clothing/under/pants/chaps, \
 		/obj/item/clothing/under/f13/rag \
 		)
@@ -769,10 +768,8 @@
 		/obj/item/clothing/suit/armor/f13/raider/painspike, \
 		/obj/item/clothing/suit/armor/f13/raider/sadist, \
 		/obj/item/clothing/suit/armor/f13/raider/supafly, \
-		/obj/item/clothing/suit/armored/light/tribalraider, \
 		/obj/item/clothing/suit/armor/f13/raider/yankee, \
-		/obj/item/clothing/suit/armor/f13/raider/rebel, \
-		/obj/item/clothing/suit/armored/medium/motorball \
+		/obj/item/clothing/suit/armor/f13/raider/rebel \
 		)
 
 	suit_store = pick(

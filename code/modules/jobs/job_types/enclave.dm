@@ -20,7 +20,7 @@
 	glasses = /obj/item/clothing/glasses/night/f13/enclave
 	belt = /obj/item/storage/belt/military/assault/enclave
 	r_pocket = /obj/item/flashlight/seclite
-	shoes = /obj/item/clothing/shoes/f13/enclave/serviceboots
+	shoes = /obj/item/clothing/shoes/f13/serviceboots
 	box = /obj/item/storage/survivalkit_adv
 
 /datum/outfit/job/enclave/peacekeeper
@@ -288,7 +288,7 @@
 /datum/outfit/job/enclave/peacekeeper/enclavesgt
 	name = "Enclave Sergeant"
 	jobtype = /datum/job/enclave/enclavesgt
-	suit = /obj/item/clothing/suit/armor/f13/power_armor/x02
+	suit = /obj/item/clothing/suit/armor/f13/enclave/power_armor/x02
 	head = /obj/item/clothing/head/helmet/f13/power_armor/x02helmet
 	accessory = /obj/item/clothing/accessory/enclave/sergeant
 
