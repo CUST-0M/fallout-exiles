@@ -1279,19 +1279,6 @@
 	dog_fashion = null
 	armor = list("melee" = 25, "bullet" = 44, "laser" = 44, "energy" = 20, "bomb" = 85, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 
-/obj/item/clothing/head/f13/ncr/standard/conscript
-	name = "NCR conscript helmet"
-	desc = "A standard issue NCR steel helmet. Looks like you can write on it and strap a few items on the helmet band."
-	icon_state = "ncr_steelpot"
-	item_state = "ncr_steelpot"
-	armor = list("melee" = 20, "bullet" = 30, "laser" = 10, "energy" = 20, "bomb" = 30, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
-	dynamic_hair_suffix = ""
-	flags_inv = HIDEEARS
-	flags_cover = HEADCOVERSEYES
-	visor_flags_cover = HEADCOVERSEYES
-	dog_fashion = null
-	unique_reskin = list("M1" = "ncr_old")
-
 /obj/item/clothing/head/f13/ncr/ncr_flapcap
 	name = "NCR field cap"
 	desc = "A special issue canvas NCR field cap with cotton neckflap, for sun protection in arid climates."
