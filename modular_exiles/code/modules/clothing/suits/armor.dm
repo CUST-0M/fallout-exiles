@@ -1436,6 +1436,14 @@
 	slowdown = 0.03
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/binocular
 
+/obj/item/clothing/suit/armor/f13/legion/decan
+	name = "legion decanus armor"
+	desc = "Armor worn by decanii, salvaged bits of enemy armor and scrap metal often reinforcing the armor."
+	icon_state = "legion_veteran"
+	item_state = "legion_veteran"
+	armor = list("melee" = 65, "bullet" = 40, "laser" = 30, "energy" = 20, "bomb" = 30, "bio" = 5, "rad" = 20, "fire" = 35, "acid" = 0, "wound" = 40)
+	slowdown = 0.04
+
 /obj/item/clothing/suit/armor/f13/legion/vet/vexil
 	name = "legion vexillarius armor"
 	desc = " Worn by Vexillarius, this armor has been reinforced with circular metal plates on the chest and a back mounted pole for the flag of the Bull, making the wearer easy to see at a distance."

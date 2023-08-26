@@ -460,7 +460,7 @@ commented out pending rework*/
 	name = "Prime Decanus"
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13decan
 	id = /obj/item/card/id/dogtag/legveteran
-	suit = /obj/item/clothing/suit/armor/f13/legion/prime/decan
+	suit = /obj/item/clothing/suit/armor/f13/legion/decan
 	head = /obj/item/clothing/head/helmet/f13/legion/prime/decan
 	mask = /obj/item/clothing/mask/f13/bandana/legion/legdecan
 	neck = /obj/item/storage/belt/holster
@@ -549,7 +549,7 @@ commented out pending rework*/
 	name = "Recruit Decanus"
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13decanrec
 	id = /obj/item/card/id/dogtag/legveteran
-	suit = /obj/item/clothing/suit/armor/f13/legion/recruit/decan
+	suit = /obj/item/clothing/suit/armor/f13/legion/decan
 	head = /obj/item/clothing/head/helmet/f13/legion/recruit/decan
 	mask = /obj/item/clothing/mask/f13/bandana/legion/legdecan
 	neck = /obj/item/storage/belt/holster
@@ -1473,3 +1473,4 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 		/obj/item/melee/onehanded/machete/spatha = 1,
 		)
 
+/*--------------------------------------------------------------*/

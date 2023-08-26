@@ -122,7 +122,7 @@ Mayor
 	suit = pick(
 		/obj/item/clothing/suit/toggle/labcoat/depjacket/med, \
 		/obj/item/clothing/suit/toggle/labcoat/depjacket/sec, \
-		/obj/item/clothing/suit/armored/light/leather_jacket, \
+		/obj/item/clothing/suit/armor/f13/leather_jacket, \
 		/obj/item/clothing/suit/jacket/miljacket, \
 		/obj/item/clothing/suit/jacket)
 

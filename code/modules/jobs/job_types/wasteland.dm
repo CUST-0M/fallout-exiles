@@ -14,7 +14,7 @@ Raider
 	social_faction = FACTION_RAIDERS
 	total_positions = 10
 	spawn_positions = 10
-	description = "However you came to be here, you are a raider. There is a constant trickle of people on I-80 for you to con, rob, ransom, or enslave. You may find work or refuge with one of the local factions, or choose to go it alone and forge your own raider empire."
+	description = "However you came to be here, you are a raider. There is a constant trickle of people in Yuma for you to con, rob, ransom, or enslave. You may find work or refuge with one of the local factions, or choose to go it alone and forge your own raider empire."
 	supervisors = "Your desire to make things interesting and fun. Don't play this as wastelander+."
 	selection_color = "#dddddd"
 	exp_type = EXP_TYPE_FALLOUT
@@ -64,7 +64,6 @@ Raider
 	/datum/outfit/loadout/raider_badlands,
 	/datum/outfit/loadout/raider_sheriff,
 	/datum/outfit/loadout/raider_smith,
-	/datum/outfit/loadout/raider_vault,
 	/datum/outfit/loadout/raider_ncr,
 	/datum/outfit/loadout/raider_legion,
 	/datum/outfit/loadout/raider_bos,
@@ -671,7 +670,7 @@ Raider
 	id = /obj/item/card/id/dogtag
 	ears = /obj/item/radio/headset/headset_bos
 	uniform = /obj/item/clothing/under/f13/recon
-	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof
+	suit = /obj/item/clothing/suit/armor/f13/vest/bulletproof
 	head = /obj/item/clothing/head/f13/boscap/reconarmorhelmet
 	shoes = /obj/item/clothing/shoes/jackboots
 	r_hand = /obj/item/book/granter/trait/selection
@@ -840,8 +839,8 @@ Raider
 	ears = /obj/item/radio/headset/headset_enclave
 	head = /obj/item/clothing/head/f13/enclave
 	uniform = /obj/item/clothing/under/f13/exile/enclave
-	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof
-	shoes = /obj/item/clothing/shoes/f13/enclave/serviceboots
+	suit = /obj/item/clothing/suit/armor/f13/vest/bulletproof
+	shoes = /obj/item/clothing/shoes/f13/serviceboots
 	r_hand = /obj/item/book/granter/trait/selection
 	l_pocket = /obj/item/storage/bag/money/small/wastelander
 	r_pocket = /obj/item/flashlight/flare

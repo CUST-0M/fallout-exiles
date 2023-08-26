@@ -26,7 +26,6 @@ Mayor
 			/datum/job/wendover,
 			/datum/job/CaesarsLegion,
 			/datum/job/whitelegs,
-			/datum/job/eighties,
 			/datum/job/wasteland/f13wastelander,
 		),
 		/datum/matchmaking_pref/raider = list(
@@ -126,7 +125,7 @@ Mayor
 		/obj/item/clothing/shoes/laceup = 1,
 		/obj/item/gun/ballistic/automatic/pistol/type17 = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
-		/obj/item/clothing/suit/armor/f13/reno/bulletproof = 1,
+		/obj/item/clothing/suit/armor/f13/vest/bulletproof = 1,
 	)
 
 
@@ -191,7 +190,7 @@ Mayor
 		/obj/item/pda = 1,
 		/obj/item/pen/fourcolor = 1,
 		/obj/item/gun/ballistic/revolver/detective = 1,
-		/obj/item/clothing/suit/armor/f13/reno/bulletproof = 1,
+		/obj/item/clothing/suit/armor/f13/vest/bulletproof = 1,
 		)
 
 /datum/outfit/loadout/pr
@@ -223,8 +222,6 @@ Mayor
 		return
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policepistol)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policerifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/steelbib/heavy)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/armyhelmetheavy)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
 
@@ -340,10 +337,7 @@ Mayor
 		return
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policepistol)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policerifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/steelbib/heavy)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/armyhelmetheavy)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
 
 /*--------------------------------------------------------------*/
@@ -435,7 +429,7 @@ Mayor
 	accessory = /obj/item/clothing/accessory/cia_badge
 	head = /obj/item/clothing/head/fedora
 	gloves = /obj/item/clothing/gloves/color/black
-	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof
+	suit = /obj/item/clothing/suit/armor/f13/vest/bulletproof
 	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine/policerifle
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m5mm = 2,
@@ -1062,8 +1056,6 @@ Mayor
 		return
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policepistol)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policerifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/steelbib/heavy)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/armyhelmetheavy)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/trail_carbine)
