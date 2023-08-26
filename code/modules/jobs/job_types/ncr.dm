@@ -246,7 +246,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	neck = /obj/item/storage/belt/holster/legholster
 	gloves = /obj/item/clothing/gloves/f13/leather
 	ears = /obj/item/radio/headset/headset_ncr_com
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/lieutenant
+	suit = /obj/item/clothing/suit/armor/f13/ncr/lieutenant
 	r_pocket = /obj/item/binoculars
 	suit_store = /obj/item/gun/ballistic/automatic/m1garand/republicspride
 	backpack_contents = list(
@@ -311,7 +311,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	id = /obj/item/card/id/dogtag/ncrsergeant
 	accessory = /obj/item/clothing/accessory/ncr/SGT
 	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
+	suit = /obj/item/clothing/suit/armor/f13/ncr/mantle/reinforced
 	neck = /obj/item/storage/belt/holster/legholster
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
@@ -669,15 +669,14 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
 		/obj/item/clothing/mask/f13/gas/ranger = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 3,
-		/obj/item/grenade/smokebomb = 1,
-		/obj/item/stack/crafting/armor_plate = 5
+		/obj/item/grenade/smokebomb = 1
 		)
 
 /datum/outfit/loadout/rangerrecon
 	name = "Recon Ranger"
 	suit = /obj/item/clothing/suit/armor/toggle/f13/rangerrecon
 	belt = /obj/item/storage/belt/military/reconbandolier
-	head = /obj/item/clothing/head/beret/ncr_recon_ranger
+	head = /obj/item/clothing/head/beret/f13/ncr_recon_ranger
 	neck = /obj/item/clothing/neck/mantle/ranger
 	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper/sniperranger
 	backpack_contents = list(
@@ -690,6 +689,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "Trail Ranger"
 	suit = /obj/item/clothing/suit/armor/f13/ranger/trailranger
 	belt = /obj/item/storage/belt/military/NCR_Bandolier
+	head = /obj/item/clothing/head/f13/trailranger
 	neck = /obj/item/clothing/neck/mantle/ranger
 	suit_store = /obj/item/gun/ballistic/rifle/repeater/trail
 	backpack_contents = list(
@@ -1022,7 +1022,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 /datum/outfit/loadout/corporaldesignatedmarksman
 	name = "Squad Ranged Support"
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle
+	suit = /obj/item/clothing/suit/armor/f13/ncr/ncrarmormant
 	head = /obj/item/clothing/head/f13/ncr/steelpot_bandolier
 	neck = /obj/item/storage/belt/holster/legholster
 	suit_store = /obj/item/gun/ballistic/automatic/service

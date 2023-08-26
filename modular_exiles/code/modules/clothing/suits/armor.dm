@@ -927,7 +927,7 @@
 	item_state = "ncr_tribal_armor"
 	armor = list("melee" = 25, "bullet" = 35, "laser" = 15, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
 
-/obj/item/clothing/suit/armor/f13/tribal/rustwalkers
+/obj/item/clothing/suit/armor/f13/tribal/rustwalkersduster
 	name = "rustwalkers duster"
 	desc = "A duster made from some combination of leather and cloth, probably torn out of an old car. The shoulders appear to have had parts of an engine either strapped or stitched onto them. Commonly worn by members of the Rustwalkers tribe."
 	icon_state = "rustwalkers_armour"
@@ -1011,7 +1011,7 @@
 	armor = list("melee" = 35, "bullet" = 40, "laser" = 35, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10, "wound" = 40)
 
 /obj/item/clothing/suit/armor/f13/tribal/eighties/green
-	name = "80s armour"
+	name = "80s armor"
 	desc = "A green Alt I-80 sign fitted around its wearer."
 	icon_state = "80sgreen"
 	item_state = "80sgreen"
@@ -1019,7 +1019,7 @@
 	armor = list("melee" = 35, "bullet" = 40, "laser" = 35, "energy" = 20, "bomb" = 40, "bio" = 20, "rad" = 10, "fire" = 60, "acid" = 10, "wound" = 40)
 
 /obj/item/clothing/suit/armor/f13/tribal/eightiesheavy
-	name = "80s heavy armour"
+	name = "80s heavy armor"
 	desc = "A ballistic duster with the number 80 stitched onto the back worn over a breastplate made from a motorcycle's engine housing, with kneepads made from stirrups. Worn by the members of the 80s tribe."
 	icon_state = "80s_armour_heavy"
 	item_state = "80s_armour_heavy"
@@ -1037,7 +1037,7 @@
 	slowdown = 0.01
 
 /obj/item/clothing/suit/armor/f13/tribal/deadhorses
-	name = "dead Horses armour"
+	name = "dead horses armor"
 	desc = "A simple leather bandolier and gecko hide chest covering, with an engraved metal pauldron and a pair of black leather straps. Commonly worn by the members of the Dead Horses tribe."
 	icon_state = "dead_horses_armour"
 	item_state = "dead_horses_armour"
@@ -1046,7 +1046,7 @@
 	slowdown = 0.025
 
 /obj/item/clothing/suit/armor/f13/tribal/deadhorsesheavy
-	name = "Dead Horses heavy armour"
+	name = "dead horses heavy armor"
 	desc = "A simple leather bandolier and gecko hide chest covering, with an engraved metal pauldron and a set of black leather straps, one holding a shinpad in place. Commonly worn by the members of the Dead Horses tribe."
 	icon_state = "dead_horses_armour_heavy"
 	item_state = "dead_horses_armour_heavy"
@@ -1055,7 +1055,7 @@
 	slowdown = 0.05
 
 /obj/item/clothing/suit/armor/f13/tribal/sorrows
-	name = "sorrows armour"
+	name = "sorrows armor"
 	desc = "A worn ballistic vest from Salt Lake, adorned with feathers and turqoise beads, with an ornamental pattern painted over the sides. Commonly worn by the members of the peaceful Sorrows tribe."
 	icon_state = "sorrows_armour"
 	item_state = "sorrows_armour"
@@ -1093,10 +1093,6 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
 	slowdown = 0.05
-
-//RAIDERS
-
-
 
 ///////////////
 // WASTELAND //
@@ -1297,7 +1293,7 @@
 	slowdown = 0
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 10, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 0)
 
-/obj/item/clothing/suit/armor/f13/raidermetal
+/obj/item/clothing/suit/armor/f13/ironraider
 	name = "iron raider suit"
 	desc = "More rust than metal, with gaping holes in it, this armor looks like a pile of junk. Under the rust some quality steel still remains however."
 	icon_state = "raider_metal"

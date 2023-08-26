@@ -247,7 +247,7 @@
 	new /obj/item/gun/ballistic/automatic/assault_rifle/infiltrator(src)
 	new /obj/item/clothing/head/helmet/alt(src)
 	new /obj/item/clothing/mask/gas/sechailer(src)
-	new /obj/item/clothing/suit/armor/bulletproof(src)
+	new /obj/item/clothing/suit/armor/f13/vest/bulletproof(src)
 
 /obj/structure/closet/secure_closet/lethalshots
 	name = "lethal ammunition and riot staves"

@@ -69,7 +69,6 @@ Raider
 	/datum/outfit/loadout/raider_bos,
 	/datum/outfit/loadout/quack_doctor,
 	/datum/outfit/loadout/raider_powder,
-	/datum/outfit/loadout/raider_tribal
 	)
 
 
@@ -271,7 +270,7 @@ Raider
 
 /datum/outfit/loadout/raider_sheriff
 	name = "Desperado"
-	suit = /obj/item/clothing/suit/armored/light/duster/desperado
+	suit = /obj/item/clothing/suit/armor/f13/duster/desperado
 	uniform = /obj/item/clothing/under/syndicate/tacticool
 	head = /obj/item/clothing/head/f13/town/big
 	backpack_contents = list(
@@ -284,7 +283,7 @@ Raider
 
 /datum/outfit/loadout/raider_smith
 	name = "Raider Smith"
-	suit = /obj/item/clothing/suit/armored/heavy/raidermetal
+	suit = /obj/item/clothing/suit/armor/f13/ironraider
 	uniform = /obj/item/clothing/under/f13/raider_leather
 	head = /obj/item/clothing/head/helmet/f13/raider/arclight
 	gloves = /obj/item/clothing/gloves/f13/blacksmith
@@ -297,22 +296,6 @@ Raider
 		/obj/item/book/granter/trait/techno = 1,
 		/obj/item/radio/headset = 1,
 		/obj/item/book/granter/crafting_recipe/scav_one = 1
-		)
-
-/datum/outfit/loadout/raider_tribal
-	name = "Tribal Outcast"
-	uniform = /obj/item/clothing/under/f13/exile/tribal
-	suit = /obj/item/clothing/suit/hooded/tribaloutcast
-	suit_store = /obj/item/twohanded/spear/bonespear
-	shoes = /obj/item/clothing/shoes/sandal
-	belt = /obj/item/storage/backpack/spearquiver
-	box = /obj/item/storage/survivalkit_tribal
-	back = /obj/item/storage/backpack/satchel/explorer
-	backpack_contents = list(
-		/obj/item/clothing/mask/cigarette/pipe = 1,
-		/obj/item/melee/onehanded/knife/bone = 1,
-		/obj/item/radio/tribal = 1,
-		/obj/item/book/granter/trait/trekking = 1
 		)
 
 /datum/outfit/loadout/raider_powder
@@ -552,7 +535,7 @@ Raider
 	name = "Wasteland Warrior"
 	uniform = /obj/item/clothing/under/f13/settler
 	shoes = /obj/item/clothing/shoes/f13/raidertreads
-	suit = /obj/item/clothing/suit/armor/light/wastewar
+	suit = /obj/item/clothing/suit/armor/f13/wasteland/wastewar
 	head = /obj/item/clothing/head/helmet/f13/wastewarhat
 	glasses = /obj/item/clothing/glasses/welding
 	l_hand = /obj/item/shield/riot/buckler/stop
@@ -1186,17 +1169,6 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/stack/medical/gauze = 1
 		)
 
-/datum/outfit/loadout/spearman
-	name = "Tribal Spearman"
-	suit = /obj/item/clothing/suit/armored/light/tribalraider
-	head = /obj/item/clothing/head/helmet/f13/fiend
-	mask = /obj/item/clothing/mask/facewrap
-	neck = /obj/item/clothing/neck/mantle/gray
-	backpack_contents = list(
-		/obj/item/twohanded/spear = 1,
-		/obj/item/reagent_containers/pill/patch/bitterdrink = 2
-		)
-
 /datum/outfit/loadout/shaman
 	name = "Tribal Shaman"
 	suit = /obj/item/clothing/suit/hooded/cloak/desert
@@ -1214,7 +1186,7 @@ datum/job/wasteland/f13dendoctor
 //Dead Horses
 /datum/outfit/loadout/deadhorsesmelee
 	name = "Dead Horses Stalker"
-	suit = /obj/item/clothing/suit/f13/tribal/deadhorses
+	suit = /obj/item/clothing/suit/armor/f13/tribal/deadhorses
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/deadhorses = 1,
 		/obj/item/clothing/under/f13/female/deadhorses = 1,
@@ -1225,7 +1197,7 @@ datum/job/wasteland/f13dendoctor
 
 /datum/outfit/loadout/deadhorsesranged
 	name = "Dead Horses Disciple"
-	suit = /obj/item/clothing/suit/f13/tribal/heavy/deadhorses
+	suit = /obj/item/clothing/suit/armor/f13/tribal/deadhorsesheavy
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/deadhorses = 1,
 		/obj/item/clothing/under/f13/female/deadhorses = 1,
@@ -1249,7 +1221,7 @@ datum/job/wasteland/f13dendoctor
 //Sorrows
 /datum/outfit/loadout/sorrowshunter
 	name = "Sorrows Hunter-Guardian"
-	suit = /obj/item/clothing/suit/f13/tribal/light/sorrows
+	suit = /obj/item/clothing/suit/armor/f13/tribal/sorrows
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/sorrows = 1,
 		/obj/item/clothing/under/f13/female/sorrows = 1,
@@ -1288,7 +1260,7 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/clothing/under/f13/khan = 1,
 		/obj/item/clothing/under/f13/khan/shorts = 1,
 		/obj/item/clothing/shoes/f13/military/plated = 1,
-		/obj/item/clothing/suit/toggle/armor/f13khan_jacket = 1,
+		/obj/item/clothing/suit/armor/toggle/f13/khan_jacket = 1,
 		/obj/item/storage/bag/money/small/khan = 1,
 		/obj/item/radio/headset/headset_khans = 1,
 	)
@@ -1296,7 +1268,7 @@ datum/job/wasteland/f13dendoctor
 //Rustwalkers
 /datum/outfit/loadout/rustwalkersscipher
 	name = "Rustwalkers Scipher"
-	suit = /obj/item/clothing/suit/f13/tribal/rustwalkers
+	suit = /obj/item/clothing/suit/armor/f13/tribal/rustwalkersduster
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/rustwalkers = 1,
 		/obj/item/clothing/under/f13/female/rustwalkers = 1,
@@ -1308,7 +1280,7 @@ datum/job/wasteland/f13dendoctor
 
 /datum/outfit/loadout/rustwalkersscrapper
 	name = "Rustwalkers Scrapper"
-	suit = /obj/item/clothing/suit/f13/tribal/light/rustwalkers
+	suit = /obj/item/clothing/suit/armor/f13/tribal/rustwalkers
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/rustwalkers = 1,
 		/obj/item/clothing/under/f13/female/rustwalkers = 1,
