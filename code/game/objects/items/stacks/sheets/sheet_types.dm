@@ -492,11 +492,11 @@ GLOBAL_LIST_INIT(cloth_recipes, list ( \
 
 /*
  * Durathread
- */
+
 GLOBAL_LIST_INIT(durathread_recipes, list ( \
 	new/datum/stack_recipe("durathread dufflebag", /obj/item/storage/backpack/duffelbag/durathread, 6, time = 60)
 ))
-
+*/
 /obj/item/stack/sheet/durathread
 	name = "durathread"
 	desc = "A fabric sown from incredibly durable threads, known for its usefulness in armor production."

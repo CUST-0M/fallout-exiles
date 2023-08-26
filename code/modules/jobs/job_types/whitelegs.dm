@@ -63,7 +63,7 @@
 		uniform = /obj/item/clothing/under/f13/female/whitelegs
 
 	if(H.gender == MALE)
-		uniform = /obj/item/clothing/under/f13/whitelegs 
+		uniform = /obj/item/clothing/under/f13/whitelegsgarb
 
 /datum/outfit/job/whitelegs/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
