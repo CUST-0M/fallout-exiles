@@ -138,7 +138,7 @@
 /obj/item/clothing/shoes/f13/military/legion
 	name = "rough leather boots"
 	desc = "A pair of crudely made leather boots, followng the standardized pattern laid down according to the wisdom of Caesar."
-	icon = 'icons/fallout/clothing/shoes.dmi'
+	icon = 'modular_exiles/icons/clothing/shoes.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothing/shoe.dmi'
 	icon_state = "legion_leather"
 	item_state = "legion_leather"
@@ -146,7 +146,7 @@
 /obj/item/clothing/shoes/f13/military/plated
 	name = "plated war boots"
 	desc = "A pair of leather boots reinforced with hardened toe caps and shin guards, usually recycled old workboot steel caps taken from rotted old boots and glued to new ones."
-	icon = 'icons/fallout/clothing/shoes.dmi'
+	icon = 'modular_exiles/icons/clothing/shoes.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothing/shoe.dmi'
 	icon_state = "legion_war"
 	item_state = "legion_war"
@@ -155,7 +155,7 @@
 /obj/item/clothing/shoes/f13/military/legate
 	name = "heavy metal boots"
 	desc = "A pair of heavy leather boots with bronzed metal leg guards added. These belong to a Legate of Caesar's Legion."
-	icon = 'icons/fallout/clothing/shoes.dmi'
+	icon = 'modular_exiles/icons/clothing/shoes.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothing/shoe.dmi'
 	icon_state = "legion_legate"
 	item_state = "legion_legate"
@@ -168,7 +168,7 @@
 /obj/item/clothing/shoes/f13/military/khan
 	name = "steel-tipped boots"
 	desc = "A pair of leather boots reinforced with metal toe caps. The shin guards can be removed easily (alt-click)."
-	icon = 'icons/fallout/clothing/khans.dmi'
+	icon = 'modular_exiles/icons/clothing/shoes.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothing/khaans.dmi'
 	icon_state = "khan_boots"
 	item_state = "khan_boots"
@@ -178,7 +178,7 @@
 /obj/item/clothing/shoes/f13/military/khan/Goji
 	name = "steel-tipped Snakeskin Loafers"
 	desc = "A pair of Snakeskin Loafers reinforced with metal toe caps."
-	icon = 'icons/fallout/clothing/khans.dmi'
+	icon = 'modular_exiles/icons/clothing/shoes.dmi'
 	icon_state = "Gojishoes"
 	item_state = "Gojishoes"
 
@@ -216,8 +216,8 @@
 /obj/item/clothing/shoes/f13/military/khan_pelt
 	name = "tall pelt boots"
 	desc = "A pair of soft pelt boots with fur lining."
-	icon = 'icons/fallout/clothing/khans.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothing/khaans.dmi'
+	icon = 'modular_exiles/icons/clothing/shoes.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/feet.dmi'
 	icon_state = "khan_peltboots"
 	item_state = "khan_peltboots"
 

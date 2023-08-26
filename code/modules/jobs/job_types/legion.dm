@@ -1338,7 +1338,7 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 /datum/outfit/loadout/auxopifex
 	name = "Opifex (Artisan)"
 	neck = /obj/item/clothing/neck/apron/labor/forge
-	gloves = /obj/item/clothing/gloves/legion/forgemaster
+	gloves = /obj/item/clothing/gloves/f13/legion/forgemaster
 	belt = /obj/item/storage/belt
 	glasses = /obj/item/clothing/glasses/welding
 	shoes = /obj/item/clothing/shoes/f13/military/plated
