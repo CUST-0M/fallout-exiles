@@ -172,6 +172,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	uniform	= /obj/item/clothing/under/f13/ncr/ncr_officer
 	head = /obj/item/clothing/head/beret/f13/ncrberet
 	ears = /obj/item/radio/headset/headset_ncr_com
+	suit = /obj/item/clothing/suit/armor/f13/ncr/captainvest
 	gloves = /obj/item/clothing/gloves/f13/leather
 	shoes = /obj/item/clothing/shoes/f13/military/ncr_officer_boots
 	accessory = /obj/item/clothing/accessory/ncr/CPT
@@ -192,7 +193,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "El Capitan"
 	suit_store = /obj/item/gun/ballistic/automatic/assault_rifle/infiltrator
 	backpack_contents = list(
-		/obj/item/clothing/suit/armor/f13/ncrarmor/captain/ncr_officer_coat = 1,
 		/obj/item/ammo_box/magazine/m556/rifle/extended = 1,
 		/obj/item/gun/ballistic/automatic/pistol/deagle/elcapitan = 1,
 		/obj/item/ammo_box/magazine/m14mm = 3,
@@ -204,7 +204,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "The Court Martial"
 	suit_store = /obj/item/gun/ballistic/automatic/shotgun/pancor
 	backpack_contents = list(
-		/obj/item/clothing/suit/armor/f13/ncrarmor/captain = 1,
 		/obj/item/gun/ballistic/automatic/pistol/deagle = 1,
 		/obj/item/ammo_box/magazine/d12g = 3,
 		/obj/item/twohanded/sledgehammer/rockethammer/courtmartial = 1,
@@ -352,8 +351,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/ammo_box/shotgun/buck = 2,
 		/obj/item/clothing/mask/gas = 1,
 		/obj/item/grenade/smokebomb = 2,
-		/obj/item/melee/onehanded/knife/bayonet = 1,
-		/obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced/trenchraider = 1,
+		/obj/item/melee/onehanded/knife/bayonet = 1
 		)
 
 /*/ DRILL SERGEANT
@@ -718,7 +716,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 /datum/outfit/loadout/rangerpatrolcqb
 	name = "CQB Patrol Ranger"
-	suit = /obj/item/clothing/suit/armor/f13/combat/ncr_patrol
+	suit = /obj/item/clothing/suit/armor/f13/ranger/combat/ncr_patrol
 	head = /obj/item/clothing/head/f13/ranger
 	uniform	= /obj/item/clothing/under/f13/ranger/patrol
 	belt = /obj/item/storage/belt/military/assault/ncr

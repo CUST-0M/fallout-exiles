@@ -509,7 +509,7 @@
 /obj/item/clothing/head/helmet/f13/wastewarhat
 	name = "warrior helmet"
 	desc = "It might have been a cooking pot once, now its a helmet, with a piece of cloth covering the neck from the sun."
-	icon = 'icons/fallout/clothing/helmets.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/helmet.dmi'
 	icon_state = "wastewar"
 	item_state = "wastewar"
@@ -979,8 +979,8 @@
 /obj/item/clothing/head/helmet/f13/legion
 	name = "legion helmet template"
 	desc = "should not exist."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	lefthand_file = ""
 	righthand_file = ""
 	armor = list("melee" = 30, "bullet" = 30, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
@@ -1146,7 +1146,7 @@
 	name = "servant headwear"
 	desc = "A simple uncoloured linen cloth wrapped around the head, the mark of a servant slave trained in household work."
 	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "legion-servant"
 	item_state = "legion-servant"
 	flags_inv = HIDEEARS
@@ -1155,8 +1155,8 @@
 /obj/item/clothing/head/f13/auxilia
 	name = "auxilia headwear"
 	desc = "A soft red cap with a black band, used by female Auxilia outside camp."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "legion-aux"
 	item_state = "legion-aux"
 	flags_inv = HIDEEARS
@@ -1165,8 +1165,8 @@
 /obj/item/clothing/head/helmet/f13/combat/legion
 	name = "Legion combat helmet"
 	desc = "An old military grade pre-war helmet, repainted to the colour scheme of Caesar's Legion."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "legion-combat"
 	item_state = "legion-combat"
 
@@ -1577,8 +1577,8 @@
 /obj/item/clothing/head/helmet/f13/khan
 	name = "Great Khan helmet"
 	desc = "A piece of headwear commonly worn by the Great Khans that appears to resemble stereotypical traditional Mongolian helmets - likely adapted from a pre-War motorcycle helmet.<br>It is black with two horns on either side and a small spike jutting from the top, much like a pickelhaube.<br>A leather covering protects the wearer's neck and ears from sunburn."
-	icon = 'icons/fallout/clothing/khans.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/khaans.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 
 	icon_state = "khan_helmet"
 	item_state = "khan_helmet"
 	armor = list("melee" = 30, "bullet" = 25, "laser" = 25,  "energy" = 25, "bomb" = 30, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10, "wound" = 30)
