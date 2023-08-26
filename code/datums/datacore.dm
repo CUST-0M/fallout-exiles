@@ -213,11 +213,6 @@
 		for(var/name in flw)
 			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[flw[name]]</td></tr>"
 			even = !even
-	if(length(tribe))
-		dat += "<tr><th colspan=3>Wayfarer Tribe</th></tr>"
-		for(var/name in tribe)
-			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[tribe[name]]</td></tr>"
-			even = !even
 	if(length(usps))
 		dat += "<tr><th colspan=3>USPS</th></tr>"
 		for(var/name in usps)
