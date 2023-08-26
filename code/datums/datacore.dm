@@ -100,12 +100,10 @@
 	var/list/ncr = list()
 	var/list/leg = list()
 	var/list/whitelegs = list()
-	var/list/eighties = list()
 	var/list/vault = list()
 	var/list/flw = list()
 	var/list/lds = list()
 	var/list/usps = list()
-	var/list/tribe = list()
 	var/list/was = list()
 	var/list/misc = list()
 	var/dat = {"
@@ -153,9 +151,6 @@
 		if(rank in GLOB.whitelegs_positions)
 			whitelegs[name] = rank
 			department = 1
-		if(rank in GLOB.eighties_positions)
-			eighties[name] = rank
-			department = 1
 		if(rank in GLOB.followers_positions)
 			flw[name] = rank
 			department = 1
@@ -164,9 +159,6 @@
 			department = 1
 		if(rank in GLOB.usps_positions)
 			usps[name] = rank
-			department = 1
-		if(rank in GLOB.tribal_positions)
-			tribe[name] = rank
 			department = 1
 		if(rank in GLOB.vault_positions)
 			vault[name] = rank
@@ -216,11 +208,6 @@
 		for(var/name in whitelegs)
 			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[whitelegs[name]]</td></tr>"
 			even = !even
-	if(length(eighties))
-		dat += "<tr><th colspan=3>80s</th></tr>"
-		for(var/name in eighties)
-			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[eighties[name]]</td></tr>"
-			even = !even
 	if(length(flw))
 		dat += "<tr><th colspan=3>Followers of the Apocalypse</th></tr>"
 		for(var/name in flw)
@@ -230,11 +217,6 @@
 		dat += "<tr><th colspan=3>Wayfarer Tribe</th></tr>"
 		for(var/name in tribe)
 			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[tribe[name]]</td></tr>"
-			even = !even
-	if(length(lds))
-		dat += "<tr><th colspan=3>New Canaanites</th></tr>"
-		for(var/name in lds)
-			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[lds[name]]</td></tr>"
 			even = !even
 	if(length(usps))
 		dat += "<tr><th colspan=3>USPS</th></tr>"

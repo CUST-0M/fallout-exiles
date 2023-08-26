@@ -784,24 +784,6 @@
 				counter = 0
 		dat += "</tr></table>"
 
-	//Eighties (Blue)
-		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		dat += "<tr align='center' bgcolor='0F398B'><th colspan='[length(GLOB.eighties_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=eightiesdept;jobban4=[REF(M)]'>Eighties Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in GLOB.eighties_positions)
-			if(!jobPos)
-				continue
-			if(jobban_isbanned(M, jobPos))
-				dat += "<td width='15%'><a href='?src=[REF(src)];[HrefToken()];jobban3=[jobPos];jobban4=[REF(M)]'><font color=red>[jobPos]</font></a></td>"
-				counter++
-			else
-				dat += "<td width='15%'><a href='?src=[REF(src)];[HrefToken()];jobban3=[jobPos];jobban4=[REF(M)]'>[jobPos]</a></td>"
-				counter++
-
-			if(counter >= 6) //So things dont get squiiiiished!
-				dat += "</tr><tr>"
-				counter = 0
-		dat += "</tr></table>"
-
 	//Whitelegs (Red)
 		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
 		dat += "<tr align='center' bgcolor='800000'><th colspan='[length(GLOB.whitelegs_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=whitelegsdept;jobban4=[REF(M)]'>White Legs Positions</a></th></tr><tr align='center'>"
@@ -842,24 +824,6 @@
 		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
 		dat += "<tr align='center' bgcolor='ffa2a2'><th colspan='[length(GLOB.enclave_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=enclavedept;jobban4=[REF(M)]'>Enclave Positions</a></th></tr><tr align='center'>"
 		for(var/jobPos in GLOB.enclave_positions)
-			if(!jobPos)
-				continue
-			if(jobban_isbanned(M, jobPos))
-				dat += "<td width='15%'><a href='?src=[REF(src)];[HrefToken()];jobban3=[jobPos];jobban4=[REF(M)]'><font color=red>[jobPos]</font></a></td>"
-				counter++
-			else
-				dat += "<td width='15%'><a href='?src=[REF(src)];[HrefToken()];jobban3=[jobPos];jobban4=[REF(M)]'>[jobPos]</a></td>"
-				counter++
-
-			if(counter >= 6) //So things dont get squiiiiished!
-				dat += "</tr><tr>"
-				counter = 0
-		dat += "</tr></table>"
-
-	//Tribal (Brown)
-		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		dat += "<tr align='center' bgcolor='cbb888'><th colspan='[length(GLOB.tribal_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=tribaldept;jobban4=[REF(M)]'>Tribal Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in GLOB.tribal_positions)
 			if(!jobPos)
 				continue
 			if(jobban_isbanned(M, jobPos))
@@ -1105,11 +1069,6 @@
 					joblist += jobPos
 			if("enclavedept")
 				for(var/jobPos in GLOB.enclave_positions)
-					if(!jobPos)
-						continue
-					joblist += jobPos
-			if("tribaldept")
-				for(var/jobPos in GLOB.tribal_positions)
 					if(!jobPos)
 						continue
 					joblist += jobPos

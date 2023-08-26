@@ -966,7 +966,7 @@
 	item_state = "white_legs_extra"
 
 /obj/item/clothing/suit/armor/f13/tribal/whitelegs
-	name = "white Legs armorr"
+	name = "white Legs armor"
 	desc = "A series of tan and khaki armour plates, held in place with a considerable amount of strapping. Commonly worn by members of the White Legs tribe."
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/tiny
 	icon_state = "white_legs_armour"
