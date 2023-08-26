@@ -57,7 +57,7 @@ Mayor
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 	if(H.mind)
 		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
-		H.mind.AddSpell(S)
+		H.mind.AddSpell(S) //are you for real?
 
 /datum/outfit/job/usps/f13postmastergeneral
 	name = "Postmaster General"

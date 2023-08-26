@@ -576,7 +576,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/survivalkit_aid_adv = 1,
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak/super = 2,
-		/obj/item/grenade/smokebomb = 1,
+		/obj/item/grenade/smokebomb = 2,
 		)
 
 /datum/outfit/loadout/vrclassic
