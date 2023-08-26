@@ -515,7 +515,7 @@
 	name = "Botanical Technician"
 	mask = /obj/item/clothing/mask/bandana
 	suit = /obj/item/clothing/suit/overalls
-	gloves = /obj/item/clothing/gloves/botanic_leather
+	gloves = /obj/item/clothing/gloves/f13/botanic_leather
 	backpack_contents = list(
 		/obj/item/storage/bag/plants = 1,
 		/obj/item/plant_analyzer = 1,

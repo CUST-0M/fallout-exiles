@@ -302,7 +302,7 @@
 					/obj/item/hatchet,
 					/obj/item/cultivator,
 					/obj/item/plant_analyzer,
-					/obj/item/clothing/gloves/botanic_leather,
+					/obj/item/clothing/gloves/f13/botanic_leather,
 					/obj/item/flashlight,
 					/obj/item/seeds/carrot,
 					/obj/item/seeds/carrot,

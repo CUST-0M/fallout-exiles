@@ -879,7 +879,6 @@ commented out pending rework*/
 	name = "Friend of the Tribes"
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/exile/legion = 1,
-		/obj/item/clothing/suit/hooded/tribaloutcast = 1,
 		/obj/item/clothing/shoes/f13/roman = 1,
 		/obj/item/clothing/gloves/bracer = 1,
 		/obj/item/melee/onehanded/club/warclub = 1,

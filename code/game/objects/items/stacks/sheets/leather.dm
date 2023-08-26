@@ -165,9 +165,8 @@ GLOBAL_LIST_INIT(xeno_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/leather
 
 GLOBAL_LIST_INIT(leather_recipes, list ( \
-	new/datum/stack_recipe("farmers gloves", /obj/item/clothing/gloves/botanic_leather, 3), \
+	new/datum/stack_recipe("farmers gloves", /obj/item/clothing/gloves/f13/botanic_leather, 3), \
 	new/datum/stack_recipe("gardeners belt", /obj/item/storage/belt/utility/gardener, 4), \
-	null, \
 	new/datum/stack_recipe("toolbelt", /obj/item/storage/belt/utility, 4), \
 	new/datum/stack_recipe("leather satchel", /obj/item/storage/backpack/satchel/leather, 5), \
 	new/datum/stack_recipe("wallet", /obj/item/storage/wallet, 1), \
