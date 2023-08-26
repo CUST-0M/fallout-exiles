@@ -224,7 +224,7 @@
 /obj/item/clothing/head/bio_hood/f13/hazmat
 	name = "hazmat hood"
 	desc = "My star, my perfect silence."
-	icon = 'icons/fallout/clothing/hats.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
 	icon_state = "hazmat"
 	item_state = "hazmat_helmet"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR

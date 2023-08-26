@@ -1145,7 +1145,7 @@
 /obj/item/clothing/head/f13/servant
 	name = "servant headwear"
 	desc = "A simple uncoloured linen cloth wrapped around the head, the mark of a servant slave trained in household work."
-	icon = 'icons/fallout/clothing/hats.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
 	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "legion-servant"
 	item_state = "legion-servant"
@@ -1540,7 +1540,7 @@
 /obj/item/clothing/head/f13/town/officer
 	name = "oasis officer's cap"
 	desc = "A simple dark navy peaked cap, worn by police."
-	icon = 'icons/fallout/clothing/hats.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "police_officer"
 	item_state = "police_officer"
@@ -1555,8 +1555,8 @@
 /obj/item/clothing/head/f13/chief
 	name = "OPD Chief's hat"
 	desc = "A blue hat with a silver badge."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "police_chief"
 	item_state = "police_chief"
 	armor = list("melee" = 45, "bullet" = 60, "laser" = 40,  "energy" = 35, "bomb" = 40, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10)
@@ -1735,8 +1735,8 @@
 /obj/item/clothing/head/f13/army
 	name = "US Army field cap"
 	desc = "Standard issue US Army field cap."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "army_cap"
 	item_state = "army_cap"
 	armor = list("melee" = 25, "bullet" = 10, "laser" = 10, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
@@ -1745,8 +1745,8 @@
 /obj/item/clothing/head/f13/army/officer
 	name = "US Army officer's cap"
 	desc = "US Army officer's cap."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "army_officer"
 	item_state = "army_officer"
 
@@ -1754,8 +1754,8 @@
 /obj/item/clothing/head/f13/army/general
 	name = "US Army general's cap"
 	desc = "US Army officer's cap."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "army_general"
 	item_state = "army_general"
 	armor = list("melee" = 27, "bullet" = 12, "laser" = 12, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
@@ -1763,8 +1763,8 @@
 obj/item/clothing/head/f13/army/beret
 	name = "US Army beret"
 	desc = "A black beret, standard issue for all US Army personnel not authorised to wear a different beret."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "army_beret"
 	item_state = "army_beret"
 	armor = list("melee" = 27, "bullet" = 12, "laser" = 12, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
@@ -1772,24 +1772,24 @@ obj/item/clothing/head/f13/army/beret
 /obj/item/clothing/head/f13/army/beret/airborne
 	name = "US Army airborne beret"
 	desc = "A red beret, issued to US Army Airborne personnel."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "army_beret_airborne"
 	item_state = "army_beret_airborne"
 
 /obj/item/clothing/head/f13/army/beret/rangers
 	name = "US Army rangers beret"
 	desc = "A tan beret, issued to US Army Rangers."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "army_beret_ranger"
 	item_state = "army_beret_ranger"
 
 /obj/item/clothing/head/f13/army/beret/specialforces
 	name = "US Army special forces beret"
 	desc = "A green beret, issued to US Army Special Forces personnel."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "army_beret_specialforces"
 	item_state = "army_beret_specialforces"
 
@@ -1798,8 +1798,8 @@ obj/item/clothing/head/f13/army/beret
 /obj/item/clothing/head/f13/chinese
 	name = "PLA field cap"
 	desc = "A People's Liberation Army cap, worn by enlisted and non-commissioned officers."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "chinese_soldier"
 	item_state = "chinese_soldier"
 	dynamic_hair_suffix = ""
@@ -1808,8 +1808,8 @@ obj/item/clothing/head/f13/army/beret
 /obj/item/clothing/head/f13/chinese/officer
 	name = "PLA officer's cap"
 	desc = "A People's Liberation Army peaked cap, worn by officers."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "chinese_officer"
 	item_state = "chinese_officer"
 	dynamic_hair_suffix = ""
@@ -1820,8 +1820,8 @@ obj/item/clothing/head/f13/army/beret
 /obj/item/clothing/head/f13/police/officer
 	name = "police officer's cap"
 	desc = "A simple dark navy peaked cap, worn by police."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "police_officer"
 	item_state = "police_officer"
 	armor = list("melee" = 25, "bullet" = 10, "laser" = 10, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
@@ -1829,8 +1829,8 @@ obj/item/clothing/head/f13/army/beret
 /obj/item/clothing/head/f13/police/sergeant
 	name = "police campaign hat"
 	desc = "A simple dark navy campaign hat, worn by police."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "police_sergeant"
 	item_state = "police_sergeant"
 	armor = list("melee" = 25, "bullet" = 10, "laser" = 10, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
@@ -1838,8 +1838,8 @@ obj/item/clothing/head/f13/army/beret
 /obj/item/clothing/head/f13/police/lieutenant
 	name = "police lieutenant's cap"
 	desc = "A simple dark navy peaked cap, worn by police."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "police_lieutenant"
 	item_state = "police_lieutenant"
 	armor = list("melee" = 25, "bullet" = 10, "laser" = 10, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
@@ -1847,8 +1847,8 @@ obj/item/clothing/head/f13/army/beret
 /obj/item/clothing/head/f13/police/chief
 	name = "police chief's cap"
 	desc = "A simple dark navy peaked cap, worn by police."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "police_chief"
 	item_state = "police_chief"
 	armor = list("melee" = 27, "bullet" = 12, "laser" = 12, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
@@ -1856,8 +1856,8 @@ obj/item/clothing/head/f13/army/beret
 /obj/item/clothing/head/f13/police/trooper
 	name = "state police campaign hat"
 	desc = "A gray campaign hat, worn by the State Police."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon = 'modular_exiles/icons/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_exiles/icons/mob/clothing/head.dmi'
 	icon_state = "police_chief"
 	item_state = "police_chief"
 	icon_state = "state_trooper"
