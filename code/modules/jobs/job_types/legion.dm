@@ -880,7 +880,7 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/exile/legion = 1,
 		/obj/item/clothing/suit/hooded/tribaloutcast = 1,
-		/obj/item/clothing/shoes/roman = 1,
+		/obj/item/clothing/shoes/f13/roman = 1,
 		/obj/item/clothing/gloves/bracer = 1,
 		/obj/item/melee/onehanded/club/warclub = 1,
 		/obj/item/throwing_star/tomahawk = 2,
@@ -1412,7 +1412,7 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 	name = "Servant"
 	head = /obj/item/clothing/head/f13/servant
 	gloves = /obj/item/clothing/gloves/f13/crudemedical
-	shoes =	/obj/item/clothing/shoes/roman
+	shoes =	/obj/item/clothing/shoes/f13/roman
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
