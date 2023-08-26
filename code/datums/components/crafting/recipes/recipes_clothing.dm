@@ -670,7 +670,7 @@
 /datum/crafting_recipe/ncrsalvagedarmorconversion
 	name = "Salvaged NCR Power Armor"
 	result = /obj/item/clothing/suit/armored/heavy/salvaged_pa/t45b/ncr
-	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45b = 1,
+	reqs = list(/obj/item/clothing/suit/armor/f13/salvaged_pa/t45b = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
 	category = CAT_CLOTHING
@@ -679,7 +679,7 @@
 
 /datum/crafting_recipe/ncrsalvagedhelmetconversion
 	name = "NCR salvaged T-45b helmet"
-	result = /obj/item/clothing/head/helmet/f13/salvaged_pa/t45b/ncr
+	result = /obj/item/clothing/head/helmet/f13/salvaged_pa/ncr_t45b
 	reqs = list(/obj/item/clothing/head/helmet/f13/salvaged_pa/t45b = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 20

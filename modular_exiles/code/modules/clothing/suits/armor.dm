@@ -1181,13 +1181,6 @@
 	item_state = "t45hotrod"
 	armor = list("melee" = 55, "bullet" = 55, "laser" = 55, "energy" = 10, "bomb" = 40, "bio" = 50, "rad" = 30, "fire" = 80, "acid" = 10, "wound" = 30)
 
-/obj/item/clothing/suit/armor/f13/salvaged_pa/t45b/tribal
-	name = "salvaged tribal T45-b power armor"
-	desc = "A set of salvaged power armor, with certain bits of plating stripped out to retain more freedom of movement. No cooling module, though."
-	icon_state = "tribal_power_armor"
-	item_state = "tribal_power_armor"
-	armor = list("melee" = 65, "bullet" = 55, "laser" = 55, "energy" = 10, "bomb" = 30, "bio" = 40, "rad" = 20, "fire" = 40, "acid" = 0, "wound" = 25)
-
 /obj/item/clothing/suit/armor/f13/tesla/run_block(mob/living/owner, atom/object, damage, attack_text, attack_type, armour_penetration, mob/attacker, def_zone, final_block_chance, list/block_return)
 	if(is_energy_reflectable_projectile(object) && (attack_type == ATTACK_TYPE_PROJECTILE) && (def_zone in protected_zones))
 		if(prob(hit_reflect_chance))

@@ -111,77 +111,6 @@
 	result = /obj/structure/punji_sticks
 	category = CAT_PRIMAL
 
-/datum/crafting_recipe/tribal_pa
-	name = "Tribal Salvaged Power Armor"
-	time = 120
-	reqs = list(
-			/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45b = 1,
-			/obj/item/stack/sheet/sinew = 2,
-			/obj/item/stack/sheet/bone = 4
-			)
-	result = /obj/item/clothing/suit/armored/heavy/salvaged_pa/t45b/tribal
-	category = CAT_TRIBAL
-	always_available = FALSE
-
-/datum/crafting_recipe/tribal_pa_helmet
-	name = "Tribal Salvaged Power Armor Helmet"
-	time = 120
-	reqs = list(
-			/obj/item/clothing/head/helmet/f13/salvaged_pa/t45b = 1,
-			/obj/item/stack/sheet/sinew = 1,
-			/obj/item/stack/sheet/bone = 2
-			)
-	result = /obj/item/clothing/head/helmet/f13/salvaged_pa/t45b/tribal
-	category = CAT_TRIBAL
-	always_available = FALSE
-
-/datum/crafting_recipe/tribal_combat_armor
-	name = "Tribal Combat Armor"
-	time = 40
-	reqs = list(
-			/obj/item/clothing/suit/armor/f13/combat = 1,
-			/obj/item/stack/sheet/sinew = 1,
-			/obj/item/stack/sheet/bone = 2
-			)
-	result = /obj/item/clothing/suit/armor/f13/combat/tribal
-	category = CAT_TRIBAL
-	always_available = FALSE
-
-/datum/crafting_recipe/tribal_r_combat_armor
-	name = "Tribal Reinforced Combat Armor"
-	time = 40
-	reqs = list(
-			/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,
-			/obj/item/stack/sheet/sinew = 1,
-			/obj/item/stack/sheet/bone = 2
-			)
-	result = /obj/item/clothing/suit/armor/f13/combat/mk2/tribal
-	category = CAT_TRIBAL
-	always_available = FALSE
-
-/datum/crafting_recipe/tribal_combat_armor_helmet
-	name = "Tribal Combat Helmet"
-	time = 40
-	reqs = list(
-			/obj/item/clothing/head/helmet/f13/combat = 1,
-			/obj/item/stack/sheet/bone = 1
-			)
-	result = /obj/item/clothing/head/helmet/f13/combat/tribal
-	category = CAT_TRIBAL
-	always_available = FALSE
-
-/datum/crafting_recipe/tribal_r_combat_armor_helmet
-	name = "Tribal Reinforced Combat Helmet"
-	time = 40
-	reqs = list(
-			/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,
-			/obj/item/stack/sheet/bone = 1
-			)
-	result = /obj/item/clothing/head/helmet/f13/combat/mk2/tribal
-	category = CAT_TRIBAL
-	always_available = FALSE
-
-
 /datum/crafting_recipe/tribalwar/sturdybow
 	name = "Sturdy Bow"
 	result = /obj/item/gun/ballistic/bow/sturdy
@@ -294,7 +223,6 @@
 	category = CAT_TRIBAL
 	tools = list(TOOL_WORKBENCH)
 	always_available = FALSE
-
 
 /datum/crafting_recipe/tribalwar/cheaparrow
 	name = "Lightweight Wooden Arrow"
