@@ -368,7 +368,7 @@ GLOBAL_LIST_INIT(loot_t3_armor, list(
 	/obj/item/clothing/suit/armor/f13/combat/swat,
 	/obj/item/clothing/suit/armor/f13/combat,
 	/obj/item/clothing/head/helmet/f13/combat,
-	/obj/item/clothing/suit/armor/f13/vest/bulletproof
+	/obj/item/clothing/suit/armor/f13/vest/bulletproof,
 	/obj/item/clothing/head/helmet/alt
 ))
 
